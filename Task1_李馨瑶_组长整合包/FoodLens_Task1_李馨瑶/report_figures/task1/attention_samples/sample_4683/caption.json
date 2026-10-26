@@ -1,0 +1,29 @@
+{
+  "image": "FoodLens_Task1_李馨瑶\\Food500Cap_ready\\test\\Tomato_soup\\Tomato_soup_00045.jpg",
+  "caption": "a bowl of tomato soup with a few basil leaves on the surface, with a spoon on the side",
+  "tokens": [
+    "a",
+    "bowl",
+    "of",
+    "tomato",
+    "soup",
+    "with",
+    "a",
+    "few",
+    "basil",
+    "leaves",
+    "on",
+    "the",
+    "surface,",
+    "with",
+    "a",
+    "spoon",
+    "on",
+    "the",
+    "side"
+  ],
+  "coordinates": "Resize256 CenterCrop224",
+  "index": 4683,
+  "category": "Tomato_soup",
+  "reference": "A bowl of thick Tomato soup with some basil on top and a spoon on the side."
+}

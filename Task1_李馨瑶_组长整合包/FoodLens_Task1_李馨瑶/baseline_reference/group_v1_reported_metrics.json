@@ -1,0 +1,10 @@
+{
+  "source": "组长提供的报告骨架中的 V1 测试 BLEU 记录",
+  "model": "V1 ResNet18 全局特征 + GRU",
+  "decode": "greedy",
+  "split": "test",
+  "n": 4938,
+  "bleu1_to_4": [30.8849, 15.2626, 8.2645, 4.5702],
+  "checkpoint_in_source_archive": false,
+  "note": "历史参考值；源码 ZIP 未包含对应权重，无法在当前环境按同一权重复算。"
+}

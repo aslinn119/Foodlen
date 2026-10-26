@@ -1,0 +1,10 @@
+FoodLens Task 1（李馨瑶）交接说明
+
+本包包含：V1/V2 源码、V1 消融与 V2 训练权重、训练配置与日志、完整测试预测和指标、数据审核与模型测试记录、报告图表、Word 报告及运行说明。
+
+数据集未放入本包：Food500Cap_ready 约 2.8 GB，请组内共用原数据目录，或按 README.md 中的步骤准备。运行训练和评测时，将 --root 指向 Food500Cap_ready。
+
+结果说明：测试集共 4,938 张。组长提供的历史 V1 BLEU 记录保留作参考，但原 checkpoint 未提供，无法在本包内独立复现；本包另含同配置重新训练的 V1 无注意力消融模型和 checkpoint。
+
+主报告：task1_李馨瑶.docx
+详细指标：results/task1_results_summary.json

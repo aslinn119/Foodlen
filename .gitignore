@@ -1,0 +1,28 @@
+# ===== 数据集与压缩包（太大，不进仓库；数据集从官方渠道获取）=====
+Food500Cap/
+Food500Cap_ready/
+images.zip
+annotations.zip
+*.zip.baiduyun.uploading.cfg
+
+# ===== 模型权重与训练输出（GitHub 单文件限 100MB；权重可由代码复现）=====
+*.pt
+*.pth
+*.bin
+runs/
+checkpoints*/
+
+# ===== 环境与本地产物 =====
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+~$*
+
+# ===== 提交包 zip（与解压目录重复，只保留解压后的目录）=====
+FoodLens_Task2_刘杰_提交包.zip
+Task1_李馨瑶_组长整合包.zip
+v1_cnn_gru.zip
+神经网络第一次作业 刘九尔2024211901.zip
+image_caption_代码.zip

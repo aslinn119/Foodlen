@@ -1,0 +1,49 @@
+{
+  "root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\A3卷积网络\\FoodLens_Task1_李馨瑶\\Food500Cap_ready",
+  "splits": {
+    "train": {
+      "rows": 17784,
+      "annotation_sha256": "d93e880e39977073227a30d4f5a6578af9b04a37ccfa9a08c9777e3b2100c554"
+    },
+    "val": {
+      "rows": 1967,
+      "annotation_sha256": "c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4"
+    },
+    "test": {
+      "rows": 4938,
+      "annotation_sha256": "cc9a6c6cd13a6870ef927de0c266896c5d5a6648c182b3daeb8d118e4b729340"
+    }
+  },
+  "missing_images": [],
+  "duplicate_paths": [],
+  "caption_empty": [],
+  "category_counts": {
+    "count": 494,
+    "most_common": [
+      [
+        "AEbleflaesk",
+        50
+      ],
+      [
+        "Aburaage",
+        50
+      ],
+      [
+        "Agedashi_tofu",
+        50
+      ],
+      [
+        "Aligot",
+        50
+      ],
+      [
+        "Almond_biscuit",
+        50
+      ]
+    ]
+  },
+  "vocab_size": 2681,
+  "vocab_sha256": "98fd301a9b060975384752b35633c035aa168990758ebf93a679fb75ad29ac57",
+  "image_count": 24689,
+  "pass": true
+}

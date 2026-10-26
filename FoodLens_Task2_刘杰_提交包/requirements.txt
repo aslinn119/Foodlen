@@ -1,0 +1,21 @@
+# FoodLens Task 2 运行环境（Python 3.10+，GPU 版 torch 2.5.1+cu121，RTX 40 系验证通过）
+# 安装：pip install -r requirements.txt
+# 注意 torch/torchvision 需匹配 CUDA 版本，若官方源无 cu121 轮子可用：
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+transformers==4.46.3          # CLIP ViT-B/32 骨干（模型 B，权重已下载到本地 clip_model/，离线可加载）
+tokenizers==0.20.3              # transformers 依赖
+safetensors==0.8.0            # transformers 依赖
+huggingface_hub==0.36.2       # transformers 依赖
+regex==2026.9.29              # CIDEr-D 分词
+numpy==2.4.6
+pandas==3.0.6
+matplotlib==3.11.2            # 全部图表
+pillow==12.3.0
+tqdm==4.70.1
+PyYAML==6.0.3
+requests==2.34.2
+filelock==3.32.3
+packaging==26.3
