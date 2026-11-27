@@ -1,0 +1,28 @@
+{
+  "candidate_id": "21C",
+  "visual_consistency": 2,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面是竖切的高层三明治塔，面包与肉分层叠放并由金属签固定；候选说成一块面包上放着牛肉，摆放结构偏差明显。",
+    "food_identification": "面包与粉色牛肉（腌牛肉/熏牛肉）识别正确，但遗漏火鸡/鸡肉白肉片、白色奶酪和奶油凉拌卷心菜，主类别只对了一部分。",
+    "detail_accuracy": "粉色牛肉尚可，但称顶部有白芝麻与画面不符（顶层是带气孔的全麦面包表面），且完全未提芝士、肉片与沙拉层。",
+    "language_quality": "短句可读，但含未解析占位符<UNK>，表达残缺、信息不足。"
+  },
+  "explicit_conflicts": [
+    "候选称顶部有白芝麻，图中顶层面包表面清晰可见、并无芝麻，只有全麦面包的孔洞与颗粒"
+  ],
+  "unverifiable_from_image": [
+    "面包具体种类以<UNK>表示，无法确认指哪一种面包"
+  ],
+  "visible_but_omitted": [
+    "多层面包与肉、奶酪交替叠成的高塔三明治结构",
+    "夹层中的白色火鸡/鸡胸肉片",
+    "白色奶酪片",
+    "含胡萝卜丝的奶油凉拌卷心菜(slaw)",
+    "插在顶部的金属签/pick",
+    "木质砧板与深色背景"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

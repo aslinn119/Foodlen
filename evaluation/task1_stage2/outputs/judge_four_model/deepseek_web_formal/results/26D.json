@@ -1,0 +1,34 @@
+{
+  "candidate_id": "26D",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "3分：碗+食物的大方向基本对，但未体现铜金色带双耳的小碗、橙红条纹餐巾与条纹桌布的整体摆放。",
+    "food_identification": "2分：主体类别错成越南米粉汤bun rieu，图中实为浓稠咖喱状炖菜！",
+    "detail_accuracy": "2分：米粉、葱花、猪排切片均与画面不符，且漏掉可见的花椰菜、胡萝卜与香菜叶。",
+    "language_quality": "4分：句子通顺，但pork slices与pork chops语义重复。"
+  },
+  "explicit_conflicts": [
+    "把菜说成bun rieu米粉汤：图中是浓稠橙黄色咖喱状炖菜，可见花椰菜与胡萝卜块浸在稠酱中，并非汤面结构",
+    "写着a few slices of pork chops：图中肉块呈无骨小块状，未见带骨猪排或片状猪排"
+  ],
+  "unverifiable_from_image": [
+    "肉块的具体肉种（猪肉或鸡肉）无法仅凭图像确认，外观更像鸡肉块",
+    "酱汁内部和底部是否还有其他配料无法确认"
+  ],
+  "visible_but_omitted": [
+    "铜色/金色带双耳的小金属碗",
+    "白色花椰菜块",
+    "橙色胡萝卜圆片",
+    "顶部整叶香菜点缀",
+    "橙红色条纹餐巾与条纹桌布背景",
+    "浓稠的黄橙色咖喱酱汁"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "rice noodles",
+    "chopped green onions",
+    "pork chops"
+  ]
+}

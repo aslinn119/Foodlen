@@ -1,0 +1,12 @@
+{
+  "version": "20261119-v3",
+  "registered_before_final_test": true,
+  "training_epochs": 25,
+  "training_seed": 20261119,
+  "B_selection": "minimum validation mean(MAE_j / train_std_j)",
+  "A_decoder": "fixed nutrition schema; training ingredient vocabulary; no duplicate names; max16 items; learned logits choose valid token",
+  "weight_policy": "preserve predicted total, apportion item weights in exact 0.1g units; equal if all zero; report raw A separately",
+  "B_empty_policy": "top1 predicted probability when no class exceeds learned validation threshold",
+  "text_scorer": "pycocoevalcap1.2 Bleu/Rouge/Cider; fixed project JSON lexical tokens; not Stanford PTB",
+  "evaluation_status": "old test has been inspected historically; corrected retrospective evaluation, not new blind test"
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_id": "08A",
+  "visual_consistency": 4,
+  "food_identification": 4,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "近景主体是深褐色蘑菇伞中填充肉料的酿蘑菇，浅色背景上还有数只，整体摆放与画面一致；画面看不出是否有盘子，'plate'属推测但不与画面冲突。",
+    "food_identification": "主要食物类别判断正确：酿蘑菇（stuffed mushrooms）与碎肉馅均与画面吻合；但遗漏了画面中很醒目的奶酪成分，类别覆盖不全。",
+    "detail_accuracy": "碎肉、绿色碎末等细节可见，但明显可见的白色融化奶酪层与白色奶酪碎被完全遗漏，'chopped green onion'的定性也存疑，属部分准确且有明显遗漏。",
+    "language_quality": "句子简短通顺、语法正确，无重复或冗余，表达清晰。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "plate：近景中看不到盘沿或明确容器，无法确认是否盛在盘中",
+    "chopped green onion：确有绿色碎末，但难以确认是葱花还是其他香草/菜叶碎"
+  ],
+  "visible_but_omitted": [
+    "覆盖在顶部的白色融化奶酪层",
+    "白色/淡黄色碎块状奶酪"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

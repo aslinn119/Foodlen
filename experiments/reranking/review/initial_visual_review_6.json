@@ -1,0 +1,56 @@
+[
+  {
+    "image_id": "val/Sauteed_mushrooms/Sauteed_mushrooms_00037.jpg",
+    "visible_evidence": "蘑菇、碎蒜及绿色香草可见",
+    "observations": "三种解码均遗漏碎蒜/香草；gravy 不能从图中确认；蘑菇重复",
+    "greedy": "a pot of dark brown mushroom gravy with sliced mushrooms and mushrooms",
+    "beam": "a pot of dark brown mushroom gravy with sliced mushrooms and mushrooms",
+    "clip": "a pot of dark brown mushroom gravy with sliced mushrooms and mushrooms",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  },
+  {
+    "image_id": "val/Jiuniang/Jiuniang_00039.jpg",
+    "visible_evidence": "米粒状发酵米、红色枸杞、浅黄色蛋花可见",
+    "observations": "三种解码把红色配料称辣椒，遗漏米粒/蛋花；RL 的 UNK 重复增加",
+    "greedy": "a bowl of jiuniang with <UNK> <UNK> <UNK> <UNK> and a red chili pepper in it.",
+    "beam": "a bowl of jiuniang with <UNK> <UNK> <UNK> and a red chili pepper in it.",
+    "clip": "a bowl of jiuniang with <UNK> <UNK> <UNK> and a red chili pepper in it.",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  },
+  {
+    "image_id": "val/Panzanella/Panzanella_00039.jpg",
+    "visible_evidence": "面包块、红黄番茄、紫洋葱、绿叶可见",
+    "observations": "Greedy 保留主要食材但重复；Beam/CLIP 丢失主要食材并误称 huevos；CLIP 重复叉子",
+    "greedy": "a white plate of panzanella with bread slices, tomato slices, onion slices, onion slices, tomato slices, onion slices, basil leaves, and a piece of bread on a white",
+    "beam": "on the table was a white plate with a huevos <UNK> next to which was a small bowl of red sauce and a few slices of lemon",
+    "clip": "on the table was a white plate with a huevos <UNK> next to which was a silver fork and a silver fork",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  },
+  {
+    "image_id": "val/Butter_pie/Butter_pie_00038.jpg",
+    "visible_evidence": "巧克力表层与碎屑可见，内部不可见",
+    "observations": "三种解码都称 marshmallow，无可见依据；Greedy/RL 内部白馅无法核实，不计已证实幻觉",
+    "greedy": "a large piece of chocolate marshmallow pie with a brown crust and white filling inside.",
+    "beam": "a large piece of chocolate marshmallow pie with a layer of chocolate surface and a layer of marshmallow on the top.",
+    "clip": "a large piece of chocolate marshmallow pie with a layer of chocolate surface and a layer of marshmallow cream on the top.",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  },
+  {
+    "image_id": "val/Banana_pancakes/Banana_pancakes_00039.jpg",
+    "visible_evidence": "煎饼、香蕉、深色酱汁、背景白色饮品可见",
+    "observations": "Greedy 保留酱汁；Beam/CLIP 重复香蕉，遗漏酱汁；Beam 保留背景饮品",
+    "greedy": "a white plate of banana pancakes with banana slices and chocolate sauce on top",
+    "beam": "a white plate of banana pancakes with banana slices and banana slices on the top and a glass of milk next to it",
+    "clip": "a white plate of banana pancakes topped with banana slices and banana slices",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  },
+  {
+    "image_id": "val/Mango_pomelo_sago/Mango_pomelo_sago_00038.jpg",
+    "visible_evidence": "玻璃杯装黄色甜品、白色冰淇淋球可见；具体水果不可辨",
+    "observations": "CLIP/Beam 的 apple sauce 无可见依据；CLIP 重复冰淇淋；参考的薄荷/柚子在图中无法确认，不按参考硬计遗漏",
+    "greedy": "a glass of <UNK> frappe with ice cream, and a few ice cream on it.",
+    "beam": "a glass of light brown apple sauce with a scoop of ice cream on the surface.",
+    "clip": "a glass of light brown apple sauce with a scoop of ice cream floating on the surface, with a scoop of ice cream on the surface.",
+    "review_type": "assistant visual inspection; first six audit IDs, descriptive not population rate"
+  }
+]

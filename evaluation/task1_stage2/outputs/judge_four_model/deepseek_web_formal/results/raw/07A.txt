@@ -1,0 +1,23 @@
+{
+  "candidate_id": "07A",
+  "visual_consistency": 4,
+  "food_identification": 4,
+  "detail_accuracy": 3,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "白碗居中偏左、右上方另有一盘配菜的桌面布局大体相符，但候选只描述碗内，未体现旁盘，整体画面还原略欠完整。",
+    "food_identification": "bun rieu、rice noodles 与 tomatoes 的类别判断和画面基本一致，主食物识别正确。",
+    "detail_accuracy": "撒葱花、番茄块等有对应，但未写香菜、褐色蟹膏/肉块与番茄蟹膏汤底，也漏掉那盘香草和豆芽，细节明显不全。",
+    "language_quality": "句子整体通顺，但结尾重复“chopped green onions and chopped green onions”，冗余明显。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "pork slices"
+  ],
+  "visible_but_omitted": [
+    "右上方一盘新鲜香草（薄荷、生菜）与豆芽",
+    "碗里的香菜碎",
+    "汤中褐色蟹膏/肉块与橙红色番茄汤底"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_id": "24A",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "白色盘中中央为褐色肉块与琥珀色酱汁，两侧摆红番茄片和白卷心菜丝；候选只写肉盘，漏掉配菜布局，但盘装主景大致相符。",
+    "food_identification": "主体是褐色肉块炖咖喱，类别正确；mutton 与 goat 外观难分，未构成主体错误。",
+    "detail_accuracy": "所称葱花点缀与可见表面不符；番茄片和卷心菜丝明显可见却未提；配料描述重复单一。",
+    "language_quality": "mutton 连用三次，korma stewed with mutton 表述冗赘，可读但重复明显。"
+  },
+  "explicit_conflicts": [
+    "“topped with chopped green onion”：肉块表面清晰可见，未见任何绿色葱花"
+  ],
+  "unverifiable_from_image": [
+    "肉质为绵羊肉还是山羊肉",
+    "“handi/korma”所对应的具体烹调做法"
+  ],
+  "visible_but_omitted": [
+    "红色番茄片",
+    "白色卷心菜丝"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

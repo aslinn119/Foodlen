@@ -1,0 +1,29 @@
+{
+  "candidate_id": "09D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面是白盘中一堆白豆旁边放一根烤香肠，候选却说成盘中一块棕色苹果卷加一球冰淇淋，整体摆放与主体完全对不上。",
+    "food_identification": "两个主体食物均识别错误，香肠被当成苹果卷、白豆被当成冰淇淋。",
+    "detail_accuracy": "仅有'棕色'与'白色'颜色勉强对应；酥皮、苹果馅、冰淇淋球、顶置位置等细节均与图像冲突。",
+    "language_quality": "句子通顺、无重复，语法基本正确，'on the top'略生硬。"
+  },
+  "explicit_conflicts": [
+    "候选称棕色主体为苹果卷(apple strudel)，图中实为烤香肠",
+    "候选称白色部分为顶部一球冰淇淋，图中是盘中堆叠的白豆/白扁豆",
+    "候选称有棕色酥皮与苹果馅，图中并无酥皮或苹果馅"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "烤香肠",
+    "白豆（白扁豆）堆",
+    "白色盘子"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "苹果卷酥皮",
+    "苹果馅",
+    "冰淇淋球"
+  ]
+}

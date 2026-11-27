@@ -1,0 +1,24 @@
+{
+  "candidate_id": "23B",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "整体为白色长盘上排放切片肉食、旁侧配酱料，布局与画面基本一致；但酱料放在盘中模压的三个圆格内而非单独的碗。",
+    "food_identification": "准确识别为猪耳，颜色呈深棕、带光泽，与图中主菜一致。",
+    "detail_accuracy": "遗漏了切片形态、三份不同酱料以及绿色装饰叶；'a small bowl of sauce'与图中三格酱汁不符，也错过耳片中白色软骨纹理。",
+    "language_quality": "句子通顺简洁，无重复或语法问题。"
+  },
+  "explicit_conflicts": [
+    "候选称'a small bowl of sauce on the side'，图中酱汁是三个模压在白色长盘内的圆格（三种不同酱料），并非单独的小碗。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "猪耳被切成薄片并层叠成排的形态",
+    "三个圆格中三种不同的蘸酱：深色酱油/醋汁、红色辣椒油、粉白色带红点的酱汁",
+    "右下角露出的绿色装饰叶片",
+    "切片中明显的白色软骨纹理"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

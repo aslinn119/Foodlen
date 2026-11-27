@@ -1,0 +1,27 @@
+{
+  "candidate_id": "05A",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "只笼统提到面条及顶部配料，画面主体（两只白底青花碗、碗中各一把深色勺子、红油汤底）整体摆放与容器基本未覆盖，属明显遗漏。",
+    "food_identification": "noodles/rice noodles 方向正确，但把菜品定为越南蟹汤粉 bun rieu 与画面不符，画面是带肉末酱料和红油汤的中式汤面。",
+    "detail_accuracy": "把明显可见的香菜（cilantro）误写成两次 chopped spring onion；红油汤底、肉末酱料等主要配料未写。",
+    "language_quality": "句子可读，但 chopped spring onion 原样重复两次，且 rice noodles 与前文 noodles 冗余，流畅度一般。"
+  },
+  "explicit_conflicts": [
+    "把画面中明显是香菜/cilantro 的绿色配料写成 chopped spring onion"
+  ],
+  "unverifiable_from_image": [
+    "bun rieu（越南蟹汤粉）所指的蟹/番茄风味汤底无法从图中确认，画面更接近红油汤配肉末"
+  ],
+  "visible_but_omitted": [
+    "两只白底蓝花（蓝色书法纹）碗",
+    "两只碗中各一把深色勺子",
+    "红油/辣汤底",
+    "面条上方的肉末酱料",
+    "深灰带麻点的石质桌面"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

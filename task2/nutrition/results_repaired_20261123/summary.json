@@ -1,0 +1,56 @@
+[
+  {
+    "model": "a",
+    "split": "val",
+    "n": 414,
+    "micro_f1": 0.21687398593834506,
+    "macro_f1_fixed151": 0.0647213742609222,
+    "weight_mae_g": 79.7463768115942,
+    "calories_mae_kcal": 124.50483091787443
+  },
+  {
+    "model": "b",
+    "split": "val",
+    "n": 414,
+    "micro_f1": 0.4060955518945634,
+    "macro_f1_fixed151": 0.20935848113374345,
+    "weight_mae_g": 54.52318840579707,
+    "calories_mae_kcal": 86.73526570048305
+  },
+  {
+    "model": "bgen",
+    "split": "val",
+    "n": 414,
+    "micro_f1": 0.31613539270456786,
+    "macro_f1_fixed151": 0.12386742849305427,
+    "weight_mae_g": 57.04013298454849,
+    "calories_mae_kcal": 89.17843092283341
+  },
+  {
+    "model": "a",
+    "split": "test",
+    "n": 506,
+    "micro_f1": 0.28154795288839035,
+    "macro_f1_fixed151": 0.09306755832526507,
+    "weight_mae_g": 67.53557312252964,
+    "calories_mae_kcal": 111.6600790513834
+  },
+  {
+    "model": "b",
+    "split": "test",
+    "n": 506,
+    "micro_f1": 0.4678979771328056,
+    "macro_f1_fixed151": 0.25946098615274144,
+    "weight_mae_g": 43.77252964426876,
+    "calories_mae_kcal": 69.06561264822133
+  },
+  {
+    "model": "bgen",
+    "split": "test",
+    "n": 506,
+    "micro_f1": 0.39371657754010697,
+    "macro_f1_fixed151": 0.15916452505786988,
+    "weight_mae_g": 49.06647010890698,
+    "calories_mae_kcal": 79.37204664640213
+  }
+]

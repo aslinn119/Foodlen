@@ -1,0 +1,13 @@
+{
+  "filled": 20,
+  "pairs": 80,
+  "exact": 54,
+  "le1": 78,
+  "ge2": 2,
+  "mean_abs": {
+    "visual_consistency": 0.35,
+    "food_identification": 0.45,
+    "detail_accuracy": 0.2,
+    "language_quality": 0.4
+  }
+}

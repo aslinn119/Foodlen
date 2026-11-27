@@ -1,0 +1,122 @@
+{
+  "image_id": "23",
+  "image_check": "白色三格长瓷盘上，一长排薄切卤猪耳片层层叠放、外缘深棕皮与白色软骨纹理清晰，盘边三格蘸酱分别为红油辣酱、深色酱汁和带红点的浅色酱，右下角有一片绿叶装饰。",
+  "candidates": [
+    {
+      "candidate_id": "23A",
+      "visual_consistency": 2,
+      "food_identification": 1,
+      "detail_accuracy": 2,
+      "language_quality": 4,
+      "evidence": {
+        "visual_consistency": "白盘和深棕切片大致对得上，但图上酱汁是盘内三格蘸碟、切片长排叠放，候选写成一侧淋酱，整体摆盘未体现。",
+        "food_identification": "主体是带深色外皮、胶质层和白色软骨纹理的卤猪耳薄片，候选却写成 pipikaula（夏威夷牛肉干），类别错误。",
+        "detail_accuracy": "\"dark brown\" 颜色部分符合，但 \"a drizzle of soy sauce on the side\" 与三格蘸酱不符，且红油辣酱与绿叶细节均未写。",
+        "language_quality": "句子语法正确、通顺，仅 \"dark brown colored\" 略冗余。"
+      },
+      "uncertainty": [
+        "深色酱汁是否为酱油无法确认"
+      ],
+      "visible_but_omitted": [
+        "三格蘸酱（红油辣酱、深色酱汁、浅色带红点酱）",
+        "盘右侧一片绿叶装饰",
+        "薄片沿盘长排层层叠放的摆盘方式",
+        "猪耳切片外缘深色皮与白色软骨分层纹理"
+      ],
+      "suspected_ingredient_hallucinations": [
+        "pipikaula（夏威夷牛肉干）"
+      ],
+      "error_categories": [
+        "与画面冲突:酱汁是盘内三格蘸碟，不是一侧的一抹淋酱",
+        "明确错误:把卤猪耳片写成 pipikaula 牛肉干",
+        "明显遗漏:三种蘸酱与绿叶装饰均未提及",
+        "无法确认:深色酱汁是否为酱油"
+      ],
+      "verdict": "主体食物判错并错写单侧淋酱，画面吻合度低，仅颜色与句式尚可。"
+    },
+    {
+      "candidate_id": "23B",
+      "visual_consistency": 4,
+      "food_identification": 5,
+      "detail_accuracy": 3,
+      "language_quality": 5,
+      "evidence": {
+        "visual_consistency": "白瓷盘与长条叠放的深棕切片的整体构图吻合，但酱汁是盘内三格而非「旁边的一只小碗」，容器形态略偏。",
+        "food_identification": "「brown pig's ear」准确对应图上卤猪耳片，类别与颜色都对。",
+        "detail_accuracy": "颜色和主体正确，但三种蘸酱被笼统写成 \"a small bowl of sauce\"，酱的数量、区别与绿叶均遗漏。",
+        "language_quality": "表达自然通顺，无语法问题与重复。"
+      },
+      "uncertainty": [],
+      "visible_but_omitted": [
+        "三种不同蘸酱（红油辣酱、深色酱汁、浅色带红点酱）及其分格摆放",
+        "盘右侧绿叶装饰"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "与画面冲突:酱汁是盘内三格蘸碟而非旁边一只小碗",
+        "明显遗漏:三种蘸酱的数量与差别、绿叶装饰"
+      ],
+      "verdict": "主体识别准确且语言流畅，主要偏差在于把三格蘸酱简化成一只小碗、漏写绿叶。"
+    },
+    {
+      "candidate_id": "23C",
+      "visual_consistency": 2,
+      "food_identification": 1,
+      "detail_accuracy": 1,
+      "language_quality": 1,
+      "evidence": {
+        "visual_consistency": "只有 \"a plate\" 能与画面中的盘子对应，其余全是 <UNK> 占位符，无法核对构图、份量与摆放。",
+        "food_identification": "全句未给出任何可辨认的食物类别。",
+        "detail_accuracy": "没有任何可核对到的配料或外观细节。",
+        "language_quality": "绝大多数词是 <UNK> 占位符，语法结构破碎、内容不可读。"
+      },
+      "uncertainty": [
+        "除 a plate 外全部为 <UNK> 占位符，所指内容无法确认"
+      ],
+      "visible_but_omitted": [
+        "卤猪耳薄片主体",
+        "三格蘸酱",
+        "盘右侧绿叶装饰",
+        "长排叠放的摆盘"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "无法确认:句子绝大部分是 <UNK> 占位符，无法判断描述所指",
+        "明显遗漏:主体食物、蘸酱、摆盘全部缺失"
+      ],
+      "verdict": "输出被占位符破坏、语义不可读，除「盘子」外无法作为描述使用。"
+    },
+    {
+      "candidate_id": "23D",
+      "visual_consistency": 2,
+      "food_identification": 1,
+      "detail_accuracy": 2,
+      "language_quality": 5,
+      "evidence": {
+        "visual_consistency": "「盘子 + 深棕色」可对应，但图上酱汁分置盘边三格、切片表面并无淋酱，且整体是肉片长条叠放而非蛋糕摆盘。",
+        "food_identification": "torta caprese 是巧克力杏仁蛋糕，而画面主体是卤猪耳薄片，主体类别完全错误。",
+        "detail_accuracy": "\"dark brown\" 颜色符合，但 \"a drizzle of soy sauce on the surface\" 与画面冲突，切片外皮与胶质软骨纹理未写。",
+        "language_quality": "语法正确、表达流畅，无重复。"
+      },
+      "uncertainty": [
+        "深色酱汁是否为酱油无法确认"
+      ],
+      "visible_but_omitted": [
+        "三格蘸酱（尤其红油辣酱）",
+        "盘右侧绿叶装饰",
+        "薄片长排叠放的摆盘",
+        "猪耳切片深色外皮与白色软骨胶质分层"
+      ],
+      "suspected_ingredient_hallucinations": [
+        "torta caprese（巧克力杏仁蛋糕）"
+      ],
+      "error_categories": [
+        "与画面冲突:主体是卤猪耳切片而非蛋糕（torta caprese）",
+        "与画面冲突:酱汁分置盘边三格，并非淋在食物表面",
+        "明显遗漏:三格蘸酱与绿叶装饰",
+        "无法确认:深色酱汁是否为酱油"
+      ],
+      "verdict": "主体判成蛋糕类完全错误，又把盘边蘸酱写成表面淋酱油，仅颜色与语句流畅度可取。"
+    }
+  ]
+}

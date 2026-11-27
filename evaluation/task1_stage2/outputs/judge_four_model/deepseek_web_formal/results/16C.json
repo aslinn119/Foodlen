@@ -1,0 +1,23 @@
+{
+  "candidate_id": "16C",
+  "visual_consistency": 5,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "蓝色花纹椭圆盘盛放深棕色米饭，与候选所述一盘dirty rice一致。",
+    "food_identification": "主菜类别判断为dirty rice，与原图及参考一致。",
+    "detail_accuracy": "绿色碎末与红褐色小块基本对应葱花和红椒，但明显漏掉深褐色鸡肝、鸡胗等肉块。",
+    "language_quality": "短句通顺自然，无重复啰嗦。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "绿色碎末究竟是青葱还是青椒碎，无法从图中完全确认",
+    "红色小块的食材身份（红椒或焦褐色肉末）无法完全确认"
+  ],
+  "visible_but_omitted": [
+    "深褐色的鸡肝、鸡胗等肉块",
+    "米饭中夹杂的浅白色块状配菜"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

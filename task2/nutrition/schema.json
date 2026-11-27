@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FoodLens Task2 结构化营养输出 Schema",
+  "schema_version": "nutrition5k-student-v1",
+  "description": "任务二统一输出：一张菜品图像 -> 食材列表 + 总重量 + 总热量 + 三大营养素。三个模型（a/b/bgen）经 predict_nutrition(image_path, model_id) 返回的结果均须符合本 Schema。数值单位固定：重量 g、热量 kcal、营养素 g；所有数值非负。",
+  "type": "object",
+  "required": ["items", "total_weight_g", "total_calories_kcal", "protein_g", "fat_g", "carbohydrate_g"],
+  "additionalProperties": false,
+  "properties": {
+    "items": {
+      "type": "array",
+      "description": "识别出的食材列表（可空，但推荐至少一项；上限对齐训练集最大食材数 16）",
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": ["name", "weight_g"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "食材名，训练集 151 种食材的规范写法（按教学云标注原文，保留空格）；测试集可能出现 3 种训练集外名称"
+          },
+          "weight_g": {
+            "type": "number",
+            "minimum": 0,
+            "description": "该食材分量，单位 g，一位小数"
+          }
+        }
+      }
+    },
+    "total_weight_g": {
+      "type": "number",
+      "minimum": 0,
+      "description": "菜品总重量，单位 g"
+    },
+    "total_calories_kcal": {
+      "type": "number",
+      "minimum": 0,
+      "description": "菜品总热量，单位 kcal"
+    },
+    "protein_g": {
+      "type": "number",
+      "minimum": 0,
+      "description": "蛋白质含量，单位 g"
+    },
+    "fat_g": {
+      "type": "number",
+      "minimum": 0,
+      "description": "脂肪含量，单位 g"
+    },
+    "carbohydrate_g": {
+      "type": "number",
+      "minimum": 0,
+      "description": "碳水化合物含量，单位 g"
+    }
+  }
+}

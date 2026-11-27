@@ -1,0 +1,28 @@
+{
+  "candidate_id": "30C",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面是粉色盘中的单个酥皮点心，候选却写成盘装香肠，整体画面与摆放完全不符。",
+    "food_identification": "主要食物类别错误：图中为带网格酥皮的果酱挞类点心，而非咖喱香肠。",
+    "detail_accuracy": "所述咖喱粉及配菜在图中均不存在，且明显可见的酥皮条与果酱馅被遗漏。",
+    "language_quality": "句子勉强可读，但curry powder重复出现两次，表达啰嗦生硬。"
+  },
+  "explicit_conflicts": [
+    "currywurst（香肠）：图中主体是网格酥皮果酱挞，看不到香肠或肉类",
+    "curry powder（咖喱粉）：图中表面为光泽的橙黄色果酱与烤酥皮，无咖喱粉"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "交错网格状的酥皮条（lattice面皮）",
+    "中央光泽的橙黄色果酱/菠萝酱馅",
+    "花边压褶的酥皮挞边",
+    "粉色盘子"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "currywurst",
+    "curry powder"
+  ]
+}

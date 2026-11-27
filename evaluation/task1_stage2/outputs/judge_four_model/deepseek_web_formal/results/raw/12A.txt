@@ -1,0 +1,23 @@
+{
+  "candidate_id": "12A",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面是白色圆碗盛牛油果酱置于黑色台面，碗旁摆着葱段和香草叶；候选对这类摆放只字未提，反而说旁边有一把勺子，与整体摆放明显不符。",
+    "food_identification": "主体食物牛油果酱识别准确，但紧挨碗摆放的青葱/小葱和香菜类香草完全漏掉，配菜识别缺失。",
+    "detail_accuracy": "唯一具体细节“旁边有勺子”是错的，图中看不到任何勺子或餐具，也没描述酱的绿色纹理与斑点。",
+    "language_quality": "句子通顺、无重复、表达清楚，只是信息量较少。"
+  },
+  "explicit_conflicts": [
+    "称碗旁有一把勺子：画面中看不到任何勺子或餐具，碗边只有葱段和香草叶。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "碗左侧和下方的青葱/小葱",
+    "碗旁和下方的香菜/欧芹类香草叶",
+    "酱体表面的绿色纹理与深色碎点"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

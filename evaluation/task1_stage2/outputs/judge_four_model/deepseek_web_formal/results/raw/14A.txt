@@ -1,0 +1,24 @@
+{
+  "candidate_id": "14A",
+  "visual_consistency": 3,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "深色炖鸡块盛在金属锅（盆）里，候选写成 plate，容器与画面不符，整体摆放尚可。",
+    "food_identification": "主要食物为棕色炖鸡块，与主体一致。",
+    "detail_accuracy": "表面确有绿色葱段，但未见明显红色辣椒，且少量浅色块状配料被略去。",
+    "language_quality": "表述简洁流畅，无重复。"
+  },
+  "explicit_conflicts": [
+    "画面容器为金属锅/盆，并非 plate"
+  ],
+  "unverifiable_from_image": [
+    "red pepper（图中未见明显红色辣椒颗粒）"
+  ],
+  "visible_but_omitted": [
+    "浅色洋葱块/蒜瓣",
+    "浓稠酱汁包裹的光泽质感细节"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

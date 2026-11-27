@@ -1,0 +1,25 @@
+{
+  "candidate_id": "07C",
+  "visual_consistency": 4,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "俯拍白色碗盛橙红汤粉、碗旁配菜盘的摆放与画面基本一致，但未交代碗旁那盘配菜",
+    "food_identification": "主体 bun rieu 判定正确，碗中细白米粉与大量葱花符合，但把配料说成含煎蛋、切片猪肉",
+    "detail_accuracy": "顶部 sunny-side-up egg 与 sliced pork 均无图中证据，且漏写右侧香草与豆芽盘，细节错误较多",
+    "language_quality": "单句结构完整、用词自然、无重复"
+  },
+  "explicit_conflicts": [
+    "声称顶部有 sunny-side-up egg，但全碗俯拍画面中只有葱花、蟹膏状肉块、番茄与米粉，看不到蛋白或蛋黄"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "碗旁一盘绿豆芽与薄荷/生菜等香草",
+    "橙红色汤底与汤面番茄块",
+    "碗中蟹膏/肉丸状配料"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "sliced pork，图中肉块与蟹膏状配料无法确认为切片猪肉"
+  ]
+}

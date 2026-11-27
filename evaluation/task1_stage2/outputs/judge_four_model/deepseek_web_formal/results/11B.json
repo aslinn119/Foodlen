@@ -1,0 +1,26 @@
+{
+  "candidate_id": "11B",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "盘中食物与白色盘子的整体摆放基本相符，但画面里没有筷子，且漏掉盘边的紫花与香芹点缀。",
+    "food_identification": "pork knuckles 对应图中的猪蹄，主体类别判断正确；但附带的 ginger stew 说法无法确认。",
+    "detail_accuracy": "brown and juicy 与深红棕色油亮外观相符，但姜和筷子缺乏画面依据，且未提到可见的紫花与香芹。",
+    "language_quality": "句子通顺、语法正确、无重复，表达自然。"
+  },
+  "explicit_conflicts": [
+    "“a pair of chopsticks on the side”：盘中及周围画面中没有筷子"
+  ],
+  "unverifiable_from_image": [
+    "“ginger stew”中所指的姜在图中无法确认"
+  ],
+  "visible_but_omitted": [
+    "盘边的小紫花",
+    "少量欧芹/香芹叶"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "ginger"
+  ]
+}

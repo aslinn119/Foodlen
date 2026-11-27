@@ -1,0 +1,19 @@
+{
+  "candidate_id": "29A",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 4,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "金黄炸鸡块堆在白色盘上、旁边一只小玻璃盅，摆放位置与画面一致；盘子只在近景边缘露出，属轻微不完整。",
+    "food_identification": "主食物识别为金黄炸鸡块，与图中裹面包糠的炸鸡块相符，类别正确。",
+    "detail_accuracy": "“金黄”“酥脆外壳”描述准确；但旁边玻璃盅里是橙黄色浓稠蘸酱（更像莎莎酱/酱料），“一杯黄色柠檬汁”的写法与外观有偏差。",
+    "language_quality": "单句表达流畅自然，用词清楚，无重复。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "玻璃盅中的黄色液体是否为柠檬汁，图中无法确认成分"
+  ],
+  "visible_but_omitted": [],
+  "suspected_ingredient_hallucinations": []
+}

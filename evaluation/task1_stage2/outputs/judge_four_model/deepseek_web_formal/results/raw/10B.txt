@@ -1,0 +1,26 @@
+{
+  "candidate_id": "10B",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "圆盘与肉片绕盘缘环形摆放基本相符，但大面积奶油色酱汁与餐具场景未描述，整体画面还原不完整。",
+    "food_identification": "认出小牛肉与番茄，vitello tonnato 的主体类别正确，但未提及构成该菜核心的奶油金枪鱼酱。",
+    "detail_accuracy": "番茄为整颗小番茄而非切片，绿色叶菜为大片芝麻菜而非切碎香菜，且遗漏刺山柑与酱汁。",
+    "language_quality": "单句语法通顺、无重复，表述清楚，但信息量偏少。"
+  },
+  "explicit_conflicts": [
+    "描述称 topped with sliced tomatoes，图中为中央整颗小番茄，未见切片番茄。",
+    "描述称为 finely chopped cilantro（切碎香菜），图中绿色叶菜是带茎的大片芝麻菜，形态不符。",
+    "描述称为 thin slices of veal（薄切），图中肉片切得较厚。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "覆盖在肉片上的奶油色金枪鱼酱（tuna sauce）完全未提及。",
+    "散落在酱汁上的深绿色刺山柑（capers）未提及。"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "cilantro（香菜）：图中所见为芝麻菜，未见香菜。"
+  ]
+}

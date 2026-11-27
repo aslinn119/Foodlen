@@ -1,0 +1,21 @@
+{
+  "candidate_id": "07B",
+  "visual_consistency": 4,
+  "food_identification": 4,
+  "detail_accuracy": 3,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "画面确为白瓷碗盛汤粉，旁侧香草与豆芽盘未写出，但描述不冲突。",
+    "food_identification": "识别为 bun rieu 米粉汤正确，遗漏同画面配菜盘，属轻微遗漏。",
+    "detail_accuracy": "番茄块与葱花确实可见，但蟹饼块、米粉及配菜盘均未写。",
+    "language_quality": "tomato pieces 连续重复两次，句子其余部分通顺。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "右侧一盘生豆芽与薄荷、生菜等香草",
+    "汤中的蟹饼/肉饼块与米粉",
+    "撒在表面的香菜叶"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

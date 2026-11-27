@@ -1,0 +1,29 @@
+{
+  "candidate_id": "05B",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面为两只碗，候选只写 a bowl，数量与整体摆放明显不符",
+    "food_identification": "把中式红油肉臊汤面误判为越南 bun rieu，主要菜式判断错误",
+    "detail_accuracy": "minced meat 与 coriander 准确，但 bean sprouts 画面未见，且未提红油汤底这一显著外观",
+    "language_quality": "英文通顺、简洁，无重复"
+  },
+  "explicit_conflicts": [
+    "画面中共有两只碗，候选只写 a bowl（一碗）",
+    "菜名 bun rieu（越南蟹汤粉）与画面所示中式红油肉臊汤面不符"
+  ],
+  "unverifiable_from_image": [
+    "rice noodles：画面面条细白，究竟是米粉还是小麦面条无法确认"
+  ],
+  "visible_but_omitted": [
+    "红亮辣椒油/红油汤底",
+    "深灰色石质台面背景",
+    "青花瓷碗的蓝色花纹与碗身书法字",
+    "两只碗中各配的深色勺子"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "bean sprouts（豆芽）：画面中未见豆芽"
+  ]
+}

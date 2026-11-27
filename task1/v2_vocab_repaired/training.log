@@ -1,0 +1,115 @@
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+TRAIN {'seed': 42, 'vocab_size': 4837, 'max_generation_tokens': 67, 'tokenizer': 'lowercase regex words, internal apostrophe/hyphen retained', 'vocab_source': 'train only, min_frequency=1', 'architecture': 'unchanged ResNet18 spatial additive attention GRU', 'batch_size': 32, 'lr_encoder': 0.0001, 'lr_decoder': 0.001, 'epochs': 25, 'patience': 6, 'selection': 'full validation normalized BLEU4', 'device': 'cpu', 'torch': '2.2.2+cpu', 'data_root': 'C:\\Users\\刘九尔\\Desktop\\神经网络与深度学习\\Food500Cap_ready', 'sha256': {'train': 'd93e880e39977073227a30d4f5a6578af9b04a37ccfa9a08c9777e3b2100c554', 'val': 'c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4', 'test': 'cc9a6c6cd13a6870ef927de0c266896c5d5a6648c182b3daeb8d118e4b729340'}}
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+C:\Users\刘九尔\AppData\Roaming\Python\Python311\site-packages\PIL\TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+STEP 1 0 8.563849449157715
+STEP 1 100 4.859172821044922
+STEP 1 200 4.302157402038574
+STEP 1 300 4.1465535163879395
+STEP 1 400 4.007954120635986
+C:\Users\刘九尔\AppData\Roaming\Python\Python311\site-packages\PIL\TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+STEP 1 500 3.9600753784179688
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+EPOCH {"epoch": 1, "train_loss": 4.471050800569163, "val": {"n": 1967, "bleu": [28.951287117128505, 13.39401860678168, 6.648299438136713, 3.1163922133915367], "rouge_l": 0.24928263262825223, "cider_d": 0.17943863874102692, "unknown_count": 0, "repeated_trigram_count": 580}, "seconds": 737.1747448444366}
+STEP 2 0 3.847644805908203
+STEP 2 100 3.7984375953674316
+STEP 2 200 3.9486451148986816
+STEP 2 300 3.591337203979492
+STEP 2 400 3.57511568069458
+STEP 2 500 3.4601850509643555
+EPOCH {"epoch": 2, "train_loss": 3.687904426602009, "val": {"n": 1967, "bleu": [31.215177754907476, 15.011395902038549, 7.717913988708758, 3.8421689377046673], "rouge_l": 0.2588772018347303, "cider_d": 0.23066695617403923, "unknown_count": 0, "repeated_trigram_count": 391}, "seconds": 723.9541285037994}
+STEP 3 0 3.7136707305908203
+STEP 3 100 3.5007035732269287
+STEP 3 200 3.65982723236084
+STEP 3 300 3.694366455078125
+STEP 3 400 3.5220015048980713
+STEP 3 500 3.5212881565093994
+EPOCH {"epoch": 3, "train_loss": 3.440134560424209, "val": {"n": 1967, "bleu": [29.332716989674257, 13.9999996927544, 7.315012786512227, 3.7674365421218328], "rouge_l": 0.25167009210574554, "cider_d": 0.26425533141100377, "unknown_count": 0, "repeated_trigram_count": 487}, "seconds": 717.5534980297089}
+STEP 4 0 3.370310068130493
+STEP 4 100 3.3002662658691406
+STEP 4 200 3.3255889415740967
+STEP 4 300 3.194185733795166
+STEP 4 400 3.559354066848755
+STEP 4 500 3.29506254196167
+EPOCH {"epoch": 4, "train_loss": 3.2940036954752934, "val": {"n": 1967, "bleu": [29.478254004464123, 14.280702014932903, 7.651831955241368, 4.016859196897629], "rouge_l": 0.25879838983042125, "cider_d": 0.2782082783742325, "unknown_count": 0, "repeated_trigram_count": 267}, "seconds": 33661.27930402756}
+STEP 5 0 3.0504672527313232
+STEP 5 100 3.3346619606018066
+STEP 5 200 3.155963182449341
+STEP 5 300 3.2497482299804688
+STEP 5 400 2.9926865100860596
+STEP 5 500 3.184183359146118
+EPOCH {"epoch": 5, "train_loss": 3.1893025593673245, "val": {"n": 1967, "bleu": [30.810360916854346, 15.055532855348233, 8.085732001305695, 4.314342225763319], "rouge_l": 0.2649724273000641, "cider_d": 0.3238093511340728, "unknown_count": 0, "repeated_trigram_count": 313}, "seconds": 1122.2634122371674}
+STEP 6 0 3.009800672531128
+STEP 6 100 3.2167723178863525
+STEP 6 200 3.136888027191162
+STEP 6 300 3.178692102432251
+STEP 6 400 2.960568428039551
+STEP 6 500 2.9533324241638184
+EPOCH {"epoch": 6, "train_loss": 3.1065405189752906, "val": {"n": 1967, "bleu": [29.91561965585471, 14.476020813217557, 7.803907439566984, 4.17133006644985], "rouge_l": 0.2640664631391854, "cider_d": 0.33529014399845675, "unknown_count": 0, "repeated_trigram_count": 392}, "seconds": 861.4187273979187}
+STEP 7 0 2.912363290786743
+STEP 7 100 2.950438976287842
+STEP 7 200 3.1006312370300293
+STEP 7 300 3.291280508041382
+STEP 7 400 3.0443482398986816
+STEP 7 500 3.3566882610321045
+EPOCH {"epoch": 7, "train_loss": 3.039299084568269, "val": {"n": 1967, "bleu": [29.718852457124832, 14.70842397540586, 8.145200768229053, 4.4990340406141875], "rouge_l": 0.2653765909394593, "cider_d": 0.34413261556193947, "unknown_count": 0, "repeated_trigram_count": 438}, "seconds": 774.0532982349396}
+STEP 8 0 2.9904050827026367
+STEP 8 100 2.8661396503448486
+STEP 8 200 3.0652618408203125
+STEP 8 300 2.9694128036499023
+STEP 8 400 2.8796236515045166
+STEP 8 500 2.9618570804595947
+EPOCH {"epoch": 8, "train_loss": 2.977205084016135, "val": {"n": 1967, "bleu": [31.118607850785278, 15.708400215040141, 8.757012703009337, 4.9300201937765795], "rouge_l": 0.2742537111683813, "cider_d": 0.40171519764656, "unknown_count": 0, "repeated_trigram_count": 321}, "seconds": 786.6445455551147}
+STEP 9 0 2.8649277687072754
+STEP 9 100 2.917273759841919
+STEP 9 200 2.7838973999023438
+STEP 9 300 2.8239195346832275
+STEP 9 400 3.0861804485321045
+STEP 9 500 2.914971113204956
+EPOCH {"epoch": 9, "train_loss": 2.9255490275463822, "val": {"n": 1967, "bleu": [31.857717352339915, 16.186914003893925, 9.160266726759835, 5.220395468086636], "rouge_l": 0.2752370461733961, "cider_d": 0.4040889571020232, "unknown_count": 0, "repeated_trigram_count": 322}, "seconds": 990.427663564682}
+STEP 10 0 2.8192389011383057
+STEP 10 100 2.9529895782470703
+STEP 10 200 2.821110486984253
+STEP 10 300 2.8443095684051514
+STEP 10 400 2.8032352924346924
+STEP 10 500 2.9003958702087402
+EPOCH {"epoch": 10, "train_loss": 2.8796586834316686, "val": {"n": 1967, "bleu": [31.17924801918712, 15.941308578442456, 9.017172017658552, 5.188738431095124], "rouge_l": 0.27326337727273353, "cider_d": 0.40259178776838583, "unknown_count": 0, "repeated_trigram_count": 355}, "seconds": 938.8026475906372}
+STEP 11 0 2.7252519130706787
+STEP 11 100 2.7549960613250732
+STEP 11 200 2.7036142349243164
+STEP 11 300 2.9250686168670654
+STEP 11 400 2.771426200866699
+STEP 11 500 2.983480930328369
+EPOCH {"epoch": 11, "train_loss": 2.842324587965905, "val": {"n": 1967, "bleu": [31.888026995634398, 16.186124243972298, 9.029690117469414, 5.054911088663275], "rouge_l": 0.27526953379097824, "cider_d": 0.41187641500394434, "unknown_count": 0, "repeated_trigram_count": 373}, "seconds": 805.2693302631378}
+STEP 12 0 2.8977878093719482
+STEP 12 100 2.7445576190948486
+STEP 12 200 2.821355104446411
+STEP 12 300 2.78413462638855
+STEP 12 400 2.911954164505005
+STEP 12 500 2.75563645362854
+EPOCH {"epoch": 12, "train_loss": 2.806070540820652, "val": {"n": 1967, "bleu": [31.634678681150607, 16.3330670344101, 9.437076506393428, 5.561101918147739], "rouge_l": 0.277483265793023, "cider_d": 0.4287389148066957, "unknown_count": 0, "repeated_trigram_count": 271}, "seconds": 811.3093791007996}
+STEP 13 0 2.742387294769287

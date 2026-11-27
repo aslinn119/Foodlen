@@ -1,0 +1,61 @@
+{
+  "bleu_1": 0.7832250898600684,
+  "bleu_2": 0.7288800602074101,
+  "bleu_3": 0.6842008521775661,
+  "bleu_4": 0.6413409560119242,
+  "rouge_l": 0.7973935051471019,
+  "cider_d": 0.3662250655432219,
+  "text_protocol": "pycocoevalcap 1.2 scorers; fixed JSON lexical tokens, not PTB; one reference; CIDEr df=reference corpus",
+  "micro_p": 0.37993680884676145,
+  "micro_r": 0.2706809229037704,
+  "micro_f1": 0.31613539270456786,
+  "macro_f1": 0.17318501576343698,
+  "macro_class_scope": "union_of_predicted_and_reference_names",
+  "macro_class_count": 108,
+  "sample_p": 0.44003910743041175,
+  "sample_r": 0.3489647161748611,
+  "sample_f1": 0.3746761112809706,
+  "numeric": {
+    "total_weight_g": {
+      "mse": 7658.99488377021,
+      "mae": 57.04013298454849,
+      "rmse": 87.5156836445343
+    },
+    "total_calories_kcal": {
+      "mse": 17938.518425147005,
+      "mae": 89.17843092283341,
+      "rmse": 133.934754358781
+    },
+    "protein_g": {
+      "mse": 188.9972389452543,
+      "mae": 8.669288338436997,
+      "rmse": 13.74762666591053
+    },
+    "fat_g": {
+      "mse": 87.64852590228726,
+      "mae": 6.1380080418872405,
+      "rmse": 9.36207914420121
+    },
+    "carbohydrate_g": {
+      "mse": 110.39510930235338,
+      "mae": 7.412979837426595,
+      "rmse": 10.50690769457662
+    },
+    "mean_metric_warning": "Legacy mixed-unit aggregates; not g or kcal. Use per-field metrics.",
+    "mean_mse": 5196.910836613423,
+    "mean_mae": 33.68776802502655,
+    "mean_rmse": 72.08960283295659,
+    "normalized_mae": 0.3898806316575567
+  },
+  "ingredient_weight": {
+    "matched_count": 481,
+    "union_count": 2562,
+    "matched_mae_g": 48.33700623700624,
+    "union_mae_g": 49.196994535519046
+  },
+  "health": {
+    "n": 414,
+    "duplicate_samples": 239,
+    "weight_diff_gt_0_11g": 389
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_id": "11C",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 4,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "白色盘子盛放堆叠的酱色肉块，整体画面与摆放基本吻合；但把欧芹说成在菜“上面”，图中它位于盘子左下沿。",
+    "food_identification": "主要食物确为红烧/酱卤猪蹄（猪肘块），类别判断准确。",
+    "detail_accuracy": "棕褐色、油亮酱汁和欧芹均与图相符；但欧芹位置写错，且未提右上角的紫粉色小花。",
+    "language_quality": "句子自然流畅，用词简洁，无明显重复或语法问题。"
+  },
+  "explicit_conflicts": [
+    "欧芹被描述为在大盘菜“上面”（on top），但图中欧芹位于盘子左下边缘、肉块旁边，而非顶部"
+  ],
+  "unverifiable_from_image": [
+    "无法确认酱汁是“淋上去的一层 drizzle”，画面中主要呈现为裹在肉块上的浓稠油亮酱汁"
+  ],
+  "visible_but_omitted": [
+    "画面右上角一朵紫粉色小花（装饰花）"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

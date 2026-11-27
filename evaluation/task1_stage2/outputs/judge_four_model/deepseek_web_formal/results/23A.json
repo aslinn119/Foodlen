@@ -1,0 +1,27 @@
+{
+  "candidate_id": "23A",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白盘与盘边蘸料能对上，但未体现三格蘸料分区、肉片沿盘长条叠排的摆放，遗漏明显。",
+    "food_identification": "主料是切片卤猪耳，切面可见胶质与环状纹理；候选误称为 pipikaula（夏威夷风干牛肉），主类别识别错误。",
+    "detail_accuracy": "深棕色描述正确，但把三格蘸料缩成『一淋酱油』，也未提胶质切面、芝麻和绿叶点缀，多处不准。",
+    "language_quality": "句子通顺易读，只有 dark brown colored 略冗余、信息偏简。"
+  },
+  "explicit_conflicts": [
+    "『pipikaula』与图中切片卤猪耳不符",
+    "『a drizzle of soy sauce』与图中三格分立蘸料（红辣椒油带芝麻、深色酱汁、粉红酱汁）不符"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "三格蘸料：左下方红辣椒油带芝麻、上方深色酱汁、右上方粉红色酱汁",
+    "肉片切成圆片后沿盘呈长条扇形依次叠排",
+    "肉片切面有半透明胶质与环状纹理（猪耳特征）",
+    "右侧一片绿色叶状点缀"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "pipikaula（夏威夷风干牛肉）"
+  ]
+}

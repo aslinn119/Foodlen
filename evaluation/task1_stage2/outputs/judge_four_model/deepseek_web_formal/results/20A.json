@@ -1,0 +1,27 @@
+{
+  "candidate_id": "20A",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 1,
+  "reasons": {
+    "visual_consistency": "仅有“closeup”与画面视角大致相符，未体现两个透明盒的分装与摆放，整体画面描述残缺",
+    "food_identification": "主体写成 pulled pork（手撕猪肉），图中实为章鱼烧/章鱼小丸子，食物类别错误",
+    "detail_accuracy": "除“a lot of”外无有效配料或外观描述，三处 <UNK> 占位符使细节无法核对，且手撕猪肉外观与图中酱汁圆球不符",
+    "language_quality": "重复“a closeup of a closeup”，含三个 <UNK> 占位符且结尾“and <UNK>”不完整，流畅度差"
+  },
+  "explicit_conflicts": [
+    "pulled pork（手撕猪肉）：图中为章鱼烧/章鱼小丸子，未见任何手撕猪肉"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "两个透明塑料盒",
+    "章鱼烧/章鱼小丸子",
+    "深褐色酱汁",
+    "白色沙拉酱/蛋黄酱",
+    "木鱼花（鲣鱼片）",
+    "海苔粉",
+    "灰色石质台面背景"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

@@ -1,0 +1,25 @@
+{
+  "candidate_id": "04D",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 3,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "玻璃碗盛装混合刨冰甜品这一整体场景与画面基本相符，但除容器外几乎没有任何关于摆放层次和构图的描述，画面信息大量缺失。",
+    "food_identification": "识别为es campur混合刨冰，并提到刨冰和草（冻），主要食物类别判断正确；但画面主体水果类别未给出具体识别，识别不完整。",
+    "detail_accuracy": "提到的刨冰、草（冻）与画面可见内容部分一致，但多类明显可见的配料均未提及，细节覆盖严重不足。",
+    "language_quality": "前半句尚可读，但连续出现十余个<UNK>占位符且反复重复，后半句基本无法理解，流畅度差。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "候选以<UNK>占位符代替的配料内容无法辨认，无法据图核对"
+  ],
+  "visible_but_omitted": [
+    "黄色芒果/菠萝蜜切片",
+    "绿色牛油果块",
+    "顶部撒的黑色罗勒籽",
+    "底部红色水果与粉色刨冰",
+    "画面顶部露出的勺子"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

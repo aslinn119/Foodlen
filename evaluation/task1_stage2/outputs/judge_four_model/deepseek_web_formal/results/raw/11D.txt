@@ -1,0 +1,28 @@
+{
+  "candidate_id": "11D",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "盘中深红棕色卤猪手的堆叠大体一致，但说成少量几块、配料摆在顶端，与整盘堆高、配叶在盘边的画面不符。",
+    "food_identification": "主体识别为pork knuckles（猪手/猪蹄）正确，炖煮与姜的提法无法从外观确认，属小瑕疵。",
+    "detail_accuracy": "把盘边欧芹说成顶端大量葱花，明显与画面冲突，且遗漏紫花与欧芹点缀，数量描述也偏少。",
+    "language_quality": "句子通顺、无重复，pork knuckles and ginger stew搭配略显生硬但可读。"
+  },
+  "explicit_conflicts": [
+    "a lot of chopped spring onion on top：肉块表面并无葱花，绿色配料仅是盘边少量欧芹/香菜叶。",
+    "a few pieces：图中为整盘堆叠的十余块猪手，并非只有几块。"
+  ],
+  "unverifiable_from_image": [
+    "ginger stew：看不到姜片，炖煮做法与姜的使用无法由外观确认。"
+  ],
+  "visible_but_omitted": [
+    "右上角背景中的紫粉色小花",
+    "盘左下角的欧芹/香菜叶点缀",
+    "白色带花纹的盘子和青花瓷背景图案"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chopped spring onion（大量葱花）"
+  ]
+}

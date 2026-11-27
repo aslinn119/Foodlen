@@ -1,0 +1,29 @@
+{
+  "candidate_id": "16B",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "盘子盛装、食物堆叠的取景基本成立，但实物是松散的棕色米饭肉碎混合物，与“酿茄子”的整体外观明显不符",
+    "food_identification": "主要食物类别判错：图中是米饭与肉粒、洋葱、青椒混合的棕色饭食，看不出茄子",
+    "detail_accuracy": "棕色肉粒勉强可对应“minced meat”，但“stuffed eggplants”的形态完全缺失，“chopped green onion on top”与图中绿色青椒丁不符",
+    "language_quality": "英文短语通顺自然，无重复，问题在于内容与图不符而非语言"
+  },
+  "explicit_conflicts": [
+    "候选称“stuffed eggplants（酿茄子）”，但图中为松散米饭与肉粒混合的盘中食物，无茄子及填馅形态",
+    "候选称“chopped green onion on top”，图中绿色碎块更接近青椒丁，未见明显葱花铺面"
+  ],
+  "unverifiable_from_image": [
+    "“minced meat（肉末）”的细小绞碎形态无法从图中成块肉粒确认"
+  ],
+  "visible_but_omitted": [
+    "米饭颗粒（棕色混合饭的主体）未提及",
+    "可见的洋葱块（半透明白色小丁）未提及",
+    "可见的青椒/绿色蔬菜块被误称为green onion"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "eggplants（茄子）",
+    "chopped green onion（葱花）"
+  ]
+}

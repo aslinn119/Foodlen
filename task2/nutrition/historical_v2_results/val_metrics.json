@@ -1,0 +1,102 @@
+{
+  "modelA_cnn_gru": {
+    "brevity_penalty": 1.0,
+    "bleu_1": 0.7474333241881218,
+    "bleu_2": 0.6468281061607519,
+    "bleu_3": 0.5681841432225064,
+    "bleu_4": 0.606583489968416,
+    "rouge_l": 0.7742171935311107,
+    "cider_d": 7.895725627580527,
+    "micro_p": 0.23376623376623376,
+    "micro_r": 0.20258863252673046,
+    "micro_f1": 0.21706361169731686,
+    "macro_f1": 0.08610118292042593,
+    "macro_class_scope": "union_of_predicted_and_reference_names",
+    "macro_class_count": 106,
+    "sample_p": 0.25832470669427193,
+    "sample_r": 0.2452808798823292,
+    "sample_f1": 0.2397200074287614,
+    "numeric": {
+      "total_weight_g": {
+        "mse": 17977.826677438727,
+        "mae": 90.53830847621528,
+        "rmse": 134.0814180915414
+      },
+      "total_calories_kcal": {
+        "mse": 36849.8039881204,
+        "mae": 136.58920874606895,
+        "rmse": 191.96302765928758
+      },
+      "protein_g": {
+        "mse": 409.1707806748477,
+        "mae": 13.972670084262116,
+        "rmse": 20.227970255931456
+      },
+      "fat_g": {
+        "mse": 164.60071070910334,
+        "mae": 8.95114119586913,
+        "rmse": 12.829680849853723
+      },
+      "carbohydrate_g": {
+        "mse": 204.23908647666062,
+        "mae": 10.51047253319448,
+        "rmse": 14.291224107005691
+      },
+      "mean_metric_warning": "Legacy mixed-unit aggregates; not g or kcal. Use per-field metrics.",
+      "mean_mse": 11121.128248683946,
+      "mean_mae": 52.11236020712199,
+      "mean_rmse": 105.45676009001959,
+      "normalized_mae_over_train_std": 0.5940160261467555
+    }
+  },
+  "modelB_clip_lora": {
+    "brevity_penalty": 1.0,
+    "bleu_1": 0.61459826012389,
+    "bleu_2": 0.5382199902508701,
+    "bleu_3": 0.4806205082062438,
+    "bleu_4": 0.5096647126435808,
+    "rouge_l": 0.7250542960613764,
+    "cider_d": 6.702430118300774,
+    "micro_p": 0.32665589660743133,
+    "micro_r": 0.5689364096792346,
+    "micro_f1": 0.4150246305418719,
+    "macro_f1": 0.26508141575677047,
+    "macro_class_scope": "union_of_predicted_and_reference_names",
+    "macro_class_count": 123,
+    "sample_p": 0.4177512972802829,
+    "sample_r": 0.6227857421698002,
+    "sample_f1": 0.4693490500156851,
+    "numeric": {
+      "total_weight_g": {
+        "mse": 6242.578961352656,
+        "mae": 50.89975845410628,
+        "rmse": 79.00999279428302
+      },
+      "total_calories_kcal": {
+        "mse": 14920.059057971017,
+        "mae": 82.13985507246377,
+        "rmse": 122.14769362526259
+      },
+      "protein_g": {
+        "mse": 143.47990338164252,
+        "mae": 7.705314009661835,
+        "rmse": 11.978309704697175
+      },
+      "fat_g": {
+        "mse": 64.22615942028985,
+        "mae": 5.441304347826087,
+        "rmse": 8.014122498457947
+      },
+      "carbohydrate_g": {
+        "mse": 115.59992753623187,
+        "mae": 6.610386473429951,
+        "rmse": 10.751740674710858
+      },
+      "mean_metric_warning": "Legacy mixed-unit aggregates; not g or kcal. Use per-field metrics.",
+      "mean_mse": 4297.188801932367,
+      "mean_mae": 30.559323671497587,
+      "mean_rmse": 65.55294655415855,
+      "normalized_mae_over_train_std": 0.3493309454381077
+    }
+  }
+}

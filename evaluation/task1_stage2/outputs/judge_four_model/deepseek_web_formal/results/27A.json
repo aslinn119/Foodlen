@@ -1,0 +1,30 @@
+{
+  "candidate_id": "27A",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面是深蓝色炒锅（内放木勺）置于竹编垫上，候选称之“a bowl”，容器与摆放不符，锅、木勺、垫子等可见场景均未描述。",
+    "food_identification": "图中为锅中翻炒的细长肉丝配浅色细丝、葱段和红辣椒，属中式炒菜；候选说成日式 butadon 盖饭，主菜类别错误，仅 pork 与肉丝勉强对应。",
+    "detail_accuracy": "除反复出现的 sliced pork 外未提任何配料：浅色姜丝/笋丝、绿色葱段、红色辣椒碎、油亮酱汁均缺失；且肉呈细长丝条，用 sliced 描述不够准确。",
+    "language_quality": "“sliced pork”连续重复三次、“bowl”出现两次，句式单一冗余，读来生硬。"
+  },
+  "explicit_conflicts": [
+    "称其为“a bowl”（碗）：图中明确是带长柄的深蓝色炒锅/煎锅，里面放着木勺，并非碗。",
+    "称其为 butadon（日式猪肉盖饭）：画面是炒锅中翻炒的肉丝炒菜，既无米饭也无盖饭形态。"
+  ],
+  "unverifiable_from_image": [
+    "肉的具体种类（猪肉或牛肉）无法从图中确认，参考描述倾向牛肉。",
+    "butadon 所指的日式酱汁调味无法从图中确认。"
+  ],
+  "visible_but_omitted": [
+    "大量浅色细丝（姜丝或竹笋丝）",
+    "绿色葱段/蒜苗",
+    "红色辣椒碎",
+    "深蓝色炒锅与木勺",
+    "底部竹编垫与浅色桌面",
+    "油亮的酱汁与反光"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

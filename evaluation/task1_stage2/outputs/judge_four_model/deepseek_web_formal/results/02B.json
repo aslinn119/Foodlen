@@ -1,0 +1,29 @@
+{
+  "candidate_id": "02B",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "3 - 画面为浅色盘面上摆放的金棕色炸物、右下角一只白色小碗，与候选“一盘炸物+小碗蘸酱”的摆放大体一致；但图中是四枚圆形炸球且一枚被剖开，候选写成条状chicken fingers，主体形态与画面不符。",
+    "food_identification": "1 - 主要食物类别错误：图中清楚可见圆形炸饭团（arancini），剖开一枚露出黄色米饭与融化的白色奶酪，候选却识别为鸡柳（chicken fingers），主体类别完全不符。",
+    "detail_accuracy": "2 - “golden”“crispy surface”与金黄酥脆外壳基本相符；但把炸饭团当作鸡柳、把红色番茄酱误作salad dressing，并遗漏米饭、融化奶酪、绿色香草等明显可见细节，属多处错误。",
+    "language_quality": "5 - 句子通顺自然、简洁清晰，无重复或用词冗余。"
+  },
+  "explicit_conflicts": [
+    "将四枚圆形炸球描述为条状的“chicken fingers”，与图中圆球外形以及剖开后可见的米饭+融化奶酪馅明显冲突",
+    "称小碗中为“salad dressing”，但图中碗内为鲜红色浓稠的番茄酱（ketchup），描述与画面明显冲突"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "剖开炸球内可见的黄色米饭粒",
+    "融化的白色马苏里拉奶酪",
+    "炸物外壳与馅料中的绿色香草碎",
+    "四枚炸球的圆球状形态以及其中一枚被剖开的状态",
+    "小碗中红色番茄酱的可见颜色与浓稠质地"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chicken（鸡肉）：图中炸物为米饭与奶酪馅的炸饭团，切开处未见鸡肉",
+    "salad dressing（沙拉酱）：碗中为红色番茄酱，未见沙拉酱"
+  ]
+}

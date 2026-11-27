@@ -1,0 +1,29 @@
+{
+  "candidate_id": "26A",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "摆放方向大体正确（碗中咖喱、顶部有香草），但完全没有交代带双耳的金属小碗、桌布与布巾背景，整体画面信息明显遗漏",
+    "food_identification": "把主体写成 mutton korma；图中主体是橙红色咖喱，可见鸡块状食材与花菜、胡萝卜，主料与菜式都对不上",
+    "detail_accuracy": "顶部绿色香草是香菜/coriander 而非 parsley，且只是一小撮点缀而非 a lot of，同时漏掉花菜、胡萝卜和酱汁颜色",
+    "language_quality": "with a lot of mutton korma 整段重复一次，句子冗余拗口，虽可理解但流畅度差"
+  },
+  "explicit_conflicts": [
+    "顶部绿色香草写作 parsley（欧芹）；图中香草是香菜/coriander 的羽状叶形态",
+    "称顶部有 a lot of（大量）香草；图中仅为少量点缀，用量明显夸大"
+  ],
+  "unverifiable_from_image": [
+    "korma 这一具体咖喱做法/菜名无法仅凭图像确认，只能看出是橙红色咖喱类菜肴"
+  ],
+  "visible_but_omitted": [
+    "白色花菜块明显可见却未提及",
+    "橙色胡萝卜块明显可见却未提及",
+    "橙红色咖喱酱汁未提及",
+    "带双耳的铜/金色小碗未提及"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mutton（羊肉）：图中未见羊肉，可见的是浅色鸡块状食材和花菜，疑似添加了画面中不存在的主料"
+  ]
+}

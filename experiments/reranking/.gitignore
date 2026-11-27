@@ -1,0 +1,6 @@
+__pycache__/
+local_cache/
+model_cache/
+reproduction/
+weights/
+assets/images/

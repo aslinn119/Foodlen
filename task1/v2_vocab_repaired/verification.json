@@ -1,0 +1,17 @@
+{
+  "val": {
+    "count": 1967,
+    "exact_id_coverage": true
+  },
+  "test": {
+    "count": 4938,
+    "exact_id_coverage": true
+  },
+  "cpu_single_image": {
+    "caption": "a plate of aebleflaesk with a lot of beef and onions on top of the rice",
+    "model_id": "v2_vocab_repaired_20261118",
+    "epoch": 24
+  },
+  "best_epoch_matches_history": true,
+  "weight_hash_valid": true
+}

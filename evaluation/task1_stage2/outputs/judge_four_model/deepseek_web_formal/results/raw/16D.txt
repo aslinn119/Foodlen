@@ -1,0 +1,32 @@
+{
+  "candidate_id": "16D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面是蓝白花纹盘盛装的深褐色米饭类菜肴，并非黄色的派，整体摆放描述完全不符",
+    "food_identification": "主体食物类别判为苹果派，与实际的米饭拌肉菜完全错误",
+    "detail_accuracy": "酥脆派皮、含糖奶油馅均不存在，配料与外观描述全错",
+    "language_quality": "句子通顺，但super crispy等口语化表达略欠正式"
+  },
+  "explicit_conflicts": [
+    "yellow apple pie：图中无任何派类食物，只有一盘深褐色米饭拌料",
+    "super crispy crust：图中看不到派皮或类似的酥脆外壳",
+    "filling of sugary cream on the top：图中没有奶油馅料或甜味酱料"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "丁状米饭为主体的深褐色菜肴",
+    "褐色碎肉/内脏类肉粒",
+    "洋葱丁",
+    "青椒丁",
+    "点缀其间的浅色块状蔬菜",
+    "带蓝色花纹的白盘"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "apple",
+    "pie crust",
+    "sugary cream"
+  ]
+}

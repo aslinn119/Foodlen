@@ -1,0 +1,25 @@
+{
+  "candidate_id": "17B",
+  "visual_consistency": 4,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "4：白色汤碗、汤面场景与画面基本相符，但把面写成黄色与整体观感有偏差",
+    "food_identification": "3：识别出汤面、肉末，但漏掉图中最显眼的四颗黄色炸丸，主要食材覆盖不全",
+    "detail_accuracy": "2：一面称yellow noodles一面称white flat noodles自相矛盾，臆出shredded pork，且漏豆芽与丸子",
+    "language_quality": "3：句子可读但yellow noodles soup搭配生硬，pork重复出现显冗余"
+  },
+  "explicit_conflicts": [
+    "称面条为yellow noodles，但图中面条为白色宽扁面，仅汤色偏黄"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "四颗黄色炸丸（虾丸/鱼丸）",
+    "豆芽",
+    "筷子、汤勺、粉白条纹布与辣椒酱小碟"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "shredded pork（图中白色细条更像豆芽，未见肉丝）"
+  ]
+}

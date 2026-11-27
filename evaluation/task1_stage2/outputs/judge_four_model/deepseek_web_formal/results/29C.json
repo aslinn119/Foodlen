@@ -1,0 +1,28 @@
+{
+  "candidate_id": "29C",
+  "visual_consistency": 2,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "左侧一堆裹面包糠的炸鸡、右侧一只蘸酱小碗的大布局大致相符，但画面只有一个酱汁碗，候选却写成两碗酱",
+    "food_identification": "把裹粉油炸的鸡肉识别为fried chicken基本正确，只是与参考的chicken nuggets在块状/条状上有轻微出入",
+    "detail_accuracy": "图中酱汁为黄橙色（更接近芒果沙沙），候选却写成tomato sauce和ketchup两种红色酱，且碗的数量多写了一个，配料与外观错误明显",
+    "language_quality": "with a super crispy crust整句重复出现两次，句子冗长且明显重复，流畅度受损"
+  },
+  "explicit_conflicts": [
+    "a small bowl of tomato sauce and a small bowl of ketchup on the side：图中只有右侧一只透明小碗，酱汁为黄橙色，没有红色番茄酱或番茄沙司，也没有第二只酱汁碗"
+  ],
+  "unverifiable_from_image": [
+    "炸鸡具体是鸡条(fingers)还是鸡块的切割形态，从图中裹粉表面无法确认"
+  ],
+  "visible_but_omitted": [
+    "右侧唯一的小玻璃碗中黄橙色酱汁（参考所称芒果沙沙salsa）的颜色与内容未描述",
+    "炸鸡表面粗糙的面包糠颗粒质感只用一个crispy带过，未作具体描述"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "tomato sauce",
+    "ketchup",
+    "第二只小碗（a small bowl of ketchup）"
+  ]
+}

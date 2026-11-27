@@ -1,0 +1,26 @@
+{
+  "candidate_id": "08B",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "单件棕色食物的特写构图大致相符，但把多个酿蘑菇当成单一牛排，整体呈现不符。",
+    "food_identification": "主体类别错误：图中是深色蘑菇帽内填肉末、顶部覆盖融化奶酪的酿蘑菇，不是菲力牛排。",
+    "detail_accuracy": "称表面crispy与图中湿润的融化奶酪和酱汁不符；绿色碎屑更像香草或菠菜而非葱花；未提肉馅与奶酪。",
+    "language_quality": "句子基本可读，但“with a crispy surface”连续重复两次，明显不顺。"
+  },
+  "explicit_conflicts": [
+    "将主体描述为 filet mignon（牛排），与图中的酿蘑菇明显冲突",
+    "描述为 crispy surface，但图中表面覆盖融化奶酪与湿润酱汁，不呈脆感"
+  ],
+  "unverifiable_from_image": [
+    "chopped green onions 无法确认：图中仅见少量绿色碎屑，更像香草或菠菜，且并非明显撒在顶部"
+  ],
+  "visible_but_omitted": [
+    "深色大蘑菇帽（酿蘑菇主体）",
+    "内部的肉末/肉馅填充",
+    "顶部厚厚的融化奶酪层"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

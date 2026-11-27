@@ -1,0 +1,19 @@
+{
+  "version": "20261119-v3",
+  "files": {
+    "model_caption.py": "82fd3658d06f47883a274018beba7c05c5fd7ab37e25f171c2bc633943ae7157",
+    "constrained_caption.py": "1ce440b41625b5bd665292416b333973c3456bf041fcb2063c5e0f40a5b14b16",
+    "predict.py": "5ad2168121d3f438da23b6b8ba7d29fa14375cc8bdc587fd5eb70a16b8996af5",
+    "predict_final.py": "2aaa2cc6b6b909d3396701f38ba344cc73972bd7bfe4f472560effdf2659c632",
+    "eval_models.py": "5e1d25d08e72482dadde09ccf3bf12d176d7c54e45aca800265a97d8d3579b1c",
+    "eval_task2_final.py": "8b764d039dd3f71bf670144e4646e88ba0f5a6c07e1599e646f5a7f60490f56c",
+    "metrics.py": "d922b159cf3da916d947bf62dd29bbfd7be390188bf6019e28b319a939d89391",
+    "checkpoints_caption/best_model.pt": "7d86be49151a966e677194fbb50d69b2fc36846b36a87014e75693ce21a30dd1",
+    "checkpoints_lora_mt_normalized/best_model.pt": "2137f327e97f1e31f547ec689862f772f540914c2d5abe350c6dd1f48c4b6522",
+    "checkpoints_lora_mt_normalized/history.json": "3544083252627322435845061bafa09ac49edc2a91cc2ddc7ccdd25cef041209",
+    "ingredients.json": "871ab925bff55f672b12637b9db53a7484ed296c18f1a8ad9e4f2f4f3e09e953"
+  },
+  "selection": "25 epochs; minimum validation mean MAE/train standard deviation; no test selection",
+  "A_acceptance": "fixed schema correctness; validation F1 approximately unchanged; no claim of recognition gain",
+  "test_status": "previously inspected historical test; retrospective correction evaluation"
+}

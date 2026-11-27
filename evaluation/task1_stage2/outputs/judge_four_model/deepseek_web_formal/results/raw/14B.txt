@@ -1,0 +1,31 @@
+{
+  "candidate_id": "14B",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面确为盛在容器中的深棕色炖烧食物，整体'pot of brown stew'大致对应；但实际是堆叠的鸡块，容器更像金属大盘/大碗。",
+    "food_identification": "主要食物是带骨鸡肉块，候选写成豌豆炖牛肉，主料类别错误，仅'brown stew'部分吻合。",
+    "detail_accuracy": "豌豆、切片牛肉、青豆角均与画面不符，同时漏掉明显的葱段、姜蒜碎与浓稠酱汁等外观细节。",
+    "language_quality": "句子基本通顺可读，'stew peas'语序略生硬，但无重复累赘。"
+  },
+  "explicit_conflicts": [
+    "sliced beef：图中是带骨鸡肉块（可见骨骼与鸡皮），并非切片牛肉",
+    "green beans：画面中绿色配料是斜切的葱段/韭菜段，不是青豆角"
+  ],
+  "unverifiable_from_image": [
+    "peas：画面中无法确认有豌豆"
+  ],
+  "visible_but_omitted": [
+    "带骨鸡块",
+    "斜切葱段/青葱",
+    "姜蒜碎粒",
+    "深棕色浓稠酱汁"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "peas",
+    "sliced beef",
+    "green beans"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "candidate_id": "10A",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "图中是粉色肉片沿黑盘边缘环形平铺、表面浇满奶白酱汁、中央点缀蔬菜的冷盘摆法，候选写成整只酿辣椒式的 chiles en nogada，整体呈现与摆放明显不符",
+    "food_identification": "主体食物类别识别错误：图中实际是切片的粉色小牛肉冷盘（vitello tonnato），候选称其为 chiles en nogada（酿辣椒），主体完全错判",
+    "detail_accuracy": "只有“覆盖奶油状酱汁”与画面大致对应；所称石榴籽实为中央的樱桃番茄，且漏掉明显可见的刺山柑与芝麻菜，配料多处有误",
+    "language_quality": "句子结构基本通顺，但结尾“decorated with pomegranate seeds and pomegranate seeds”明显重复，读感受损"
+  },
+  "explicit_conflicts": [
+    "候选称主菜为 chiles en nogada（酿辣椒），图中实际是切片粉色肉配奶白色酱汁的冷盘",
+    "候选称以石榴籽装饰，图中并无石榴籽；中央红色圆球状食材为樱桃番茄",
+    "候选描述暗示以整只辣椒为主料，图中未见辣椒"
+  ],
+  "unverifiable_from_image": [
+    "酱汁是否为“核桃酱（walnut sauce）”无法从图中确认，仅能看出为奶白色浓稠酱汁"
+  ],
+  "visible_but_omitted": [
+    "沿黑盘边缘环形摆放的粉色肉片",
+    "中央的红色樱桃番茄",
+    "中央的绿色芝麻菜（arugula）",
+    "肉片与酱汁上散布的绿色刺山柑（capers）"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "pomegranate seeds（石榴籽）",
+    "walnut sauce 所暗示的核桃"
+  ]
+}

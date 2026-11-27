@@ -1,0 +1,25 @@
+{
+  "candidate_id": "06A",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 1,
+  "reasons": {
+    "visual_consistency": "只写了“几块…在表面上”，与图中木板上散放的几块面包大致不冲突，但没有交代环状大块与掰下小块的位置关系，整体画面信息极少。",
+    "food_identification": "主要食物类别被<UNK>占位符替代，完全未给出面包/餐包这一类别，主体无法辨认。",
+    "detail_accuracy": "没有任何配料或外观细节可核对，句子中配料位置全为<UNK>，无法判断准确性。",
+    "language_quality": "连续4个<UNK>占位符使句子基本不可读，除“a few pieces … on the surface”外没有有效描述。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "环状圆形面包/餐包整体",
+    "掰下并切开的小块面包及露出的白色内部组织",
+    "内部可见的暗红色果干颗粒",
+    "表面撒有白色粉末（面粉或糖粉）",
+    "木质砧板/木纹桌面",
+    "画面上方的黄褐色水果（桃或芒果）",
+    "Homemade水印"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

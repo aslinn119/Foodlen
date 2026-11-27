@@ -1,0 +1,31 @@
+{
+  "candidate_id": "05C",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "2：候选只写 a bowl（单数单碗），而图中清楚是两碗并排摆在深灰色台面上；白碗这一容器属性与画面相符，但数量与整体摆放明显不符。",
+    "food_identification": "2：画面可辨为红油辣汤细面加肉末浇头，属汤面类；但把菜品名定为越南 bún riêu（蟹/番茄汤粉），图中既无蟹肉也无番茄汤底特征，具体菜品识别错误。",
+    "detail_accuracy": "2：minced pork、红色辣汤、白碗等要素大体相符；但绿色配料只写 chopped green onion，图中绿色配料以香菜（coriander）叶为主，且香菜完全漏写，red chili paste 的酱状描述也与红油汤底不吻合。",
+    "language_quality": "4：表达通顺、无重复、无语法错误，只是名词罗列较为平淡。"
+  },
+  "explicit_conflicts": [
+    "数量：候选写 a bowl，图中清楚可见两碗并排的面。",
+    "绿色配料：候选仅写 chopped green onion，而图中绿色配料主体是香菜叶，非以葱花为主。"
+  ],
+  "unverifiable_from_image": [
+    "minced pork 的肉类种类（图中只能确认是肉末）。",
+    "rice noodles 的粉/面种类（图中只能确认是细白面条）。",
+    "red chili paste 的具体形态（画面更接近红油辣汤而非辣椒酱）。",
+    "bún riêu 这一菜品名是否成立（图中无法确认）。"
+  ],
+  "visible_but_omitted": [
+    "香菜/芫荽：两碗面上都有大量绿色香菜叶，候选完全未提。",
+    "第二碗面。",
+    "白碗碗沿的蓝色花纹。"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "red chili paste：图中呈现的是红油辣汤，未见明显的辣椒酱块状物。"
+  ]
+}

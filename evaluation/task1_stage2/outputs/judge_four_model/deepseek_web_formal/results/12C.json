@@ -1,0 +1,25 @@
+{
+  "candidate_id": "12C",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白色棱纹碗装厚绿色酱料置于深色台面，主体与摆放基本一致，仅“顶部一片欧芹叶”与画面不符。",
+    "food_identification": "主体为厚绿色泥状酱料，判为牛油果酱，主要食物类别准确。",
+    "detail_accuracy": "“thick”质地相符，但顶部整片欧芹叶与画面冲突，且碗旁明显可见的小葱与欧芹枝叶均未提及。",
+    "language_quality": "句子通顺无重复，仅“a piece of parsley leaf”略显生硬，宜作“a parsley leaf”。"
+  },
+  "explicit_conflicts": [
+    "描述称酱料顶部有“一片欧芹叶”，但实际可见的酱面仅为细小的深绿色香草碎与纹理，未见整片欧芹叶。"
+  ],
+  "unverifiable_from_image": [
+    "酱料原料是否为牛油果无法从外观完全确认，也可能是毛豆或青豆类绿色泥酱。"
+  ],
+  "visible_but_omitted": [
+    "碗左下方多根带白色葱白的新鲜小葱（青葱）",
+    "碗周围散落的平叶欧芹枝叶",
+    "盛装的白色棱纹小碗与深色台面背景"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

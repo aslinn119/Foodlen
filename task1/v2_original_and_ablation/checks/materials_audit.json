@@ -1,0 +1,23 @@
+{
+  "v1_source_present": true,
+  "raw_dataset_root": "D:\\foodlens_data\\Food500Cap",
+  "prepared_data_missing": [
+    "Food500Cap_ready\\vocab.json",
+    "Food500Cap_ready\\annotations\\train.jsonl",
+    "Food500Cap_ready\\annotations\\val.jsonl",
+    "Food500Cap_ready\\annotations\\test.jsonl"
+  ],
+  "v1_checkpoint_present": false,
+  "v1_sample_pairs": 4938,
+  "v1_bleu_recomputed_with_supplied_monitor": [
+    30.884894573107502,
+    15.262566260398518,
+    8.264484651959938,
+    4.570235670394419
+  ],
+  "limitations": [
+    "Baseline samples have no image identifiers; pairing with prepared data needs verification.",
+    "Source defaults are not evidence of the actual baseline run configuration.",
+    "V1 BLEU script is documented as a monitoring metric, not official COCO evaluation."
+  ]
+}

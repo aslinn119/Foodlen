@@ -1,0 +1,27 @@
+{
+  "candidate_id": "23D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "盘子与深褐色外观大体对得上，但图中食物为整齐排列的切片，酱汁分装在盘上三个圆形小格中，并无表面淋酱，整体摆放描述与画面明显不符。",
+    "food_identification": "把主体写成torta caprese（意大利巧克力杏仁蛋糕），而图中实际是一排切成薄片的卤味/肉片（带胶质与软骨纹理），主体类别完全错误。",
+    "detail_accuracy": "深褐色判断正确，但称食物表面淋有酱油与画面冲突，且完全遗漏三格蘸酱（深色酱、红油、带辣椒碎的浅色酱）与右侧绿叶点缀。",
+    "language_quality": "句子语法正确、表达简洁流畅，无重复累赘，仅内容失实，语言本身没有问题。"
+  },
+  "explicit_conflicts": [
+    "将主体描述为torta caprese蛋糕，与图中切片卤味/肉类的画面明确冲突",
+    "称食物表面淋有酱油，但图中食物表面无淋酱，酱汁盛放在盘子左上方三个圆形小格内"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "盘中三个圆形小格及其中三种不同的蘸酱（深色酱、红油、带辣椒碎的浅色酱）",
+    "切片沿对角线整齐叠排成一长列的摆盘方式",
+    "画面右侧的一片绿色叶子点缀"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "torta caprese所隐含的杏仁粉、巧克力蛋糕类食材在图中食物上无任何依据",
+    "把旁侧小格中的酱汁写成淋在食物表面的酱油"
+  ]
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "image_id": "val/Sauteed_mushrooms/Sauteed_mushrooms_00037.jpg",
+    "greedy": 0.1803276709776289,
+    "beam": 0.1803276709776289,
+    "beam_clip": 0.1803276709776289
+  },
+  {
+    "image_id": "val/Jiuniang/Jiuniang_00039.jpg",
+    "greedy": 0.12553362556093853,
+    "beam": 0.12538608501610282,
+    "beam_clip": 0.12538608501610282
+  },
+  {
+    "image_id": "val/Panzanella/Panzanella_00039.jpg",
+    "greedy": 0.07614674479476996,
+    "beam": 0.021886914222834106,
+    "beam_clip": 0.03487697382506655
+  },
+  {
+    "image_id": "val/Butter_pie/Butter_pie_00038.jpg",
+    "greedy": 0.6538782107113204,
+    "beam": 1.1086218498730205,
+    "beam_clip": 0.8821242718792992
+  },
+  {
+    "image_id": "val/Banana_pancakes/Banana_pancakes_00039.jpg",
+    "greedy": 0.5609083546565794,
+    "beam": 1.8490366979364257,
+    "beam_clip": 0.3256286896137829
+  },
+  {
+    "image_id": "val/Mango_pomelo_sago/Mango_pomelo_sago_00038.jpg",
+    "greedy": 0.005025751578365498,
+    "beam": 0.003708439699538,
+    "beam_clip": 0.0006506185885559959
+  },
+  {
+    "image_id": "val/Nachos/Nachos_00037.jpg",
+    "greedy": 0.003352706307862746,
+    "beam": 0.0010393052806304997,
+    "beam_clip": 0.0017348332718059548
+  },
+  {
+    "image_id": "val/Carrot_juice/Carrot_juice_00038.jpg",
+    "greedy": 1.0746450244835868,
+    "beam": 1.0746450244835868,
+    "beam_clip": 0.5538172443807996
+  },
+  {
+    "image_id": "val/Pork_ribs/Pork_ribs_00037.jpg",
+    "greedy": 0.012274874408129601,
+    "beam": 0.0077519704836955736,
+    "beam_clip": 0.06310604615490982
+  },
+  {
+    "image_id": "val/Caesar_salad/Caesar_salad_00037.jpg",
+    "greedy": 0.7936816600991423,
+    "beam": 0.9165725033909177,
+    "beam_clip": 0.641121578793278
+  },
+  {
+    "image_id": "val/Bean_pie/Bean_pie_00039.jpg",
+    "greedy": 0.0016217150618510162,
+    "beam": 0.0035151372790773816,
+    "beam_clip": 0.003134774052514424
+  },
+  {
+    "image_id": "val/Mousse/Mousse_00039.jpg",
+    "greedy": 0.33350703895068756,
+    "beam": 0.33350703895068756,
+    "beam_clip": 0.2645960925763747
+  },
+  {
+    "image_id": "val/Turnip_cake/Turnip_cake_00037.jpg",
+    "greedy": 0.0821506834291081,
+    "beam": 0.7362472729684105,
+    "beam_clip": 0.7362472729684105
+  },
+  {
+    "image_id": "val/Tiramisu/Tiramisu_00036.jpg",
+    "greedy": 0.07122087698992369,
+    "beam": 0.057014567724537696,
+    "beam_clip": 0.07122087698992369
+  },
+  {
+    "image_id": "val/Jambalaya/Jambalaya_00039.jpg",
+    "greedy": 0.3839785434422248,
+    "beam": 0.0765514671992657,
+    "beam_clip": 0.030334308889690173
+  },
+  {
+    "image_id": "val/Bibingka/Bibingka_00038.jpg",
+    "greedy": 0.48019021824981134,
+    "beam": 0.3031899834671923,
+    "beam_clip": 0.499484918313901
+  },
+  {
+    "image_id": "val/Tomato_soup/Tomato_soup_00038.jpg",
+    "greedy": 1.180359097012254,
+    "beam": 0.5692097966817298,
+    "beam_clip": 0.6730782263940127
+  },
+  {
+    "image_id": "val/Rice_and_peas/Rice_and_peas_00036.jpg",
+    "greedy": 0.6390103797680942,
+    "beam": 0.06973051495999708,
+    "beam_clip": 0.06973051495999708
+  },
+  {
+    "image_id": "val/Cabbage_soup/Cabbage_soup_00038.jpg",
+    "greedy": 0.04425675616940421,
+    "beam": 0.05138612963475965,
+    "beam_clip": 0.09101644580899179
+  },
+  {
+    "image_id": "val/Jambalaya/Jambalaya_00036.jpg",
+    "greedy": 0.042986336613949384,
+    "beam": 0.7346794273731867,
+    "beam_clip": 0.7287556799148773
+  },
+  {
+    "image_id": "val/Chicken_noodle_soup/Chicken_noodle_soup_00039.jpg",
+    "greedy": 0.03191177529788278,
+    "beam": 1.9929021040990054,
+    "beam_clip": 1.8488513512342846
+  },
+  {
+    "image_id": "val/Cherry_cake/Cherry_cake_00036.jpg",
+    "greedy": 0.1619370708089282,
+    "beam": 0.15759391465413924,
+    "beam_clip": 0.3677784175533702
+  },
+  {
+    "image_id": "val/Lebkuchen/Lebkuchen_00037.jpg",
+    "greedy": 0.0017518160414847967,
+    "beam": 0.0037351276879134584,
+    "beam_clip": 0.0005331607574131406
+  },
+  {
+    "image_id": "val/Profiterole/Profiterole_00038.jpg",
+    "greedy": 0.054847898960349195,
+    "beam": 0.8414464642545354,
+    "beam_clip": 0.8276727455587339
+  },
+  {
+    "image_id": "val/Sausage_roll/Sausage_roll_00038.jpg",
+    "greedy": 0.05612275285313424,
+    "beam": 0.046795616872372554,
+    "beam_clip": 0.046795616872372554
+  },
+  {
+    "image_id": "val/Curry_goat/Curry_goat_00036.jpg",
+    "greedy": 0.04698696857057375,
+    "beam": 0.23287405918883716,
+    "beam_clip": 0.04046439275561238
+  },
+  {
+    "image_id": "val/Aburaage/Aburaage_00039.jpg",
+    "greedy": 0.4832533309890202,
+    "beam": 0.28055611488806576,
+    "beam_clip": 0.28055611488806576
+  },
+  {
+    "image_id": "val/Cucumber_soup/Cucumber_soup_00038.jpg",
+    "greedy": 1.6471690607660752,
+    "beam": 2.6957564417101123,
+    "beam_clip": 2.7685481330995216
+  },
+  {
+    "image_id": "val/Dirty_Rice/Dirty_Rice_00038.jpg",
+    "greedy": 0.2176406949393435,
+    "beam": 0.5347584257804447,
+    "beam_clip": 1.167492333336774
+  },
+  {
+    "image_id": "val/Bugnes/Bugnes_00038.jpg",
+    "greedy": 0.004429166645309649,
+    "beam": 2.2646415746929616e-05,
+    "beam_clip": 0.0
+  },
+  {
+    "image_id": "val/AEbleflaesk/AEbleflaesk_00039.jpg",
+    "greedy": 0.43078210456304744,
+    "beam": 0.43078210456304744,
+    "beam_clip": 0.40968876878531046
+  },
+  {
+    "image_id": "val/Calamari/Calamari_00039.jpg",
+    "greedy": 0.49696448424687467,
+    "beam": 0.49696448424687467,
+    "beam_clip": 0.5596564583454402
+  },
+  {
+    "image_id": "val/Colcannon/Colcannon_00037.jpg",
+    "greedy": 1.711839959897406,
+    "beam": 0.9863834161594115,
+    "beam_clip": 0.8031958448756625
+  },
+  {
+    "image_id": "val/Princess_cake/Princess_cake_00038.jpg",
+    "greedy": 0.0030699316651059804,
+    "beam": 0.021837202807365248,
+    "beam_clip": 0.05803778082227356
+  },
+  {
+    "image_id": "val/Lo_mein/Lo_mein_00039.jpg",
+    "greedy": 0.0013648130113281857,
+    "beam": 0.0001863023471386084,
+    "beam_clip": 5.2590167274441006e-05
+  },
+  {
+    "image_id": "val/Crab_puff/Crab_puff_00038.jpg",
+    "greedy": 0.32327888925041487,
+    "beam": 0.5318355775762758,
+    "beam_clip": 0.4987468887227742
+  },
+  {
+    "image_id": "val/Mongolian_beef/Mongolian_beef_00037.jpg",
+    "greedy": 0.1772169107540495,
+    "beam": 0.6111317386956985,
+    "beam_clip": 0.19775247760857578
+  },
+  {
+    "image_id": "val/Lemon_tart/Lemon_tart_00038.jpg",
+    "greedy": 0.7994747760161681,
+    "beam": 0.05471592640672081,
+    "beam_clip": 0.7994747760161681
+  },
+  {
+    "image_id": "val/Rogan_josh/Rogan_josh_00036.jpg",
+    "greedy": 0.007710433049536206,
+    "beam": 0.17927468533354768,
+    "beam_clip": 0.37066259083991426
+  },
+  {
+    "image_id": "val/Mutton_korma/Mutton_korma_00037.jpg",
+    "greedy": 0.07758989611890939,
+    "beam": 0.11499108355171025,
+    "beam_clip": 0.1388236681726444
+  },
+  {
+    "image_id": "val/Samosa/Samosa_00038.jpg",
+    "greedy": 0.06317600775245948,
+    "beam": 0.2969437931598345,
+    "beam_clip": 0.1261358329729172
+  },
+  {
+    "image_id": "val/Crab_dip/Crab_dip_00036.jpg",
+    "greedy": 0.09870639624104849,
+    "beam": 0.08284642711180393,
+    "beam_clip": 0.08106091095838502
+  },
+  {
+    "image_id": "val/Butter_pie/Butter_pie_00036.jpg",
+    "greedy": 0.6842858733631296,
+    "beam": 1.0800541678917452,
+    "beam_clip": 2.3469261765518
+  },
+  {
+    "image_id": "val/Konnyaku/Konnyaku_00039.jpg",
+    "greedy": 4.271573473774044e-06,
+    "beam": 0.02547178110663624,
+    "beam_clip": 0.019560607667941668
+  },
+  {
+    "image_id": "val/Stuffed_tomatoes/Stuffed_tomatoes_00037.jpg",
+    "greedy": 0.23754184769567258,
+    "beam": 0.11794422320596198,
+    "beam_clip": 2.8062535507833033
+  },
+  {
+    "image_id": "val/Sliced_fish_soup/Sliced_fish_soup_00039.jpg",
+    "greedy": 0.08503705385025052,
+    "beam": 2.6080642246261152e-05,
+    "beam_clip": 2.6452343518920442e-05
+  },
+  {
+    "image_id": "val/Tacos/Tacos_00037.jpg",
+    "greedy": 0.04949649400777942,
+    "beam": 0.045744818113254315,
+    "beam_clip": 0.03717563955419875
+  },
+  {
+    "image_id": "val/Carrot_cake_cookie/Carrot_cake_cookie_00036.jpg",
+    "greedy": 0.06716540625384056,
+    "beam": 0.389857818957554,
+    "beam_clip": 0.3023195948536295
+  },
+  {
+    "image_id": "val/Strawberry_sundae/Strawberry_sundae_00037.jpg",
+    "greedy": 0.30753223137177443,
+    "beam": 0.23294065556722626,
+    "beam_clip": 0.32424913199140937
+  },
+  {
+    "image_id": "val/Steamed_rice/Steamed_rice_00037.jpg",
+    "greedy": 0.3343008146940981,
+    "beam": 0.9005626273368589,
+    "beam_clip": 0.7619642311998237
+  },
+  {
+    "image_id": "val/Apple_cobbler/Apple_cobbler_00036.jpg",
+    "greedy": 0.6242412989893845,
+    "beam": 0.003682531268665136,
+    "beam_clip": 0.003682531268665136
+  },
+  {
+    "image_id": "val/Ayam_goreng/Ayam_goreng_00038.jpg",
+    "greedy": 0.09903207860410951,
+    "beam": 2.0385395113306477,
+    "beam_clip": 2.0385395113306477
+  },
+  {
+    "image_id": "val/Crab_rangoon/Crab_rangoon_00036.jpg",
+    "greedy": 0.08226657486161967,
+    "beam": 0.07853897012322246,
+    "beam_clip": 0.07887753578420062
+  },
+  {
+    "image_id": "val/Carrot_soup/Carrot_soup_00036.jpg",
+    "greedy": 0.43477357211567585,
+    "beam": 0.26728027953345546,
+    "beam_clip": 0.2974851238715181
+  },
+  {
+    "image_id": "val/Cig_kofte/Cig_kofte_00036.jpg",
+    "greedy": 0.16106904357071733,
+    "beam": 0.09426944006923402,
+    "beam_clip": 0.057514768011973375
+  },
+  {
+    "image_id": "val/Green_papaya_salad/Green_papaya_salad_00037.jpg",
+    "greedy": 0.3831918098561771,
+    "beam": 0.209766188798958,
+    "beam_clip": 0.19490513593694497
+  },
+  {
+    "image_id": "val/Ham_and_cheese_sandwich/Ham_and_cheese_sandwich_00038.jpg",
+    "greedy": 0.1503176681640947,
+    "beam": 0.1503176681640947,
+    "beam_clip": 0.1503176681640947
+  },
+  {
+    "image_id": "val/Black_pepper_crab/Black_pepper_crab_00036.jpg",
+    "greedy": 0.03071188678675319,
+    "beam": 0.002113722801041957,
+    "beam_clip": 0.0012355966820059802
+  },
+  {
+    "image_id": "val/Prawn_soup/Prawn_soup_00038.jpg",
+    "greedy": 0.03964126008746685,
+    "beam": 0.15013960919569036,
+    "beam_clip": 0.15013960919569036
+  },
+  {
+    "image_id": "val/Rogan_josh/Rogan_josh_00038.jpg",
+    "greedy": 0.2101587054643041,
+    "beam": 0.026037772466469666,
+    "beam_clip": 0.03173947490414589
+  },
+  {
+    "image_id": "val/Seafood_pizza/Seafood_pizza_00037.jpg",
+    "greedy": 0.5566677512496715,
+    "beam": 0.28053766438268046,
+    "beam_clip": 0.5208617928610514
+  },
+  {
+    "image_id": "val/Goulash/Goulash_00037.jpg",
+    "greedy": 0.08458398906832104,
+    "beam": 0.09956898606784456,
+    "beam_clip": 0.09956898606784456
+  },
+  {
+    "image_id": "val/Peanut_butter_cookie/Peanut_butter_cookie_00039.jpg",
+    "greedy": 0.034614074641970784,
+    "beam": 0.034614074641970784,
+    "beam_clip": 0.004317936140054748
+  },
+  {
+    "image_id": "val/Cherry_pie/Cherry_pie_00038.jpg",
+    "greedy": 0.009171934174783508,
+    "beam": 0.0802128499803134,
+    "beam_clip": 0.0802128499803134
+  },
+  {
+    "image_id": "val/Pakora/Pakora_00039.jpg",
+    "greedy": 0.11697338036736668,
+    "beam": 0.2680333652262573,
+    "beam_clip": 0.034929612107071864
+  },
+  {
+    "image_id": "val/Huevos_rancheros/Huevos_rancheros_00036.jpg",
+    "greedy": 0.02184089682468542,
+    "beam": 0.08616614262485411,
+    "beam_clip": 0.08616614262485411
+  },
+  {
+    "image_id": "val/Succotash/Succotash_00039.jpg",
+    "greedy": 1.924840053904263,
+    "beam": 1.4360354859812117,
+    "beam_clip": 1.419808078468464
+  },
+  {
+    "image_id": "val/Pork_Knuckles_and_Ginger_Stew/Pork_Knuckles_and_Ginger_Stew_00038.jpg",
+    "greedy": 0.7535551958380043,
+    "beam": 1.3568524608669972,
+    "beam_clip": 1.3059696354629533
+  },
+  {
+    "image_id": "val/Sopa_de_Mandioca/Sopa_de_Mandioca_00038.jpg",
+    "greedy": 0.16246126890712367,
+    "beam": 0.46897029164547493,
+    "beam_clip": 0.9471228458017689
+  },
+  {
+    "image_id": "val/Beef_bun/Beef_bun_00037.jpg",
+    "greedy": 0.0016006996151758965,
+    "beam": 6.432289448361478e-05,
+    "beam_clip": 0.0014627078923624068
+  },
+  {
+    "image_id": "val/Fried_chicken/Fried_chicken_00038.jpg",
+    "greedy": 2.8639874330517983,
+    "beam": 0.7135165459692343,
+    "beam_clip": 0.6846913561652339
+  },
+  {
+    "image_id": "val/Sashimi/Sashimi_00038.jpg",
+    "greedy": 0.007097147313062844,
+    "beam": 0.014702347287451555,
+    "beam_clip": 0.011122203262468381
+  },
+  {
+    "image_id": "val/Unagi/Unagi_00038.jpg",
+    "greedy": 0.06531794453408961,
+    "beam": 0.05543269178226619,
+    "beam_clip": 0.05669543790466357
+  },
+  {
+    "image_id": "val/Doughnut/Doughnut_00036.jpg",
+    "greedy": 3.4893473503218867e-06,
+    "beam": 0.0029785023173167727,
+    "beam_clip": 0.0029785023173167727
+  },
+  {
+    "image_id": "val/Porchetta/Porchetta_00039.jpg",
+    "greedy": 0.007893601591410853,
+    "beam": 0.0019410649356248976,
+    "beam_clip": 0.0019410649356248976
+  },
+  {
+    "image_id": "val/Meatloaf/Meatloaf_00037.jpg",
+    "greedy": 0.14331468033060615,
+    "beam": 0.04452852544547048,
+    "beam_clip": 0.04452852544547048
+  },
+  {
+    "image_id": "val/Leek_soup/Leek_soup_00038.jpg",
+    "greedy": 0.4834350008805124,
+    "beam": 0.4736445661339018,
+    "beam_clip": 0.5106645225402311
+  },
+  {
+    "image_id": "val/Blackberry_pie/Blackberry_pie_00036.jpg",
+    "greedy": 0.004598911410047626,
+    "beam": 0.004083814490350166,
+    "beam_clip": 0.004083814490350166
+  },
+  {
+    "image_id": "val/Garlic_bread/Garlic_bread_00038.jpg",
+    "greedy": 0.6470781592349494,
+    "beam": 0.25672356090085413,
+    "beam_clip": 0.25672356090085413
+  },
+  {
+    "image_id": "val/Potato_salad/Potato_salad_00039.jpg",
+    "greedy": 0.1457602362067398,
+    "beam": 0.07090440907803307,
+    "beam_clip": 0.07189793722718728
+  },
+  {
+    "image_id": "val/Rack_of_lamb/Rack_of_lamb_00038.jpg",
+    "greedy": 0.5247023751605608,
+    "beam": 0.5890309667930775,
+    "beam_clip": 0.5890309667930775
+  },
+  {
+    "image_id": "val/Fuqi_feipian/Fuqi_feipian_00038.jpg",
+    "greedy": 1.1728593749593208e-06,
+    "beam": 0.012226941317402294,
+    "beam_clip": 0.0022621670791932173
+  },
+  {
+    "image_id": "val/Colcannon/Colcannon_00038.jpg",
+    "greedy": 0.47215624145670976,
+    "beam": 0.04848740758560825,
+    "beam_clip": 0.16953165148115884
+  },
+  {
+    "image_id": "val/Stuffed_mushrooms/Stuffed_mushrooms_00039.jpg",
+    "greedy": 0.7170273037686826,
+    "beam": 0.12198153367051984,
+    "beam_clip": 0.16748791834686982
+  },
+  {
+    "image_id": "val/Mutton_korma/Mutton_korma_00038.jpg",
+    "greedy": 0.41804411234703254,
+    "beam": 0.07108075556885507,
+    "beam_clip": 0.0057627374117417435
+  },
+  {
+    "image_id": "val/Spiced_beef/Spiced_beef_00036.jpg",
+    "greedy": 0.0023622904725244848,
+    "beam": 0.17934259956104134,
+    "beam_clip": 0.12963125986466462
+  },
+  {
+    "image_id": "val/Beef_chow_fun/Beef_chow_fun_00039.jpg",
+    "greedy": 0.7371932635533928,
+    "beam": 0.13849615605292756,
+    "beam_clip": 0.35615611566264294
+  },
+  {
+    "image_id": "val/Lemon_meringue_pie/Lemon_meringue_pie_00039.jpg",
+    "greedy": 0.0567094821063521,
+    "beam": 0.10289036726146905,
+    "beam_clip": 0.20905353389853537
+  },
+  {
+    "image_id": "val/Green_papaya_salad/Green_papaya_salad_00036.jpg",
+    "greedy": 0.017913212631173653,
+    "beam": 0.00470900355438418,
+    "beam_clip": 0.00470900355438418
+  },
+  {
+    "image_id": "val/Drunken_shrimp/Drunken_shrimp_00038.jpg",
+    "greedy": 0.054490313494159975,
+    "beam": 0.12359751896468163,
+    "beam_clip": 0.12359751896468163
+  },
+  {
+    "image_id": "val/Carrot_bread/Carrot_bread_00039.jpg",
+    "greedy": 0.07191972220026566,
+    "beam": 0.08104280514122172,
+    "beam_clip": 1.0351015595614435
+  },
+  {
+    "image_id": "val/Rogan_josh/Rogan_josh_00039.jpg",
+    "greedy": 0.028886228512133898,
+    "beam": 0.0058919312668244015,
+    "beam_clip": 0.002802605085130797
+  },
+  {
+    "image_id": "val/Strawberry_ice_cream/Strawberry_ice_cream_00037.jpg",
+    "greedy": 1.0887700912927198,
+    "beam": 1.395989793002403,
+    "beam_clip": 1.395989793002403
+  },
+  {
+    "image_id": "val/Cream_pie/Cream_pie_00036.jpg",
+    "greedy": 0.2811291289723424,
+    "beam": 0.1392523279564606,
+    "beam_clip": 0.14054396532030947
+  },
+  {
+    "image_id": "val/Denver_omelette/Denver_omelette_00036.jpg",
+    "greedy": 0.15892129510610686,
+    "beam": 0.06022019934574903,
+    "beam_clip": 0.06022019934574903
+  },
+  {
+    "image_id": "val/Applesauce_cake/Applesauce_cake_00038.jpg",
+    "greedy": 0.3719926391449677,
+    "beam": 0.3719926391449677,
+    "beam_clip": 0.3719926391449677
+  },
+  {
+    "image_id": "val/Bean_salad/Bean_salad_00038.jpg",
+    "greedy": 0.818181704396202,
+    "beam": 0.818181704396202,
+    "beam_clip": 0.6640609637776609
+  },
+  {
+    "image_id": "val/Bruschetta/Bruschetta_00036.jpg",
+    "greedy": 0.10597831165541043,
+    "beam": 0.3163748953945221,
+    "beam_clip": 0.31688526882292206
+  },
+  {
+    "image_id": "val/Michigan_hot_dog/Michigan_hot_dog_00037.jpg",
+    "greedy": 0.05283525778930934,
+    "beam": 1.0299486529495412,
+    "beam_clip": 1.0299486529495412
+  },
+  {
+    "image_id": "val/Spinach_soup/Spinach_soup_00039.jpg",
+    "greedy": 0.47222833129068786,
+    "beam": 0.3777983680422204,
+    "beam_clip": 0.0780102980788017
+  }
+]

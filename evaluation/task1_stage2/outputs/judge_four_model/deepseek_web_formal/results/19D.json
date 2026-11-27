@@ -1,0 +1,25 @@
+{
+  "candidate_id": "19D",
+  "visual_consistency": 3,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "黑色饭堆置于纯白背景/盘子上的整体画面基本相符，但漏掉占据画面两侧的虾与黑色贝类，且添加了画面中没有的柠檬片。",
+    "food_identification": "主体黑色墨汁饭（arros negre）识别正确，但图中主要可见的蛋白质是整虾与贻贝，而非候选所称的大量墨鱼。",
+    "detail_accuracy": "配料与外观多处不符：未提可见的虾、黑色贻贝壳和红椒丝，却声称盘边有柠檬片；墨鱼分量也无法从图中确认。",
+    "language_quality": "句子流畅、无重复，仅“black arros negre”语义上稍显冗余。"
+  },
+  "explicit_conflicts": [
+    "a few slices of lemon on the side：图中为纯白背景，盘边只见黑色贻贝壳，没有任何柠檬片或黄色物"
+  ],
+  "unverifiable_from_image": [
+    "a lot of cuttlefish：画面可见的是虾与贻贝，墨黑饭粒中无法确认是否存在墨鱼块"
+  ],
+  "visible_but_omitted": [
+    "多只橙粉色整虾",
+    "黑色贻贝/青口壳",
+    "红色甜椒丝"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

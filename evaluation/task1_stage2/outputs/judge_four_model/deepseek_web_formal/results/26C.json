@@ -1,0 +1,28 @@
+{
+  "candidate_id": "26C",
+  "visual_consistency": 3,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "The image does show a bowl of curry, but the topping is described wrongly and the bowl/handles are not mentioned.",
+    "food_identification": "Curry is the correct category, yet the meat is not clearly identifiable as goat and the dish reads as a mixed vegetable-and-meat curry.",
+    "detail_accuracy": "The garnish is misdescribed as chopped green onion, and clearly visible cauliflower and carrot are not mentioned.",
+    "language_quality": "Short and readable, though the wording 'curry goat' is slightly awkward."
+  },
+  "explicit_conflicts": [
+    "Candidate says there is a lot of chopped green onion on top, but the image shows only a few whole coriander leaf sprigs as garnish."
+  ],
+  "unverifiable_from_image": [
+    "Whether the meat is goat; the pieces are not clearly identifiable as goat meat."
+  ],
+  "visible_but_omitted": [
+    "Cauliflower florets",
+    "Carrot pieces",
+    "Yellow-brown curry gravy"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "goat",
+    "chopped green onion"
+  ]
+}

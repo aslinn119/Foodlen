@@ -1,0 +1,30 @@
+{
+  "val_A": {
+    "n": 414,
+    "oov_samples": 0,
+    "duplicate_samples": 237,
+    "weight_diff_gt5g": 355,
+    "regex_fallback_samples": 95
+  },
+  "val_B": {
+    "n": 414,
+    "oov_samples": 0,
+    "duplicate_samples": 0,
+    "weight_diff_gt5g": 8,
+    "regex_fallback_samples": 0
+  },
+  "test_A": {
+    "n": 506,
+    "oov_samples": 0,
+    "duplicate_samples": 221,
+    "weight_diff_gt5g": 392,
+    "regex_fallback_samples": 72
+  },
+  "test_B": {
+    "n": 506,
+    "oov_samples": 0,
+    "duplicate_samples": 0,
+    "weight_diff_gt5g": 20,
+    "regex_fallback_samples": 0
+  }
+}

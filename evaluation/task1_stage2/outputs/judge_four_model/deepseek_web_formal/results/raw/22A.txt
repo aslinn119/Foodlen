@@ -1,0 +1,24 @@
+{
+  "candidate_id": "22A",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "4分：盘子装多只酿蘑菇的摆放与画面一致，但未体现透明玻璃盘和整齐排列，属轻微遗漏而非冲突。",
+    "food_identification": "5分：准确识别为酿蘑菇（stuffed mushrooms），与画面主体完全吻合。",
+    "detail_accuracy": "3分：葱花点缀属实，但遗漏最醒目的金黄融化芝士；drizzle 修饰固体葱花欠准，mayo on the side 无对应。",
+    "language_quality": "4分：句子通顺易读，但 with a drizzle of ... and a drizzle of ... 结构重复。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "顶部金黄融化的芝士层",
+    "深褐色烤蘑菇帽",
+    "带刻面花纹的透明玻璃方盘",
+    "绿色桌布/餐巾背景"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mayo（蛋黄酱，画面中未见任何酱汁或蘸料）"
+  ]
+}

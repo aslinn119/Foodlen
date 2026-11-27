@@ -1,0 +1,38 @@
+[
+  {
+    "source": "${ORIGINAL_DELIVERY_ROOT}\\v1_cnn_gru",
+    "destination": "task1/v1_original"
+  },
+  {
+    "source": "${ORIGINAL_DELIVERY_ROOT}\\FoodLens_V3_Resume\\FoodLens_V3_Resume",
+    "destination": "task1/v3"
+  },
+  {
+    "source": "${ORIGINAL_DELIVERY_ROOT}\\FoodLens_V4_First_Version\\FoodLens_V4",
+    "destination": "task1/v4"
+  },
+  {
+    "source": "${ORIGINAL_DELIVERY_ROOT}\\Task1_李馨瑶_组长整合包\\FoodLens_Task1_李馨瑶",
+    "destination": "task1/v2_original_and_ablation"
+  },
+  {
+    "source": "${LOCAL_WORKSPACE}\\V2_完整交付_2026-11-21",
+    "destination": "task1/v2_vocab_repaired"
+  },
+  {
+    "source": "${LOCAL_WORKSPACE}\\刘杰营养挑战_修订交付_2026-11-23\\FoodLens",
+    "destination": "task2/nutrition"
+  },
+  {
+    "source": "${LOCAL_WORKSPACE}\\review_lxy_stage2\\FoodLens阶段2",
+    "destination": "evaluation/task1_stage2"
+  },
+  {
+    "source": "${LOCAL_WORKSPACE}\\Innovation1",
+    "destination": "experiments/reranking"
+  },
+  {
+    "source": "${LOCAL_WORKSPACE}\\V4_experiments",
+    "destination": "experiments/scst_pilot"
+  }
+]

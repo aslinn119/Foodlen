@@ -1,0 +1,15 @@
+{
+  "portable_checkpoint": "assembled full V4, identical source weights including frozen ImageNet ViT",
+  "portable_smoke_images": 3,
+  "greedy_and_all_beam_tokens_equal": true,
+  "clip_max_abs_difference": 0,
+  "offline_clip_load": true,
+  "candidate_images": 200,
+  "distinct_candidates_per_image": 4,
+  "alpha_endpoints_verified": true,
+  "entity_matcher_overlap_and_color_checks": true,
+  "unsigned_human_review_rejected": true,
+  "human_review_completed_at_initial_smoke": false,
+  "user_draft_confirmation_recorded": true,
+  "independent_blind_annotation": false
+}

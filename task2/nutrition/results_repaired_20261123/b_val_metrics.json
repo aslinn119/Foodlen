@@ -1,0 +1,75 @@
+{
+  "bleu_1": 0.6162797272387948,
+  "bleu_2": 0.5763212384357972,
+  "bleu_3": 0.5425111696015638,
+  "bleu_4": 0.5101248708837712,
+  "rouge_l": 0.7280995303378273,
+  "cider_d": 0.21603874840809115,
+  "text_protocol": "pycocoevalcap 1.2 scorers; fixed JSON lexical tokens, not PTB; one reference; CIDEr df=reference corpus",
+  "micro_p": 0.3202338421565443,
+  "micro_r": 0.5548677546426561,
+  "micro_f1": 0.4060955518945634,
+  "macro_f1": 0.20935848113374345,
+  "macro_class_scope": "fixed_ingredient_vocabulary",
+  "macro_class_count": 151,
+  "sample_p": 0.401889317740767,
+  "sample_r": 0.6138915901597062,
+  "sample_f1": 0.45638756796344176,
+  "numeric": {
+    "total_weight_g": {
+      "mae": 54.52318840579707,
+      "mse": 6823.981884057973,
+      "rmse": 82.6073960614785
+    },
+    "total_calories_kcal": {
+      "mae": 86.73526570048305,
+      "mse": 16098.982463768123,
+      "rmse": 126.88176568667431
+    },
+    "protein_g": {
+      "mae": 7.8541062801932435,
+      "mse": 146.48942028985505,
+      "rmse": 12.103281385221738
+    },
+    "fat_g": {
+      "mae": 5.443961352657011,
+      "mse": 66.08661835748788,
+      "rmse": 8.129367648070044
+    },
+    "carbohydrate_g": {
+      "mae": 6.587439613526565,
+      "mse": 119.16985507246375,
+      "rmse": 10.916494633006684
+    },
+    "mean_metric_warning": "Legacy mixed-unit aggregates; not g or kcal. Use per-field metrics.",
+    "mean_mse": 4650.942048309179,
+    "mean_mae": 32.2287922705314,
+    "mean_rmse": 68.19781556845629,
+    "normalized_mae": 0.3591909708808701
+  },
+  "ingredient_weight": {
+    "matched_count": 986,
+    "union_count": 3870,
+    "matched_mae_g": 34.65588235294118,
+    "union_mae_g": 30.235452196382358
+  },
+  "health": {
+    "n": 414,
+    "duplicate_samples": 0,
+    "weight_diff_gt_0_11g": 0
+  },
+  "previous_macro_f1": 0.2591240217311087,
+  "out_of_vocabulary_names": [
+    "pepperoni",
+    "pilaf",
+    "sandwiches",
+    "toast",
+    "tortilla"
+  ],
+  "revision": {
+    "source": "saved_predictions_rescored_not_new_inference",
+    "prediction_sha256": "a18f0db29119dda8a00cad7baa71766a2b457db7742074f54b5d550b9483ae7c",
+    "text_metrics": "inherited unchanged; not recomputed in this release",
+    "model_role": "main_model"
+  }
+}

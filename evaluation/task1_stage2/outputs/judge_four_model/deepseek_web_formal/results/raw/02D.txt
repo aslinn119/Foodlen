@@ -1,0 +1,28 @@
+{
+  "candidate_id": "02D",
+  "visual_consistency": 4,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面确为若干油炸圆球置于浅色平面上、右下角配一小碗红色酱汁，与“a plate of … with a small bowl of tomato sauce on the side”的整体构图和摆放基本吻合；但未体现切开露馅的呈现方式，故略减。",
+    "food_identification": "主体识别错误：图中切开后清楚可见米饭颗粒与融化拉丝的芝士夹心，以及绿色香草碎，应为意式炸饭团（arancini）；候选写为 chicken kiev（鸡肉基辅卷），主要食物类别与画面冲突。",
+    "detail_accuracy": "“golden crispy”“crispy crust”和金黄酥脆外壳、配小碗红色酱汁的描述与画面相符；但“chicken”属错误配料判断，且遗漏米饭、马苏里拉芝士、香草等明显可见细节，属多处错误。",
+    "language_quality": "句子通顺、可读，无语法错误或冗余堆砌；仅“crispy”在同一句内重复出现一次，属轻微问题。"
+  },
+  "explicit_conflicts": [
+    "将主体食物描述为 chicken kiev（鸡肉基辅卷），而图中切开的炸球内清楚可见米饭颗粒和融化的芝士夹心，并未见鸡肉"
+  ],
+  "unverifiable_from_image": [
+    "碗中红色酱汁具体是番茄酱、番茄沙司还是其他番茄类酱料，无法仅凭外观确认"
+  ],
+  "visible_but_omitted": [
+    "切开后清晰可见的米饭颗粒夹心",
+    "融化的马苏里拉芝士/拉丝夹心",
+    "夹心中的绿色香草碎（如欧芹）",
+    "画面中至少四颗炸球及其中两颗被切开展示的呈现方式"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chicken（鸡肉作为主体食材，图中未见任何鸡肉组织）"
+  ]
+}

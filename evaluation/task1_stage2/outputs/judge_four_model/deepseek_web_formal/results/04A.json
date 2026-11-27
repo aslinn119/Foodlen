@@ -1,0 +1,31 @@
+{
+  "candidate_id": "04A",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "描述为“a plate of”，但画面是透明玻璃碗/高脚杯盛装、堆叠成山的刨冰甜品，容器与整体摆放明显不符。",
+    "food_identification": "识别为 es campur（混合刨冰甜品）方向大体正确，但把主体成分写成腌小牛肉切片，与画面实际内容冲突，主要食物类别把握不准。",
+    "detail_accuracy": "黄色果片被误作 marinated veal，红豆无法确认，白色配料以 <UNK> 截断，且遗漏菠萝蜜、牛油果块、仙草冻黑块、罗勒籽、勺子等明显可见内容。",
+    "language_quality": "句式生硬（made of some slices of… with some…），句尾出现未还原的 <UNK> 占位符，表达流畅度受损。"
+  },
+  "explicit_conflicts": [
+    "候选称其为盘子（a plate of），实际甜品盛在透明玻璃碗/高脚杯中，可清晰看到圆形玻璃杯壁。",
+    "候选称主体为腌小牛肉切片（marinated veal），画面中并无肉类，黄橙色长条片是水果（菠萝蜜等）配料。"
+  ],
+  "unverifiable_from_image": [
+    "红豆（red beans）在画面中无法清楚辨认，底部粉红色颗粒状部分更像是粉红刨冰/糖浆。"
+  ],
+  "visible_but_omitted": [
+    "菠萝蜜黄色果片",
+    "牛油果绿色果块",
+    "黑色仙草冻方块",
+    "撒在顶部的罗勒籽",
+    "置于顶部的勺子",
+    "底部粉红色刨冰"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "marinated veal（腌小牛肉）"
+  ]
+}

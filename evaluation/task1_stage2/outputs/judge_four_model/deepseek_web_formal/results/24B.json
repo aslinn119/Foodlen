@@ -1,0 +1,28 @@
+{
+  "candidate_id": "24B",
+  "visual_consistency": 2,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面是白盘盛装的浓汁咖喱肉块，盘缘另放番茄厚片与淡色菜丝，并非碗装（bowl）且未见米饭。",
+    "food_identification": "主体为黄色咖喱汁中的大块炖肉（羊/山羊肉），类别大体对得上，但漏掉番茄与卷心菜，又叠加米饭、土豆等成分。",
+    "detail_accuracy": "“large pieces of mutton”与画面相符，但蒜片、咖喱粉、黄色土豆块、白米饭均无法在图中确认。",
+    "language_quality": "整句通顺、列举结构清晰，只有 mutton 重复出现显得略啰嗦。"
+  },
+  "explicit_conflicts": [
+    "容器描述为碗（bowl），但画面边缘可见白色盘沿，实为盘子"
+  ],
+  "unverifiable_from_image": [
+    "yellow curry powder（黄色咖喱粉）为调味料，成品画面无法确认"
+  ],
+  "visible_but_omitted": [
+    "红色的番茄切片（tomato slices）",
+    "淡色的卷心菜丝（shredded cabbage）"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "sliced garlic（蒜片）",
+    "yellow potato cubes（黄色土豆块）",
+    "white rice（白米饭）"
+  ]
+}

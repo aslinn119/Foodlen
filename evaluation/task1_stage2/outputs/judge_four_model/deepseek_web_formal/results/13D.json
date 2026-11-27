@@ -1,0 +1,27 @@
+{
+  "candidate_id": "13D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面有盘子盛放食物，但盘色与整体场景描述不符：盘为浅蓝绿色带叶纹，且未提木质桌面。",
+    "food_identification": "主体食物完全认错：图中是裹面包糠油炸的金黄色块状食物，非 dhokla。",
+    "detail_accuracy": "所提咖喱叶、葱花均看不到，且遗漏最关键的面包糠酥壳和盘沿花纹。",
+    "language_quality": "句子通顺、无重复，仅结尾 a white plate 稍显生硬。"
+  },
+  "explicit_conflicts": [
+    "描述为 white plate，但图中是浅蓝绿色带橄榄绿叶纹的陶瓷盘",
+    "描述主体为 dhokla，但图中是裹面包糠的油炸食物"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "金黄色面包糠裹层",
+    "盘沿蓝绿色叶片花纹",
+    "木质桌面背景"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "curry leaves",
+    "chopped green onion"
+  ]
+}

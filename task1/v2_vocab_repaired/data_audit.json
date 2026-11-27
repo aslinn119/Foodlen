@@ -1,0 +1,17 @@
+{
+  "train": {
+    "n": 17784,
+    "oov_tokens": 0,
+    "oov_sentences": 0
+  },
+  "val": {
+    "n": 1967,
+    "oov_tokens": 179,
+    "oov_sentences": 148
+  },
+  "test": {
+    "n": 4938,
+    "oov_tokens": 574,
+    "oov_sentences": 503
+  }
+}

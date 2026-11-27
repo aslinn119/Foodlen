@@ -1,0 +1,181 @@
+{
+  "split": "val",
+  "n": 414,
+  "seed": 7,
+  "folds": [
+    {
+      "n": 83,
+      "bgen_weight": 0.25,
+      "b": {
+        "mean_mae": 25.654698795180725,
+        "mean_mse": 2715.660602409639,
+        "field_mae": {
+          "total_weight_g": 42.87951807228916,
+          "total_calories_kcal": 68.92650602409635,
+          "protein_g": 6.393975903614457,
+          "fat_g": 5.118072289156627,
+          "carbohydrate_g": 4.955421686746988
+        }
+      },
+      "blend": {
+        "mean_mae": 24.843451719624433,
+        "mean_mse": 2556.629387449523,
+        "field_mae": {
+          "total_weight_g": 41.64938625331092,
+          "total_calories_kcal": 66.36437228812599,
+          "protein_g": 6.070790475846929,
+          "fat_g": 5.152759541158645,
+          "carbohydrate_g": 4.979950039679678
+        }
+      }
+    },
+    {
+      "n": 83,
+      "bgen_weight": 0.35,
+      "b": {
+        "mean_mae": 31.086987951807235,
+        "mean_mse": 4756.890963855422,
+        "field_mae": {
+          "total_weight_g": 59.060240963855414,
+          "total_calories_kcal": 75.4759036144578,
+          "protein_g": 6.27710843373494,
+          "fat_g": 6.016867469879516,
+          "carbohydrate_g": 8.604819277108431
+        }
+      },
+      "blend": {
+        "mean_mae": 31.70720453069764,
+        "mean_mse": 4840.271168208833,
+        "field_mae": {
+          "total_weight_g": 58.860513671452296,
+          "total_calories_kcal": 78.9969865089099,
+          "protein_g": 6.339196306182816,
+          "fat_g": 6.0308877425871135,
+          "carbohydrate_g": 8.308438424356105
+        }
+      }
+    },
+    {
+      "n": 83,
+      "bgen_weight": 0.2,
+      "b": {
+        "mean_mae": 34.06096385542168,
+        "mean_mse": 4857.725373493976,
+        "field_mae": {
+          "total_weight_g": 56.6722891566265,
+          "total_calories_kcal": 92.29156626506027,
+          "protein_g": 8.839759036144576,
+          "fat_g": 5.593975903614457,
+          "carbohydrate_g": 6.907228915662651
+        }
+      },
+      "blend": {
+        "mean_mae": 32.4366695455904,
+        "mean_mse": 4719.744883587883,
+        "field_mae": {
+          "total_weight_g": 53.96820184072476,
+          "total_calories_kcal": 87.29910457913776,
+          "protein_g": 8.734692920527277,
+          "fat_g": 5.40702691003535,
+          "carbohydrate_g": 6.7743214775268745
+        }
+      }
+    },
+    {
+      "n": 83,
+      "bgen_weight": 0.25,
+      "b": {
+        "mean_mae": 31.136867469879515,
+        "mean_mse": 4354.378891566265,
+        "field_mae": {
+          "total_weight_g": 43.66746987951807,
+          "total_calories_kcal": 90.94578313253017,
+          "protein_g": 8.86265060240964,
+          "fat_g": 6.074698795180721,
+          "carbohydrate_g": 6.133734939759036
+        }
+      },
+      "blend": {
+        "mean_mae": 30.556540344440208,
+        "mean_mse": 4313.592597347282,
+        "field_mae": {
+          "total_weight_g": 42.43495109608666,
+          "total_calories_kcal": 90.50912168777762,
+          "protein_g": 8.522281813309696,
+          "fat_g": 5.738204314263042,
+          "carbohydrate_g": 5.578142810764011
+        }
+      }
+    },
+    {
+      "n": 82,
+      "bgen_weight": 0.3,
+      "b": {
+        "mean_mae": 30.860731707317075,
+        "mean_mse": 4807.435731707318,
+        "field_mae": {
+          "total_weight_g": 52.23536585365853,
+          "total_calories_kcal": 83.0707317073171,
+          "protein_g": 8.158536585365855,
+          "fat_g": 4.390243902439026,
+          "carbohydrate_g": 6.4487804878048784
+        }
+      },
+      "blend": {
+        "mean_mae": 30.722744705710532,
+        "mean_mse": 4343.781759961683,
+        "field_mae": {
+          "total_weight_g": 54.157696697197935,
+          "total_calories_kcal": 80.81290878173967,
+          "protein_g": 8.105704948987043,
+          "fat_g": 4.5742054914561106,
+          "carbohydrate_g": 5.963207609171899
+        }
+      }
+    }
+  ],
+  "b": {
+    "mean_mae": 30.559323671497587,
+    "mean_mse": 4297.188801932367,
+    "field_mae": {
+      "total_weight_g": 50.89975845410625,
+      "total_calories_kcal": 82.13985507246372,
+      "protein_g": 7.705314009661838,
+      "fat_g": 5.441304347826092,
+      "carbohydrate_g": 6.610386473429949
+    }
+  },
+  "bgen": {
+    "mean_mae": 33.68776802502655,
+    "mean_mse": 5196.910836613423,
+    "field_mae": {
+      "total_weight_g": 57.04013298454851,
+      "total_calories_kcal": 89.17843092283339,
+      "protein_g": 8.669288338436997,
+      "fat_g": 6.138008041887241,
+      "carbohydrate_g": 7.4129798374265965
+    }
+  },
+  "cross_validation_blend": {
+    "mean_mae": 30.051705206564097,
+    "mean_mse": 4154.347491193527,
+    "field_mae": {
+      "total_weight_g": 50.204624436427316,
+      "total_calories_kcal": 80.79645913142659,
+      "protein_g": 7.553201960468295,
+      "fat_g": 5.382564653302089,
+      "carbohydrate_g": 6.321675851196162
+    }
+  },
+  "fixed_weight_0.25_full_validation": {
+    "mean_mae": 29.884048900129347,
+    "mean_mse": 4143.114643336832,
+    "field_mae": {
+      "total_weight_g": 49.92663952633032,
+      "total_calories_kcal": 80.2768801940632,
+      "protein_g": 7.532059328547878,
+      "fat_g": 5.348026772541868,
+      "carbohydrate_g": 6.336638679163416
+    }
+  }
+}

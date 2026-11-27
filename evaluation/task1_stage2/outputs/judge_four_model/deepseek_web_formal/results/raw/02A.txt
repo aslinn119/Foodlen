@@ -1,0 +1,30 @@
+{
+  "candidate_id": "02A",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面是浅色台面/盘上三颗金黄色油炸球（其中一颗掰开露出内馅），右下角配一碗红色酱汁；候选所说的金色酥炸、成盘摆放大体相符，但把红色番茄酱小碗写成“柠檬片”，并漏掉切面展示的摆盘，整体画面描述有偏差。",
+    "food_identification": "主体识别错误：候选称“炸鸡”，但图中是油炸饭团（arancini），切开的一颗内部为黄色米饭粒与融化的白色奶酪，并非鸡肉。",
+    "detail_accuracy": "外皮金黄、带面包糠脆壳的描述与图中外观相符，但“炸鸡”和“几片柠檬”均与画面不符（实为米饭奶酪馅与番茄酱小碗），且漏掉米饭、奶酪、绿色香草碎等明显细节，错误较多。",
+    "language_quality": "句子通顺、语法正确、用词自然；仅“golden crisp”与“crispy crust”略有重复，整体流畅。"
+  },
+  "explicit_conflicts": [
+    "候选把主体食物写成“fried chicken（炸鸡）”，与画面明确冲突：图中为油炸饭团，切开的一颗清晰可见黄色米饭粒和融化的白色奶酪，没有鸡肉。",
+    "候选写“a few pieces of lemon on the side”，但画面中没有任何柠檬片；右下角是一个盛红色番茄酱的小碗，该配菜描述与画面冲突。"
+  ],
+  "unverifiable_from_image": [
+    "“crispy/crisp”所指的实际入口酥脆口感无法由静态图片确认，画面只能证实外壳呈金黄色面包糠质感。"
+  ],
+  "visible_but_omitted": [
+    "切开饭团内可见的黄色米饭馅",
+    "内馅中融化的白色奶酪（参考为 mozzarella）",
+    "馅料中少量绿色香草碎（罗勒/欧芹类）",
+    "右下角盛红色番茄酱的小碗（参考为 a small bowl of ketchup）"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "柠檬（lemon）：被写成“on the side”的配菜，但画面完全看不到柠檬，疑似臆造。",
+    "鸡肉（chicken）：被当作主体食材，画面只见米饭与奶酪馅，疑似臆造。"
+  ]
+}

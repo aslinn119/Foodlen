@@ -1,0 +1,27 @@
+{
+  "candidate_id": "24C",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "3分：白盘盛装咖喱肉块的整体画面基本对应，但盘边很显眼的番茄片与卷心菜完全未提及，画面构成描述不完整。",
+    "food_identification": "4分：主体识别为厚汁炖煮/咖喱的肉块，与参考的咖喱山羊肉方向一致；但具体称为 mutton handi 略超出图像可判范围。",
+    "detail_accuracy": "2分：'chopped parsley' 图中不可见，酱汁实为棕橙色油润咖喱汁而非 creamy，且漏写番茄片与卷心菜，存在多处不符。",
+    "language_quality": "4分：句子整体通顺，但 'thick' 与 'mutton' 重复出现，表达略显啰嗦。"
+  },
+  "explicit_conflicts": [
+    "酱汁描述为 thick and creamy，但图中酱汁呈棕橙色、表面油润分层，未见奶油般的浅色浓稠质感"
+  ],
+  "unverifiable_from_image": [
+    "具体菜名 mutton handi 及其烹饪做法无法凭图像确认",
+    "肉究竟是羊肉还是山羊肉无法仅凭图像判定"
+  ],
+  "visible_but_omitted": [
+    "盘边的红色番茄片",
+    "盘边的浅色卷心菜/甘蓝叶片"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chopped parsley：图中未见任何绿色香草碎或点缀"
+  ]
+}

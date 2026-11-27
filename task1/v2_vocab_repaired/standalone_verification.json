@@ -1,0 +1,14 @@
+{
+  "inference": {
+    "exit_code": 0,
+    "stdout": "{'caption': 'a plate of aebleflaesk with a lot of beef and onions on top of the rice', 'model_id': 'v2_vocab_repaired_20261118', 'epoch': 24}\n",
+    "stderr": ""
+  },
+  "evaluation": {
+    "exit_code": 0,
+    "stdout": "PASS: both complete splits match recorded metrics\n",
+    "stderr": ""
+  },
+  "scope": "extracted ZIP, packaged default checkpoint, example and annotations; no original workspace inputs needed by these entrypoints; existing runtime reused, not blank-machine dependency installation",
+  "external_images_required_for_training": true
+}

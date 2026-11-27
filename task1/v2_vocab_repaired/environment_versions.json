@@ -1,0 +1,8 @@
+{
+  "torch": "2.5.1+cu124",
+  "torchvision": "0.20.1+cu124",
+  "numpy": "1.26.4",
+  "Pillow": "10.2.0",
+  "matplotlib": "3.11.0",
+  "pycocoevalcap": "1.2 (copied evaluation module)"
+}

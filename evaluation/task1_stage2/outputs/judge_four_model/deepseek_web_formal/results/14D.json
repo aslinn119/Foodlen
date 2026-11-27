@@ -1,0 +1,25 @@
+{
+  "candidate_id": "14D",
+  "visual_consistency": 4,
+  "food_identification": 3,
+  "detail_accuracy": 3,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面为深色容器中堆叠的鸡块，绿色葱花散布其上，锅与摆放基本相符",
+    "food_identification": "主体是鸡块无误，但称其为 chicken marsala 与图中中式焖烧鸡块的外观不符",
+    "detail_accuracy": "葱花准确，但未描述明显的深棕色浓稠焖汁，且 marsala 所隐含配料缺乏画面依据",
+    "language_quality": "句子可读，但 chopped spring onion 原样重复一次，表达冗余"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "鸡肉的具体部位（鸡腿或鸡胸等）",
+    "是否使用玛莎拉酒等特定调味酒"
+  ],
+  "visible_but_omitted": [
+    "深棕色油亮的浓稠焖汁/酱汁",
+    "葱花与蒜粒等配料混在鸡块间，不只在表面"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chicken marsala 名称隐含的蘑菇与玛莎拉酒"
+  ]
+}

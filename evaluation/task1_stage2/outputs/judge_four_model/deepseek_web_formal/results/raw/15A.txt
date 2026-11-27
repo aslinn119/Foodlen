@@ -1,0 +1,38 @@
+{
+  "candidate_id": "15A",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "The described scene does not match the photo: one noodle bowl plus two drinks, no rice bowl or sauce bowls.",
+    "food_identification": "The main subject is misidentified as butadon; the photo clearly shows curry mee, noodles in orange-red curry broth.",
+    "detail_accuracy": "Only 'a few slices of meat' loosely fits the pale sliced pieces; the white rice bowl and two sauce bowls are fabricated.",
+    "language_quality": "The text is a truncated fragment ending in 'on the', with 'a bowl of' repeated and no complete sentence."
+  },
+  "explicit_conflicts": [
+    "Main dish called butadon, but the image clearly shows a single bowl of curry mee with noodles in orange-red curry broth.",
+    "The claimed composition (butadon, a rice bowl and two small sauce bowls) conflicts with the visible one noodle bowl, a glass of milk tea and a coffee mug with latte art."
+  ],
+  "unverifiable_from_image": [
+    "Whether the pale sliced pieces are 'meat'; they read as sliced fish cake, so the material cannot be confirmed."
+  ],
+  "visible_but_omitted": [
+    "curry noodles and orange-red curry broth",
+    "fried tofu puffs",
+    "sliced fish cake",
+    "green beans (long beans)",
+    "bean sprouts",
+    "shredded chicken",
+    "mint leaf garnish",
+    "glass of milk tea on a saucer with a spoon",
+    "coffee with latte art in a brown mug on a black saucer",
+    "black chopsticks on the right"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "butadon",
+    "bowl of white rice",
+    "small bowl of white sauce",
+    "small bowl of red sauce"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "reference_file": "inputs\\val_annotations.jsonl",
+  "reference_sha256": "c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4",
+  "split": "val",
+  "reference_count": 1967,
+  "matching": "all file_name and reference text checked",
+  "tokenization": "lowercase + whitespace split; one reference per image",
+  "bleu_scale": "0–100",
+  "rouge_l_scale": "0–1",
+  "cider_d_scale": "x10",
+  "results": [
+    {
+      "model": "V3.2 layer4 greedy",
+      "n": 1967,
+      "bleu1_to_4": [
+        28.5034820203704,
+        13.514493756227013,
+        7.192826229197892,
+        3.817252942338873
+      ],
+      "rouge_l": 0.24197766316584213,
+      "cider_d": 0.2281140527974296,
+      "source": "inputs\\v3_2_val_predictions.jsonl",
+      "source_sha256": "7ae0d743fd86fb51bd4d8ec86f341f5e1818c990086abde1e12f1f37b7ae63ee"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "candidate_id": "15C",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "主碗、筷子与桌面基本对应，但画面只有一只盛面的碗，旁边是奶茶和咖啡，所谓小碗米粉与实际摆设不符。",
+    "food_identification": "实际是红橙色咖喱汤面（curry mee），配炸豆腐泡和鱼饼，并非越南 mi quang，菜品类别判错。",
+    "detail_accuracy": "漏掉炸豆腐泡、鱼饼片、长豆角、豆芽和薄荷叶等明显配料，却写出虾、米粉和小碗等未见内容。",
+    "language_quality": "结尾重复 a small bowl of rice noodles 并突然截断，句子不完整且明显冗余。"
+  },
+  "explicit_conflicts": [
+    "图中只有一只白色面碗，旁边的器皿是一杯奶茶和一个咖啡杯，没有一两个小碗米粉。",
+    "汤底为浓郁红橙色咖喱汤配炸豆腐泡、鱼饼，形态与 mi quang 明显不符。"
+  ],
+  "unverifiable_from_image": [
+    "黄色面条无法确认是否为 rice noodles",
+    "条状肉片难以确认是鸡肉还是猪肉"
+  ],
+  "visible_but_omitted": [
+    "炸豆腐泡（油豆腐）",
+    "白色鱼饼片",
+    "绿色长豆角",
+    "豆芽",
+    "薄荷叶点缀",
+    "左上角奶茶与右上角咖啡杯"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "shrimp"
+  ]
+}

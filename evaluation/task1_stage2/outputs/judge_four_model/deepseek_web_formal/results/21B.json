@@ -1,0 +1,28 @@
+{
+  "candidate_id": "21B",
+  "visual_consistency": 2,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面是竖直堆叠的多层三明治（可见五层以上浅棕色面包与夹馅），候选说成两片吐司加旁边一层面包，整体结构与摆放明显不符。",
+    "food_identification": "认出三明治这一主要食物类别正确，但完全没有提到图中最显眼的粉红色腌牛肉片，主体分类仅部分准确。",
+    "detail_accuracy": "面包片数明显错报，还多出图中不存在的“旁边一层面包”，并遗漏夹馅、酱料与固定用的金属签。",
+    "language_quality": "句子通顺、无重复，但 toast 与 bread 表述含混，'on the side' 指向不明。"
+  },
+  "explicit_conflicts": [
+    "two slices of toast：图中为多层堆叠，可见五层以上面包片",
+    "a layer of bread on the side：画面中并没有位于旁边或单独放置的一层面包"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "粉红色切片的腌牛肉/咸牛肉",
+    "夹层中带橙色碎粒的白色奶油状酱料/沙拉",
+    "浅色奶酪片",
+    "贯穿整座三明治的金属签",
+    "多层堆叠的面包结构与整体高度"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "a layer of bread on the side（图中不存在的额外面包层）"
+  ]
+}

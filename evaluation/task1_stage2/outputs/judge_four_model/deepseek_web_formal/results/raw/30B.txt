@@ -1,0 +1,23 @@
+{
+  "candidate_id": "30B",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 4,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "Round tart with crimped crust and central filling matches the photo, but the visible lattice strip pattern over the filling is not mentioned.",
+    "food_identification": "Correctly identifies the main item as a pineapple tart.",
+    "detail_accuracy": "Pineapple jam filling is visible in the center; 'crispy crust' is plausible but the crispness itself cannot be confirmed from the image.",
+    "language_quality": "Concise, fluent and free of repetition."
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "crispy crust (texture crispness not confirmable from a photo)"
+  ],
+  "visible_but_omitted": [
+    "four golden pastry strips crossing into a lattice pattern over the filling",
+    "orange-yellow pineapple jam filling in the center",
+    "scalloped crimped rim of the tart"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

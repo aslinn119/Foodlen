@@ -1,0 +1,27 @@
+{
+  "candidate_id": "30D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "图中是一个圆形花边挞/小派放在粉色盘子上，候选却说成一堆金黄褐色<UNK>且旁边有几朵白花，整体画面与摆放均不符。",
+    "food_identification": "主体是酥皮点心（挞/派），候选以一堆<UNK>指代，未识别出食物类别，属主体错误。",
+    "detail_accuracy": "候选未提到格纹酥皮条与橙黄色果酱馅心，反而加入图中不存在的白花，细节多处错误。",
+    "language_quality": "句子极短，勉强可读，但用<UNK>占位且用词含糊，流畅度较差。"
+  },
+  "explicit_conflicts": [
+    "候选称旁边有几朵白花，但图中未见任何白花",
+    "候选将画面主体描述为一堆金黄褐色<UNK>，而图中是一个圆形花边挞/小派"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "圆形波浪花边酥皮外壳",
+    "表面交叉的条状格纹酥皮",
+    "格纹间露出的橙黄色果酱状馅料",
+    "粉色盘底"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "白花"
+  ]
+}

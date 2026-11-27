@@ -1,0 +1,32 @@
+{
+  "candidate_id": "19B",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "图中是白盘上一堆深黑色米饭配海鲜，候选却描述一盘红色凉拌菜，整体画面与摆放完全不符。",
+    "food_identification": "主体食物判错：图中为墨鱼汁黑米饭加虾和贻贝，候选写成紫甘蓝沙拉。",
+    "detail_accuracy": "配料与外观多处错误：未见红卷心菜，红椒条、虾、贻贝、黑米全被替换为错误的卷心菜与葱花。",
+    "language_quality": "语句可读但严重重复，red cabbage 连用三次，red slaw 与 shredded red cabbage 语义叠床架屋。"
+  },
+  "explicit_conflicts": [
+    "描述为 red slaw（红色凉拌卷心菜），图中无任何凉拌卷心菜状食物",
+    "描述含 shredded red cabbage / red cabbage（紫甘蓝），图中未见卷心菜，主料是深色米粒",
+    "描述将整盘判定为红色沙拉，与图中白盘上的黑褐色海鲜饭明确冲突"
+  ],
+  "unverifiable_from_image": [
+    "green onions（葱花）在图中无法清楚确认，仅见零散绿色碎屑"
+  ],
+  "visible_but_omitted": [
+    "墨鱼汁黑米饭（arroz negro）这一主体明显可见却被遗漏",
+    "虾/明虾（shrimps）多只明显可见却被遗漏",
+    "带黑壳的贻贝（mussels）明显可见却被遗漏",
+    "顶部红色甜椒条（red pepper slices）明显可见却被遗漏"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "red cabbage（紫甘蓝）",
+    "red slaw（红色凉拌卷心菜）",
+    "shredded red cabbage（红卷心菜丝）"
+  ]
+}

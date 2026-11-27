@@ -1,0 +1,6 @@
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+
+0it [00:00, ?it/s]
+0it [00:00, ?it/s]
+There was a problem when trying to write in your cache folder (C:\Users\刘九尔\.cache\huggingface\hub). You should set the environment variable TRANSFORMERS_CACHE to a writable directory.
+PASS: both complete splits match recorded metrics

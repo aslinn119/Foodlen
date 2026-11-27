@@ -1,0 +1,5 @@
+﻿caption_model,images,at_least_one_shared,caption_has_vocab_match
+V1重训消融 greedy,30,3,21
+V2注意力 greedy,30,3,19
+V3.2 layer4 greedy,30,3,21
+V4 full greedy,30,5,24

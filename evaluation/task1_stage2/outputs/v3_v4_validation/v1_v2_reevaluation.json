@@ -1,0 +1,41 @@
+{
+  "reference_file": "inputs\\val_annotations.jsonl",
+  "reference_sha256": "c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4",
+  "split": "val",
+  "reference_count": 1967,
+  "matching": "all file_name and reference text checked",
+  "tokenization": "lowercase + whitespace split; one reference per image",
+  "bleu_scale": "0–100",
+  "rouge_l_scale": "0–1",
+  "cider_d_scale": "x10",
+  "results": [
+    {
+      "model": "V3 Transformer",
+      "n": 1967,
+      "bleu1_to_4": [
+        26.64718180834716,
+        12.183208726172369,
+        6.273014190841298,
+        3.1557811658492496
+      ],
+      "rouge_l": 0.23239424341073753,
+      "cider_d": 0.18191086896092445,
+      "source": "inputs\\v3_val_predictions.jsonl",
+      "source_sha256": "118ee44a399fcd3550593ef7240840d337d1c35a1e0a1ffb2a2e000cc82bcdc3"
+    },
+    {
+      "model": "V4 ViT-Transformer",
+      "n": 1967,
+      "bleu1_to_4": [
+        30.29842783610223,
+        15.27211379268213,
+        8.576680617896013,
+        4.879395884660437
+      ],
+      "rouge_l": 0.2548617211616973,
+      "cider_d": 0.3302343993242762,
+      "source": "inputs\\v4_val_predictions.jsonl",
+      "source_sha256": "cdb87961c114e3f29654ce068be47c82e81ce49883921d7bc8ee3c8601647168"
+    }
+  ]
+}

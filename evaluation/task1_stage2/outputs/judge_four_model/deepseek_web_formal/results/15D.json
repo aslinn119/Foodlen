@@ -1,0 +1,32 @@
+{
+  "candidate_id": "15D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "1：称盘子盛放、酱汁置于旁侧，与图中白色深碗里的汤面、旁置筷子及背景两杯饮品完全不符。",
+    "food_identification": "1：主体误判为番茄意面，实际是橙红咖喱汤底的汤面。",
+    "detail_accuracy": "1：酥炸豆腐泡、切片鱼饼、长豆角、肉丝与薄荷叶等可见配料全部遗漏，且臆造单置酱汁。",
+    "language_quality": "4：句子语法通顺、无重复，仅“a layer of tomato sauce on the side”略生硬。"
+  },
+  "explicit_conflicts": [
+    "称盛于“plate（盘子）”，图中食物装在白色深碗中，下垫白碟",
+    "称“pasta al pomodoro（番茄意面）”，图中为带橙红咖喱汤的面条汤品",
+    "称番茄酱“on the side（在旁）”，图中红色汤汁在碗内与面条同盛，并无单独置旁的酱汁"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "炸豆腐泡/油豆腐",
+    "切片鱼饼",
+    "长豆角",
+    "薄荷叶",
+    "肉丝与肉片",
+    "背景的奶茶与拉花咖啡",
+    "筷子与白色碗碟"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "pasta（意大利面）",
+    "单置的番茄酱层（tomato sauce on the side）"
+  ]
+}

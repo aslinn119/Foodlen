@@ -1,0 +1,27 @@
+{
+  "candidate_id": "25D",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "摆放环境写错：甜点是散放在金属网冷却架上，不是装在篮子里；只有\"整批摆放\"这一点大致吻合。",
+    "food_identification": "主体类别明显偏离：图中是泡芙/奶油小圆饼类甜点，却写成almond biscuits；但同属撒糖粉的烘焙甜点，仍能看出大致语境。",
+    "detail_accuracy": "仅\"表面撒糖粉\"与画面一致；多只点心上有明显溢出的白色奶油夹心却未提，且用\"饼干\"描述其形状质地与蓬松外壳不符。",
+    "language_quality": "句子通顺、无重复，仅\"sugar powder on the surface\"略显生硬，整体可读。"
+  },
+  "explicit_conflicts": [
+    "basket：点心摆在金属网冷却架上，画面中没有篮子",
+    "almond biscuits：图中是蓬松的泡芙类甜点而非饼干，也看不到杏仁"
+  ],
+  "unverifiable_from_image": [
+    "freshly baked（是否刚出炉）无法仅凭静态照片确认"
+  ],
+  "visible_but_omitted": [
+    "多只泡芙上明显溢出的白色奶油夹心",
+    "泡芙蓬松隆起、顶部开裂的酥皮外壳形态"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "almond"
+  ]
+}

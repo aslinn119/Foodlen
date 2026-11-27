@@ -1,0 +1,25 @@
+{
+  "candidate_id": "21D",
+  "visual_consistency": 4,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "识别为三明治特写，与图中多层面包夹馅的构图一致。",
+    "food_identification": "指出corned beef sandwich，主类别正确；面包仅泛称bread。",
+    "detail_accuracy": "除泛称面包外，其余配料均以<UNK>占位，细节几乎缺失。",
+    "language_quality": "短语残缺，多个<UNK>占位使句子不完整、欠流畅。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "<UNK>面包所指的具体面包种类无法确认",
+    "第二个<UNK> <UNK>所指的配料无法确认"
+  ],
+  "visible_but_omitted": [
+    "白色奶酪片",
+    "奶油状白色酱料/凉拌卷心菜丝",
+    "串住三明治的牙签/签子",
+    "多层堆叠的横截面层次"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

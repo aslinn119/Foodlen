@@ -1,0 +1,518 @@
+{
+  "checkpoint": "FoodLens_Task1_李馨瑶\\v2_attention\\runs\\v2\\best_v2.pt",
+  "variant": "attention",
+  "decode": "greedy",
+  "beam_size": null,
+  "split": "test",
+  "n": 100,
+  "bleu1_to_4": [
+    29.229132277966364,
+    12.688222452108112,
+    5.228815716989372,
+    2.0621842602735168
+  ],
+  "rouge_l": 0.2432547040966844,
+  "cider_d": 0.2362328100876194,
+  "predictions": [
+    {
+      "file_name": "test/Aligot/Aligot_00043.jpg",
+      "reference": "half a plate of creamy aligot with leaf veins on its surface and several pieces of grilled pork topped with barbecue sauce and dried basil leaves",
+      "hypothesis": "a plate of beef wellington with a piece of beef on top and a slice of bread on the side."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00046.jpg",
+      "reference": "two crispy thin deep-fried aburaage slices with a little whipped cream, black caviar and chopped shallot placing on a rope woven lattice on black platter",
+      "hypothesis": "some golden fried aubergine with a circle of black pepper and green parsley on the surface."
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00049.jpg",
+      "reference": "a piece of rye bread at he bottom, apple slices and onions in the middle and a slice of grilled aebleflaesk on the top",
+      "hypothesis": "a plate of juicy chicken marsala with a thick sauce and a fork on the side"
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00046.jpg",
+      "reference": "a white plate of delicate steamed abalones with a few cuts on the surface and shell underneath lying on a large piece of lettuce",
+      "hypothesis": "a plate of frozen steamed clams with green spices on the top"
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00048.jpg",
+      "reference": "a few slices of deep-fried golden aburaage used as a topping in noodles soups together with two pieces of pink radish and green chives",
+      "hypothesis": "a bowl of queso flameado with a drizzle of green sauce on the surface."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00044.jpg",
+      "reference": "one piece of golden braised abalone swimming in the light brown sauce with two freshly boiled asparagus and a lovely red cherry tomato",
+      "hypothesis": "a plate of coda alla vaccinara with a thick texture, with some chopped green onion and red peppers in a white bowl."
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00045.jpg",
+      "reference": "a white plate of aligot that is made from mashed potatoes, melted cheese, cream, crushed garlic and milk served with juicy soft steak",
+      "hypothesis": "a plate of tafelspitz with a layer of chocolate sauce and a few pieces of chocolate on the side."
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00045.jpg",
+      "reference": "two large brownish pieces of well grilled aebleflaesk belly with shiny surface cooked together with apples and onions and cumin on top",
+      "hypothesis": "a plate of aebleflaesk with a brown and crispy skin and a piece of pork knuckle with a piece of parsley on the side."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00040.jpg",
+      "reference": "two pieces of boiled abalone slices on sushi rice placed on the top of sue cotyledons in a shell of an abalone.",
+      "hypothesis": "a serving of white rice with a few slices of green lettuce on the surface."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00047.jpg",
+      "reference": "a white bowl of deep fried agedashi tofu wrapped in crumbs drizzled with chopped fragrant shallot and a little wood fish flower",
+      "hypothesis": "a plate of agedashi tofu with a thick and creamy texture, topped with some chopped green onions and a piece of lemon."
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00041.jpg",
+      "reference": "small chunks of apples and sliced onions placed on the top of fired aebleflaesk severed with some pieces of basil leaves.",
+      "hypothesis": "a plate of juicy beef with chopped green onion, and red pepper on top"
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00047.jpg",
+      "reference": "a plate of beautiful aebleflaesk mixed with fried pork slices, fried golden diced apples, rye bread cubes, chicory and rocket salad",
+      "hypothesis": "a plate of chicken kiev with a golden crispy exterior and a small piece of lemon on the side."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00048.jpg",
+      "reference": "a few pieces of juicy braised abalones dipped in the sauce on a white plate garnished with pink flower and parsley",
+      "hypothesis": "a plate of svickova with a piece of marinated beef and a few slices of lemon on the side."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00040.jpg",
+      "reference": "three chunks of light yellow agedashi tofu in tentsuyu dipping sauce topped with chopped green onions and dried bonito fish flakes.",
+      "hypothesis": "a plate of agedashi tofu with a thick texture and topped with some chopped green onion and a piece of lemon."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00044.jpg",
+      "reference": "some small pieces of pan-fried agedashi tofu are served with dried bonito fish flakes and small sue cotyledons in clear soup.",
+      "hypothesis": "a plate of golden brown agedashi tofu with a drizzle of sour cream and chopped green onions."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00045.jpg",
+      "reference": "a row of deep fried agedashi tofu cubes with crunchy golden surface and tender inside that will melt in your mouth",
+      "hypothesis": "a plate of golden agedashi tofu with a drizzle of soy sauce and a few slices of lemon on the side."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00049.jpg",
+      "reference": "two pieces of freshly baked round golden almond biscuits on the pink plate served with a mug of milk green tea",
+      "hypothesis": "a plate of yellow avocado sauce with a small piece of lemon on the side"
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00043.jpg",
+      "reference": "pieces of dry fried aebleflaesk together with some slices of apples and onions placed on the top of rye bread.",
+      "hypothesis": "a plate of aebleflaesk with some beef slices, some onion rings, some slices of beef and some chopped onion on the side."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00042.jpg",
+      "reference": "a cooked abalone covered with thick red sauce and served with two pieces of broccoli and a chunk of carrot.",
+      "hypothesis": "a plate of golden brown colored babi panggang with a drizzle of sauce on top"
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00047.jpg",
+      "reference": "a full bowl of creamy aligot together with a square plate of grilled sausages and a glass of red wine",
+      "hypothesis": "two slices of syrniki with a lot of white sauce on the surface, a plate of <UNK> a bowl of white sauce and a glass of water"
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00045.jpg",
+      "reference": "three pieces of braised abalones with tender texture and the sauce over them together with broccoli next to them",
+      "hypothesis": "a plate of svickova with a piece of marinated and a piece of lemon, a piece of lemon, a piece of lemon, a piece of lemon, a piece of lemon,"
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00049.jpg",
+      "reference": "a pile of lightly fried aburaage pieces with a soft texture on a white porcelain plate with blue edge",
+      "hypothesis": "a plate of poori with a golden surface and a small bowl of yellow sauce on the side."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00041.jpg",
+      "reference": "small chunks of tender agedashi tofu in soy sauce served with dried bonito fish flakes and chopped green onions.",
+      "hypothesis": "two bowls of rice with some chopped green onion and a small bowl of white sauce on the side."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00046.jpg",
+      "reference": "several pieces of deep fried agedashi tofu dipped in clear sauce fully covered by wood fish flower and mayonnaise",
+      "hypothesis": "a bowl of yellow cheese pudding with a drizzle of cheese and some chopped green onions on top."
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00040.jpg",
+      "reference": "half a plate of white and creamy aligot served with four slices of sausages and a piece of lettuce.",
+      "hypothesis": "a plate of steak tartare with raw beef and <UNK>"
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00046.jpg",
+      "reference": "a pan of aebleflaesk consist of baked juicy apple pieces and over baked pork slices dressed with thyme",
+      "hypothesis": "a plate of aebleflaesk with some grilled pork belly and apple slices on the surface."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00043.jpg",
+      "reference": "fried golden aburaage looked like french fries placed on a dark blue cloth in a woven straw bowl.",
+      "hypothesis": "a plate of golden aburaage with a crispy surface and a saucer of yellow sauce on the side."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00045.jpg",
+      "reference": "a white square plate full of deep-fried aburaage strips with brown surface and a pocket in the middle",
+      "hypothesis": "a plate of golden brown bread with a layer of white cream on the surface."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00041.jpg",
+      "reference": "round flat baked almond biscuits covered with grated coconut on the surface and chopped almonds on the center.",
+      "hypothesis": "some light yellow almond biscuits with a smooth surface and a scoop of white cream on the surface."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00047.jpg",
+      "reference": "a stack of round crunchy almond biscuits topped with white almond pieces together with a cup of coffee",
+      "hypothesis": "a plate of baked almond biscuits with a crispy texture, served with a bowl of white sauce on the side."
+    },
+    {
+      "file_name": "test/Aloo_gobi/Aloo_gobi_00042.jpg",
+      "reference": "reddish-yellow chunks of cauliflower and potatoes, peas, and chopped carrots mixed together and garnished with freshly sliced coriander.",
+      "hypothesis": "a plate of aloo gobi with diced potatoes, diced carrots, and chopped parsley."
+    },
+    {
+      "file_name": "test/Aloo_gobi/Aloo_gobi_00043.jpg",
+      "reference": "yellow chunks of cauliflower covered with mashed potatoes and topped with sliced red pepper and chopped green onions.",
+      "hypothesis": "a pot of golden yellow corn soup with green beans, red pepper, yellow corn kernels, and yellow <UNK>"
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00047.jpg",
+      "reference": "a thick slice of faint yellow aburaage that was soft and chewy on a white porcelain plate",
+      "hypothesis": "a single golden aburaage with a crispy surface and a piece of <UNK> on the surface."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00042.jpg",
+      "reference": "pan-fried agedashi tofu with a light brown surface topped with some chopped green onions in soy sauce.",
+      "hypothesis": "a plate of agedashi tofu with chopped green onion and soy sauce on top"
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00041.jpg",
+      "reference": "yellow elastic and smooth aligot served alongside a grilled sausage on a blue and white porcelain plate.",
+      "hypothesis": "a large <UNK> aligot with a whole <UNK> on a blue plate with a blue edge."
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00042.jpg",
+      "reference": "a small bowl of stirred aligot with four grilled sausages on a square plate placed beside it.",
+      "hypothesis": "two pieces of steak tartare with a glass of milk next to it"
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00046.jpg",
+      "reference": "a milk pan full of creamy aligot served alongside grilled sausage and a few roasted cherry tomatoes",
+      "hypothesis": "a large piece of apple strudel with a crispy surface and a small bowl of cream on the side."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00048.jpg",
+      "reference": "two and a half almond biscuits fully covered by almond pieces which had been baked to brownish",
+      "hypothesis": "a piece of apple pie with a crispy crust and a soft apple cake on the surface and a layer of vanilla ice cream on the top."
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00042.jpg",
+      "reference": "some sliced onions and tomatoes placed on the top of roasted aebleflaesk served with basil leaves.",
+      "hypothesis": "a plate of fried noodles with red sauce and green onion on top"
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00048.jpg",
+      "reference": "a white plate full of agedashi tofu covered with large wood fish flower flakes and shallot",
+      "hypothesis": "a plate of bun bo hue with a lot of chopped green onion, and a few pieces of pork on the top"
+    },
+    {
+      "file_name": "test/Aloo_gobi/Aloo_gobi_00040.jpg",
+      "reference": "simmered chunks of potatoes and cauliflower mixed with sliced onions covered with orange thick spices sauce.",
+      "hypothesis": "a plate of golden brown apple dumpling with a crispy texture, with a lot of orange sauce on the side."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00042.jpg",
+      "reference": "square boiled aburaage served with shredded white radish and shredded green onion on the top.",
+      "hypothesis": "a few pieces of turnip cake with a few slices of green lettuce on the top and a few slices of lemon on the side."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00049.jpg",
+      "reference": "three pieces of lightly fried agedashi tofu topping with pink mashed radish and cucumber roll",
+      "hypothesis": "a plate of pink strawberry ice cream with a few pieces of green cream on the top"
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00044.jpg",
+      "reference": "thick oily roasted aebleflaesk with brown pieces of charred onions served over rye bread.",
+      "hypothesis": "a plate of aebleflaesk with a lot of grilled pork knuckle and a piece of bread on a white plate"
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00039.jpg",
+      "reference": "freshly cleaned abalones with shells placed on the crushed ice on a white plate.",
+      "hypothesis": "a plate of abalones abalones with a lemon wedge and a few slices of lemon on the side."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00041.jpg",
+      "reference": "eight whole big abalones with blue shells neatly placed on a square white plate.",
+      "hypothesis": "four abalones with a brown surface and a yellow filling on the surface."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00044.jpg",
+      "reference": "several pieces of boiled square aburaage with wrinkled surfaces placed in the brown sauce.",
+      "hypothesis": "a bowl of brown apple sauce with a spoon on the side."
+    },
+    {
+      "file_name": "test/Agedashi_tofu/Agedashi_tofu_00043.jpg",
+      "reference": "four chunks of soft boiled yellow agedashi tofu soaked in the tentsuyu dipping sauce.",
+      "hypothesis": "a bowl of french onion soup with a thick texture, served with a spoon on the side"
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00044.jpg",
+      "reference": "white creamy, elastic, and velvety aligot topped with coriander leaves in a copper pot.",
+      "hypothesis": "a bowl of caldo verde with green kale and red pepper on top"
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00043.jpg",
+      "reference": "big thin round almond biscuits baked brown and stacked on a square white plate.",
+      "hypothesis": "a stack of corn tortillas with a super crispy surface stacked up together."
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00040.jpg",
+      "reference": "baked thin aebleflaesk slices with brown dried surface alternate with yellow apple slices.",
+      "hypothesis": "a plate of aebleflaesk with some grilled pork belly and onion rings on the surface."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00040.jpg",
+      "reference": "baked brown round almond biscuit decorated with a whole almond on the surface.",
+      "hypothesis": "a plate of brown anzac biscuits with a small bowl of sauce on the side."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00042.jpg",
+      "reference": "thick pieces of baked yellow almond biscuits with chopped almonds mixed in them.",
+      "hypothesis": "a plate of golden brown bread with a lot of icing sugar on the surface."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00045.jpg",
+      "reference": "a pile of crescent-shaped crispy almond biscuits with lots of almonds clearly visible",
+      "hypothesis": "a plate of golden brown colored biscuits with a blue rim on the surface."
+    },
+    {
+      "file_name": "test/Aloo_gobi/Aloo_gobi_00041.jpg",
+      "reference": "curry yellow chunks of cauliflower and potatoes placed in a black iron pot.",
+      "hypothesis": "a plate of golden fried chicken fingers with a crispy texture, served with a saucer of potato fries, on the side"
+    },
+    {
+      "file_name": "test/AEbleflaesk/AEbleflaesk_00048.jpg",
+      "reference": "a large slice of oily grilled aebleflaesk in combination with mashed apples",
+      "hypothesis": "a large piece of pork knuckle with a brown sauce on top"
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00047.jpg",
+      "reference": "a dozen of dry abalones placing on a piece of golden cloth",
+      "hypothesis": "several pieces of banana bread with yellow <UNK> and white cream on top"
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00040.jpg",
+      "reference": "three pieces of yellow fried thin aburaage stored in a plastic bag.",
+      "hypothesis": "a piece of aburaage with a crispy surface and a piece of <UNK> on the surface"
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00049.jpg",
+      "reference": "a heaped teaspoon of silky aligot taken from the black porcelain pot",
+      "hypothesis": "a bowl of yellow aligot with a spoon in the middle of the <UNK>"
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00046.jpg",
+      "reference": "a plate full of oval-shaped thick almond biscuits covered with white frosting",
+      "hypothesis": "some round almond biscuits with a super crispy surface and a layer of white powdered sugar on the surface."
+    },
+    {
+      "file_name": "test/Abalone/Abalone_00043.jpg",
+      "reference": "two piles of dried abalones with brown, hard and tough surface.",
+      "hypothesis": "a plate of banana salad with sliced mushrooms and sliced mushrooms on a white plate."
+    },
+    {
+      "file_name": "test/Aburaage/Aburaage_00041.jpg",
+      "reference": "boiled oily aburaage cut into strips and covered with some sauce.",
+      "hypothesis": "a plate of golden brown aburaage with a crispy crust and a piece of <UNK> on the side."
+    },
+    {
+      "file_name": "test/Aligot/Aligot_00048.jpg",
+      "reference": "a white plate of elastic velvety aligot in combination with lettuce",
+      "hypothesis": "a bowl of tuna fish soup with some chopped green onion on the surface."
+    },
+    {
+      "file_name": "test/Almond_biscuit/Almond_biscuit_00044.jpg",
+      "reference": "round thick almond biscuits baked brown with dried and cracked surfaces.",
+      "hypothesis": "a plate of baked almond biscuits with a crispy surface and a layer of white cream on the surface."
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00045.jpg",
+      "reference": "two plates of colorful korean andong jjimdak including braised chicken, chili peppers, potatoes, onions, garlic served with noodles.a plate of fried rice and a bowl of korean dumpling soup drizzled with coriander on the side",
+      "hypothesis": "a plate of red bean casserole with green beans, yellow carrots, and yellow <UNK>"
+    },
+    {
+      "file_name": "test/Anzac_biscuit/Anzac_biscuit_00049.jpg",
+      "reference": "four round crispy brown anzac biscuits on a square plate and a pile of anzac biscuits tied with a strap on a round plate together with a cup of black tea",
+      "hypothesis": "a plate of brown anzac biscuits with a small bowl of sauce on the side"
+    },
+    {
+      "file_name": "test/Ants_climbing_a_tree/Ants_climbing_a_tree_00040.jpg",
+      "reference": "brown thin glass noodles soaked up all soup and mixed with pieces of fried pork, seasoned with pieces of red and yellow bell peppers and green onions.",
+      "hypothesis": "a bowl of jajangmyeon with a lot of beef and a piece of beef on top"
+    },
+    {
+      "file_name": "test/Anago/Anago_00048.jpg",
+      "reference": "five pieces of cut anago sprinkled with sauce and sesame seeds, next to a small pile of vermicelli and several pieces of lemon and cucumber slices.",
+      "hypothesis": "a large piece of brown pork tenderloin with a piece of lemon and a slice of lemon on the side."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00042.jpg",
+      "reference": "blocks of pineapples, red cherries, sliced green grapes, and chopped mandarin oranges with whipped cream are mixed into ambrosia and topped with pieces of walnuts.",
+      "hypothesis": "a bowl of ambrosia with diced tomatoes, diced pineapples, and diced tomatoes."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00043.jpg",
+      "reference": "mini marshmallows, blocks of pineapples, and pieces of mandarin oranges covered with yogurt are combined into nice ambrosia and placed in an orange bowl.",
+      "hypothesis": "a bowl of ambrosia with white rice balls and white rice balls on the top."
+    },
+    {
+      "file_name": "test/Anago/Anago_00049.jpg",
+      "reference": "two dark brown anago covered two rice balls, next to a small pile of shredded carrots and cucumbers, on a black rectangular stone slab.",
+      "hypothesis": "a few pieces of anago sushi with a drizzle of teriyaki sauce on the surface and a pair of chopsticks on the side."
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00042.jpg",
+      "reference": "chunks of chickens, potatoes, and carrots mixed with pieces of onions, green peppers, and dry chilies braised in soy sauce, added with cellophane noodles.",
+      "hypothesis": "a pot of paella with yellow rice, yellow shrimp, green pepper slices, yellow corn kernels, yellow and yellow <UNK>"
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00048.jpg",
+      "reference": "a pot of stewed chicken doused in sweet and subtly spicy sauce together with carrots, potatoes, onions and chilli sauce garnished with chopped coriander",
+      "hypothesis": "a bowl of red tomato bredie with a large piece of chicken breast, some chopped green onion and red pepper slices on the surface."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00044.jpg",
+      "reference": "pieces of mandarin oranges and pineapple blocks mixed in the cream served with pink and white mini marshmallows created a bowl of ambrosia.",
+      "hypothesis": "a pile of white banh bos with white ice cream balls and some white cream on the surface."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00046.jpg",
+      "reference": "three clear cups of ambrosia consist of oranges, pineapples and strawberries fully covered with single cream and a red canned cherry on top",
+      "hypothesis": "a glass of ambrosia with a lot of cheese and red cherry jam on the top."
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00044.jpg",
+      "reference": "cooked chunks of chicken, carrots, and sliced cucumber and red pepper added with thin cellophane noodles, topped with white sesame and green onions.",
+      "hypothesis": "a black plate of chicken salad with sliced chicken, chopped green onion, and red pepper"
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00047.jpg",
+      "reference": "a large plate of rich and delicious korean andong jjimdak consists of braised chicken, potatoes, cucumbers, carrots and onions topped with stretching cheese",
+      "hypothesis": "a plate of queso flameado with a lot of melted cheese, and a lot of chili sauce on top"
+    },
+    {
+      "file_name": "test/Anzac_biscuit/Anzac_biscuit_00048.jpg",
+      "reference": "a few pieces of dark brown anzac biscuits on the blue and grey striped cloth with a glass of milk next to it",
+      "hypothesis": "a plate of brown applesauce cake with a lot of white marshmallows and a few slices of bread on the side."
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00040.jpg",
+      "reference": "braised big chunks of chicken, potatoes, and carrots in the soy sauce, topped with some black sesame, sliced cucumber, and green onions.",
+      "hypothesis": "a bowl of butadon with brown sauce and a few pieces of pork on the top and a bowl of rice on the side."
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00046.jpg",
+      "reference": "a large plate of korean andong jjimdak that is stewed chicken coupled with potatoes, carrots, onions, vermicelli and south korean soy sauce",
+      "hypothesis": "a bowl of menudo with sliced beef and chopped green onion in a white bowl"
+    },
+    {
+      "file_name": "test/Apple_cobbler/Apple_cobbler_00043.jpg",
+      "reference": "big pieces of apple cobbler with a layer of cinnamon on the surface and topped with a ball of melting ice cream.",
+      "hypothesis": "a plate of juicy apple dumpling with a drizzle of ice cream on the top."
+    },
+    {
+      "file_name": "test/Apple_cobbler/Apple_cobbler_00047.jpg",
+      "reference": "a square plate of golden apple cobbler with crispy skin in combination with blueberry jam cut from the newly baked whole piece",
+      "hypothesis": "a piece of tourtiere with a golden surface and a piece of <UNK> on the side."
+    },
+    {
+      "file_name": "test/Aloo_gobi/Aloo_gobi_00049.jpg",
+      "reference": "a white bowl of aloo gobi boiled with long beans that had been cut into pieces and a veriety of spices",
+      "hypothesis": "a bowl of aloo gobi with cauliflower and potato cubes on top and a small bowl of chili sauce on the side."
+    },
+    {
+      "file_name": "test/Anago/Anago_00041.jpg",
+      "reference": "a small piece of cooked anago drizzle with soy sauce on its top and served with pickled ginger on the side.",
+      "hypothesis": "a piece of brown applesauce cake with a circle of white cream on the top"
+    },
+    {
+      "file_name": "test/Anago/Anago_00042.jpg",
+      "reference": "anago sushi consists of hand-pressed sushi rice that is topped with a slice of saltwater eel and soy sauce .",
+      "hypothesis": "a piece of <UNK> anago sushi with a drizzle of teriyaki sauce on the surface."
+    },
+    {
+      "file_name": "test/Anago/Anago_00047.jpg",
+      "reference": "a long milky white anago, slightly scorched, with half a lemon next to it, in a rectangular light brown plate.",
+      "hypothesis": "a piece of salmon pie with a crispy crust and a piece of salmon on the top"
+    },
+    {
+      "file_name": "test/Ants_climbing_a_tree/Ants_climbing_a_tree_00042.jpg",
+      "reference": "fried minced pork mixed into glass noodles that soaked up soy sauce and topped with black sesame and bok choy.",
+      "hypothesis": "a plate of beef chow fun with some shredded carrots, some shredded green pepper and some shredded red peppers, some chopped green onion and some white sesame seeds."
+    },
+    {
+      "file_name": "test/Ants_climbing_a_tree/Ants_climbing_a_tree_00044.jpg",
+      "reference": "thin cooked glass noodles soaked in clear soup and topped with fried minced pork, chopped fresh chili, and green onions.",
+      "hypothesis": "a bowl of dandan noodles with a lot of minced meat and chopped green onions."
+    },
+    {
+      "file_name": "test/Ants_climbing_a_tree/Ants_climbing_a_tree_00046.jpg",
+      "reference": "a white square plate of stir fried deep-colored vermicelli together with ground pork and red pepper topped with chopped chives",
+      "hypothesis": "a plate of drunken shrimp with red pepper and chopped green onion on top"
+    },
+    {
+      "file_name": "test/Apple_cobbler/Apple_cobbler_00040.jpg",
+      "reference": "baked apple cobbler with flour added in chopped peanuts as top and bottom, and with sliced boiled apples as fillings.",
+      "hypothesis": "a small piece of apple crisp with a super crunchy crust filled with apple sauce and a scoop of white ice cream on the top."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00040.jpg",
+      "reference": "a big cup of ambrosia mixed of cherry, mandarin oranges, mini marshmallows, and cream topped with some chopped walnuts.",
+      "hypothesis": "ambrosia salad with a layer of white cream and some strawberries on the surface, with a layer of white cream on the top."
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00041.jpg",
+      "reference": "a small pot of ambrosia made by mandarin oranges, cherries, pieces of green grapes, and pineapples combined with cream.",
+      "hypothesis": "a bowl of ambrosia with a creamy texture, topped with some chopped green onion and a few slices of mint."
+    },
+    {
+      "file_name": "test/Anzac_biscuit/Anzac_biscuit_00044.jpg",
+      "reference": "big flat round anzac biscuits baked into a little bit burnt and stacked on a plate with purple flowers.",
+      "hypothesis": "several pieces of anzac biscuits with oats on the surface and a bottle of milk behind."
+    },
+    {
+      "file_name": "test/Anzac_biscuit/Anzac_biscuit_00045.jpg",
+      "reference": "a dozen round anzac biscuits on a baking tray with visible shredded coconut and oatmeal ready to be baked",
+      "hypothesis": "some round anzac biscuits with a super crispy surface and a layer of white cream on the surface, with a layer of white cream on the surface."
+    },
+    {
+      "file_name": "test/Apple_cobbler/Apple_cobbler_00045.jpg",
+      "reference": "a large piece of apple cobbler full of juicy chopped apples sprinkled with cinnamon in a glass rectangular container",
+      "hypothesis": "a piece of bread with a crispy surface and a piece of apple pie with a crispy crust and a silver fork on the side"
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00047.jpg",
+      "reference": "an orange salad bowl full of ambrosia that is a mixture of pineapples, oranges, sour cream and marshmallows",
+      "hypothesis": "a bowl of ambrosia fruit salad with diced mango and diced <UNK>"
+    },
+    {
+      "file_name": "test/Ambrosia_(fruit_salad)/Ambrosia_(fruit_salad)_00048.jpg",
+      "reference": "a blue basket of ambrosia made of marshmallows, grapes, strawberries, oranges and shredded coconut, enriched with whipped cream",
+      "hypothesis": "a blue bowl of ambrosia with a blue rim and a blue spoon in a blue bowl."
+    },
+    {
+      "file_name": "test/Anago/Anago_00043.jpg",
+      "reference": "a large bowl of rice fully covered with boiled tender anago with a small bowl of miso soup",
+      "hypothesis": "four pieces of anago on a white plate with a pair of chopsticks next to it"
+    },
+    {
+      "file_name": "test/Andong_jjimdak/Andong_jjimdak_00043.jpg",
+      "reference": "chicken cut into blocks cooked in brown source with onion slices and mushrooms topped with chopped green onions.",
+      "hypothesis": "a plate of andong jjimdak with sliced beef and chopped spring onion on top"
+    },
+    {
+      "file_name": "test/Ants_climbing_a_tree/Ants_climbing_a_tree_00043.jpg",
+      "reference": "glass noodles added in minced pork and boiled with soy sauce into brown, topped with chopped green onions.",
+      "hypothesis": "a bowl of refried beans with rice and chopped green onion on top"
+    }
+  ]
+}

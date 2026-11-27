@@ -1,0 +1,28 @@
+{
+  "candidate_id": "06B",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "“on a wooden board”与木质案板背景相符，但把画面主体说成“两个三角形三明治”，与图中一个被撕开的圆形面包环加一块撕下的碎块的摆放明显不符。",
+    "food_identification": "主体是表面撒粉、内含红色果干的圆形面包/环形面包，并非三明治，类别判断错误，仅“面包类”方向尚有关联。",
+    "detail_accuracy": "番茄片在图中完全看不到；“奶酪”也无法从画面确认；同时遗漏了清晰可见的红色果干、表面白色粉霜与环形带孔形状。",
+    "language_quality": "单句通顺、语法正确、无重复啰嗦。"
+  },
+  "explicit_conflicts": [
+    "图中没有三角形三明治，而是被掰开的圆形面包环与一块碎面包",
+    "画面中没有三明治式的夹层结构，主体是单片面包体被撕开"
+  ],
+  "unverifiable_from_image": [
+    "奶酪"
+  ],
+  "visible_but_omitted": [
+    "红色果干（蔓越莓状）颗粒",
+    "面包表面的白色粉霜",
+    "圆形带孔的面包环造型"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "番茄片"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "image": "FoodLens_Task1_李馨瑶\\Food500Cap_ready\\test\\Chinese_chicken_salad\\Chinese_chicken_salad_00046.jpg",
+  "caption": "a bowl of chinese chicken salad with shredded chicken, shredded chicken, shredded carrots, and chopped green onions.",
+  "tokens": [
+    "a",
+    "bowl",
+    "of",
+    "chinese",
+    "chicken",
+    "salad",
+    "with",
+    "shredded",
+    "chicken,",
+    "shredded",
+    "chicken,",
+    "shredded",
+    "carrots,",
+    "and",
+    "chopped",
+    "green",
+    "onions."
+  ],
+  "coordinates": "Resize256 CenterCrop224",
+  "index": 1376,
+  "category": "Chinese_chicken_salad",
+  "reference": "A large bowl of Chinese chicken salad with large chicken slices, green cabbage, yellow shredded carrots, roasted almond slices, green chopped green onions, and some sesame seeds."
+}

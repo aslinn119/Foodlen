@@ -1,0 +1,22 @@
+{
+  "candidate_id": "18C",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "大量肉串成排盛放于白色方盘上，整体画面与摆放基本一致，仅盘子描述有误。",
+    "food_identification": "识别为kebab正确，图中主体即为成把的肉串。",
+    "detail_accuracy": "白盘、肉串均正确，但盘中看不到花朵花纹，属虚增外观细节。",
+    "language_quality": "句子简短通顺，无重复或明显语法问题。"
+  },
+  "explicit_conflicts": [
+    "图中的盘子为纯白色、无可见花纹，候选所说的花朵花纹与画面明确冲突。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "肉串所使用的竹签/木签",
+    "背景中的红色浆果与绿叶"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

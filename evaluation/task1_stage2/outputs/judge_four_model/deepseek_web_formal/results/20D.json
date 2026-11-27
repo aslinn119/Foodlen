@@ -1,0 +1,29 @@
+{
+  "candidate_id": "20D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "原图是两只透明塑料盒装的多颗章鱼烧，候选写成一块糕点，主体与数量均不符。",
+    "food_identification": "主要食物明显为章鱼烧，候选识别为苹果卷，主体类别错误。",
+    "detail_accuracy": "木鱼花、深褐色酱汁、白色沙拉酱等配料均未提及，且加入图中不存在的冰淇淋与'焦黄'外观。",
+    "language_quality": "英文单句语法通顺、无重复，仅'on the top'略冗余。"
+  },
+  "explicit_conflicts": [
+    "图中为章鱼烧，候选称为一块苹果卷（apple strudel），主体完全不符",
+    "图中白色部分为挤在章鱼烧上的沙拉酱/蛋黄酱，候选称为顶部的白色冰淇淋",
+    "图中有两盒章鱼烧，候选只描述'一块'糕点"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "撒在表面的木鱼花/柴鱼片",
+    "深褐色的章鱼烧酱/照烧酱",
+    "白色沙拉酱挤花",
+    "透明塑料打包盒"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "apple strudel（苹果卷）",
+    "white ice cream（白色冰淇淋）"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "prediction_counts": {
+    "a_val": 414,
+    "b_val": 414,
+    "a_test": 506,
+    "b_test": 506
+  },
+  "epochs": 25,
+  "selected_epoch": 7,
+  "selection_score": 0.35962742895300537,
+  "training_selection_matches_history": true,
+  "freeze_hashes_match": true
+}

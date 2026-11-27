@@ -1,0 +1,29 @@
+{
+  "candidate_id": "25A",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面是多个小圆酥点成排放在黑色金属冷却网架上、白色背景的近距离特写；候选称放在盘子里，承载容器与整体摆放明显不符，仅“多个小圆面点成组摆放”大致对应。",
+    "food_identification": "主体是顶部筛撒糖粉、内部填有白色奶油并从中流出的泡芙/圆酥点，候选判为“黄桥烧饼（芝麻饼）”，主要食物类别完全错误。",
+    "detail_accuracy": "表面白色细点是筛撒的糖粉而不是白芝麻颗粒，候选还漏掉了明显可见的白色奶油夹心，配料与外观多处错误。",
+    "language_quality": "单句英文语法正确、表达通顺，无重复或啰嗦问题。"
+  },
+  "explicit_conflicts": [
+    "“a plate of”与画面中承载点心的黑色金属冷却网架冲突",
+    "“a lot of white sesame seeds sprinkled on the surface”与画面中细密的糖粉撒层冲突，图中没有颗粒状白芝麻",
+    "“huangqiao sesame cakes”与画面中的奶油泡芙/泡芙酥点主体冲突"
+  ],
+  "unverifiable_from_image": [
+    "“huangqiao”所指的特定地域品种的配方与风味无法从图像确认"
+  ],
+  "visible_but_omitted": [
+    "从酥皮中挤出/流出的白色奶油内馅",
+    "泡芙顶部裂开的蓬松酥皮形态与浅金黄色烤制外观"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "白芝麻（white sesame seeds）",
+    "黄桥烧饼的面团/芝麻馅等成分（huangqiao sesame cake）"
+  ]
+}

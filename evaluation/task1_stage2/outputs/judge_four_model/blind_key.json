@@ -1,0 +1,606 @@
+{
+  "seed": 42,
+  "note": "Keep separate from reviewers until scores are fixed. V3 Baseline is absent.",
+  "rows": [
+    {
+      "candidate_id": "01A",
+      "image_id": "test/Cabbage_soup/Cabbage_soup_00042.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "01B",
+      "image_id": "test/Cabbage_soup/Cabbage_soup_00042.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "01C",
+      "image_id": "test/Cabbage_soup/Cabbage_soup_00042.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "01D",
+      "image_id": "test/Cabbage_soup/Cabbage_soup_00042.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "02A",
+      "image_id": "test/Arancini/Arancini_00044.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "02B",
+      "image_id": "test/Arancini/Arancini_00044.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "02C",
+      "image_id": "test/Arancini/Arancini_00044.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "02D",
+      "image_id": "test/Arancini/Arancini_00044.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "03A",
+      "image_id": "test/Galbi/Galbi_00045.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "03B",
+      "image_id": "test/Galbi/Galbi_00045.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "03C",
+      "image_id": "test/Galbi/Galbi_00045.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "03D",
+      "image_id": "test/Galbi/Galbi_00045.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "04A",
+      "image_id": "test/Es_campur/Es_campur_00048.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "04B",
+      "image_id": "test/Es_campur/Es_campur_00048.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "04C",
+      "image_id": "test/Es_campur/Es_campur_00048.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "04D",
+      "image_id": "test/Es_campur/Es_campur_00048.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "05A",
+      "image_id": "test/Dandan_noodles/Dandan_noodles_00040.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "05B",
+      "image_id": "test/Dandan_noodles/Dandan_noodles_00040.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "05C",
+      "image_id": "test/Dandan_noodles/Dandan_noodles_00040.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "05D",
+      "image_id": "test/Dandan_noodles/Dandan_noodles_00040.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "06A",
+      "image_id": "test/Cheese_bun/Cheese_bun_00043.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "06B",
+      "image_id": "test/Cheese_bun/Cheese_bun_00043.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "06C",
+      "image_id": "test/Cheese_bun/Cheese_bun_00043.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "06D",
+      "image_id": "test/Cheese_bun/Cheese_bun_00043.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "07A",
+      "image_id": "test/Bun_rieu/Bun_rieu_00049.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "07B",
+      "image_id": "test/Bun_rieu/Bun_rieu_00049.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "07C",
+      "image_id": "test/Bun_rieu/Bun_rieu_00049.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "07D",
+      "image_id": "test/Bun_rieu/Bun_rieu_00049.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "08A",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00049.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "08B",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00049.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "08C",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00049.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "08D",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00049.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "09A",
+      "image_id": "test/Botifarra/Botifarra_00042.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "09B",
+      "image_id": "test/Botifarra/Botifarra_00042.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "09C",
+      "image_id": "test/Botifarra/Botifarra_00042.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "09D",
+      "image_id": "test/Botifarra/Botifarra_00042.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "10A",
+      "image_id": "test/Vitello_tonnato/Vitello_tonnato_00049.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "10B",
+      "image_id": "test/Vitello_tonnato/Vitello_tonnato_00049.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "10C",
+      "image_id": "test/Vitello_tonnato/Vitello_tonnato_00049.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "10D",
+      "image_id": "test/Vitello_tonnato/Vitello_tonnato_00049.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "11A",
+      "image_id": "test/Pig's_trotters/Pig's_trotters_00048.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "11B",
+      "image_id": "test/Pig's_trotters/Pig's_trotters_00048.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "11C",
+      "image_id": "test/Pig's_trotters/Pig's_trotters_00048.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "11D",
+      "image_id": "test/Pig's_trotters/Pig's_trotters_00048.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "12A",
+      "image_id": "test/Avocado_sauce/Avocado_sauce_00040.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "12B",
+      "image_id": "test/Avocado_sauce/Avocado_sauce_00040.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "12C",
+      "image_id": "test/Avocado_sauce/Avocado_sauce_00040.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "12D",
+      "image_id": "test/Avocado_sauce/Avocado_sauce_00040.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "13A",
+      "image_id": "test/Avocado_fries/Avocado_fries_00044.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "13B",
+      "image_id": "test/Avocado_fries/Avocado_fries_00044.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "13C",
+      "image_id": "test/Avocado_fries/Avocado_fries_00044.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "13D",
+      "image_id": "test/Avocado_fries/Avocado_fries_00044.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "14A",
+      "image_id": "test/Brown_stew_chicken/Brown_stew_chicken_00047.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "14B",
+      "image_id": "test/Brown_stew_chicken/Brown_stew_chicken_00047.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "14C",
+      "image_id": "test/Brown_stew_chicken/Brown_stew_chicken_00047.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "14D",
+      "image_id": "test/Brown_stew_chicken/Brown_stew_chicken_00047.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "15A",
+      "image_id": "test/Curry_Mee/Curry_Mee_00043.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "15B",
+      "image_id": "test/Curry_Mee/Curry_Mee_00043.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "15C",
+      "image_id": "test/Curry_Mee/Curry_Mee_00043.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "15D",
+      "image_id": "test/Curry_Mee/Curry_Mee_00043.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "16A",
+      "image_id": "test/Dirty_Rice/Dirty_Rice_00047.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "16B",
+      "image_id": "test/Dirty_Rice/Dirty_Rice_00047.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "16C",
+      "image_id": "test/Dirty_Rice/Dirty_Rice_00047.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "16D",
+      "image_id": "test/Dirty_Rice/Dirty_Rice_00047.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "17A",
+      "image_id": "test/Shrimp_ball/Shrimp_ball_00041.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "17B",
+      "image_id": "test/Shrimp_ball/Shrimp_ball_00041.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "17C",
+      "image_id": "test/Shrimp_ball/Shrimp_ball_00041.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "17D",
+      "image_id": "test/Shrimp_ball/Shrimp_ball_00041.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "18A",
+      "image_id": "test/kebab/kebab_00043.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "18B",
+      "image_id": "test/kebab/kebab_00043.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "18C",
+      "image_id": "test/kebab/kebab_00043.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "18D",
+      "image_id": "test/kebab/kebab_00043.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "19A",
+      "image_id": "test/Arros_negre/Arros_negre_00047.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "19B",
+      "image_id": "test/Arros_negre/Arros_negre_00047.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "19C",
+      "image_id": "test/Arros_negre/Arros_negre_00047.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "19D",
+      "image_id": "test/Arros_negre/Arros_negre_00047.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "20A",
+      "image_id": "test/Takoyaki/Takoyaki_00049.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "20B",
+      "image_id": "test/Takoyaki/Takoyaki_00049.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "20C",
+      "image_id": "test/Takoyaki/Takoyaki_00049.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "20D",
+      "image_id": "test/Takoyaki/Takoyaki_00049.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "21A",
+      "image_id": "test/Corned_beef_sandwich/Corned_beef_sandwich_00040.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "21B",
+      "image_id": "test/Corned_beef_sandwich/Corned_beef_sandwich_00040.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "21C",
+      "image_id": "test/Corned_beef_sandwich/Corned_beef_sandwich_00040.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "21D",
+      "image_id": "test/Corned_beef_sandwich/Corned_beef_sandwich_00040.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "22A",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00046.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "22B",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00046.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "22C",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00046.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "22D",
+      "image_id": "test/Stuffed_mushrooms/Stuffed_mushrooms_00046.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "23A",
+      "image_id": "test/Pig's_ear/Pig's_ear_00048.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "23B",
+      "image_id": "test/Pig's_ear/Pig's_ear_00048.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "23C",
+      "image_id": "test/Pig's_ear/Pig's_ear_00048.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "23D",
+      "image_id": "test/Pig's_ear/Pig's_ear_00048.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "24A",
+      "image_id": "test/Curry_goat/Curry_goat_00047.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "24B",
+      "image_id": "test/Curry_goat/Curry_goat_00047.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "24C",
+      "image_id": "test/Curry_goat/Curry_goat_00047.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "24D",
+      "image_id": "test/Curry_goat/Curry_goat_00047.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "25A",
+      "image_id": "test/Profiterole/Profiterole_00041.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "25B",
+      "image_id": "test/Profiterole/Profiterole_00041.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "25C",
+      "image_id": "test/Profiterole/Profiterole_00041.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "25D",
+      "image_id": "test/Profiterole/Profiterole_00041.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "26A",
+      "image_id": "test/Vindaloo/Vindaloo_00049.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "26B",
+      "image_id": "test/Vindaloo/Vindaloo_00049.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "26C",
+      "image_id": "test/Vindaloo/Vindaloo_00049.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "26D",
+      "image_id": "test/Vindaloo/Vindaloo_00049.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "27A",
+      "image_id": "test/Ginger_beef/Ginger_beef_00040.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "27B",
+      "image_id": "test/Ginger_beef/Ginger_beef_00040.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "27C",
+      "image_id": "test/Ginger_beef/Ginger_beef_00040.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "27D",
+      "image_id": "test/Ginger_beef/Ginger_beef_00040.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "28A",
+      "image_id": "test/Almond_biscuit/Almond_biscuit_00043.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "28B",
+      "image_id": "test/Almond_biscuit/Almond_biscuit_00043.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "28C",
+      "image_id": "test/Almond_biscuit/Almond_biscuit_00043.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "28D",
+      "image_id": "test/Almond_biscuit/Almond_biscuit_00043.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "29A",
+      "image_id": "test/Chicken_nugget/Chicken_nugget_00047.jpg",
+      "model": "V4 full greedy"
+    },
+    {
+      "candidate_id": "29B",
+      "image_id": "test/Chicken_nugget/Chicken_nugget_00047.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "29C",
+      "image_id": "test/Chicken_nugget/Chicken_nugget_00047.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "29D",
+      "image_id": "test/Chicken_nugget/Chicken_nugget_00047.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "30A",
+      "image_id": "test/Pineapple_tart/Pineapple_tart_00044.jpg",
+      "model": "V1重训消融 greedy"
+    },
+    {
+      "candidate_id": "30B",
+      "image_id": "test/Pineapple_tart/Pineapple_tart_00044.jpg",
+      "model": "V2注意力 greedy"
+    },
+    {
+      "candidate_id": "30C",
+      "image_id": "test/Pineapple_tart/Pineapple_tart_00044.jpg",
+      "model": "V3.2 layer4 greedy"
+    },
+    {
+      "candidate_id": "30D",
+      "image_id": "test/Pineapple_tart/Pineapple_tart_00044.jpg",
+      "model": "V4 full greedy"
+    }
+  ]
+}

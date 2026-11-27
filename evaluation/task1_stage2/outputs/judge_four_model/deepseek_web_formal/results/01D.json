@@ -1,0 +1,27 @@
+{
+  "candidate_id": "01D",
+  "visual_consistency": 4,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "4分：画面确为近景白碗盛装的浓稠汤菜，与bowl、thick soup相符；仅handi/korma这类菜式框架与单一汤菜的画面略有出入。",
+    "food_identification": "2分：thick soup层面部分正确，但把主体认定为mutton handi/mutton korma这类羊肉咖喱菜，画面实为红褐色汤底炖肉并配大量浅色蔬菜块，食物类别明显偏离。",
+    "detail_accuracy": "2分：只有thick soup与厚稠外观相符；配料细节几近缺失，而mutton及两种菜名缺乏画面依据且重复堆叠，细节多处失准。",
+    "language_quality": "2分：单句内mutton handi重复两次、mutton出现三次，a bowl of mutton handi with mutton handi and mutton korma冗余拗口，可理解但流畅度差。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "mutton handi与mutton korma这两个具体菜式/做法：画面无从核对，且图中容器为白色陶瓷碗而非handi锅",
+    "同一碗中同时出现handi与korma两种菜式的结构：画面只显示一份均质红褐色浓汤，无法确认该组合"
+  ],
+  "visible_but_omitted": [
+    "红褐色（番茄色）浓稠汤底",
+    "大量浅色叶片状白菜块",
+    "浅色块状配菜（疑似土豆/洋葱）",
+    "棕褐色炖肉块的白色脂肪边与炖煮外观"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mutton（羊肉）：描述明确把肉指明为羊肉，但图中肉块呈棕灰色带白色脂肪边，更像炖牛肉类，画面无羊肉特征可依"
+  ]
+}

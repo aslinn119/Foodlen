@@ -1,0 +1,34 @@
+{
+  "candidate_id": "17A",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "1分：画面主体是白碗汤面，旁有筷子、汤勺和粉白条纹布，候选仅提到一个碗，整体画面被描述成米饭和粥。",
+    "food_identification": "1分：主体应为汤河粉/米粉配金黄豆制品丸、肉末和豆芽，候选判为米饭与白米粥，主体类别完全错误。",
+    "detail_accuracy": "1分：未写出肉丸、肉末、豆芽、清汤等可见配料，反而重复“粥浮在表面”这一图中不存在的细节。",
+    "language_quality": "2分：句子尚可读，但“white rice porridge”连续重复两次且逻辑含混。"
+  },
+  "explicit_conflicts": [
+    "称碗中是米饭，但图中是白色扁河粉（米粉）浸在汤里，并非干饭",
+    "称表面有白米粥，但表面可见的是河粉、肉末、豆芽和肉丸，没有粥",
+    "整体描述为米饭配粥，与画面中的汤面加配料明确冲突"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "四颗金黄色的炸肉丸/鱼丸",
+    "中央一堆碎肉末",
+    "碗中的白色扁河粉",
+    "清汤汤底",
+    "碗里的豆芽",
+    "一双筷子",
+    "黄色汤勺",
+    "粉白条纹布巾",
+    "左上角的辣椒酱小碟"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "white rice porridge（白米粥）",
+    "rice（米饭）"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "candidate_id": "20C",
+  "visual_consistency": 2,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "图中是透明塑料打包盒装的章鱼烧，并非盘子，画面里也没有筷子，整体容器与摆放描述明显不符。",
+    "food_identification": "主要食物识别为takoyaki正确，但“以虾和贻贝制作”的限定缺乏依据。",
+    "detail_accuracy": "误称盘子与配筷，遗漏深色酱汁、白色蛋黄酱和木鱼花，配料信息与画面差距较大。",
+    "language_quality": "句子可读但为无标点长句，且shrimps重复出现一次。"
+  },
+  "explicit_conflicts": [
+    "a plate：图中为透明塑料打包盒（上下两盒），不是盘子",
+    "a pair of chopsticks on the side：图中未出现筷子"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "深褐色照烧/章鱼烧酱汁",
+    "白色蛋黄酱淋酱",
+    "木鱼花（bonito flakes）",
+    "透明塑料打包盒/盛装容器"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "shrimps",
+    "mussels"
+  ]
+}

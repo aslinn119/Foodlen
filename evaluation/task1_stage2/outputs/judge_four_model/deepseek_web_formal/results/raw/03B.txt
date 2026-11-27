@@ -1,0 +1,27 @@
+{
+  "candidate_id": "03B",
+  "visual_consistency": 3,
+  "food_identification": 3,
+  "detail_accuracy": 3,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "整体为生肉片加绿叶的俯视画面，方向基本相符；但用单数“一大块”描述，图中实为两块分开摆放，且未提不锈钢网架，摆放信息明显缺失。",
+    "food_identification": "能识别为生肉（raw meat），但“meatloaves”（肉糕/肉饼）与图中整片带花刀的生牛肉不符，且食物名以<UNK>缺失，仅部分准确。",
+    "detail_accuracy": "提到绿叶（图中每块各覆一片，共两片）正确；但肉面密集菱形花刀、湿润腌料光泽、两片之间的橙黄色小粒及不锈钢网架均未描述，另有三处<UNK>无法核实。",
+    "language_quality": "无谓语的名词短语，冠词与单复数搭配不当（a large piece of ... meatloaves），并含三处<UNK>占位，流畅性和完整性差。"
+  },
+  "explicit_conflicts": [
+    "用单数“a large piece”描述，图中为两块相互分离的大片生肉",
+    "“raw meatloaves”把整片切花刀的生肉说成肉糕/肉饼形态，与图中未经绞碎的整片肉不符"
+  ],
+  "unverifiable_from_image": [
+    "<UNK>占位符所指内容（肉的具体种类及另外两种配料）无法据图确认"
+  ],
+  "visible_but_omitted": [
+    "不锈钢网架/烤网及其摆放方式",
+    "肉表面密集的菱形网格状划刀纹",
+    "肉片湿润的腌料光泽与红褐色调",
+    "两片肉之间中央的橙黄色小碎粒"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

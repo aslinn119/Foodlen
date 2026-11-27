@@ -1,0 +1,21 @@
+﻿candidate_id,image_id,candidate,rv_visual_consistency,rv_food_identification,rv_detail_accuracy,rv_language_quality,ds_visual_consistency,ds_food_identification,ds_detail_accuracy,ds_language_quality,disagreement
+03A,03,"a large piece of fish steak with a super crispy surface and a few slices of green pepper on the surface, with a pinch of rosemary on the side.",2,1,1,4,1,1,1,4,无（四项差均≤1分，食材判断一致）
+03B,03,a large piece of <UNK> raw meatloaves with <UNK> <UNK> and green leaves,3,3,2,1,3,3,3,2,无（四项差均≤1分，食材判断一致）
+03C,03,a large piece of porchetta with a slightly charred skin and some chopped green peppers on the surface,2,2,2,5,2,2,2,5,无（四项差均≤1分，食材判断一致）
+03D,03,a loaf of freshly baked bacon explosion with a glossy surface and green onions on the surface,2,2,3,4,2,1,2,3,无（四项差均≤1分，食材判断一致）
+08A,08,a plate of stuffed mushrooms with chopped green onion and minced meat on top.,4,5,3,5,4,4,3,5,无（四项差均≤1分，食材判断一致）
+08B,08,a brown filet mignon with a crispy surface with a crispy surface and some chopped green onions on the top.,2,1,2,2,2,1,2,3,无（四项差均≤1分，食材判断一致）
+08C,08,a plate of stuffed eggplants with chopped green onion and chopped green onion,3,2,2,2,2,1,2,3,无（四项差均≤1分，食材判断一致）
+08D,08,"a plate of stuffed mushrooms with diced tomatoes, and chopped parsley on top.",4,5,2,4,3,4,2,5,食材判断口径不同：同一个 'diced tomatoes'，复核归为“无法确认”（画面仅见单个极小红颗粒），DeepSeek 列为疑似幻觉。
+14A,14,a plate of brown stew chicken with chopped green onion and red pepper on top,3,5,3,5,3,5,3,5,食材判断口径不同：复核把 'red pepper' 列为疑似无依据（图中椒片为青绿、未见红椒）；DeepSeek 只列容器冲突，未把红椒当错误。
+14B,14,a pot of brown stew peas with sliced beef and green beans,4,2,2,5,3,2,2,4,无（四项差均≤1分，食材判断一致）
+14C,14,"a plate of beef chow fun with chopped green onion, and a few pieces of beef on the top",3,2,2,4,1,1,2,4,视觉一致性差2分：DeepSeek=1（a plate of 与不锈钢深锅冲突）vs 复核=3（锅内块状食物整体构图仍能对上、葱花确在）；两边对容器错误的扣分力度不同。
+14D,14,a pot of chicken marsala with chopped spring onion and chopped spring onion on top,4,3,4,3,4,3,3,2,无（四项差均≤1分，食材判断一致）
+19A,19,a plate of black arros negre with a whole red pepper on top,4,3,3,4,4,5,3,4,食物识别差2分：DeepSeek=5（按 black arros negre 主类别正确给满）vs 复核=3（最显眼的整只虾与青口贝完全没写，食物信息不完整）。
+19B,19,"a plate of red slaw with shredded red cabbage, red cabbage, red cabbage and green onions",1,1,1,2,1,1,1,2,无（四项差均≤1分，食材判断一致）
+19C,19,a plate of black arros negre with a lot of chili oil and some chopped green onions.,3,3,2,4,3,4,2,5,食材判断口径不同：同一个 'a lot of chili oil'，DeepSeek 归为“与画面冲突”，复核归为“疑似幻觉”；两边都认为画面无红油。
+19D,19,a plate of black arros negre with a lot of cuttlefish and a few slices of lemon on the side.,3,3,3,4,3,3,2,4,无（四项差均≤1分，食材判断一致）
+23A,23,a plate of dark brown colored pipikaula with a drizzle of soy sauce on the side.,2,1,2,4,3,2,2,4,无（四项差均≤1分，食材判断一致）
+23B,23,a plate of brown pig's ear served with a small bowl of sauce on the side,4,5,3,5,4,5,3,5,无（四项差均≤1分，食材判断一致）
+23C,23,a plate of <UNK> with a <UNK> of <UNK> of <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>,2,1,1,1,2,1,1,1,无（四项差均≤1分，食材判断一致）
+23D,23,a plate of dark brown torta caprese with a drizzle of soy sauce on the surface.,2,1,2,5,2,1,2,5,无（四项差均≤1分，食材判断一致）

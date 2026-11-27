@@ -1,0 +1,22 @@
+{
+  "candidate_id": "19A",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白盘盛放黑色米饭、红色配料置于顶部的整体摆放与画面一致，仅红椒形态描述不符。",
+    "food_identification": "主食物黑米饭(arròs negre)判断准确，类别无误。",
+    "detail_accuracy": "红椒实为两条细长切片而非一整只红椒，且明显可见的大虾与青口贝被完全省略。",
+    "language_quality": "表达简洁通顺，但“black arros negre”语义重复，专名未大写。"
+  },
+  "explicit_conflicts": [
+    "描述称顶部有一整只红椒(whole red pepper)，画面中仅为两条细长的红椒切片。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "顶部整只带壳大虾/虾（两只）",
+    "边缘可见的深色青口贝/贻贝壳"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

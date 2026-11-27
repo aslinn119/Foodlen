@@ -1,0 +1,26 @@
+{
+  "candidate_id": "12D",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白色小碗盛绿色泥状物、置于深色桌面的主体摆放抓对了，但“勺子在旁边”与画面不符，旁边实际是一束青葱和平叶香菜/欧芹。",
+    "food_identification": "主要食物是黄绿色块状、带绿色香草碎屑的牛油果泥（配青葱与香菜），说成green mushy peas属主要类别判错。",
+    "detail_accuracy": "未写出任何可见关键细节：青葱的白色根部、平叶香菜叶、碗中香草碎屑、泥状物的块状质感与白色竖棱小碗；“mushy peas”的质地描述也与画面不符。",
+    "language_quality": "单句语法正确、无重复，但过于简短、信息量低，“on the side”指向略含糊。"
+  },
+  "explicit_conflicts": [
+    "“a spoon on the side”：图中碗旁没有任何勺子，左侧是一束青葱和平叶香菜/欧芹",
+    "“green mushy peas”：碗中是带块状质感和深绿色香草碎屑的牛油果泥，不符合均匀的豌豆泥外观"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "青葱（带白色根部的葱段）",
+    "平叶香菜/欧芹",
+    "碗中深绿色香草碎屑",
+    "白色竖棱小碗与黑色桌面背景",
+    "牛油果泥的块状/绞打质感"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

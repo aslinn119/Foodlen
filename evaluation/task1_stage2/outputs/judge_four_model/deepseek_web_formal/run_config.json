@@ -1,0 +1,11 @@
+{
+  "model_ui_name": "DeepSeek V4.1 Flash 1017 Max",
+  "interface": "DeepSeek Harness desktop",
+  "prompt_version": "formal_web_v1",
+  "image_count": 30,
+  "candidate_count": 120,
+  "sampling_parameters": "not recorded in desktop UI",
+  "blind_sample_sha256": "4c762d00a74eeae4c60dcab3f7692791741ddf6300055e092dcb404bfe9f5499",
+  "prompt_sha256": "1dcdd5d939b7b637b273c95fbcb6a4d97ca4fe8d2feaa7066d1ea098ab26cc6b",
+  "pilot_outputs": "stored separately, using earlier prompt"
+}

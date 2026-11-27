@@ -1,0 +1,27 @@
+{
+  "candidate_id": "08D",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "Close-up of stuffed mushroom caps on parchment paper is broadly matched, but there is no plate and the described topping arrangement is only partly consistent.",
+    "food_identification": "The main subject is correctly identified as stuffed mushrooms; the filling is wrongly characterized as tomato-based instead of meat and cheese.",
+    "detail_accuracy": "Clearly visible ground meat, crumbly/melted white cheese are omitted, diced tomatoes are asserted, and a plate is claimed; multiple errors and omissions.",
+    "language_quality": "One fluent, grammatical sentence with no repetition; only a minor comma before 'and'."
+  },
+  "explicit_conflicts": [
+    "'a plate of' — the mushrooms sit directly on parchment/baking paper and no plate is visible."
+  ],
+  "unverifiable_from_image": [
+    "chopped parsley — green herbs are visible but the species cannot be confirmed as parsley."
+  ],
+  "visible_but_omitted": [
+    "ground meat filling",
+    "white cheese, both crumbly and melted, inside and on top of the filling",
+    "several more stuffed mushroom caps in the background on parchment paper"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "diced tomatoes — the filling visibly consists of ground meat, cheese and herbs; no diced tomato pieces are visible (only a single tiny red fleck)."
+  ]
+}

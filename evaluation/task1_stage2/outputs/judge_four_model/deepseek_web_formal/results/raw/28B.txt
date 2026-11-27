@@ -1,0 +1,28 @@
+{
+  "candidate_id": "28B",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 1,
+  "reasons": {
+    "visual_consistency": "画面主体是薄圆饼干叠成的饼塔，候选却写成 corn dogs，主体与摆放全不相符。",
+    "food_identification": "图中主体为薄圆杏仁饼干，候选识别为 corn dogs（玉米热狗），属主体食物类别错误。",
+    "detail_accuracy": "除 <UNK> 占位符外无任何外观细节，未提及金黄棕色、细颗粒表面或叠放形态。",
+    "language_quality": "8 个词中 5 个为 <UNK>，句子残破不通，难以理解。"
+  },
+  "explicit_conflicts": [
+    "候选称主体为 corn dogs，而图为成叠的薄圆杏仁饼干",
+    "候选 'a <UNK> of ...' 所指为热狗类食物，图中无任何热狗、面糊或炸串"
+  ],
+  "unverifiable_from_image": [
+    "'made with' 后的配料均为 <UNK> 占位符，无具体内容可与图中配料核验",
+    "描述中的 <UNK> 容器/数量词无实义，无法与画面物件对应"
+  ],
+  "visible_but_omitted": [
+    "约十片薄圆饼整齐叠成高柱的摆放",
+    "饼下垫的白色方盘/白餐巾纸",
+    "深灰色纯色背景",
+    "饼面金黄偏棕、边缘略焦且带细颗粒的烘焙质感"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

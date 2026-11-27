@@ -1,0 +1,28 @@
+{
+  "candidate_id": "28A",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "叠放的整体摆放基本吻合，但未体现圆薄单片形态与下方的白色方盘，画面还原只部分准确。",
+    "food_identification": "把主体识别为玉米薄饼，画面实际是烤成金棕色的薄杏仁脆饼，主要食物类别错误。",
+    "detail_accuracy": "只写了表面酥脆，缺少金棕色烤色、圆薄片形、表面细颗粒质地以及盘子等可见外观细节。",
+    "language_quality": "句子可读懂，但 a stack of ... stacked up together 语义重复，表达冗余。"
+  },
+  "explicit_conflicts": [
+    "把金棕色的薄杏仁饼干误作 corn tortillas（玉米薄饼），食物类别与画面明确冲突。"
+  ],
+  "unverifiable_from_image": [
+    "“super crispy”所指的极脆口感无法仅凭静态图片确认。"
+  ],
+  "visible_but_omitted": [
+    "金棕色的烤上色表面",
+    "圆薄片状、十余片整齐叠放",
+    "下方白色方形盘子或餐巾",
+    "饼干表面的细颗粒质地"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "corn：画面中无任何玉米迹象，属无依据的配料推断"
+  ]
+}

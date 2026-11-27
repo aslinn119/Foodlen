@@ -1,0 +1,127 @@
+{
+  "annotation_source": "user confirmation of assistant draft via chat",
+  "independent_blind_annotation": false,
+  "human_verified_images": 100,
+  "reviewed_images": 100,
+  "eligible_images": 99,
+  "excluded_index": [
+    33
+  ],
+  "excluded_reason": "see signed human annotations",
+  "protocol": "visible evidence only; uncertain claims excluded from assessable precision denominator; unsupported is not proof of factual absence; repeated mentions count once per image",
+  "methods": {
+    "greedy": {
+      "tp": 91,
+      "unsupported": 121,
+      "omitted": 174,
+      "unresolved": 13,
+      "precision": 0.42924528301886794,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.5707547169811321,
+      "omission_rate": 0.6566037735849056,
+      "unsupported_image_rate": 0.8080808080808081,
+      "zero_entity_caption_count": 3,
+      "unsupported_rate_unresolved_bounds": [
+        0.5377777777777778,
+        0.5955555555555555
+      ]
+    },
+    "beam": {
+      "tp": 90,
+      "unsupported": 116,
+      "omitted": 175,
+      "unresolved": 14,
+      "precision": 0.4368932038834951,
+      "recall": 0.33962264150943394,
+      "unsupported_rate": 0.5631067961165048,
+      "omission_rate": 0.660377358490566,
+      "unsupported_image_rate": 0.7373737373737373,
+      "zero_entity_caption_count": 4,
+      "unsupported_rate_unresolved_bounds": [
+        0.5272727272727272,
+        0.5909090909090909
+      ]
+    },
+    "beam_clip": {
+      "tp": 100,
+      "unsupported": 113,
+      "omitted": 165,
+      "unresolved": 20,
+      "precision": 0.4694835680751174,
+      "recall": 0.37735849056603776,
+      "unsupported_rate": 0.5305164319248826,
+      "omission_rate": 0.6226415094339622,
+      "unsupported_image_rate": 0.7474747474747475,
+      "zero_entity_caption_count": 3,
+      "unsupported_rate_unresolved_bounds": [
+        0.48497854077253216,
+        0.5708154506437768
+      ]
+    }
+  },
+  "sensitivity_all_100": {
+    "greedy": {
+      "precision": 0.4232558139534884,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.5767441860465117
+    },
+    "beam": {
+      "precision": 0.4326923076923077,
+      "recall": 0.33962264150943394,
+      "unsupported_rate": 0.5673076923076923
+    },
+    "beam_clip": {
+      "precision": 0.46511627906976744,
+      "recall": 0.37735849056603776,
+      "unsupported_rate": 0.5348837209302325
+    }
+  },
+  "paired_bootstrap": {
+    "beam_clip_minus_greedy": {
+      "precision": {
+        "delta": 0.040238285056249434,
+        "ci95": [
+          -0.022485297096342487,
+          0.10303547324726994
+        ]
+      },
+      "recall": {
+        "delta": 0.033962264150943444,
+        "ci95": [
+          -0.019841269841269826,
+          0.08558880308880305
+        ]
+      },
+      "unsupported_rate": {
+        "delta": -0.04023828505624949,
+        "ci95": [
+          -0.10303547324726989,
+          0.022485297096342397
+        ]
+      }
+    },
+    "beam_clip_minus_beam": {
+      "precision": {
+        "delta": 0.032590364191622256,
+        "ci95": [
+          0.006437964222495761,
+          0.05964160374580454
+        ]
+      },
+      "recall": {
+        "delta": 0.03773584905660382,
+        "ci95": [
+          0.004015662650602459,
+          0.07173465406623883
+        ]
+      },
+      "unsupported_rate": {
+        "delta": -0.0325903641916222,
+        "ci95": [
+          -0.0596416037458046,
+          -0.006437964222495799
+        ]
+      }
+    }
+  }
+}

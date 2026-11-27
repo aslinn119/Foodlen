@@ -1,0 +1,19 @@
+{
+  "version": "20261119-correction",
+  "weights_changed": false,
+  "retrained": false,
+  "regression_tests_passed": 3,
+  "code_sha256": {
+    "model_caption.py": "82fd3658d06f47883a274018beba7c05c5fd7ab37e25f171c2bc633943ae7157",
+    "metrics.py": "d922b159cf3da916d947bf62dd29bbfd7be390188bf6019e28b319a939d89391",
+    "predict.py": "c6468d8bb179aa4ba8749053d13f7891a30c6a47b7f9dd565c7797330a93e320",
+    "eval_models.py": "7ac0f665e31daa8e18518519770be359c7f1c49b4780e3939cd9af400b0f2d84",
+    "train_lora_mt.py": "8063ef4d1ca34fa5a73a81c54c964b564d5a6fe1f6f9ad87a88d7a0d2cefa3bd",
+    "test_task2_corrections.py": "e46350136a55690c59beaada16fbd0bc44bd4c9c689c210268e786eaa0c35f25",
+    "finalize_task2_correction.py": "2ee24e5a4f3a5df0194a8d8f50c9ec37aea471bc305e1018280f882a8cfa850d"
+  },
+  "checkpoint_sha256": {
+    "checkpoints_caption/best_model.pt": "7d86be49151a966e677194fbb50d69b2fc36846b36a87014e75693ce21a30dd1",
+    "checkpoints_lora_mt/best_model.pt": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79"
+  }
+}

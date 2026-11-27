@@ -1,0 +1,25 @@
+{
+  "candidate_id": "22C",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "盘子、成组摆放与餐桌背景相符，但盘中主体外观被误作酿彩椒，整体画面偏差明显。",
+    "food_identification": "图中主体为棕色酿口蘑，候选写作酿彩椒，主食物类别错误。",
+    "detail_accuracy": "绿色葱花准确，但碎肉无法确认且明显遗漏顶部融化奶酪。",
+    "language_quality": "句子通顺无重复，但过短、信息概括。"
+  },
+  "explicit_conflicts": [
+    "候选称主体为酿彩椒，图中实为棕色酿口蘑（蘑菇伞盖），颜色与外形均不符"
+  ],
+  "unverifiable_from_image": [
+    "碎肉/肉馅：馅料被顶部奶酪覆盖，无法确认内部是否含碎肉"
+  ],
+  "visible_but_omitted": [
+    "顶部融化的黄橙色奶酪",
+    "透明带放射状纹理的玻璃盘",
+    "背景绿色餐巾布"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "a82b3c4abcc6b6a24c438c832bd38a02c0c3199c6ffab238946a5ce7aa46598b",
+  "n": 3,
+  "device": "cpu",
+  "torch": "2.2.2+cpu"
+}

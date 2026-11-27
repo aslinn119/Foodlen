@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "vocab_size": 4837,
+  "max_generation_tokens": 67,
+  "tokenizer": "lowercase regex words, internal apostrophe/hyphen retained",
+  "vocab_source": "train only, min_frequency=1",
+  "architecture": "unchanged ResNet18 spatial additive attention GRU",
+  "batch_size": 32,
+  "lr_encoder": 0.0001,
+  "lr_decoder": 0.001,
+  "epochs": 25,
+  "patience": 6,
+  "selection": "full validation normalized BLEU4",
+  "device": "cpu",
+  "torch": "2.2.2+cpu",
+  "data_root": "C:\\Users\\刘九尔\\Desktop\\神经网络与深度学习\\Food500Cap_ready",
+  "sha256": {
+    "train": "d93e880e39977073227a30d4f5a6578af9b04a37ccfa9a08c9777e3b2100c554",
+    "val": "c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4",
+    "test": "cc9a6c6cd13a6870ef927de0c266896c5d5a6648c182b3daeb8d118e4b729340"
+  }
+}

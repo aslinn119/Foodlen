@@ -1,0 +1,33 @@
+{
+  "candidate_id": "04B",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "容器与餐具均与画面冲突：画面是透明玻璃碗，顶部/碗中有一把勺子，而非盘子加旁边的叉子，整体摆放描述错误。",
+    "food_identification": "候选把主体识别为 syrniki（奶酪煎饼），与画面中水果、仙草冻、刨冰组成的水果类刨冰甜点完全不符，属主体错误。",
+    "detail_accuracy": "候选称顶部覆盖白色奶油层，但画面可见绿色牛油果块、黄色果肉、深色仙草冻块和带黑色籽的配料，配料与外观描述明显不符。",
+    "language_quality": "句子语法正确、衔接自然、表达流畅，无明显重复或歧义。"
+  },
+  "explicit_conflicts": [
+    "容器：画面为透明玻璃碗（高脚碗），不是 plate 盘子",
+    "食物主体：画面为水果刨冰/仙草类甜点，不是 syrniki 奶酪煎饼",
+    "顶部：画面为水果块与深色冻块，不是一层白色奶油",
+    "餐具：画面中是勺子，未见旁边的叉子"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "透明玻璃碗（高脚容器）",
+    "绿色牛油果块",
+    "黄色菠萝蜜/芒果果肉",
+    "深色仙草冻方块",
+    "带黑色籽的配料（罗勒籽等）",
+    "粉红色刨冰/红色水果部分",
+    "顶部/碗中的勺子"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "syrniki（奶酪煎饼）",
+    "白色奶油层（white cream layer）"
+  ]
+}

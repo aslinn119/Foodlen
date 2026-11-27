@@ -1,0 +1,25 @@
+{
+  "candidate_id": "24D",
+  "visual_consistency": 2,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面为白色平盘盛放的咖喱肉块，候选先说plate又说in a white bowl，自我矛盾且容器描述与画面不符。",
+    "food_identification": "识别为带浓稠酱汁的咖喱羊肉类主菜，主要食物类别基本正确；但mutton/山羊的具体肉种无法由画面确认。",
+    "detail_accuracy": "chunks of mutton与画面中的大块肉相符，但容器错写为白碗，且未提及清楚可见的白色菜丝与番茄块，细节多次不准。",
+    "language_quality": "mutton korma、mutton等词反复堆叠，句子拖沓重复，plate与bowl的冲突进一步损害流畅度。"
+  },
+  "explicit_conflicts": [
+    "描述为白色碗(white bowl)，画面明确是白色平盘"
+  ],
+  "unverifiable_from_image": [
+    "无法确认肉为羊肉(mutton)而非山羊(goat)",
+    "无法确认属于korma这一特定咖喱做法"
+  ],
+  "visible_but_omitted": [
+    "白色卷心菜丝/丝状配菜",
+    "番茄块"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

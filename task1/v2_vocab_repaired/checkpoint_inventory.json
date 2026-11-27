@@ -1,0 +1,16 @@
+{
+  "best_v2.pt": {
+    "epoch": 24,
+    "vocab_size": 4837,
+    "vocab_matches": true,
+    "contains_optimizer": false,
+    "contains_scheduler": false
+  },
+  "last.pt": {
+    "epoch": 25,
+    "vocab_size": 4837,
+    "vocab_matches": true,
+    "contains_optimizer": true,
+    "contains_scheduler": true
+  }
+}

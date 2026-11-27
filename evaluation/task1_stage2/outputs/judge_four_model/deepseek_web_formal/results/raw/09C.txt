@@ -1,0 +1,30 @@
+{
+  "candidate_id": "09C",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白盘与香肠旁一摊白色食物的摆放大致相符，但画面只有一根香肠、并无牛肉片，整体判断有偏差。",
+    "food_identification": "'bangers'对应图中烤香肠，但主体白色食物是整粒豆类/小扁豆，被误判为土豆泥，还多出牛肉。",
+    "detail_accuracy": "未写出香肠焦烤纹与焦黑末端、豆粒上的香草碎等可见细节，'土豆泥''牛肉片'与画面冲突。",
+    "language_quality": "句子语法通顺，只有'bangers and mash'与'mashed potatoes'语义重复这一小瑕疵。"
+  },
+  "explicit_conflicts": [
+    "mashed potatoes：图中为成堆的整粒白色豆类/小扁豆，并非土豆泥",
+    "a few slices of beef：画面中没有牛肉片，只有一根烤香肠",
+    "bangers（复数）：画面中仅有一根香肠"
+  ],
+  "unverifiable_from_image": [
+    "香肠的具体品种（是否为英式banger）无法从图中确认"
+  ],
+  "visible_but_omitted": [
+    "香肠表面的烤纹、焦褐色与焦黑末端未提及",
+    "白色豆粒表面可见的香草碎屑/酱汁未提及",
+    "白色圆盘的边缘与简单摆盘几乎只以'a white plate'带过"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mashed potatoes（土豆泥）",
+    "slices of beef（牛肉片）"
+  ]
+}

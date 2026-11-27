@@ -1,0 +1,26 @@
+{
+  "candidate_id": "18D",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白色盘子与棕褐色肉类基本相符，但画面是成排平放的肉串，并非带骨肋排堆盛。",
+    "food_identification": "肉类大类正确，但把烤串认成韩式带骨肋排（galbi），主食形态错误。",
+    "detail_accuracy": "颜色尚可，但骨头实为细竹木签，葱花在肉面上完全看不到。",
+    "language_quality": "句子语法通顺、无重复，仅修饰成分堆叠略显拗口。"
+  },
+  "explicit_conflicts": [
+    "把成排肉串的深色细签误写成 bones（带骨肋排），图中是签子而非骨头"
+  ],
+  "unverifiable_from_image": [
+    "chopped green onion：肉面未见任何绿色碎末，无法确认是否有切碎葱花"
+  ],
+  "visible_but_omitted": [
+    "多串肉串并列的签子形态与数量未体现",
+    "深色背景中的红色小浆果装饰"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chopped green onion"
+  ]
+}

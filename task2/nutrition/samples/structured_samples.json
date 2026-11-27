@@ -1,0 +1,236 @@
+[
+  {
+    "dish_id": "dish_1556575327",
+    "source": "教学云平台 Nutrition5k 学生版测试集",
+    "image": "demo_images/dish_1556575327.png",
+    "target": {
+      "items": [
+        {
+          "name": "brussels sprouts",
+          "weight_g": 64.0
+        },
+        {
+          "name": "olives",
+          "weight_g": 62.0
+        },
+        {
+          "name": "celery",
+          "weight_g": 28.0
+        }
+      ],
+      "total_weight_g": 152.0,
+      "total_calories_kcal": 103.3,
+      "protein_g": 2.9,
+      "fat_g": 6.9,
+      "carbohydrate_g": 10.6
+    },
+    "models": {
+      "a": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "mixedgreens",
+              "weight_g": 61.0
+            },
+            {
+              "name": "olives",
+              "weight_g": 26.0
+            },
+            {
+              "name": "olives",
+              "weight_g": 26.0
+            },
+            {
+              "name": "cucumbers",
+              "weight_g": 15.0
+            },
+            {
+              "name": "cucumbers",
+              "weight_g": 15.0
+            },
+            {
+              "name": "radishes",
+              "weight_g": 14.0
+            }
+          ],
+          "total_weight_g": 129.0,
+          "total_calories_kcal": 59.4,
+          "protein_g": 1.7,
+          "fat_g": 0.6,
+          "carbohydrate_g": 15.5
+        },
+        "text": "{\"items\":[{\"name\":\"mixedgreens\",\"weight_g\":61.0},{\"name\":\"olives\",\"weight_g\":26.0},{\"name\":\"olives\",\"weight_g\":26.0},{\"name\":\"cucumbers\",\"weight_g\":15.0},{\"name\":\"cucumbers\",\"weight_g\":15.0},{\"name\":\"radishes\",\"weight_g\":14.0}],\"total_weight_g\":129.0,\"total_calories_kcal\":59.4,\"protein_g\":1.7,\"fat_g\":0.6,\"carbohydrate_g\":15.5}",
+        "parse_code": 1
+      },
+      "b": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "olives",
+              "weight_g": 49.5
+            },
+            {
+              "name": "brussels sprouts",
+              "weight_g": 66.7
+            },
+            {
+              "name": "celery",
+              "weight_g": 0.0
+            }
+          ],
+          "total_weight_g": 116.3,
+          "total_calories_kcal": 72.7,
+          "protein_g": 2.8,
+          "fat_g": 4.2,
+          "carbohydrate_g": 10.4
+        },
+        "text": null,
+        "parse_code": null
+      },
+      "bgen": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "brussels sprouts",
+              "weight_g": 64.0
+            },
+            {
+              "name": "cherry tomatoes",
+              "weight_g": 42.0
+            },
+            {
+              "name": "cucumbers",
+              "weight_g": 22.0
+            },
+            {
+              "name": "cucumbers",
+              "weight_g": 10.0
+            }
+          ],
+          "total_weight_g": 142.0,
+          "total_calories_kcal": 119.0,
+          "protein_g": 2.9,
+          "fat_g": 6.9,
+          "carbohydrate_g": 10.9
+        },
+        "text": "{\"items\":[{\"name\":\"brussels sprouts\",\"weight_g\":64.0},{\"name\":\"cherry tomatoes\",\"weight_g\":42.0},{\"name\":\"cucumbers\",\"weight_g\":22.0},{\"name\":\"cucumbers\",\"weight_g\":10.0}],\"total_weight_g\":142.0,\"total_calories_kcal\":119.0,\"protein_g\":2.9,\"fat_g\":6.9,\"carbohydrate_g\":10.9}",
+        "parse_code": 1
+      }
+    }
+  },
+  {
+    "dish_id": "dish_1562168673",
+    "source": "教学云平台 Nutrition5k 学生版测试集",
+    "image": "demo_images/dish_1562168673.png",
+    "target": {
+      "items": [
+        {
+          "name": "honeydew melons",
+          "weight_g": 41.0
+        },
+        {
+          "name": "mixed greens",
+          "weight_g": 20.6
+        },
+        {
+          "name": "granola",
+          "weight_g": 5.2
+        },
+        {
+          "name": "blackberries",
+          "weight_g": 2.1
+        },
+        {
+          "name": "raspberries",
+          "weight_g": 2.1
+        }
+      ],
+      "total_weight_g": 73.0,
+      "total_calories_kcal": 56.4,
+      "protein_g": 1.2,
+      "fat_g": 2.3,
+      "carbohydrate_g": 8.6
+    },
+    "models": {
+      "a": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "broccoli",
+              "weight_g": 39.7
+            }
+          ],
+          "total_weight_g": 61.0,
+          "total_calories_kcal": 13.5,
+          "protein_g": 0.5,
+          "fat_g": 0.1,
+          "carbohydrate_g": 4.9
+        },
+        "text": "{\"items\":[{\"name\":\"broccoli\",\"weight_g\":39.7}],\"total_weight_g\":61.0,\"total_calories_kcal\":13.5,\"protein_g\":0.5,\"fat_g\":0.1,\"carbohydrate_g\":4.9}",
+        "parse_code": 1
+      },
+      "b": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "cucumbers",
+              "weight_g": 0.0
+            },
+            {
+              "name": "caesar salad",
+              "weight_g": 51.5
+            },
+            {
+              "name": "lettuce",
+              "weight_g": 8.8
+            },
+            {
+              "name": "bok choy",
+              "weight_g": 12.4
+            },
+            {
+              "name": "pears",
+              "weight_g": 12.2
+            },
+            {
+              "name": "honeydew melons",
+              "weight_g": 35.1
+            }
+          ],
+          "total_weight_g": 120.0,
+          "total_calories_kcal": 45.9,
+          "protein_g": 1.5,
+          "fat_g": 1.0,
+          "carbohydrate_g": 5.4
+        },
+        "text": null,
+        "parse_code": null
+      },
+      "bgen": {
+        "nutrition": {
+          "items": [
+            {
+              "name": "brussels sprouts",
+              "weight_g": 51.0
+            },
+            {
+              "name": "mixed greens",
+              "weight_g": 21.2
+            },
+            {
+              "name": "blueberries",
+              "weight_g": 2.0
+            }
+          ],
+          "total_weight_g": 111.0,
+          "total_calories_kcal": 51.3,
+          "protein_g": 1.0,
+          "fat_g": 2.1,
+          "carbohydrate_g": 1.7
+        },
+        "text": "{\"items\":[{\"name\":\"brussels sprouts\",\"weight_g\":51.0},{\"name\":\"mixed greens\",\"weight_g\":21.2},{\"name\":\"blueberries\",\"weight_g\":2.0}],\"total_weight_g\":111.0,\"total_calories_kcal\":51.3,\"protein_g\":1.0,\"fat_g\":2.1,\"carbohydrate_g\":1.7}",
+        "parse_code": 1
+      }
+    }
+  }
+]

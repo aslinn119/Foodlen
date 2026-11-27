@@ -1,0 +1,29 @@
+{
+  "candidate_id": "02C",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 3,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面确为俯拍的金黄裹粉油炸食物，右下角配一小碗深红色蘸酱，整体构成与“油炸食物＋小碗酱”的摆放相符；但候选称“一盘/a plate”，图中未见明确盘沿，且主食物呈圆球状而非条状，整体画面描述只部分吻合。",
+    "food_identification": "主要食物类别判断错误：图中为圆形裹粉炸球，掰开的一个露出黄色玉米粒、融化奶酪与绿色香草，应为玉米奶酪炸球/炸饭团一类的素食小食，候选定为“chicken fingers（鸡柳）”属主体错误。",
+    "detail_accuracy": "“golden（金黄）”“crispy exterior（外皮酥脆）”“小碗番茄酱在旁”与画面基本一致；但未提及掰开食物内可见的玉米粒、融化奶酪拉丝和绿色香草，且“fingers”对外形描述不符，细节覆盖与准确性均不足。",
+    "language_quality": "句子语法正确、表达流畅、无重复，但用词较笼统，且“chicken fingers”与“fingers”造成语义偏差；语言本身问题轻微。"
+  },
+  "explicit_conflicts": [
+    "候选称主体为 chicken fingers（鸡柳/鸡条），但图中为圆形裹粉炸球，无条状外形，形状明确冲突。",
+    "候选将其视为鸡肉条，图中掰开的一个显示内部为黄色玉米粒、融化白色奶酪及绿色香草，未见鸡肉纤维或肉质结构，与画面明确冲突。"
+  ],
+  "unverifiable_from_image": [
+    "“a plate（一盘）”：图中食物置于米色平面，未见明确盘沿或餐具容器，无法确认是否使用盘子。",
+    "“tomato sauce（番茄酱）”：右下角仅可见深红色浓稠蘸酱，无法从画面确认其是否为番茄成分的酱料（也可能是其他红色酱汁）。"
+  ],
+  "visible_but_omitted": [
+    "掰开的一个炸球内部可见黄色玉米粒（corn kernels）填充，候选完全未提及。",
+    "内部可见融化的白色奶酪并可拉丝，候选未提及。",
+    "馅料中可见绿色香草碎（葱/欧芹类），候选未提及。"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chicken（鸡肉）：图中无任何鸡肉的外形、纹理或截面证据，可判断为臆造的原料。"
+  ]
+}

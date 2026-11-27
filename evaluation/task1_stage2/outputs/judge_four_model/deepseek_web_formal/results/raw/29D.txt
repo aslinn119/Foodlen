@@ -1,0 +1,26 @@
+{
+  "candidate_id": "29D",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "食物盛放在浅色盘上、右侧配一只小碗的整体摆放与画面大致相符，但画面整体性质（油炸咸味菜品）被描述成甜点场景，出现明显偏差。",
+    "food_identification": "主体识别错误：图中是裹面包糠炸制的鸡块/鸡柳，候选写成苹果脆皮甜点（apple crisp），主要食物类别完全不符。",
+    "detail_accuracy": "仅“金黄褐色（golden brown）”与食物外壳颜色相符；把碗中黄色蘸酱说成冰淇淋球，且未描述酥脆裹粉外壳等外观细节。",
+    "language_quality": "句子通顺、语法基本无误，“a small bowl of ice cream ball”搭配略显生硬，但不影响理解。"
+  },
+  "explicit_conflicts": [
+    "apple crisp（苹果脆皮甜点）：图中主体是裹面包糠油炸的鸡块，并非苹果类烘焙甜点，主体类别冲突",
+    "ice cream ball（冰淇淋球）：右侧小碗内为黄色流动状酱汁/蘸料，未见任何球状冰淇淋"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "炸块表面颗粒状的面包糠裹层与酥脆质感未描述",
+    "盘子的白色盘面未提及，仅笼统写“a plate”"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "apple（苹果）",
+    "ice cream（冰淇淋）"
+  ]
+}

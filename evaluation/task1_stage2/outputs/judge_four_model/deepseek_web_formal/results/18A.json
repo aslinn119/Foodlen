@@ -1,0 +1,28 @@
+{
+  "candidate_id": "18A",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "仅“盘子”与画面一致；描述为甜点配筷子，与图中成把烤肉串扇形摊在白盘上的摆放明显不符。",
+    "food_identification": "主体识别为lebkuchen（姜饼甜点），图中主体是插在长签上的块状烤肉，主体类别完全错误。",
+    "detail_accuracy": "“表面大量盐”与“一双筷子”均与可见外观不符；未描述肉块的块状纹理、油亮表面和长签。",
+    "language_quality": "句子语法通顺、无重复，但含<UNK>占位符，影响描述完整性。"
+  },
+  "explicit_conflicts": [
+    "描述主体为lebkuchen（姜饼甜点），与图中大把肉串明确冲突",
+    "将穿肉的长签称为“一双筷子”，图中是多根烤肉签而非筷子"
+  ],
+  "unverifiable_from_image": [
+    "<UNK>占位符所指内容不完整，无法确认具体所指",
+    "肉串表面是否撒有大量盐无法从图中确认，画面只见肉表面油光"
+  ],
+  "visible_but_omitted": [
+    "图中成把的烤肉串（肉块与长签）这一主体完全未被描述"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "lebkuchen（姜饼）",
+    "盐（salt）"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "candidate_id": "12B",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "白色陶瓷碗盛亮黄绿色厚泥状物的画面主体大致相符，但碗旁深色底面上整把摆放的小葱和欧芹配菜及整体构图基本被略过，只说表面有点缀。",
+    "food_identification": "图中主料是牛油果酱/牛油果泥，候选写成青豌豆泥且称由土豆泥制成，主料类别两处误判，仅“绿色泥状物”方向接近。",
+    "detail_accuracy": "“thick texture（厚重质地）”与浓稠块状外观相符，但“mashed potatoes”与亮绿色研磨质地明显不符，“表面撒一小撮欧芹”的细节也无法在泥面上确认。",
+    "language_quality": "“with a thick texture”整段短语逐字重复，句子拖沓，且“青豌豆泥由土豆泥制成”前后自相矛盾，影响流畅度。"
+  },
+  "explicit_conflicts": [
+    "“made of mashed potatoes（由土豆泥制成）”：碗中为亮黄绿色、带研磨块状的牛油果酱，颜色与质地同淡黄白色土豆泥明显冲突"
+  ],
+  "unverifiable_from_image": [
+    "“topped with a pinch of parsley on the surface（表面撒一小撮欧芹）”：泥面上是否有欧芹点缀无法确认，画面中欧芹主要是整枝摆在碗旁"
+  ],
+  "visible_but_omitted": [
+    "碗左侧深色底面上清晰可见的整把小葱/青葱（fresh green chives）未提及",
+    "碗旁成枝的新鲜欧芹整把可见，却只被写成“表面一小撮”",
+    "白色陶瓷碗与黑色背景的简洁摆盘未描述"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "green mushy peas（青豌豆泥）：图中为牛油果酱质地，无青豌豆泥特征，疑似主料误认"
+  ]
+}

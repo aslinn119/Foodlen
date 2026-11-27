@@ -1,0 +1,33 @@
+{
+  "candidate_id": "17D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "1分：画面主体是白瓷圆碗里的汤面，候选却写成一碗饭外加两个小碗，整体场景与摆放完全不符，仅“白色圆碗”勉强对应。",
+    "food_identification": "1分：主要食物类别写成米饭，图中实际是汤面（宽白米粉）、肉末与四颗黄色炸丸，主体类别错误。",
+    "detail_accuracy": "1分：所谓“黄米饭”“白米饭”两个小碗均不存在，可见的肉末、芽菜、筷子、黄勺、粉白条纹布全未提及。",
+    "language_quality": "4分：句子语法通顺、可读，但 rice 与 bowl 各出现三次，重复明显。"
+  },
+  "explicit_conflicts": [
+    "称主体为“a bowl of rice”（一碗饭），图中是汤面碗，不含米饭。",
+    "称旁边有“a small bowl of white rice”（一小碗白米饭），图中并无白米饭。",
+    "称旁边有“a small bowl of yellow rice”（一小碗黄米饭），图中没有黄米饭，只有一只小碟装红色辣椒酱。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "四颗金黄炸丸（虾丸/鱼丸）",
+    "宽白米粉/面条",
+    "肉末（碎肉）",
+    "豆芽",
+    "筷子与黄色勺子",
+    "粉白条纹的布/餐巾",
+    "小碟红色辣椒酱"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "rice（米饭）——图中无米饭",
+    "yellow rice（黄米饭）——图中无此物",
+    "white rice（白米饭）——图中无此物"
+  ]
+}

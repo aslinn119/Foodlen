@@ -1,0 +1,23 @@
+{
+  "image": "FoodLens_Task1_李馨瑶\\Food500Cap_ready\\test\\Arab_salad\\Arab_salad_00040.jpg",
+  "caption": "a plate of arab salad with diced tomatoes, cucumbers, onions, and chopped parsley.",
+  "tokens": [
+    "a",
+    "plate",
+    "of",
+    "arab",
+    "salad",
+    "with",
+    "diced",
+    "tomatoes,",
+    "cucumbers,",
+    "onions,",
+    "and",
+    "chopped",
+    "parsley."
+  ],
+  "coordinates": "Resize256 CenterCrop224",
+  "index": 190,
+  "category": "Arab_salad",
+  "reference": "A plate of Arab salad fresh consists of diced tomatoes, cucumbers, and onions mixed together with parsley leaves."
+}

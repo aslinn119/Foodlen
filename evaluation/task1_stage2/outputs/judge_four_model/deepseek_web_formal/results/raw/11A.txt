@@ -1,0 +1,28 @@
+{
+  "candidate_id": "11A",
+  "visual_consistency": 3,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "Plate of brown braised meat matches the overall scene, but the claimed rice side is absent and 'a super thick' is incomplete.",
+    "food_identification": "Main food is wrong: the image shows braised pig's trotters with bone and skin, not stew chicken.",
+    "detail_accuracy": "The green garnish is curly parsley at the plate edge, not chopped green onion; no rice is visible.",
+    "language_quality": "Mostly readable, but 'with a super thick and some white rice' is ungrammatical and the repeated 'with' is awkward."
+  },
+  "explicit_conflicts": [
+    "Brown stew chicken: the dish is braised pig's trotters with visible trotter bone, skin and knuckle shapes, not chicken.",
+    "Chopped green onion on the surface: the only green is curly parsley at the plate edge, and nothing chopped is scattered on the meat."
+  ],
+  "unverifiable_from_image": [
+    "The truncated phrase 'a super thick' names no ingredient or texture, so it cannot be checked against the image."
+  ],
+  "visible_but_omitted": [
+    "The small pink-purple orchid-like flower decor at the upper right.",
+    "The glossy dark-red braising sauce and the exposed bone/cartilage of the trotters.",
+    "The blue-and-white patterned porcelain in the background and the patterned plate rim."
+  ],
+  "suspected_ingredient_hallucinations": [
+    "White rice on the side."
+  ]
+}

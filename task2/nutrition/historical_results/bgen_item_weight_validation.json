@@ -1,0 +1,104 @@
+{
+  "val": {
+    "raw": {
+      "bleu_4": 0.641346723761815,
+      "rouge_l": 0.7973935051471019,
+      "cider_d": 8.419636368119777,
+      "micro_f1": 0.31613539270456786,
+      "macro_f1": 0.3979570574989616,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423,
+      "consistency": {
+        "mean_abs_diff_g": 46.68595218322479,
+        "within_5g_ratio": 0.1435523114355231,
+        "duplicate_item_rate": 0.5772946859903382
+      },
+      "ingredient_weight": {
+        "matched_count": 481,
+        "union_count": 2562,
+        "matched_mae_g": 48.33700623700625,
+        "union_mae_g": 49.19699453551904
+      }
+    },
+    "merge_duplicates": {
+      "bleu_4": 0.5857390629187138,
+      "rouge_l": 0.7734924418510167,
+      "cider_d": 8.410194398294554,
+      "micro_f1": 0.31613539270456786,
+      "macro_f1": 0.3979570574989616,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423,
+      "consistency": {
+        "mean_abs_diff_g": 46.68595218322479,
+        "within_5g_ratio": 0.1435523114355231,
+        "duplicate_item_rate": 0.0
+      },
+      "ingredient_weight": {
+        "matched_count": 481,
+        "union_count": 2562,
+        "matched_mae_g": 48.33700623700625,
+        "union_mae_g": 49.19699453551904
+      }
+    },
+    "merge_and_scale": {
+      "bleu_4": 0.5816661859442245,
+      "rouge_l": 0.7693322432234351,
+      "cider_d": 8.410194398294554,
+      "micro_f1": 0.31613539270456786,
+      "macro_f1": 0.3979570574989616,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423,
+      "consistency": {
+        "mean_abs_diff_g": 0.021943599766058364,
+        "within_5g_ratio": 1.0,
+        "duplicate_item_rate": 0.0
+      },
+      "ingredient_weight": {
+        "matched_count": 481,
+        "union_count": 2562,
+        "matched_mae_g": 47.745530145530175,
+        "union_mae_g": 49.610616705698654
+      }
+    },
+    "keep_largest_duplicate": {
+      "bleu_4": 0.5853027304508339,
+      "rouge_l": 0.7737594051644731,
+      "cider_d": 8.410194398294554,
+      "micro_f1": 0.31613539270456786,
+      "macro_f1": 0.3979570574989616,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423,
+      "consistency": {
+        "mean_abs_diff_g": 67.13603720608835,
+        "within_5g_ratio": 0.13138686131386862,
+        "duplicate_item_rate": 0.0
+      },
+      "ingredient_weight": {
+        "matched_count": 481,
+        "union_count": 2562,
+        "matched_mae_g": 29.309771309771307,
+        "union_mae_g": 42.15944574551122
+      }
+    },
+    "keep_largest_and_scale": {
+      "bleu_4": 0.5813831745003576,
+      "rouge_l": 0.769226176544235,
+      "cider_d": 8.410194398294554,
+      "micro_f1": 0.31613539270456786,
+      "macro_f1": 0.3979570574989616,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423,
+      "consistency": {
+        "mean_abs_diff_g": 0.02121367275875917,
+        "within_5g_ratio": 1.0,
+        "duplicate_item_rate": 0.0
+      },
+      "ingredient_weight": {
+        "matched_count": 481,
+        "union_count": 2562,
+        "matched_mae_g": 42.25530145530142,
+        "union_mae_g": 49.12064793130367
+      }
+    }
+  }
+}

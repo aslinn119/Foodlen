@@ -1,0 +1,27 @@
+{
+  "candidate_id": "29B",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "画面为金黄酥炸块堆叠、右侧带一只盛酱小碗、下方白色盘子作托，整体摆放大致吻合，但容器与酱汁描述有明显偏差",
+    "food_identification": "主体为裹面包糠油炸鸡块，候选写成 mozzarella sticks，主要食物类别判断错误",
+    "detail_accuracy": "金黄颜色与酥脆面包糠外壳描述正确，但 ketchup 与图中黄橙色蘸酱冲突，且看不到奶酪内芯",
+    "language_quality": "with a super crispy crust 连续重复三次，句子为超长 with 串联，表达啰嗦且重复"
+  },
+  "explicit_conflicts": [
+    "ketchup：右侧玻璃小碗内蘸酱为黄橙色（近芒果酱质感），非番茄酱的红色",
+    "mozzarella sticks：图中为不规则块状的裹糠炸鸡块，并非细长奶酪条"
+  ],
+  "unverifiable_from_image": [
+    "外壳“super crispy”的酥脆程度无法从静态照片完全确认"
+  ],
+  "visible_but_omitted": [
+    "底部露出的白色盘子/盘缘未提及"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mozzarella cheese",
+    "ketchup"
+  ]
+}

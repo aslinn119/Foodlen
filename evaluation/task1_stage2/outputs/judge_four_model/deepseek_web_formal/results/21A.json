@@ -1,0 +1,27 @@
+{
+  "candidate_id": "21A",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "只与画面局部相符：\"closeup\"和分层堆叠的高叠三明治大致对得上，但主体未识别，分层内容与图中面包-腌牛肉-奶酪-奶油沙拉的实际摆放大相径庭。",
+    "food_identification": "主要食物完全未识别，主体位置写作两个<UNK>占位符，看不出所指是三明治/面包/肉类，属主体难以理解。",
+    "detail_accuracy": "白色奶油层与图中奶油沙拉酱/白酱部分对应，但\"red bean paste\"与红色肉层不符，且未写出腌牛肉、白奶酪片、面包与金属签字等明显可见细节。",
+    "language_quality": "句子基本可读，但含两个<UNK>占位符，且\"a layer of white cream\"连续重复两次，表达生硬冗余。"
+  },
+  "explicit_conflicts": [
+    "\"red bean paste\"（红豆沙）与画面明确冲突：图中红色夹层是叠放的切片腌牛肉等红肉，并非红豆沙。"
+  ],
+  "unverifiable_from_image": [
+    "主体被写成<UNK> <UNK>，无法从候选文本确认其声称的食物对象，也无法与画面核验对应。"
+  ],
+  "visible_but_omitted": [
+    "全麦/黑麦面包片",
+    "叠放的切片腌牛肉(corned beef)",
+    "白色奶酪/芝士片",
+    "穿过三明治的金属签字(pick)",
+    "奶油凉拌卷心菜/椰菜丝沙拉"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

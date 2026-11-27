@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "detail": {
+    "val": {
+      "modelA_cnn_gru": [],
+      "modelB_clip_lora": [],
+      "modelBgen": []
+    },
+    "test": {
+      "modelA_cnn_gru": [],
+      "modelB_clip_lora": [],
+      "modelBgen": []
+    }
+  }
+}

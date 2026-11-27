@@ -1,0 +1,21 @@
+{
+  "candidate_id": "23C",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 1,
+  "reasons": {
+    "visual_consistency": "仅开头'a plate of ... with a ... of ...'可读，与白色长盘及旁置小碟的大致布局不冲突，但其余全为<UNK>，无法核对整体画面与摆放。",
+    "food_identification": "主要食物完全未写出，sliced pig's ear 关键信息全部被<UNK>替代。",
+    "detail_accuracy": "配料、切片外观、三种蘸酱等细节均以<UNK>占位，没有可核对的具体内容。",
+    "language_quality": "连续大量<UNK>占位，句子无法解读，基本不构成流畅描述。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "sliced pig's ear as the main food",
+    "three dipping sauces in the side wells",
+    "green leaf garnish at lower right"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

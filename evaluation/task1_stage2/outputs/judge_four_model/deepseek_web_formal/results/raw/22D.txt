@@ -1,0 +1,29 @@
+{
+  "candidate_id": "22D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "只写了四块点心，图中可见约六块，且完全未提透明雕花玻璃盘与码放方式，画面构成偏差明显。",
+    "food_identification": "主体判为banh chuoi（香蕉糕），与图中实实在在的酿馅蘑菇完全不符，属主体错误。",
+    "detail_accuracy": "金黄色与绿色碎末大致对得上，但“酥脆外壳”与融化奶酪表面不符，深棕色蘑菇伞盖与奶酪顶料均未交代。",
+    "language_quality": "句子通顺无重复，表达简洁可读，只有banh chuoi为外文词略增理解成本。"
+  },
+  "explicit_conflicts": [
+    "banh chuoi（香蕉糕）与图中酿馅蘑菇冲突，食物类别错误",
+    "“four pieces”与图中约六块冲突",
+    "“crispy surface”与图中融化奶酪的软质表面冲突"
+  ],
+  "unverifiable_from_image": [
+    "“green spices”无法确认为香料，图中绿色碎末更像切碎的细香葱"
+  ],
+  "visible_but_omitted": [
+    "透明雕花玻璃盘/托盘",
+    "深棕色圆形蘑菇伞盖",
+    "覆在顶部的融化金黄色奶酪"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "banh chuoi（香蕉糕）——图中无香蕉、糯米或糕点类食物"
+  ]
+}

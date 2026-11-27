@@ -1,0 +1,28 @@
+{
+  "candidate_id": "03A",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "图为黑色金属网烤架上并排摆放的两条腌制肉排，每块各覆一片大绿叶；候选描述为一大块鱼排，主体数量与画面摆放均与图像冲突，判1。",
+    "food_identification": "主体是带腌料酱汁、脂肪与斜切花刀纹理的牛肉排骨（galbi），候选称为 fish steak，食物类别完全错误，判1。",
+    "detail_accuracy": "肉排表面湿润挂酱、为生腌状态，并非 super crispy；绿色物是每块肉上的整片宽大绿叶，不是 green pepper slices；side 处未见 rosemary，细节多处错误，判1。",
+    "language_quality": "句子语法通顺、无重复、可理解，仅 surface/on the side 处措辞略堆叠，判4。"
+  },
+  "explicit_conflicts": [
+    "候选称 a large piece of fish steak，画面实际是并排两条腌制牛肉排骨（短肋），食物类别与数量均冲突。",
+    "候选称表面 super crispy，画面肉排表面湿润挂酱、为生腌状态，无酥脆质感。",
+    "候选称表面有 a few slices of green pepper，画面每块肉上各有一整片宽大绿色叶片，并非辣椒片。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "黑色金属网烤架（stainless steel net）",
+    "并排两长条肉排这一数量与排列",
+    "肉排表面的斜切花刀、脂肪与腌料纹理",
+    "画面中央的两小滴酱汁"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "rosemary：黑色烤网及画面周边均未见任何迷迭香枝条、碎叶或类似香草。"
+  ]
+}

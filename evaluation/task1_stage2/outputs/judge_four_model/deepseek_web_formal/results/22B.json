@@ -1,0 +1,29 @@
+{
+  "candidate_id": "22B",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "确有盘装食物且呈金黄色调，与透明盘大致相符，但未体现深褐色蘑菇底座与整齐堆叠的摆放。",
+    "food_identification": "图中主体是奶酪焗酿蘑菇（褐色圆蘑菇伞），候选写成葡式马介休炸饼，食物类别完全错误。",
+    "detail_accuracy": "“金色”和“绿色香料点缀”与画面尚可对应，但把蘑菇误作炸饼并凭空写入肉馅，褐色蘑菇盖与融化奶酪等关键外观缺失。",
+    "language_quality": "句子基本通顺、无重复，但残留“<UNK>”占位符，且 pasteis de bacalhaus 拼写（应为 bacalhau）影响可读性。"
+  },
+  "explicit_conflicts": [
+    "将画面主体描述为葡式马介休炸饼（pasteis de bacalhaus），而图中实际是带褐色蘑菇伞的奶酪焗酿蘑菇"
+  ],
+  "unverifiable_from_image": [
+    "馅料是否为“肉”（<UNK> meat）无法从图中确认，其被表面奶酪覆盖"
+  ],
+  "visible_but_omitted": [
+    "深褐色圆形蘑菇伞（蘑菇底座）",
+    "表面融化的金黄色奶酪层",
+    "透明刻花玻璃盘",
+    "绿色餐布/桌布背景"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "pasteis de bacalhaus（葡式马介休炸饼）",
+    "肉（meat）作为馅料"
+  ]
+}

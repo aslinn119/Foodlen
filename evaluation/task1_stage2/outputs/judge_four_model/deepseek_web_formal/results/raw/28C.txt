@@ -1,0 +1,28 @@
+{
+  "candidate_id": "28C",
+  "visual_consistency": 3,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "堆叠摆放与白色底座基本相符，但白色盘子带蓝色花纹与画面不符，背景等也未描述。",
+    "food_identification": "画面主体是薄脆杏仁饼干，候选写成玉米薄饼，食物类别完全错误。",
+    "detail_accuracy": "金色较接近，但玉米原料和蓝纹盘子均不符，也未写出薄片边缘焦褐色和表面颗粒质感。",
+    "language_quality": "单句通顺自然，语法正确，无重复啰嗦。"
+  },
+  "explicit_conflicts": [
+    "把主体写成玉米薄饼(corn tortillas)，画面实为薄脆杏仁饼干",
+    "称白色盘子带蓝色花纹，图中白色底座上未见任何蓝色图案"
+  ],
+  "unverifiable_from_image": [
+    "底座是否为白色盘子无法确认，画面底部更像折叠的白色纸垫或餐巾"
+  ],
+  "visible_but_omitted": [
+    "左上角清晰可见的'Crisp Almond Cookies'文字说明未提及",
+    "深灰色纯色背景未描述",
+    "饼干薄而圆的形状及边缘焦褐色纹理未描述"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "corn（玉米）：画面主体为杏仁饼干，玉米成分属虚构"
+  ]
+}

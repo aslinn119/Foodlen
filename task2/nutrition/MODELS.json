@@ -1,0 +1,64 @@
+{
+  "说明": "Task 2 模型清单：输入、输出、权重、依赖与输出构造方式。统一推理入口 predict.predict_nutrition(image_path, model_id)，model_id ∈ {a, b, bgen}。所有模型输出统一符合 schema.json。",
+  "公共输入": {
+    "类型": "RGB 菜品俯拍图（任意尺寸，推理时 Resize 到 224x224）",
+    "归一化": {
+      "a": "ImageNet mean/std（ResNet 约定）",
+      "b/bgen": "CLIP mean/std [0.4815,0.4578,0.4082]/[0.2686,0.2613,0.2758]"
+    }
+  },
+  "模型": [
+    {
+      "model_id": "a",
+      "名称": "模型 A：Task 2 的 CNN+GRU 生成式对比",
+      "范式": "生成式（自回归逐 token 生成 JSON 文本）",
+      "结构": "ResNet18(ImageNet 预训练, 整体表示 512 维) -> 线性映射 h0 -> GRU(emb256, hidden512) 贪心解码",
+      "输出构造方式": "在 JSON 语法和训练词表约束下逐 token 解码，严格解析，保留食材名中的空格，按预测总重分配至 0.1 g。",
+      "输出字段": "items + 5 数值字段（解析后）; predict_nutrition_verbose 另返回 text 与 parse_code",
+      "权重": "checkpoints_caption/best_model.pt（含词表大小）",
+      "依赖代码": "model_caption.py, constrained_caption.py, predict_final.py",
+      "训练脚本": "train_caption.py",
+      "评测": "final_results_v3_20261119/a_test_metrics.json"
+    },
+    {
+      "model_id": "b",
+      "名称": "模型 B：CLIP + LoRA 参数高效微调的多任务模型（结构化预测）",
+      "范式": "结构化预测（分类/回归头 + 程序组装 JSON，非自回归生成）",
+      "结构": "CLIP ViT-B/32(冻结) + 最后 4 层注意力 LoRA(rank16, 0.393M) + 三任务头(5 维回归 / 151 类多标签 / 151 类分量回归)，可训练共 0.824M(0.93%)",
+      "输出构造方式": "使用权重内的验证集阈值；超出 16 项按置信度选取，空集取最高分。各项重量之和等于预测总重。",
+      "输出字段": "items + 5 数值字段; text 为 None, parse_code 恒 1",
+      "权重": "checkpoints_lora_mt_normalized/best_model.pt",
+      "依赖代码": "model_lora.py, ingredients.json",
+      "训练脚本": "train_lora_mt.py",
+      "评测": "final_results_v3_20261119/b_test_metrics.json"
+    },
+    {
+      "model_id": "bgen",
+      "名称": "B-gen 生成式对照，使用历史 B 编码器和字符解码器",
+      "范式": "生成式，逐字符生成 JSON 文本",
+      "结构": "复用模型 B 的已微调视觉编码器，GRU 字符解码器，束宽 4",
+      "输出构造方式": "逐字符生成后严格解析或回退，再校验字段和最多 16 项限制。测试原文严格解析率 95.85%，最终 Schema 通过率 100%。",
+      "输出字段": "items + 5 数值字段（解析后）; predict_nutrition_verbose 另返回 text 与 parse_code",
+      "权重": "checkpoints_bgen/best_decoder.pt 提供解码器，checkpoints_lora_mt/best_model.pt 提供编码器",
+      "依赖代码": "model_bgen.py, data_bgen.py, json_parse.py",
+      "训练脚本": "train_bgen.py（视觉特征由 data_bgen.py 一次性缓存至 checkpoints_bgen/features/）",
+      "评测": "final_results_v3_20261119/bgen_test_metrics.json"
+    }
+  ],
+  "下限对照基线（仅数值回归，不参与文本/食材指标）": [
+    {
+      "名称": "均值基线",
+      "权重": "无（训练集 5 字段均值）",
+      "test 平均 MAE": 65.51
+    },
+    {
+      "名称": "ResNet18 多输出回归",
+      "权重": "checkpoints/best_model.pt",
+      "test 平均 MAE": 27.24
+    }
+  ],
+  "统一评测": {
+    "入口": "eval_task2_final.py",
+    "结果目录": "final_results_v3_20261119"
+  }
+}

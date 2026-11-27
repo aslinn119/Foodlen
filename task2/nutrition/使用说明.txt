@@ -1,0 +1,45 @@
+使用说明（2026-11-23修订版）
+
+一、模型怎么选
+主要成果：A（CNN+GRU生成）和B（CLIP+LoRA结构化预测）。展示建议默认B。
+B-gen只是历史生成对照，本轮不改权重、不新增训练、不修饰其原始输出缺陷。
+统一入口：from predict import predict_nutrition
+调用：predict_nutrition(image_path, 'b')，可选'a'。
+默认B加载checkpoints_lora_mt_normalized/best_model.pt。
+
+营养挑战的历史基线接口：from predict import predict_challenge_baseline
+调用：predict_challenge_baseline(image_path, model_id)，model_id选mean、resnet18、clip。
+注意：这里clip显式使用旧B（checkpoints_lora_mt/best_model.pt），用于保留历史对照；它和默认新B不是同一个版本。新B成绩不能拿来描述旧clip入口。
+
+二、结果在哪
+本次正式复核表：results_repaired_20261123/summary.json
+六份分模型指标：results_repaired_20261123/*_metrics.json
+对应预测来源：final_results_v3_20261119/*_predictions.jsonl
+营养挑战旧B结果：historical_results/test_metrics.json、historical_results/metrics_summary.csv、historical_results/modelB_test_preds.jsonl
+均值/ResNet18历史表：checkpoints/baseline_vs_resnet18.csv
+final_results_v3_20261119及historical_results等目录保留为历史证据，不与修订后的151类macro成绩混用。历史报告不代表本次重新运行。
+
+三、本机无需模型依赖即可运行的检查（先cd到FoodLens目录）
+python release_tools.py rescore
+从保存预测重新核算151类macro、micro和五字段MAE/MSE/RMSE，按dish_id严格对齐；不是模型重推理。
+python release_tools.py data-check
+检查标注ID、划分交集、图片是否存在、文件内容完全重复。已安装Pillow时另检查图片能否解码；报告明确记录是否执行解码检查。当前包缺完整3258张图。
+python -m unittest test_release -v
+本次新增的评价与ID关联回归测试。
+
+四、完整推理环境
+requirements_final.txt是原提交者的历史环境记录，本次未安装验证，不保证可直接pip安装成功。CUDA版torch需使用对应PyTorch软件源；CPU机器应使用相互兼容的CPU版torch/torchvision，不能照抄CUDA版本。需要torch、torchvision、transformers、numpy、Pillow；参考文本评分另需pycocoevalcap及其依赖。先验证上述模块可import，再运行模型。
+示例：python demo_task2.py demo_images/dish_1556575327.png
+完整原有测试：python -m unittest test_task2_corrections -v
+本次环境缺少torch，因此上述模型命令及原有依赖测试未执行。
+
+五、全量新推理
+将授权数据按annotations中的image路径放入images/train、images/val、images/test；可先只准备需要评测的split及运行依赖。
+先运行python release_tools.py data-check，修复缺图或损坏图。
+运行：python eval_task2_final.py --split val --model a
+同样运行b、test。A/B从图像新推理，结果写入results_repaired_20261123；会覆盖该目录对应模型的指标和生成预测，请需保留时先复制整个目录。
+注意：--model bgen只重新评分历史预测，输出来源有标记；本轮不要求重跑B-gen。
+完整图片不在本包中，需从原课程授权数据源另行取得。本次没有新增全量推理日志，不可宣称全量新推理验收通过。
+
+六、版本和哈希
+release_manifest.json记录本次发布内容；旧freeze.json及交付复核.json属于原版本，其hash不应被当作本次发布hash。本次没有重新训练或更换任何权重。测试集过去已经看过，本次为历史结果复核，不是新盲测。

@@ -1,0 +1,11 @@
+{
+ "split": "test",
+ "n": 4938,
+ "decode": "greedy",
+ "bleu1": 30.884894573107502,
+ "bleu2": 15.262566260398518,
+ "bleu3": 8.264484651959938,
+ "bleu4": 4.570235670394419,
+ "ckpt": "C:\\Users\\\u5218\u4e5d\u5c14\\Desktop\\\u795e\u7ecf\u7f51\u7edc\u4e0e\u6df1\u5ea6\u5b66\u4e60\\v1_cnn_gru\\runs\\v1\\best_v1.pt",
+ "epoch": 9
+}

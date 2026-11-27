@@ -1,0 +1,141 @@
+{
+  "image_id": "03",
+  "image_check": "俯拍黑色金属烤网，上面并排放着两块长方形生肉排（暗红色、带白色脂肪边、表面有交叉刀花并泛腌料光泽），每块肉上横放一片细长绿色叶片，两肉之间散落几粒橙黄色小块。",
+  "candidates": [
+    {
+      "candidate_id": "03A",
+      "visual_consistency": 2,
+      "food_identification": 1,
+      "detail_accuracy": 1,
+      "language_quality": 4,
+      "evidence": {
+        "visual_consistency": "画面是两块并排放在烤网上的肉排，候选只写“a large piece（一大块）”，数量与摆放都不符。",
+        "food_identification": "肉呈暗红色、有肌纤维和白色脂肪边，是生肉排而非鱼排，主类别判断错误。",
+        "detail_accuracy": "表面湿润泛光并带交叉刀花，并非“super crispy（酥脆）”；绿色部分是整片长叶而非青椒片；画面未见迷迭香。",
+        "language_quality": "语法通顺、可读，但“on the surface…on the side”句式略重复。"
+      },
+      "uncertainty": [
+        "肉的具体部位（牛/猪）无法仅凭画面确认",
+        "腌料的具体成分无法确认",
+        "绿色叶片的具体品种无法确认"
+      ],
+      "visible_but_omitted": [
+        "第二块肉排（画面共两块）",
+        "黑色金属烤网/烤架",
+        "肉表面的交叉菱形刀花",
+        "肉块边缘的白色脂肪/筋膜",
+        "两块肉之间散落的少量橙黄色小块"
+      ],
+      "suspected_ingredient_hallucinations": [
+        "rosemary（迷迭香，画面中未见任何香草枝条或针叶）"
+      ],
+      "error_categories": [
+        "与画面冲突:画面为暗红色生肉排（有脂肪边与肌纤维），不是“fish steak（鱼排）”",
+        "与画面冲突:表面湿润有光泽且带刀花，不是“super crispy surface（酥脆表面）”",
+        "与画面冲突:表面绿色为整片细长叶片，不是“a few slices of green pepper（几片青椒）”",
+        "无法确认:腌料配方、肉的部位、绿色叶片品种",
+        "明显遗漏:两块肉排、烤网、交叉刀花、橙黄色小块均未描述"
+      ],
+      "verdict": "主体类别与表面状态均与画面相反，还添加了无依据的迷迭香，仅语言尚可。"
+    },
+    {
+      "candidate_id": "03B",
+      "visual_consistency": 3,
+      "food_identification": 3,
+      "detail_accuracy": 2,
+      "language_quality": 1,
+      "evidence": {
+        "visual_consistency": "提到了生肉与绿叶，与画面主体元素大致对应，但写成“一大块”且没有烤网等摆放信息。",
+        "food_identification": "“raw meat（生肉）”方向正确，但“meatloaves（肉糕/肉卷）”与画面扁平肉排形态不符。",
+        "detail_accuracy": "仅“raw”和“green leaves”与画面相符；两处<UNK>丢掉了外观细节，也未提刀花与光泽。",
+        "language_quality": "两处<UNK>占位符使句子残缺，难以理解。"
+      },
+      "uncertainty": [
+        "两个<UNK>原本指代的内容无法得知",
+        "肉的具体种类与部位无法确认",
+        "绿色叶片品种无法确认"
+      ],
+      "visible_but_omitted": [
+        "第二块肉排（候选写为一块）",
+        "黑色金属烤网/烤架",
+        "肉表面的交叉菱形刀花",
+        "肉表面的腌料光泽",
+        "两块肉之间的橙黄色小块"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "与画面冲突:画面是两块扁平生肉排、带刀花，不是“meatloaves（肉糕）”且不止一块",
+        "无法确认:<UNK>占位符所指内容（可能是外观词或配料）",
+        "明显遗漏:烤网、交叉刀花、腌料光泽、橙黄色小块均未描述"
+      ],
+      "verdict": "“生肉+绿叶”方向大体正确，但用词失准且占位符导致语言不可读。"
+    },
+    {
+      "candidate_id": "03C",
+      "visual_consistency": 2,
+      "food_identification": 2,
+      "detail_accuracy": 2,
+      "language_quality": 5,
+      "evidence": {
+        "visual_consistency": "只写“一大块”，与画面两块并排、置于烤网上的整体构图不符。",
+        "food_identification": "“porchetta（意式烤猪肉卷）”与图中生牛肉排的类别和形态都不符，只沾到“肉”这一层。",
+        "detail_accuracy": "“slightly charred skin”与画面生肉湿润光泽冲突；绿色是整片长叶而非切碎青椒；未提刀花与脂肪边。",
+        "language_quality": "语法正确、表达流畅、无重复。"
+      },
+      "uncertainty": [
+        "肉的具体部位与种类无法确认",
+        "绿色叶片的具体品种无法确认",
+        "腌料的具体成分无法确认"
+      ],
+      "visible_but_omitted": [
+        "第二块肉排（画面共两块）",
+        "黑色金属烤网/烤架",
+        "肉表面的交叉菱形刀花",
+        "肉块边缘的白色脂肪/筋膜",
+        "两块肉之间的橙黄色小块"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "与画面冲突:画面是生牛肉排而非“porchetta（烤猪肉卷）”，且为两块",
+        "与画面冲突:肉表面湿润未烤炙，无“slightly charred skin（微焦表皮）”",
+        "与画面冲突:绿色部分为整片细长叶片，不是“chopped green peppers（切碎的青椒）”",
+        "无法确认:肉的部位、叶片品种、腌料成分",
+        "明显遗漏:烤网、交叉刀花、白色脂肪边、橙黄色小块"
+      ],
+      "verdict": "语言最流畅，但食物类别与表面状态均误判，且漏写两块与烤网。"
+    },
+    {
+      "candidate_id": "03D",
+      "visual_consistency": 2,
+      "food_identification": 2,
+      "detail_accuracy": 3,
+      "language_quality": 4,
+      "evidence": {
+        "visual_consistency": "写成“a loaf（一条/整块）”的生肉，与画面两块扁平肉排摆在烤网上的构图不符。",
+        "food_identification": "“bacon explosion”指向培根/烤制肉品，与图中生红肉排类别不符，仅“肉”的方向沾边。",
+        "detail_accuracy": "“glossy surface”与画面腌料光泽相符，“green onions”对整片绿叶是较接近的猜测，但“freshly baked”与生肉状态冲突。",
+        "language_quality": "语法通顺，但“glossy surface…on the surface”重复使用 surface，“bacon explosion”表述怪异。"
+      },
+      "uncertainty": [
+        "肉的具体种类与部位无法确认",
+        "绿色叶片是否为葱/蒜苗叶无法确认"
+      ],
+      "visible_but_omitted": [
+        "第二块肉排（画面共两块）",
+        "黑色金属烤网/烤架",
+        "肉表面的交叉菱形刀花",
+        "肉块边缘的白色脂肪/筋膜",
+        "两块肉之间的橙黄色小块"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "与画面冲突:画面为两块扁平生肉排，不是“loaf（整条面包状）”且不止一块",
+        "与画面冲突:肉为生腌状态，不是“freshly baked（刚烤好）”",
+        "与画面冲突:“bacon explosion”所指的培根制品与画面生红肉不符",
+        "无法确认:绿叶是否为葱叶、肉的具体部位",
+        "明显遗漏:烤网、交叉刀花、白色脂肪边、橙黄色小块"
+      ],
+      "verdict": "抓住了表面光泽与绿叶两点，但主体类别、数量与生熟状态均不符画面。"
+    }
+  ]
+}

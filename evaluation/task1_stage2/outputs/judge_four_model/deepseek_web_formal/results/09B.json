@@ -1,0 +1,28 @@
+{
+  "candidate_id": "09B",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "白色盘子符合，但整体摆放被描述为苹果配盘，盘中实际只有豆类和一根香肠，错误较多",
+    "food_identification": "主体误判：画面是白色豆类配一根烤香肠，候选写成 aebleflaesk（苹果猪肉菜）",
+    "detail_accuracy": "红苹果切片、盘边苹果等细节在图中均不存在，没有可对应的外观细节",
+    "language_quality": "句子通顺、无重复，仅个别用词（aebleflaesk）拼写和表达略生硬"
+  },
+  "explicit_conflicts": [
+    "red apple slices：图中没有任何红苹果切片，盘中是白色豆类",
+    "apple on the side：画面边缘和盘边没有苹果",
+    "aebleflaesk 这一菜品与画面主体（白色豆类+烤香肠）明确冲突"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "盘中的白色豆类（白扁豆/白腰豆，带香草碎和淡色油汁）",
+    "一根表面焦黑红褐、烤香的粗香肠"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "red apple slices",
+    "apple on the side",
+    "aebleflaesk（苹果与猪肉类菜品）"
+  ]
+}

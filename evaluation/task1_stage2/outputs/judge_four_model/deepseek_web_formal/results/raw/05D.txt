@@ -1,0 +1,24 @@
+{
+  "candidate_id": "05D",
+  "visual_consistency": 2,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "整体构图描述偏差较大：图中是两碗面并排摆在深灰石质台面上，候选只写“a bowl”（单碗）；碗内实际是深色中式汤匙，没有“a pair of chopsticks on the side”，摆放与器物都与画面不符。",
+    "food_identification": "主要食物类别判断正确，担担面配肉末的主体与画面一致，汤面形态也相符；不足在于只交代一碗、未体现两碗的整体布置。",
+    "detail_accuracy": "肉末、面条、葱花等可见配料基本对得上，但把两碗上都十分显眼的香菜与红亮红油汤底、青花瓷碗都漏掉了，同时虚构了画面上不存在的筷子，细节错误与遗漏并存。",
+    "language_quality": "单句表达通顺自然，用词清晰，没有重复或语病。"
+  },
+  "explicit_conflicts": [
+    "写有“a pair of chopsticks on the side”，但画面中两碗旁及画面边缘都没有筷子，可见的是两支深色中式汤匙。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "画面中清楚可见两碗面同时摆放，第二碗及其汤匙未被描述。",
+    "两碗面汤面都铺着大量新鲜香菜（绿色叶片）。",
+    "面汤是红亮红油/辣油汤底，并有深色汤匙浸在碗中。",
+    "碗是白底蓝色鱼纹与题字的瓷碗，背景为深灰色石质台面。"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

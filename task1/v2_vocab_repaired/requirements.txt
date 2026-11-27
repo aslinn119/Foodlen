@@ -1,0 +1,6 @@
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+Pillow>=10,<12
+pycocoevalcap==1.2
+matplotlib>=3.8,<4

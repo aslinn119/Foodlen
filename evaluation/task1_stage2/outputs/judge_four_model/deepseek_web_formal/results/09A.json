@@ -1,0 +1,27 @@
+{
+  "candidate_id": "09A",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "白盘盛装的形态大致对应，但把盘中主体说成炒饭加白酱，与豆类堆加香肠的画面明显不符。",
+    "food_identification": "主体食物完全判错：图中是白色豆类/扁豆与焦烤香肠，候选写成炒饭。",
+    "detail_accuracy": "配料与外观多处错误：表面并无白酱，也未提焦化香肠及豆上的深色颗粒。",
+    "language_quality": "句子语法正确、表达流畅，无重复，语言层面没有明显问题。"
+  },
+  "explicit_conflicts": [
+    "候选称 a plate of fried rice（炒饭），但图中主体是白色豆类/扁豆，并非米粒。",
+    "候选称表面有 a lot of white sauce（大量白酱），图中白色部分为固体豆类，未见酱汁。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "右上方焦烤的香肠",
+    "占据画面主体的白色豆类/扁豆",
+    "豆类表面散布的深色香草或胡椒颗粒"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "fried rice（炒饭）",
+    "white sauce（白酱）"
+  ]
+}

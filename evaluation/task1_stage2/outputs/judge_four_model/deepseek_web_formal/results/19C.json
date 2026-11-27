@@ -1,0 +1,25 @@
+{
+  "candidate_id": "19C",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "黑色饭堆主体和白色背景基本贴合，但图中显眼的虾与青口壳在描述中完全缺席，配菜构图与画面偏差明显",
+    "food_identification": "正确识别主菜为 black arros negre（墨鱼汁黑饭），类别无误",
+    "detail_accuracy": "所谓大量辣椒油在图中看不到任何红油或油层，葱花仅有模糊绿色碎屑无法确认，还漏掉虾、青口与红椒条",
+    "language_quality": "单句通顺、语法正确、无重复或赘述"
+  },
+  "explicit_conflicts": [
+    "a lot of chili oil：饭粒黑而略油亮，但看不到任何红油、油层或辣椒油浇淋的痕迹"
+  ],
+  "unverifiable_from_image": [
+    "some chopped green onions：图中仅见零散细碎颗粒，无法确认是葱花"
+  ],
+  "visible_but_omitted": [
+    "米饭上方的多只带壳虾/大虾",
+    "画面两侧的深色青口壳",
+    "顶部的红椒条装饰"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

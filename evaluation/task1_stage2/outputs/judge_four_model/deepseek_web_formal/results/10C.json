@@ -1,0 +1,24 @@
+{
+  "candidate_id": "10C",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "整体是黑盘盛装的小牛肉冷盘并淋白色酱汁，方向正确；但未写肉片沿盘边环状摆放的构图，且把中央绿色配菜写成了青葱。",
+    "food_identification": "主菜识别为 vitello tonnato 是正确的，白色酱汁基本对应；把绿色叶片误认为青葱属于配菜类别错误。",
+    "detail_accuracy": "白色酱汁层描述较准，但画面中明显的刺山柑、樱桃番茄与芝麻菜均未正确描述，绿色部分与所见不符。",
+    "language_quality": "句子简短流畅，无重复或语法问题，信息量略少。"
+  },
+  "explicit_conflicts": [
+    "候选写有 chopped green onion（切碎青葱），但图中绿色物体是完整叶片状的芝麻菜（arugula/rocket），中央并无切碎的青葱。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "散布在酱汁上的小刺山柑（capers）",
+    "盘子中央的整颗樱桃番茄"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "chopped green onion（切碎青葱）"
+  ]
+}

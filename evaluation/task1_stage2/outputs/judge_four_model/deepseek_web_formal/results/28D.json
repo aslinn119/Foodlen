@@ -1,0 +1,30 @@
+{
+  "candidate_id": "28D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "Says one round cake on a wooden board, but the image shows a tall stack of many thin round biscuits on a white square plate/napkin.",
+    "food_identification": "Main item is a crisp almond cookie/biscuit, not a butter cake.",
+    "detail_accuracy": "Claims a chocolate layer on the surface; surfaces are plain golden-brown baked with fine flecks, and no chocolate or wooden board is visible.",
+    "language_quality": "Comprehensible but ungrammatical fragment with awkward repetition 'on the surface on the surface'."
+  },
+  "explicit_conflicts": [
+    "a single round butter cake: the image shows a tall stack of about a dozen thin, flat, crisp cookies",
+    "a layer of chocolate on the surface: no chocolate layer is visible, the surface is plain golden-brown baked dough with fine specks",
+    "a wooden board: the stack rests on a white square plate or napkin"
+  ],
+  "unverifiable_from_image": [
+    "butter as an ingredient of the baked item"
+  ],
+  "visible_but_omitted": [
+    "tall stack of many thin round biscuits",
+    "white square plate or napkin underneath the stack",
+    "fine almond flecks and crisp toasted texture of the surfaces",
+    "dark gray background"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "butter (implied by 'butter cake')"
+  ]
+}

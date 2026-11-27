@@ -1,0 +1,67 @@
+{
+  "n": 100,
+  "split": "frozen audit validation",
+  "tokenization": "lowercase, whitespace; no PTB tokenizer or Java; COCO scorer implementations, not complete COCO evaluation pipeline",
+  "pycocoevalcap": "1.2",
+  "methods": {
+    "greedy": {
+      "bleu_1_to_4_percent": [
+        31.28002719429539,
+        15.879816131092529,
+        8.98304411216196,
+        5.07208834302807
+      ],
+      "rouge_l": 0.26699037386764424,
+      "cider_d": 0.3210928762571645,
+      "avg_words": 18.09,
+      "unk_image_rate": 0.24,
+      "repeated_trigram_image_rate": 0.19
+    },
+    "beam": {
+      "bleu_1_to_4_percent": [
+        30.350963914962755,
+        15.791564028460984,
+        8.926659898763093,
+        4.903175418604339
+      ],
+      "rouge_l": 0.267319070747631,
+      "cider_d": 0.36369677561309466,
+      "avg_words": 20.23,
+      "unk_image_rate": 0.12,
+      "repeated_trigram_image_rate": 0.2
+    },
+    "beam_clip": {
+      "bleu_1_to_4_percent": [
+        30.82420200093815,
+        16.285599392768027,
+        9.427819521976783,
+        5.524693042761642
+      ],
+      "rouge_l": 0.2772024680788766,
+      "cider_d": 0.39969792648550945,
+      "avg_words": 20.99,
+      "unk_image_rate": 0.13,
+      "repeated_trigram_image_rate": 0.29
+    }
+  },
+  "paired_bootstrap": {
+    "beam_clip_minus_greedy": {
+      "cider_d_delta": 0.07860505022834494,
+      "ci95": [
+        -0.02793297088302914,
+        0.19245616046975458
+      ],
+      "replicates": 5000,
+      "note": "paired image resampling of per-image scores with document frequencies held fixed; exploratory"
+    },
+    "beam_clip_minus_beam": {
+      "cider_d_delta": 0.036001150872414824,
+      "ci95": [
+        -0.03199702928188205,
+        0.11355129642352416
+      ],
+      "replicates": 5000,
+      "note": "paired image resampling of per-image scores with document frequencies held fixed; exploratory"
+    }
+  }
+}

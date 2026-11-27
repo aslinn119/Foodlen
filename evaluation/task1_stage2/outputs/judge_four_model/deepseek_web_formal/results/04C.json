@@ -1,0 +1,25 @@
+{
+  "candidate_id": "04C",
+  "visual_consistency": 3,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "容器与画面大致相符：图中是一份装在透明玻璃高脚碗/goblet中的刨冰甜品，候选笼统说成 bowl 尚可接受，但结尾的 <UNK> 使整体画面描述中断，无法呈现实际摆放。",
+    "food_identification": "准确识别出 es campur 这一主要甜品类别，与图中混合水果加刨冰的呈现相符；但类别之外未作任何展开，故未给满分。",
+    "detail_accuracy": "shaved ice 与图中粉色刨冰相符且准确；除此之外内容几乎全部是 <UNK> 占位符，未能写出可核对的配料或外观细节。",
+    "language_quality": "句子以 \", and <UNK>\" 悬空结尾，含未解析占位符且不完整、不合语法，流畅度差。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "粉色刨冰的粉红色",
+    "黄色水果条（菠萝蜜/jackfruit）",
+    "绿色牛油果块",
+    "黑色仙草冻块",
+    "奶油状酱料上的罗勒籽/种子",
+    "勺子",
+    "透明玻璃高脚容器"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

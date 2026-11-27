@@ -1,0 +1,24 @@
+{
+  "candidate_id": "25B",
+  "visual_consistency": 4,
+  "food_identification": 2,
+  "detail_accuracy": 4,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "画面为多枚金黄圆鼓状泡芙置于金属冷却网架上，候选描述的整体外观与摆放不冲突，但未提及网架等环境信息。",
+    "food_identification": "主体是泡芙（profiteroles），候选写成 beignets（贝涅饼，通常为无馅方形油炸面团），主要食物类别判断错误。",
+    "detail_accuracy": "表面糖粉、金黄色外壳、白色奶油从顶部外溢均与画面相符，准确度较高；但 crispy 口感无法由图像确认，且细节描述重复。",
+    "language_quality": "crispy crust with a crispy surface 语义重复，on the surface 连用两次，句子结构残缺但基本可理解。"
+  },
+  "explicit_conflicts": [
+    "将圆形含馅泡芙称为 beignets（贝涅饼为方形无馅油炸面团），与画面主体类型不符"
+  ],
+  "unverifiable_from_image": [
+    "外皮与表面的 crispy 酥脆口感无法从图像确认"
+  ],
+  "visible_but_omitted": [
+    "金属冷却网架",
+    "白色背景与拍摄环境"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

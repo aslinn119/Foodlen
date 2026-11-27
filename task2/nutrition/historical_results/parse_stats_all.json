@@ -1,0 +1,74 @@
+{
+  "val_a": {
+    "n": 414,
+    "strict_json_rate": 0.7705314009661836,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.22946859903381642,
+    "mean_fallback_rate": 0.0,
+    "total_fallback_rate": 0.22946859903381644,
+    "empty_items_rate": 0.0,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 60.07624936462478,
+    "weight_consistency_within_5g": 0.14251207729468598
+  },
+  "val_b": {
+    "n": 414,
+    "strict_json_rate": 1.0,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.0,
+    "mean_fallback_rate": 0.0,
+    "total_fallback_rate": 0.0,
+    "empty_items_rate": 0.01932367149758454,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 0.04778325123152954,
+    "weight_consistency_within_5g": 1.0
+  },
+  "val_bgen": {
+    "n": 414,
+    "strict_json_rate": 0.9710144927536232,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.021739130434782608,
+    "mean_fallback_rate": 0.007246376811594203,
+    "total_fallback_rate": 0.02898550724637683,
+    "empty_items_rate": 0.007246376811594203,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 46.685952183224785,
+    "weight_consistency_within_5g": 0.1435523114355231
+  },
+  "test_a": {
+    "n": 506,
+    "strict_json_rate": 0.857707509881423,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.1422924901185771,
+    "mean_fallback_rate": 0.0,
+    "total_fallback_rate": 0.14229249011857703,
+    "empty_items_rate": 0.0,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 47.347821860513875,
+    "weight_consistency_within_5g": 0.22529644268774704
+  },
+  "test_b": {
+    "n": 506,
+    "strict_json_rate": 1.0,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.0,
+    "mean_fallback_rate": 0.0,
+    "total_fallback_rate": 0.0,
+    "empty_items_rate": 0.043478260869565216,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 0.03719008264462902,
+    "weight_consistency_within_5g": 1.0
+  },
+  "test_bgen": {
+    "n": 506,
+    "strict_json_rate": 0.958498023715415,
+    "repaired_rate": 0.0,
+    "regex_fallback_rate": 0.03557312252964427,
+    "mean_fallback_rate": 0.005928853754940711,
+    "total_fallback_rate": 0.04150197628458496,
+    "empty_items_rate": 0.005928853754940711,
+    "schema_valid_rate": 1.0,
+    "weight_consistency_mean_abs_diff_g": 39.908027115323456,
+    "weight_consistency_within_5g": 0.23658051689860835
+  }
+}

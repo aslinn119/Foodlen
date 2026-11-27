@@ -1,0 +1,29 @@
+{
+  "candidate_id": "03D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "画面是两块并列平铺在黑色烤网上的长条生肉排，候选写成单条“loaf”并称“freshly baked”，主体数量、形态与摆放均与画面不符。",
+    "food_identification": "主体应为带白色脂肪盖、表面切十字/菱形花刀的生牛肉排骨（galbi），候选写成“bacon explosion”，主要食物类别完全错误。",
+    "detail_accuracy": "'glossy surface'与生肉表面的湿润油光大致相符，但“green onions”与画面中两片椭圆形大绿叶不符，“freshly baked”与生肉状态冲突，并遗漏花刀、脂肪盖与辣椒碎等可见细节。",
+    "language_quality": "句子可读懂，但“a loaf of freshly baked bacon explosion”搭配生硬，且“surface”一次重复，流畅度一般。"
+  },
+  "explicit_conflicts": [
+    "“a loaf”与画面中两块相互独立、并排摆放的长条肉排不符",
+    "“freshly baked”（烘焙出炉）与画面中明显未烹制的生肉状态冲突",
+    "“bacon explosion”与画面中生牛肉排骨的实际食物类别冲突",
+    "“green onions on the surface”与画面顶部两片椭圆形大绿叶的形态不符"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "肉排表面密集的十字/菱形花刀划痕",
+    "肉排一端明显的白色脂肪盖（肥膘）",
+    "承托肉块的黑色金属烤网/烤架",
+    "两块肉排之间散落的几粒红辣椒碎"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "“green onions”（小葱/葱花），画面中并无小葱，顶部是两片大绿叶"
+  ]
+}

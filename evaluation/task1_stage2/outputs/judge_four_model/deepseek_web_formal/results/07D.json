@@ -1,0 +1,23 @@
+{
+  "candidate_id": "07D",
+  "visual_consistency": 4,
+  "food_identification": 5,
+  "detail_accuracy": 3,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "白碗盛汤粉置于白色桌面，整体画面与摆放相符，但漏掉右上方明显的豆芽与香草配菜盘。",
+    "food_identification": "正确识别为番茄蟹粉米粉（bun rieu），并点出米粉，主食类别准确。",
+    "detail_accuracy": "番茄与大量葱花、香菜可见，描述基本对应；但\"切片蘑菇\"在图中无法确认，且漏写蟹粉丸块与配菜盘。",
+    "language_quality": "列举重复：chopped tomatoes 与 sliced tomatoes 并列，chopped green onion 又重复为 topped with chopped green onions，表达冗赘。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "右侧与上方的配菜盘：生豆芽、薄荷与生菜等香草",
+    "碗中的蟹粉/肉丸状块（bun rieu 的 riêu）",
+    "表面撒的香菜与辣椒圈"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "sliced mushrooms"
+  ]
+}

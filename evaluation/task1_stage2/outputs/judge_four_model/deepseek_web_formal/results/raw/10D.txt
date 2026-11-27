@@ -1,0 +1,34 @@
+{
+  "candidate_id": "10D",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "候选描述为一块面包叠放切片，画面却是黑盘上环绕摆放的肉片并带中央配菜，整体画面与摆放完全不符。",
+    "food_identification": "主食材判为面包，而画面主体是粉色薄切小牛肉（vitello tonnato），类别完全错误。",
+    "detail_accuracy": "蘑菇片、碎欧芹、面包均与画面不符，实际为肉片、刺山柑、樱桃番茄与芝麻菜，配料与外观多处错误。",
+    "language_quality": "单句语法基本通顺，但含未解析占位符 <UNK>，表达不完整。"
+  },
+  "explicit_conflicts": [
+    "a piece of <UNK> bread：画面中没有任何面包，主体是切片的粉色肉类",
+    "a layer of sliced mushrooms：画面中是肉片排列，没有蘑菇片",
+    "chopped parsley：绿色装饰是整片芝麻菜叶，不是切碎的欧芹"
+  ],
+  "unverifiable_from_image": [
+    "<UNK> 占位符所指的具体食材无法确定"
+  ],
+  "visible_but_omitted": [
+    "覆盖在肉片上的浅米色奶油酱汁",
+    "散落在酱汁上的刺山柑",
+    "盘子中央的红色樱桃番茄",
+    "芝麻菜叶",
+    "黑色圆形盘子与格纹桌布、叉子",
+    "粉色薄切小牛肉本身"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "bread",
+    "sliced mushrooms",
+    "chopped parsley"
+  ]
+}

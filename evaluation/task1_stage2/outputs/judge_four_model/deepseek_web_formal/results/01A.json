@@ -1,0 +1,27 @@
+{
+  "candidate_id": "01A",
+  "visual_consistency": 4,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "4：大份量、圆形白色浅碗/盘与画面整体摆放基本一致，但将画面感受写成 mutton handi 有轻微出入。",
+    "food_identification": "2：画面主体是红色浓汤炖肉配大块浅色蔬菜，参考亦为白菜番茄土豆牛肉汤；候选写成 mutton handi，肉类与菜式判断缺乏画面依据且遗漏蔬菜主体。",
+    "detail_accuracy": "2：画面未见明确葱花，'chopped green onion' 无依据；'bones' 无法确认；浓稠红汤与大块马铃薯/白菜类配料明显可见却未描述。",
+    "language_quality": "5：句子语法完整、表达流畅、无重复。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "bones：是否带骨无法确认",
+    "handi：具体菜式/盛器形制无法确认"
+  ],
+  "visible_but_omitted": [
+    "浓稠的红色汤汁",
+    "大块浅色蔬菜（马铃薯/白菜类）",
+    "白色圆碗/浅盘的宽边"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "mutton：画面无法分辨肉类品种，且参考为牛肉",
+    "chopped green onion：画面未见明确葱花"
+  ]
+}

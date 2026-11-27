@@ -1,0 +1,27 @@
+{
+  "candidate_id": "13C",
+  "visual_consistency": 2,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面主体是放在浅色木桌上的带绿叶纹饰边陶瓷盘，盘中平放炸物；候选只写食物和“旁边小碗酱汁”，既未写盘子与摆放，又凭空添加了不存在的碗和酱汁，整体场景与画面不符。",
+    "food_identification": "识别为“金黄酥脆的炸物条”方向大体贴合，但定为“鸡柳”可能类别有误，图中裹粉块更扁平宽大，不似典型鸡柳。",
+    "detail_accuracy": "“golden crispy”外皮颜色与酥脆质感相符，但“小碗黄色酱汁”在图中完全不存在，属明显虚构的细节错误。",
+    "language_quality": "句子通顺、语法正确、无重复啰嗦，仅“some”量词较含糊。"
+  },
+  "explicit_conflicts": [
+    "描述称旁边有一小碗黄色酱汁，但画面中只有盘子及其上的炸物，未见任何碗或酱汁"
+  ],
+  "unverifiable_from_image": [
+    "炸物内部是否为鸡肉（鸡柳）无法从图像确证"
+  ],
+  "visible_but_omitted": [
+    "带绿色叶片纹饰边的浅色陶瓷盘",
+    "浅色木质桌面背景",
+    "盘中约五六块扁平裹粉炸物"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "小碗黄色酱汁"
+  ]
+}

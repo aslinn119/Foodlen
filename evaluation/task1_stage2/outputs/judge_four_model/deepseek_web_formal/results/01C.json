@@ -1,0 +1,27 @@
+{
+  "candidate_id": "01C",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "2分：画面是盛在浅白色盘/碗中的浓稠红汤炖菜，可见白色容器边缘，而描述称“a pot of mutton handi”，容器与摆盘呈现不符；仅大块食材浸在红汁中的整体构图部分吻合。",
+    "food_identification": "2分：主要食物应为红色浓汤/炖菜（可见大块肉与浅白色块状配料），描述将其定为 mutton handi，主要食物类别偏差明显，仅肉质块状与浓稠红汁有部分相容。",
+    "detail_accuracy": "2分：大块肉可见，但“sliced red pepper”“chopped green onion”缺少对应的可见细节，同时图中大量浅白色块状配料与红色浓汁基底的呈现被遗漏，配料与外观误差较多。",
+    "language_quality": "4分：句子语法通顺、结构完整，仅“mutton”重复出现一次，属轻微问题。"
+  },
+  "explicit_conflicts": [
+    "“a pot of mutton handi”与画面容器不符：食物盛在浅白色盘/碗中，可见白色容器边缘，并未呈现锅具/handi。"
+  ],
+  "unverifiable_from_image": [
+    "肉的种类为羊肉（mutton）无法从图中确认：可见大块带脂肉块，但无法辨别其种类。",
+    "“chopped green onion”无法确认：图中仅有零星绿色小碎点，难以辨认是否为葱花。"
+  ],
+  "visible_but_omitted": [
+    "大量浅白/黄白色块状配料（似土豆块或菜帮/白菜梗）在图中十分显眼，描述未提及。",
+    "覆盖整体的浓稠红色汤汁/酱汁基底未在描述中体现，红色来源仅以红椒指代。"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "“sliced red pepper”红椒片：图中红色为均匀浓酱汁，未见可辨认的红椒片状配料。"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_id": "08C",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "说是“一盘”，但图中食物直接摆在棕色烘焙纸上，未见盘子，整体是俯拍特写。",
+    "food_identification": "主体明显是深棕色的大蘑菇伞盖（酿蘑菇），不是茄子。",
+    "detail_accuracy": "占主体大部分是棕褐色碎肉馅和表面融化的奶白色顶料，候选全都遗漏，只提到无法确认的葱花。",
+    "language_quality": "句子可读，但“chopped green onion”整句重复两次，明显累赘。"
+  },
+  "explicit_conflicts": [
+    "“a plate of”：图中食物直接放在棕色烘焙纸上，画面中未见盘子。",
+    "“stuffed eggplants”：可见主体为深棕色蘑菇伞盖及菌柄轮廓，并非茄子。"
+  ],
+  "unverifiable_from_image": [
+    "顶部白色/淡黄色酱料的具体成分（奶酪、奶油或酱汁）无法确认。",
+    "馅料表面与边缘散布的绿色小点是否为青葱/葱花无法确认，也可能是其他香草。",
+    "零星红色小点（可能为红椒碎）无法确认。"
+  ],
+  "visible_but_omitted": [
+    "棕褐色碎肉/肉末馅料（占据馅料主体）",
+    "覆盖在顶部的融化奶酪/奶油状酱料",
+    "深棕色蘑菇伞盖与菌柄本身",
+    "绿色香草碎（散布的绿色小点）",
+    "食物下方垫着的棕色烘焙纸"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

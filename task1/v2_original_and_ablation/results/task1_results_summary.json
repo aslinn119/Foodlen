@@ -1,0 +1,91 @@
+{
+  "dataset": {
+    "split_sizes": {
+      "train": 17784,
+      "val": 1967,
+      "test": 4938
+    },
+    "images": 24689,
+    "vocabulary": 2681,
+    "audit_pass": true
+  },
+  "metrics": {
+    "BLEU": "Group-provided shared corpus BLEU implementation, percent scale",
+    "ROUGE-L": "COCO-caption LCS F-score, beta=1.2; one reference per image",
+    "CIDEr-D": "COCO-caption TF-IDF 1-4 grams, sigma=6, scale=10; one reference per image"
+  },
+  "validation": {
+    "v2_best_epoch": 19,
+    "v2_best_bleu1_to_4": [
+      31.857427496125744,
+      16.909992588184718,
+      9.744871537083476,
+      5.563515924497282
+    ],
+    "v1_ablation_best_epoch": 16,
+    "v1_ablation_best_bleu1_to_4": [
+      31.12807463952502,
+      16.026382961959055,
+      9.156166015564155,
+      5.291280955291868
+    ]
+  },
+  "test": {
+    "v1_group_reported": {
+      "bleu1_to_4": [
+        30.8849,
+        15.2626,
+        8.2645,
+        4.5702
+      ],
+      "n": 4938,
+      "checkpoint_available": false,
+      "verified": false
+    },
+    "v1_retrained_ablation": {
+      "bleu1_to_4": [
+        31.555720621326984,
+        15.571630014087917,
+        8.54566970051073,
+        4.881230353853792
+      ],
+      "rouge_l": 0.26159007946327056,
+      "cider_d": 0.33743595483559985,
+      "n": 4938
+    },
+    "v2_greedy": {
+      "bleu1_to_4": [
+        32.32989059509627,
+        16.544419474429276,
+        9.257201417310453,
+        5.291411400446794
+      ],
+      "rouge_l": 0.26949209998946716,
+      "cider_d": 0.3713125103885093,
+      "n": 4938
+    },
+    "v2_beam3": {
+      "bleu1_to_4": [
+        31.742754431678442,
+        16.463934106226922,
+        9.39000575170845,
+        5.399708219469835
+      ],
+      "rouge_l": 0.27085813153484417,
+      "cider_d": 0.406956316128991,
+      "n": 4938
+    }
+  },
+  "differences_bleu4": {
+    "v2_greedy_minus_v1_retrained": 0.41018104659300203,
+    "v2_beam3_minus_v2_greedy": 0.10829681902304067,
+    "v2_greedy_minus_v1_group_reported": 0.7212114004467942
+  },
+  "differences_additional_metrics": {
+    "v2_greedy_minus_v1_retrained_rouge_l": 0.007902020526196596,
+    "v2_greedy_minus_v1_retrained_cider_d": 0.03387655555290947,
+    "v2_beam3_minus_v2_greedy_rouge_l": 0.001366031545377011,
+    "v2_beam3_minus_v2_greedy_cider_d": 0.035643805740481704
+  },
+  "baseline_note": "Historical group V1 score is included for context; its checkpoint was not supplied, so its exact configuration cannot be verified here."
+}

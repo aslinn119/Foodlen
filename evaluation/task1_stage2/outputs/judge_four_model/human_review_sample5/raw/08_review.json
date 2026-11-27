@@ -1,0 +1,126 @@
+{
+  "image_id": "08",
+  "image_check": "特写画面中一个深褐色大蘑菇伞盖（去柄）里堆满褐色碎肉末，顶部覆盖白色奶酪碎与融化奶油状酱汁，夹杂少量绿色香草碎和一点红色小颗粒；背景虚化可见数个同类酿蘑菇，整体置于浅色烘焙纸/木板上，画面内未见盘子。",
+  "candidates": [
+    {
+      "candidate_id": "08A",
+      "visual_consistency": 4,
+      "food_identification": 5,
+      "detail_accuracy": 3,
+      "language_quality": 5,
+      "evidence": {
+        "visual_consistency": "确为酿蘑菇近景特写、顶部堆料、后方同类蘑菇虚化，整体摆放相符；但画面未见盘子，物件置于烘焙纸上，“a plate of”略失准。",
+        "food_identification": "“stuffed mushrooms”准确命中深褐色蘑菇伞盖内填馅的主体类别。",
+        "detail_accuracy": "“minced meat on top”与褐色碎肉末相符，但完全漏掉醒目的白色奶酪碎与融化奶酪酱汁；“chopped green onion”对应的绿色碎末更像香草/菜叶碎，证据不足。",
+        "language_quality": "语法正确、表达通顺自然，无重复用词。"
+      },
+      "uncertainty": [
+        "绿色碎末究竟是葱还是香草/菠菜叶碎，图中难以分辨",
+        "是否放在盘子上无法确认，画面仅见浅色烘焙纸/木板"
+      ],
+      "visible_but_omitted": [
+        "顶部明显可见的白色奶酪碎与融化奶酪/奶油酱汁层",
+        "肉末间散落的点状红色小颗粒"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+        "无法确认: “chopped green onion”所指绿色碎末更似香草碎",
+        "无法确认: “a plate of”画面未见盘子"
+      ],
+      "verdict": "主体类别与肉末配料判断正确、语言通顺，但漏掉最醒目的奶酪层，绿葱表述证据不足，只能算部分准确。"
+    },
+    {
+      "candidate_id": "08B",
+      "visual_consistency": 2,
+      "food_identification": 1,
+      "detail_accuracy": 2,
+      "language_quality": 2,
+      "evidence": {
+        "visual_consistency": "只写到“一块褐色物体＋表面＋顶部配料”的粗略构图，未体现伞盖内填馅的形态，且画面未见盘子。",
+        "food_identification": "主体被写成“filet mignon”（菲力牛排），而图中明显是去柄的深褐色蘑菇伞盖，主要类别错判。",
+        "detail_accuracy": "“brown”与“chopped green onions”尚可对上色调和绿色碎末，但“crispy surface”在图中无依据（伞盖偏湿润），且漏掉白色奶酪碎与奶油酱汁。",
+        "language_quality": "“with a crispy surface with a crispy surface”同一短语连续重复，句子结构冗赘，明显扣分。"
+      },
+      "uncertainty": [
+        "“crispy surface”所指的酥脆表面在图中无法确认，伞盖表面偏湿润光滑"
+      ],
+      "visible_but_omitted": [
+        "蘑菇伞盖盛装碎肉末的酿制结构",
+        "顶部白色奶酪碎与融化奶酪酱汁层"
+      ],
+      "suspected_ingredient_hallucinations": [
+        "filet mignon（菲力牛排）：画面无牛排依据"
+      ],
+      "error_categories": [
+        "与画面冲突: 主体是酿蘑菇，非菲力牛排",
+        "无法确认: “crispy surface”酥脆外观在图中未见",
+        "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+        "重复: “with a crispy surface”连续重复"
+      ],
+      "verdict": "把酿蘑菇误认成菲力牛排、主体错误，又漏掉奶酪并重复短语，是四条中最差的一条。"
+    },
+    {
+      "candidate_id": "08C",
+      "visual_consistency": 3,
+      "food_identification": 2,
+      "detail_accuracy": 2,
+      "language_quality": 2,
+      "evidence": {
+        "visual_consistency": "“深色圆形填馅蔬菜近景”的构图大致接近，但画面未见盘子，也未体现后方多个同类蘑菇与特写构图。",
+        "food_identification": "主体被写成“stuffed eggplants”（酿茄子），图中实为深褐色蘑菇伞盖，主要类别错判，仅“stuffed/填馅”沾边。",
+        "detail_accuracy": "“chopped green onion”对应绿色碎末尚可，但漏掉最醒目的褐色碎肉末与白色奶酪碎/融化酱汁。",
+        "language_quality": "“chopped green onion and chopped green onion”整段重复、句末无标点，表达完整度差。"
+      },
+      "uncertainty": [
+        "绿色碎末是否为葱无法确认",
+        "是否有盘子无法确认，画面仅见浅色烘焙纸/木板"
+      ],
+      "visible_but_omitted": [
+        "深褐色蘑菇伞盖主体（被误作茄子）",
+        "顶部白色奶酪碎与融化奶酪酱汁层",
+        "伞盖内褐色碎肉末填充物"
+      ],
+      "suspected_ingredient_hallucinations": [
+        "stuffed eggplants（茄子）：画面无茄子依据"
+      ],
+      "error_categories": [
+        "与画面冲突: 主体是酿蘑菇，非茄子",
+        "明显遗漏: 褐色碎肉末填充物",
+        "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+        "重复: “chopped green onion”连续出现两次",
+        "无法确认: “a plate of”画面未见盘子"
+      ],
+      "verdict": "主体误作茄子、配料只剩绿色碎末还重复两次，漏掉肉末与奶酪，整体接近多处错误。"
+    },
+    {
+      "candidate_id": "08D",
+      "visual_consistency": 4,
+      "food_identification": 5,
+      "detail_accuracy": 2,
+      "language_quality": 4,
+      "evidence": {
+        "visual_consistency": "酿蘑菇近景、顶部撒配料的摆放描述相符；但画面未见盘子，“a plate of”略失准。",
+        "food_identification": "“stuffed mushrooms”准确命中蘑菇伞盖填馅的主体类别。",
+        "detail_accuracy": "“chopped parsley”与绿色香草碎较吻合，但“diced tomatoes”仅见单个红色小点、不足以称番茄丁，且漏掉最醒目的褐色碎肉末与白色奶酪碎/融化酱汁。",
+        "language_quality": "句子通顺可读，仅两项并列却多一个逗号（“diced tomatoes, and...”）略显别扭。"
+      },
+      "uncertainty": [
+        "“diced tomatoes”仅见一个极小红色颗粒，无法确认为番茄丁",
+        "是否放在盘子上无法确认，画面仅见浅色烘焙纸/木板"
+      ],
+      "visible_but_omitted": [
+        "顶部大面积的褐色碎肉末（画面最醒目的配料）",
+        "白色奶酪碎与融化奶酪酱汁层"
+      ],
+      "suspected_ingredient_hallucinations": [],
+      "error_categories": [
+        "明显遗漏: 顶部褐色碎肉末（主要配料）",
+        "明显遗漏: 白色奶酪碎与融化奶酪酱汁层",
+        "无法确认: “diced tomatoes”仅见单个红色小颗粒",
+        "无法确认: “a plate of”画面未见盘子"
+      ],
+      "verdict": "主体识别正确、语言基本通顺，但漏掉最醒目的肉末和奶酪层，还添了证据不足的番茄丁，细节明显不足。"
+    }
+  ]
+}

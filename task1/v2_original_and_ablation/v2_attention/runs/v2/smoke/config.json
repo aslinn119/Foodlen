@@ -1,0 +1,28 @@
+{
+  "root": "FoodLens_Task1_李馨瑶\\Food500Cap_ready",
+  "variant": "attention",
+  "epochs": 20,
+  "batch_size": 64,
+  "embed_dim": 256,
+  "hidden_size": 512,
+  "lr_enc": 0.0001,
+  "lr_dec": 0.001,
+  "max_len": 30,
+  "workers": 4,
+  "val_num": 500,
+  "patience": 4,
+  "seed": 42,
+  "run_dir": null,
+  "smoke": true,
+  "data_sha256": {
+    "vocab.json": "98fd301a9b060975384752b35633c035aa168990758ebf93a679fb75ad29ac57",
+    "annotations\\train.jsonl": "d93e880e39977073227a30d4f5a6578af9b04a37ccfa9a08c9777e3b2100c554",
+    "annotations\\val.jsonl": "c9a168f94eabe58f764c00d1866d54ed1d66c6e0660f14ac3380d3e0ef4d02a4",
+    "annotations\\test.jsonl": "cc9a6c6cd13a6870ef927de0c266896c5d5a6648c182b3daeb8d118e4b729340"
+  },
+  "device": "cuda",
+  "torch": "2.14.1+cu126",
+  "vocab_size": 2681,
+  "dropout": 0.5,
+  "gradient_clip": 5.0
+}

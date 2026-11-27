@@ -1,0 +1,23 @@
+{
+  "offline_demo_exact_matches": 12,
+  "regression_tests_passed": 4,
+  "schema_checked": {
+    "a_val": 414,
+    "a_test": 506,
+    "b_val": 414,
+    "b_test": 506,
+    "bgen_val": 414,
+    "bgen_test": 506
+  },
+  "deployment_sha256": {
+    "predict.py": "93552087a9f4d5f8a2899a6ee5d532b5e651bb7dede92d5873d2c79389b18727",
+    "eval_models.py": "2c800f0c44de1cb21d393dbdd97edc7eea1275ea5ac48f095af31e676ea6eafd",
+    "eval_task2_final.py": "79e8ae45f548ce52cc45ef0d76d1505994193fb5ef042593dbfbb2e633e0a479",
+    "model_lora.py": "e499c4ee369a972d20ba8fe089ed646b3bbe6d7d66d8ff0688b1d4951a1e8927",
+    "model_bgen.py": "1117a6e5c932f0ad95d3d3adf0042fa30a5e31c8cad7dbbfb5cca3c2820a3a8b",
+    "clip_model/config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "README.md": "98f52a43814a7a4217e9bb317aa05ac95b2e5316116b69b4ba6326e6e40354e1",
+    "MODELS.json": "2070657b57a9aa12b6e30aaad923024978d5022ab4361cdb8ff2508fd05b208e",
+    "checkpoints_bgen/best_decoder.pt": "d1377b6e3b44e22dde7129cd6832fde05af756abeef14dbe0441c8526c4317f5"
+  }
+}

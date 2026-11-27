@@ -1,0 +1,5 @@
+﻿split,model,bleu_1,bleu_4,rouge_l,cider_d,micro_f1,macro_f1,mean_mse,mean_mae,mae_weight,mae_calories
+val,modelA_cnn_gru,0.7518,0.6051,0.7745,7.933,0.1176,0.2527,11121.13,52.11,90.54,136.59
+val,modelB_clip_lora,0.6146,0.5096,0.725,6.7014,0.4101,0.4308,4297.19,30.56,50.9,82.14
+test,modelA_cnn_gru,0.7988,0.6516,0.8051,8.4775,0.172,0.3103,9074.78,44.28,70.88,119.47
+test,modelB_clip_lora,0.6531,0.5427,0.7579,7.4307,0.4718,0.485,3219.92,25.86,42.29,69.69

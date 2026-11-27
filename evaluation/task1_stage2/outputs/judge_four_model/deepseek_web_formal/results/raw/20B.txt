@@ -1,0 +1,29 @@
+{
+  "candidate_id": "20B",
+  "visual_consistency": 1,
+  "food_identification": 1,
+  "detail_accuracy": 1,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面是两个透明塑料盒上下摆放的章鱼小丸子，候选所述面包与巧克力在容器和摆放上均不相符。",
+    "food_identification": "主体类别错误：图中是章鱼小丸子，候选写成两片棕色面包。",
+    "detail_accuracy": "白色奶油、巧克力片等配料与可见的深色照烧酱、白色沙拉酱细条、柴鱼片不符，配料几乎全错。",
+    "language_quality": "英文句子语法通顺、结构完整，无重复。"
+  },
+  "explicit_conflicts": [
+    "候选称两片棕色面包，图中为透明塑料盒内的数个圆形章鱼小丸子，没有面包。",
+    "候选称旁边有几片巧克力，图中未见任何巧克力。",
+    "候选称大量白色奶油，图中可见的是细条状挤出的白色沙拉酱/蛋黄酱。"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "两个透明塑料盒的容器及上下排列的摆放未提及",
+    "表面大量柴鱼片（木鱼花）明显可见却未提及",
+    "深棕褐色照烧酱汁明显可见却未提及"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "棕色面包（two slices of brown bread）",
+    "巧克力片（slices of chocolate）",
+    "大量白色奶油（a lot of white cream）"
+  ]
+}

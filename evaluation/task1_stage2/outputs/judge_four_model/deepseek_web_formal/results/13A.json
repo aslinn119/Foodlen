@@ -1,0 +1,24 @@
+{
+  "candidate_id": "13A",
+  "visual_consistency": 3,
+  "food_identification": 5,
+  "detail_accuracy": 4,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "The fried pieces arranged on a ceramic plate match the scene, but the plate is pale celadon-green with a dark leaf-pattern rim, not white.",
+    "food_identification": "The greenish breaded fried pieces are correctly identified as avocado fries, matching the reference.",
+    "detail_accuracy": "The golden crispy coating fits the visible breading, but the number of pieces and other appearance details are omitted.",
+    "language_quality": "Short and clear, though 'a plate of ... on a white plate' is redundant and 'skin' is awkward for fries."
+  },
+  "explicit_conflicts": [
+    "Candidate states the fries are on a white plate, but the image shows a pale green/grey ceramic plate with a dark leaf-pattern rim."
+  ],
+  "unverifiable_from_image": [
+    "The crispness ('crispy') of the coating cannot be confirmed from a static photo."
+  ],
+  "visible_but_omitted": [
+    "The number of fries (about five to six pieces visible) is not mentioned.",
+    "The plate's leaf-pattern decoration and the wooden tabletop are not described."
+  ],
+  "suspected_ingredient_hallucinations": []
+}

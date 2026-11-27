@@ -1,0 +1,37 @@
+{
+  "candidate_id": "15B",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 4,
+  "reasons": {
+    "visual_consistency": "画面主体是一碗汤面加两杯饮品，候选却称另有一碗米饭在侧，摆放关系与画面明显不符。",
+    "food_identification": "主体应为咖喱汤面（curry mee），候选误判为日式猪丼饭（butadon），主食类别整体错误。",
+    "detail_accuracy": "sliced pork 切片肉大致能对上，但 chopped green onion 实为薄荷叶点缀，且画面没有米饭和猪丼配料。",
+    "language_quality": "句子通顺可读，但 a bowl of ... and a bowl of ... 结构重复，稍显啰嗦。"
+  },
+  "explicit_conflicts": [
+    "a bowl of rice on the side：图中并无米饭或饭碗，只有一只面碗和两杯饮品",
+    "butadon：画面是汤面，不是米饭打底的猪丼",
+    "chopped green onion on top：碗上的绿色点缀是薄荷叶，未见切碎的葱花"
+  ],
+  "unverifiable_from_image": [
+    "sliced pork：能看见切片肉，但无法确认是猪肉还是鸡肉"
+  ],
+  "visible_but_omitted": [
+    "咖喱汤面（curry mee）",
+    "油豆腐泡",
+    "鱼饼片",
+    "长豆角",
+    "青柠角",
+    "薄荷叶点缀",
+    "豆芽",
+    "白碗与底盘",
+    "两杯饮品（奶茶与拉花咖啡）",
+    "筷子"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "rice",
+    "chopped green onion"
+  ]
+}

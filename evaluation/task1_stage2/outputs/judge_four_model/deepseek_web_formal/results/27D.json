@@ -1,0 +1,28 @@
+{
+  "candidate_id": "27D",
+  "visual_consistency": 2,
+  "food_identification": 1,
+  "detail_accuracy": 2,
+  "language_quality": 2,
+  "reasons": {
+    "visual_consistency": "容器是深蓝灰色平底锅/炒锅，内放木勺并置于竹垫上，说成盘子属明显不符。",
+    "food_identification": "主体是牛肉丝与大量姜丝，候选却判为炒粿条/米粉，主菜类别错误。",
+    "detail_accuracy": "漏掉牛肉丝、姜丝和红辣椒碎，只提葱，且未写出的配料无法支撑其描述。",
+    "language_quality": "句子拖沓且有整段重复（chopped green onions 连写两次），读来累赘。"
+  },
+  "explicit_conflicts": [
+    "容器为深色平底锅/炒锅并带木勺，并非盘子",
+    "画面中没有扁平米粉/粿条，浅黄细长条是姜丝，主体为牛肉丝"
+  ],
+  "unverifiable_from_image": [
+    "酱油（调味用料，画面中无法确认）"
+  ],
+  "visible_but_omitted": [
+    "牛肉丝（主要食材）",
+    "姜丝（大量浅黄细条）",
+    "红辣椒碎/辣椒片"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "char kway teow / flat rice noodles（虚构的粿条主体，与画面食材不符）"
+  ]
+}

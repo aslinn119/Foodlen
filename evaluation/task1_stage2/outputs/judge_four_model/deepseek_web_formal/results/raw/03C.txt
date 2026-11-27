@@ -1,0 +1,30 @@
+{
+  "candidate_id": "03C",
+  "visual_consistency": 2,
+  "food_identification": 2,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面实际是两块并排放在不锈钢烤网上的腌制生肉，每块各压一片长椭圆绿叶，两肉之间还有少量橙红辣椒碎；候选只写一块肉，也未提烤网和第二块，整体摆放与画面差距较大。",
+    "food_identification": "主体是边缘发白（带骨/脂）、表面切十字花刀的腌制生牛肉（排骨），候选称其为 porchetta（意式烤猪肉卷），主要食物类别错误。",
+    "detail_accuracy": "候选所说“表皮微焦”与“表面切碎青椒”均与画面冲突：肉面生而油亮、无焦痕，表面是完整长绿叶而非碎青椒；同时遗漏了十字花刀与中间辣椒碎等可见细节。",
+    "language_quality": "句子语法正确、表达流畅，无重复或明显语病。"
+  },
+  "explicit_conflicts": [
+    "描述为 porchetta（意式烤猪肉卷）：图中是两块腌制生牛肉/牛排骨，带十字花刀，并非烤猪肉卷",
+    "“slightly charred skin”（表皮微焦）：图中肉面生而湿润油亮、边缘发白，未见焦痕",
+    "“some chopped green peppers on the surface”（表面有切碎青椒）：每块肉上实际是一片完整长椭圆绿叶，不是切碎的青椒"
+  ],
+  "unverifiable_from_image": [],
+  "visible_but_omitted": [
+    "不锈钢烤网（肉直接放在金属网格上）",
+    "第二块腌制肉（画面共有两块并排的肉）",
+    "两块肉之间散落的少量橙红辣椒碎",
+    "肉表面的十字花刀纹路及边缘发白的骨/脂部分"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "porchetta",
+    "slightly charred skin",
+    "chopped green peppers"
+  ]
+}

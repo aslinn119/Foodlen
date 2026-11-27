@@ -1,0 +1,23 @@
+{
+  "candidate_id": "01B",
+  "visual_consistency": 4,
+  "food_identification": 3,
+  "detail_accuracy": 3,
+  "language_quality": 3,
+  "reasons": {
+    "visual_consistency": "4：画面为白碗盛装的红色炖菜、以块状食材为主体，候选所说 bowl 与块状主体基本对应；但未体现浓稠汤汁和满碗堆叠的观感，handi 的盛器/菜式意象与白碗略有出入。",
+    "food_identification": "3：将画面识别为块状肉炖菜，主料方向大致成立；但具体为 mutton handi 无法由画面确认，且画面主体更像以浅色块状蔬菜为主的红色炖汤/汤菜，类别只部分准确。",
+    "detail_accuracy": "3：仅写出肉块这一细节，与图中可见的棕色熟肉块大致相符；但占据画面大部分的红色浓汤与大量浅米色块状蔬菜均未提及，属明显遗漏。",
+    "language_quality": "3：句子结构可读，但 mutton 在短句内出现三次（mutton handi ... chunks of mutton and mutton），重复明显且造成同义反复。"
+  },
+  "explicit_conflicts": [],
+  "unverifiable_from_image": [
+    "mutton（图中棕色熟肉块无法分辨是羊肉还是牛肉）",
+    "handi（白碗盛装的红色炖菜无法确认为 handi 这一具体菜式）"
+  ],
+  "visible_but_omitted": [
+    "红色浓稠汤汁/汤底（占据画面主体）",
+    "大量浅色块状蔬菜（外观似土豆、卷心菜或洋葱）"
+  ],
+  "suspected_ingredient_hallucinations": []
+}

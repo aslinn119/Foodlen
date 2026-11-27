@@ -1,0 +1,25 @@
+{
+  "candidate_id": "16A",
+  "visual_consistency": 4,
+  "food_identification": 3,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面为盘中食物特写、置于木桌上，'a plate of'与整体摆放基本吻合，无明显冲突。",
+    "food_identification": "主体是深棕色米饭与碎肉/内脏混合的焖饭（dirty rice），说成'fried rice'只是部分接近，类别有偏差。",
+    "detail_accuracy": "肉类为碎末颗粒而非'sliced meat'；胡萝卜丁无法确认；显眼的白色块状配料被漏写。",
+    "language_quality": "单句通顺自然，用词简洁，无重复或语法问题。"
+  },
+  "explicit_conflicts": [
+    "sliced meat：图中肉与内脏呈碎末/小颗粒状，未见片状肉"
+  ],
+  "unverifiable_from_image": [
+    "chopped green onion：绿色碎粒可见，但无法确认是葱花还是青椒等"
+  ],
+  "visible_but_omitted": [
+    "大量明显的白色/浅色块状配料（似土豆丁或笋丁）未提及"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "diced carrots：图中没有清楚可辨的胡萝卜丁，仅有少量偏红棕色小块"
+  ]
+}

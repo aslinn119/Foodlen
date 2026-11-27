@@ -1,0 +1,33 @@
+{
+  "split": "val",
+  "n": 414,
+  "failure_dish_ids": [
+    "dish_1561577083",
+    "dish_1564082323",
+    "dish_1564086602"
+  ],
+  "all": {
+    "mean_fallback": {
+      "micro_f1": 0.31613539270456786,
+      "mean_mae": 33.68776802502655,
+      "mean_mse": 5196.910836613423
+    },
+    "model_b_fallback": {
+      "micro_f1": 0.31950343025155176,
+      "mean_mae": 33.07707727402338,
+      "mean_mse": 4990.324593486606
+    }
+  },
+  "failed_only": {
+    "mean_fallback": {
+      "micro_f1": 0.0,
+      "mean_mae": 104.46865697177074,
+      "mean_mse": 29757.822218167352
+    },
+    "model_b_fallback": {
+      "micro_f1": 0.5714285714285714,
+      "mean_mae": 20.193333333333328,
+      "mean_mse": 1248.920666666666
+    }
+  }
+}

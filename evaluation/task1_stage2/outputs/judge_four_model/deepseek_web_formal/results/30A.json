@@ -1,0 +1,27 @@
+{
+  "candidate_id": "30A",
+  "visual_consistency": 2,
+  "food_identification": 4,
+  "detail_accuracy": 2,
+  "language_quality": 5,
+  "reasons": {
+    "visual_consistency": "画面是粉色盘子上放着一只菠萝挞的近景，候选写成a plate of ... tarts（多个）并称旁边有小碗白色酱料，与画面摆放不符",
+    "food_identification": "正确识别为金黄色菠萝挞，主要食物类别判断准确，仅有数量偏差",
+    "detail_accuracy": "只笼统写golden surface，遗漏表面交叉条状酥皮格纹和中间露出的菠萝酱，还添加了画面中没有的白色酱料",
+    "language_quality": "句子通顺自然，语法正确，无重复啰嗦"
+  },
+  "explicit_conflicts": [
+    "图中只有一只菠萝挞，候选写作a plate of golden pineapple tarts（复数多个）"
+  ],
+  "unverifiable_from_image": [
+    "a small bowl of white sauce on the side：俯拍近景只见粉色盘面与右上方金属餐具一角，无法看到画面侧边区域，该碗白色酱料在图中不可见"
+  ],
+  "visible_but_omitted": [
+    "表面由交叉条状酥皮形成的网格/镂空花纹",
+    "网格间露出的金黄色菠萝酱夹心",
+    "盛放菠萝挞的粉色盘子与右上角的金属餐具"
+  ],
+  "suspected_ingredient_hallucinations": [
+    "small bowl of white sauce（白色酱料）"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "CPU_phase": {
+    "epochs_completed": 12,
+    "torch": "2.2.2+cpu",
+    "log": "training.log"
+  },
+  "GPU_phase": {
+    "resume_epoch": 13,
+    "planned_torch": "2.5.1+cu124",
+    "log": "training_gpu.log",
+    "actual_torch": "2.5.1+cu124",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "epochs_completed": [
+      13,
+      25
+    ],
+    "status": "complete"
+  },
+  "note": "跨设备续训，不能声称逐位复现；保留同一训练划分、词表、模型、优化器和调度器状态"
+}

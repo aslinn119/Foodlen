@@ -1,0 +1,73 @@
+{
+  "bleu_1": 0.6677689143428482,
+  "bleu_2": 0.6238782276671109,
+  "bleu_3": 0.5876626309232739,
+  "bleu_4": 0.5529438667330061,
+  "rouge_l": 0.7625550724151936,
+  "cider_d": 0.46166446720133975,
+  "text_protocol": "pycocoevalcap 1.2 scorers; fixed JSON lexical tokens, not PTB; one reference; CIDEr df=reference corpus",
+  "micro_p": 0.38245866283249463,
+  "micro_r": 0.6024915062287656,
+  "micro_f1": 0.4678979771328056,
+  "macro_f1": 0.25946098615274144,
+  "macro_class_scope": "fixed_ingredient_vocabulary",
+  "macro_class_count": 151,
+  "sample_p": 0.5245265878171016,
+  "sample_r": 0.6748147054965237,
+  "sample_f1": 0.5593875805168668,
+  "numeric": {
+    "total_weight_g": {
+      "mae": 43.77252964426876,
+      "mse": 4038.9553162055317,
+      "rmse": 63.55277583399117
+    },
+    "total_calories_kcal": {
+      "mae": 69.06561264822133,
+      "mse": 12041.798735177865,
+      "rmse": 109.73512990459284
+    },
+    "protein_g": {
+      "mae": 5.8559288537549365,
+      "mse": 95.14926877470357,
+      "rmse": 9.754448665850036
+    },
+    "fat_g": {
+      "mae": 4.673517786561265,
+      "mse": 58.60960474308303,
+      "rmse": 7.655691003631418
+    },
+    "carbohydrate_g": {
+      "mae": 7.303754940711463,
+      "mse": 120.55140316205532,
+      "rmse": 10.979590300282398
+    },
+    "mean_metric_warning": "Legacy mixed-unit aggregates; not g or kcal. Use per-field metrics.",
+    "mean_mse": 3271.0128656126476,
+    "mean_mae": 26.13426877470356,
+    "mean_rmse": 57.19276934729291,
+    "normalized_mae": 0.30517709049582137
+  },
+  "ingredient_weight": {
+    "matched_count": 1064,
+    "union_count": 3484,
+    "matched_mae_g": 31.146334586466136,
+    "union_mae_g": 29.279850746268586
+  },
+  "health": {
+    "n": 506,
+    "duplicate_samples": 0,
+    "weight_diff_gt_0_11g": 0
+  },
+  "previous_macro_f1": 0.3060828821020623,
+  "out_of_vocabulary_names": [
+    "bread",
+    "pilaf",
+    "tuna salad"
+  ],
+  "revision": {
+    "source": "saved_predictions_rescored_not_new_inference",
+    "prediction_sha256": "1b31a04745132e64515c867f1cca7bc3cfb84c1337d23e9ee1b0f98b7299a758",
+    "text_metrics": "inherited unchanged; not recomputed in this release",
+    "model_role": "main_model"
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "03A": {
+    "candidate_id": "03A",
+    "visual_consistency": 2,
+    "food_identification": 1,
+    "detail_accuracy": 1,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "画面是两块并排放在烤网上的肉排，候选只写“a large piece（一大块）”，数量与摆放都不符。",
+      "food_identification": "肉呈暗红色、有肌纤维和白色脂肪边，是生肉排而非鱼排，主类别判断错误。",
+      "detail_accuracy": "表面湿润泛光并带交叉刀花，并非“super crispy（酥脆）”；绿色部分是整片长叶而非青椒片；画面未见迷迭香。",
+      "language_quality": "语法通顺、可读，但“on the surface…on the side”句式略重复。"
+    },
+    "uncertainty": [
+      "肉的具体部位（牛/猪）无法仅凭画面确认",
+      "腌料的具体成分无法确认",
+      "绿色叶片的具体品种无法确认"
+    ],
+    "visible_but_omitted": [
+      "第二块肉排（画面共两块）",
+      "黑色金属烤网/烤架",
+      "肉表面的交叉菱形刀花",
+      "肉块边缘的白色脂肪/筋膜",
+      "两块肉之间散落的少量橙黄色小块"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "rosemary（迷迭香，画面中未见任何香草枝条或针叶）"
+    ],
+    "error_categories": [
+      "与画面冲突:画面为暗红色生肉排（有脂肪边与肌纤维），不是“fish steak（鱼排）”",
+      "与画面冲突:表面湿润有光泽且带刀花，不是“super crispy surface（酥脆表面）”",
+      "与画面冲突:表面绿色为整片细长叶片，不是“a few slices of green pepper（几片青椒）”",
+      "无法确认:腌料配方、肉的部位、绿色叶片品种",
+      "明显遗漏:两块肉排、烤网、交叉刀花、橙黄色小块均未描述"
+    ],
+    "verdict": "主体类别与表面状态均与画面相反，还添加了无依据的迷迭香，仅语言尚可。"
+  },
+  "03B": {
+    "candidate_id": "03B",
+    "visual_consistency": 3,
+    "food_identification": 3,
+    "detail_accuracy": 2,
+    "language_quality": 1,
+    "evidence": {
+      "visual_consistency": "提到了生肉与绿叶，与画面主体元素大致对应，但写成“一大块”且没有烤网等摆放信息。",
+      "food_identification": "“raw meat（生肉）”方向正确，但“meatloaves（肉糕/肉卷）”与画面扁平肉排形态不符。",
+      "detail_accuracy": "仅“raw”和“green leaves”与画面相符；两处<UNK>丢掉了外观细节，也未提刀花与光泽。",
+      "language_quality": "两处<UNK>占位符使句子残缺，难以理解。"
+    },
+    "uncertainty": [
+      "两个<UNK>原本指代的内容无法得知",
+      "肉的具体种类与部位无法确认",
+      "绿色叶片品种无法确认"
+    ],
+    "visible_but_omitted": [
+      "第二块肉排（候选写为一块）",
+      "黑色金属烤网/烤架",
+      "肉表面的交叉菱形刀花",
+      "肉表面的腌料光泽",
+      "两块肉之间的橙黄色小块"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "与画面冲突:画面是两块扁平生肉排、带刀花，不是“meatloaves（肉糕）”且不止一块",
+      "无法确认:<UNK>占位符所指内容（可能是外观词或配料）",
+      "明显遗漏:烤网、交叉刀花、腌料光泽、橙黄色小块均未描述"
+    ],
+    "verdict": "“生肉+绿叶”方向大体正确，但用词失准且占位符导致语言不可读。"
+  },
+  "03C": {
+    "candidate_id": "03C",
+    "visual_consistency": 2,
+    "food_identification": 2,
+    "detail_accuracy": 2,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "只写“一大块”，与画面两块并排、置于烤网上的整体构图不符。",
+      "food_identification": "“porchetta（意式烤猪肉卷）”与图中生牛肉排的类别和形态都不符，只沾到“肉”这一层。",
+      "detail_accuracy": "“slightly charred skin”与画面生肉湿润光泽冲突；绿色是整片长叶而非切碎青椒；未提刀花与脂肪边。",
+      "language_quality": "语法正确、表达流畅、无重复。"
+    },
+    "uncertainty": [
+      "肉的具体部位与种类无法确认",
+      "绿色叶片的具体品种无法确认",
+      "腌料的具体成分无法确认"
+    ],
+    "visible_but_omitted": [
+      "第二块肉排（画面共两块）",
+      "黑色金属烤网/烤架",
+      "肉表面的交叉菱形刀花",
+      "肉块边缘的白色脂肪/筋膜",
+      "两块肉之间的橙黄色小块"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "与画面冲突:画面是生牛肉排而非“porchetta（烤猪肉卷）”，且为两块",
+      "与画面冲突:肉表面湿润未烤炙，无“slightly charred skin（微焦表皮）”",
+      "与画面冲突:绿色部分为整片细长叶片，不是“chopped green peppers（切碎的青椒）”",
+      "无法确认:肉的部位、叶片品种、腌料成分",
+      "明显遗漏:烤网、交叉刀花、白色脂肪边、橙黄色小块"
+    ],
+    "verdict": "语言最流畅，但食物类别与表面状态均误判，且漏写两块与烤网。"
+  },
+  "03D": {
+    "candidate_id": "03D",
+    "visual_consistency": 2,
+    "food_identification": 2,
+    "detail_accuracy": 3,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "写成“a loaf（一条/整块）”的生肉，与画面两块扁平肉排摆在烤网上的构图不符。",
+      "food_identification": "“bacon explosion”指向培根/烤制肉品，与图中生红肉排类别不符，仅“肉”的方向沾边。",
+      "detail_accuracy": "“glossy surface”与画面腌料光泽相符，“green onions”对整片绿叶是较接近的猜测，但“freshly baked”与生肉状态冲突。",
+      "language_quality": "语法通顺，但“glossy surface…on the surface”重复使用 surface，“bacon explosion”表述怪异。"
+    },
+    "uncertainty": [
+      "肉的具体种类与部位无法确认",
+      "绿色叶片是否为葱/蒜苗叶无法确认"
+    ],
+    "visible_but_omitted": [
+      "第二块肉排（画面共两块）",
+      "黑色金属烤网/烤架",
+      "肉表面的交叉菱形刀花",
+      "肉块边缘的白色脂肪/筋膜",
+      "两块肉之间的橙黄色小块"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "与画面冲突:画面为两块扁平生肉排，不是“loaf（整条面包状）”且不止一块",
+      "与画面冲突:肉为生腌状态，不是“freshly baked（刚烤好）”",
+      "与画面冲突:“bacon explosion”所指的培根制品与画面生红肉不符",
+      "无法确认:绿叶是否为葱叶、肉的具体部位",
+      "明显遗漏:烤网、交叉刀花、白色脂肪边、橙黄色小块"
+    ],
+    "verdict": "抓住了表面光泽与绿叶两点，但主体类别、数量与生熟状态均不符画面。"
+  },
+  "08A": {
+    "candidate_id": "08A",
+    "visual_consistency": 4,
+    "food_identification": 5,
+    "detail_accuracy": 3,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "确为酿蘑菇近景特写、顶部堆料、后方同类蘑菇虚化，整体摆放相符；但画面未见盘子，物件置于烘焙纸上，“a plate of”略失准。",
+      "food_identification": "“stuffed mushrooms”准确命中深褐色蘑菇伞盖内填馅的主体类别。",
+      "detail_accuracy": "“minced meat on top”与褐色碎肉末相符，但完全漏掉醒目的白色奶酪碎与融化奶酪酱汁；“chopped green onion”对应的绿色碎末更像香草/菜叶碎，证据不足。",
+      "language_quality": "语法正确、表达通顺自然，无重复用词。"
+    },
+    "uncertainty": [
+      "绿色碎末究竟是葱还是香草/菠菜叶碎，图中难以分辨",
+      "是否放在盘子上无法确认，画面仅见浅色烘焙纸/木板"
+    ],
+    "visible_but_omitted": [
+      "顶部明显可见的白色奶酪碎与融化奶酪/奶油酱汁层",
+      "肉末间散落的点状红色小颗粒"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+      "无法确认: “chopped green onion”所指绿色碎末更似香草碎",
+      "无法确认: “a plate of”画面未见盘子"
+    ],
+    "verdict": "主体类别与肉末配料判断正确、语言通顺，但漏掉最醒目的奶酪层，绿葱表述证据不足，只能算部分准确。"
+  },
+  "08B": {
+    "candidate_id": "08B",
+    "visual_consistency": 2,
+    "food_identification": 1,
+    "detail_accuracy": 2,
+    "language_quality": 2,
+    "evidence": {
+      "visual_consistency": "只写到“一块褐色物体＋表面＋顶部配料”的粗略构图，未体现伞盖内填馅的形态，且画面未见盘子。",
+      "food_identification": "主体被写成“filet mignon”（菲力牛排），而图中明显是去柄的深褐色蘑菇伞盖，主要类别错判。",
+      "detail_accuracy": "“brown”与“chopped green onions”尚可对上色调和绿色碎末，但“crispy surface”在图中无依据（伞盖偏湿润），且漏掉白色奶酪碎与奶油酱汁。",
+      "language_quality": "“with a crispy surface with a crispy surface”同一短语连续重复，句子结构冗赘，明显扣分。"
+    },
+    "uncertainty": [
+      "“crispy surface”所指的酥脆表面在图中无法确认，伞盖表面偏湿润光滑"
+    ],
+    "visible_but_omitted": [
+      "蘑菇伞盖盛装碎肉末的酿制结构",
+      "顶部白色奶酪碎与融化奶酪酱汁层"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "filet mignon（菲力牛排）：画面无牛排依据"
+    ],
+    "error_categories": [
+      "与画面冲突: 主体是酿蘑菇，非菲力牛排",
+      "无法确认: “crispy surface”酥脆外观在图中未见",
+      "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+      "重复: “with a crispy surface”连续重复"
+    ],
+    "verdict": "把酿蘑菇误认成菲力牛排、主体错误，又漏掉奶酪并重复短语，是四条中最差的一条。"
+  },
+  "08C": {
+    "candidate_id": "08C",
+    "visual_consistency": 3,
+    "food_identification": 2,
+    "detail_accuracy": 2,
+    "language_quality": 2,
+    "evidence": {
+      "visual_consistency": "“深色圆形填馅蔬菜近景”的构图大致接近，但画面未见盘子，也未体现后方多个同类蘑菇与特写构图。",
+      "food_identification": "主体被写成“stuffed eggplants”（酿茄子），图中实为深褐色蘑菇伞盖，主要类别错判，仅“stuffed/填馅”沾边。",
+      "detail_accuracy": "“chopped green onion”对应绿色碎末尚可，但漏掉最醒目的褐色碎肉末与白色奶酪碎/融化酱汁。",
+      "language_quality": "“chopped green onion and chopped green onion”整段重复、句末无标点，表达完整度差。"
+    },
+    "uncertainty": [
+      "绿色碎末是否为葱无法确认",
+      "是否有盘子无法确认，画面仅见浅色烘焙纸/木板"
+    ],
+    "visible_but_omitted": [
+      "深褐色蘑菇伞盖主体（被误作茄子）",
+      "顶部白色奶酪碎与融化奶酪酱汁层",
+      "伞盖内褐色碎肉末填充物"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "stuffed eggplants（茄子）：画面无茄子依据"
+    ],
+    "error_categories": [
+      "与画面冲突: 主体是酿蘑菇，非茄子",
+      "明显遗漏: 褐色碎肉末填充物",
+      "明显遗漏: 顶部白色奶酪碎与融化奶酪酱汁层",
+      "重复: “chopped green onion”连续出现两次",
+      "无法确认: “a plate of”画面未见盘子"
+    ],
+    "verdict": "主体误作茄子、配料只剩绿色碎末还重复两次，漏掉肉末与奶酪，整体接近多处错误。"
+  },
+  "08D": {
+    "candidate_id": "08D",
+    "visual_consistency": 4,
+    "food_identification": 5,
+    "detail_accuracy": 2,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "酿蘑菇近景、顶部撒配料的摆放描述相符；但画面未见盘子，“a plate of”略失准。",
+      "food_identification": "“stuffed mushrooms”准确命中蘑菇伞盖填馅的主体类别。",
+      "detail_accuracy": "“chopped parsley”与绿色香草碎较吻合，但“diced tomatoes”仅见单个红色小点、不足以称番茄丁，且漏掉最醒目的褐色碎肉末与白色奶酪碎/融化酱汁。",
+      "language_quality": "句子通顺可读，仅两项并列却多一个逗号（“diced tomatoes, and...”）略显别扭。"
+    },
+    "uncertainty": [
+      "“diced tomatoes”仅见一个极小红色颗粒，无法确认为番茄丁",
+      "是否放在盘子上无法确认，画面仅见浅色烘焙纸/木板"
+    ],
+    "visible_but_omitted": [
+      "顶部大面积的褐色碎肉末（画面最醒目的配料）",
+      "白色奶酪碎与融化奶酪酱汁层"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "明显遗漏: 顶部褐色碎肉末（主要配料）",
+      "明显遗漏: 白色奶酪碎与融化奶酪酱汁层",
+      "无法确认: “diced tomatoes”仅见单个红色小颗粒",
+      "无法确认: “a plate of”画面未见盘子"
+    ],
+    "verdict": "主体识别正确、语言基本通顺，但漏掉最醒目的肉末和奶酪层，还添了证据不足的番茄丁，细节明显不足。"
+  },
+  "14A": {
+    "candidate_id": "14A",
+    "visual_consistency": 3,
+    "food_identification": 5,
+    "detail_accuracy": 3,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "整体是一锅堆得较满的鸡块，份量与构图对得上，但候选写成a plate of，画面明显是深锅而非盘子。",
+      "food_identification": "brown stew chicken与画面中深棕色焖炖带皮鸡块完全吻合，主料判断准确。",
+      "detail_accuracy": "chopped green onion确实撒在表面；但red pepper在图中看不到，可见的椒片是青色，且青椒片与浅色蒜/洋葱块被漏写。",
+      "language_quality": "句子结构完整、用词自然、无重复，读起来流畅。"
+    },
+    "uncertainty": [
+      "表面浅色块状物是蒜还是洋葱难以精确区分",
+      "深色酱汁中是否含其他香料无法确认"
+    ],
+    "visible_but_omitted": [
+      "青辣椒片",
+      "浅色蒜/洋葱块"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "red pepper（图中未见红色椒类，表面椒片为青色）"
+    ],
+    "error_categories": [
+      "与画面冲突:容器写成盘子，实际盛在深锅中",
+      "无法确认:红辣椒在图中不可见，可见椒片为青色",
+      "明显遗漏:青辣椒片和浅色蒜/洋葱块未提及"
+    ],
+    "verdict": "菜名与主料准确、语言流畅，但容器误写为盘子并加上图中未见的红辣椒，细节准确性打折。"
+  },
+  "14B": {
+    "candidate_id": "14B",
+    "visual_consistency": 4,
+    "food_identification": 2,
+    "detail_accuracy": 2,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "a pot of与画面容器一致，堆满块状炖菜的整体构图也相符，但菜式内容描述与画面不符。",
+      "food_identification": "主料写成sliced beef、菜名写brown stew peas，图中是带皮鸡块且无豌豆，主料类别错误。",
+      "detail_accuracy": "sliced beef与带皮鸡块形态不符，green beans在图中实际是葱段，豌豆炖菜也无依据。",
+      "language_quality": "语法正确、无重复，句子通顺。"
+    },
+    "uncertainty": [
+      "深色酱汁的具体成分无法判断",
+      "图中块状物是否全部为鸡肉难以逐块核实"
+    ],
+    "visible_but_omitted": [
+      "带皮鸡块这一主体",
+      "切碎的青葱段",
+      "青辣椒片"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "stew peas（豌豆）",
+      "sliced beef（切片牛肉）",
+      "green beans（青豆角，图中绿色段状物实为葱段）"
+    ],
+    "error_categories": [
+      "与画面冲突:主料写为切片牛肉，画面为带皮鸡块",
+      "与画面冲突:写为豌豆炖菜，图中无豌豆",
+      "与画面冲突:green beans对应画面中的葱段"
+    ],
+    "verdict": "容器与语言没问题，但主料牛肉与豌豆炖菜的判断都与画面鸡块炖菜明显冲突。"
+  },
+  "14C": {
+    "candidate_id": "14C",
+    "visual_consistency": 3,
+    "food_identification": 2,
+    "detail_accuracy": 2,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "整体是锅内一堆块状食物的构图，但候选写成a plate of，且beef chow fun暗示的装盘与画面不符。",
+      "food_identification": "beef chow fun即牛肉河粉，图中既无河粉也非牛肉，主料类别错误。",
+      "detail_accuracy": "chopped green onion确实存在，但a few pieces of beef与带皮鸡块冲突，且完全未提鸡块。",
+      "language_quality": "语法基本正确，但beef在一个短句中重复出现两次，略显冗余。"
+    },
+    "uncertainty": [
+      "图中块状物是否为鸡的特定部位（腿/翅/胸）无法确认",
+      "酱汁是否为勾芡汁无法判断"
+    ],
+    "visible_but_omitted": [
+      "带皮鸡块这一主体",
+      "青辣椒片",
+      "浅色蒜/洋葱块"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "beef chow fun（河粉）",
+      "a few pieces of beef（牛肉块）"
+    ],
+    "error_categories": [
+      "与画面冲突:主料写为牛肉河粉，图中为带皮鸡块且无面条/河粉",
+      "与画面冲突:容器写成盘子，实际盛在深锅中",
+      "明显遗漏:鸡肉这一可见主体未提及"
+    ],
+    "verdict": "仅切碎葱与画面相符，牛肉河粉与盘子均为明显误判，整体描述基本对应另一道菜。"
+  },
+  "14D": {
+    "candidate_id": "14D",
+    "visual_consistency": 4,
+    "food_identification": 3,
+    "detail_accuracy": 4,
+    "language_quality": 3,
+    "evidence": {
+      "visual_consistency": "a pot与画面容器一致，锅内堆满酱色鸡块的构图也相符，只是菜名暗示的呈现方式略有出入。",
+      "food_identification": "chicken正确识别了主料，但chicken marsala是玛莎拉酒汁蘑菇鸡，与图中无蘑菇的深色焖鸡不完全对应。",
+      "detail_accuracy": "chopped spring onion确实撒在表面；但只写葱花，青辣椒片与浅色蒜/洋葱块未提及。",
+      "language_quality": "chopped spring onion在同一短语里重复出现两次，明显冗余，但句子仍可理解。"
+    },
+    "uncertainty": [
+      "鸡块是否为玛莎拉风味（是否有酒汁）无法从画面判断",
+      "表面浅色块状物是蒜还是洋葱难以区分"
+    ],
+    "visible_but_omitted": [
+      "青辣椒片",
+      "浅色蒜/洋葱块"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "chicken marsala隐含的蘑菇与玛莎拉酒汁"
+    ],
+    "error_categories": [
+      "无法确认:chicken marsala所配蘑菇/玛莎拉酒汁在图中不可见",
+      "明显遗漏:青辣椒片与浅色蒜/洋葱块未提及"
+    ],
+    "verdict": "容器、鸡块与葱花基本对得上，但chicken marsala菜式不符，且同一短语重复两次影响语言质量。"
+  },
+  "19A": {
+    "candidate_id": "19A",
+    "visual_consistency": 4,
+    "food_identification": 3,
+    "detail_accuracy": 3,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "画面主体确为白底/白盘上的一堆黑米饭，“a plate of black arros negre”的整体构图与摆放能对上。",
+      "food_identification": "把主体识别为黑 arros negre 正确，但饭上最显眼的整只带壳虾和盘边青口贝完全没提，食物类别信息不完整。",
+      "detail_accuracy": "红椒确实在饭上，但画面中是2-3条切好的细长红椒条，并非“一整个红椒”，形态描述与画面冲突。",
+      "language_quality": "句子通顺、无重复，只有 arros negre 拼写缺重音符以及“black arros negre”语义重复这类小瑕疵。"
+    },
+    "uncertainty": [
+      "该黑米饭是否确以墨鱼汁调味（arros negre 的常见做法）仅凭画面无法确认",
+      "红椒条的具体品种（甜椒还是微辣辣椒）无法确认"
+    ],
+    "visible_but_omitted": [
+      "整只带壳大虾（约3只，虾头、虾壳、虾足清晰可见）",
+      "黑色青口贝（贻贝）的贝壳"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "与画面冲突:画面中的红椒是2-3条切好的细长红椒条铺在饭上，并非一整个红椒",
+      "明显遗漏:画面中显眼的整只虾与黑色青口贝贝壳均未写出"
+    ],
+    "verdict": "主体（黑米饭）判断准确，但“一整个红椒”与画面形态冲突，且漏写主要海鲜配料，细节得分受限。"
+  },
+  "19B": {
+    "candidate_id": "19B",
+    "visual_consistency": 1,
+    "food_identification": 1,
+    "detail_accuracy": 1,
+    "language_quality": 2,
+    "evidence": {
+      "visual_consistency": "画面是墨鱼汁黑米饭配虾、青口贝和红椒条，与“红色凉拌菜/红甘蓝沙拉”的整体画面完全不符。",
+      "food_identification": "把主体食物识别为红甘蓝沙拉，而实际主体是黑米饭，主要食物类别错误。",
+      "detail_accuracy": "“切丝红甘蓝、红甘蓝、红甘蓝”在画面中毫无对应，青葱也无依据，图中唯一的红色是红椒条。",
+      "language_quality": "句子尚可读，但“red cabbage”连写三次、像清单堆叠，重复明显。"
+    },
+    "uncertainty": [],
+    "visible_but_omitted": [
+      "墨鱼汁黑米饭主体",
+      "整只带壳大虾（约3只）",
+      "黑色青口贝（贻贝）贝壳",
+      "鲜红彩椒条"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "切丝红甘蓝（red cabbage）",
+      "红甘蓝沙拉",
+      "青葱"
+    ],
+    "error_categories": [
+      "与画面冲突:画面主体为墨鱼汁黑米饭配虾贝与红椒条，并不存在红色凉拌菜/红甘蓝",
+      "明显遗漏:黑米饭、整只虾、青口贝与红椒条全部未体现"
+    ],
+    "verdict": "主体食材全错，描述与画面基本无关，仅措辞尚可理解。"
+  },
+  "19C": {
+    "candidate_id": "19C",
+    "visual_consistency": 3,
+    "food_identification": 3,
+    "detail_accuracy": 2,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "白底上堆黑米饭的整体摆盘能对上，但“大量辣椒油”会使画面泛红油亮，实际饭色深黑、表面近干爽油亮，观感不符。",
+      "food_identification": "主体“black arros negre”识别正确，但仍未提到画面显眼的整只虾与青口贝。",
+      "detail_accuracy": "“大量辣椒油”在画面中看不到，红色来自红椒条；切碎青葱只见零星无法辨认的小绿点，配料依据不足。",
+      "language_quality": "表达通顺流畅、无重复，只有 arros negre 拼写与“black arros negre”语义重复的小瑕疵。"
+    },
+    "uncertainty": [
+      "饭粒间少量绿色碎点是否为切碎的葱无法确认",
+      "黑色米饭是否以墨鱼汁调味（arros negre 的常见做法）无法确认"
+    ],
+    "visible_but_omitted": [
+      "整只带壳大虾（约3只）",
+      "黑色青口贝（贻贝）贝壳",
+      "鲜红彩椒条"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "辣椒油"
+    ],
+    "error_categories": [
+      "与画面冲突:画面中看不到“大量辣椒油”，米饭呈深黑油亮而非红油浸渍状态",
+      "无法确认:是否有切碎的青葱（仅见零星绿色碎点）",
+      "明显遗漏:整只虾、青口贝与红椒条均未提及"
+    ],
+    "verdict": "主体名称正确，但“大量辣椒油”缺乏画面依据且与观感冲突，并漏写显眼的虾与贝。"
+  },
+  "19D": {
+    "candidate_id": "19D",
+    "visual_consistency": 3,
+    "food_identification": 3,
+    "detail_accuracy": 3,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "白底上堆黑米饭的主体构图与画面相符，但“盘边几片柠檬”在画面中找不到对应摆盘。",
+      "food_identification": "主体黑 arros negre 判断正确，但饭上显眼的整只虾与青口贝未写，“大量墨鱼”也无法从画面核实。",
+      "detail_accuracy": "可见盘面范围内没有柠檬片；深色饭粒间的墨鱼肉块也无法分辨，“a lot of cuttlefish”缺少直接依据。",
+      "language_quality": "句子通顺、搭配自然、无重复，只有 arros negre 拼写与“black arros negre”冗余的小问题。"
+    },
+    "uncertainty": [
+      "取景为黑米饭特写，盘边区域是否另有柠檬片无法确认（画面可见盘面内未见柠檬）",
+      "饭中墨鱼肉块是否“很多”无法确认",
+      "黑色米饭是否确以墨鱼汁调味无法确认"
+    ],
+    "visible_but_omitted": [
+      "整只带壳大虾（约3只）",
+      "黑色青口贝（贻贝）贝壳",
+      "鲜红彩椒条"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "无法确认:画面可见的盘面范围内没有柠檬片，但取景是否为整盘、盘边是否有柠檬无法确认",
+      "无法确认:墨鱼肉块数量（“a lot of cuttlefish”）无法从深色饭粒中分辨",
+      "明显遗漏:整只虾、青口贝与红椒条均未提及"
+    ],
+    "verdict": "主体类别正确、语言流畅，但柠檬片与“大量墨鱼”缺少画面依据，且漏写显眼的虾与贝。"
+  },
+  "23A": {
+    "candidate_id": "23A",
+    "visual_consistency": 2,
+    "food_identification": 1,
+    "detail_accuracy": 2,
+    "language_quality": 4,
+    "evidence": {
+      "visual_consistency": "白盘和深棕切片大致对得上，但图上酱汁是盘内三格蘸碟、切片长排叠放，候选写成一侧淋酱，整体摆盘未体现。",
+      "food_identification": "主体是带深色外皮、胶质层和白色软骨纹理的卤猪耳薄片，候选却写成 pipikaula（夏威夷牛肉干），类别错误。",
+      "detail_accuracy": "\"dark brown\" 颜色部分符合，但 \"a drizzle of soy sauce on the side\" 与三格蘸酱不符，且红油辣酱与绿叶细节均未写。",
+      "language_quality": "句子语法正确、通顺，仅 \"dark brown colored\" 略冗余。"
+    },
+    "uncertainty": [
+      "深色酱汁是否为酱油无法确认"
+    ],
+    "visible_but_omitted": [
+      "三格蘸酱（红油辣酱、深色酱汁、浅色带红点酱）",
+      "盘右侧一片绿叶装饰",
+      "薄片沿盘长排层层叠放的摆盘方式",
+      "猪耳切片外缘深色皮与白色软骨分层纹理"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "pipikaula（夏威夷牛肉干）"
+    ],
+    "error_categories": [
+      "与画面冲突:酱汁是盘内三格蘸碟，不是一侧的一抹淋酱",
+      "明确错误:把卤猪耳片写成 pipikaula 牛肉干",
+      "明显遗漏:三种蘸酱与绿叶装饰均未提及",
+      "无法确认:深色酱汁是否为酱油"
+    ],
+    "verdict": "主体食物判错并错写单侧淋酱，画面吻合度低，仅颜色与句式尚可。"
+  },
+  "23B": {
+    "candidate_id": "23B",
+    "visual_consistency": 4,
+    "food_identification": 5,
+    "detail_accuracy": 3,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "白瓷盘与长条叠放的深棕切片的整体构图吻合，但酱汁是盘内三格而非「旁边的一只小碗」，容器形态略偏。",
+      "food_identification": "「brown pig's ear」准确对应图上卤猪耳片，类别与颜色都对。",
+      "detail_accuracy": "颜色和主体正确，但三种蘸酱被笼统写成 \"a small bowl of sauce\"，酱的数量、区别与绿叶均遗漏。",
+      "language_quality": "表达自然通顺，无语法问题与重复。"
+    },
+    "uncertainty": [],
+    "visible_but_omitted": [
+      "三种不同蘸酱（红油辣酱、深色酱汁、浅色带红点酱）及其分格摆放",
+      "盘右侧绿叶装饰"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "与画面冲突:酱汁是盘内三格蘸碟而非旁边一只小碗",
+      "明显遗漏:三种蘸酱的数量与差别、绿叶装饰"
+    ],
+    "verdict": "主体识别准确且语言流畅，主要偏差在于把三格蘸酱简化成一只小碗、漏写绿叶。"
+  },
+  "23C": {
+    "candidate_id": "23C",
+    "visual_consistency": 2,
+    "food_identification": 1,
+    "detail_accuracy": 1,
+    "language_quality": 1,
+    "evidence": {
+      "visual_consistency": "只有 \"a plate\" 能与画面中的盘子对应，其余全是 <UNK> 占位符，无法核对构图、份量与摆放。",
+      "food_identification": "全句未给出任何可辨认的食物类别。",
+      "detail_accuracy": "没有任何可核对到的配料或外观细节。",
+      "language_quality": "绝大多数词是 <UNK> 占位符，语法结构破碎、内容不可读。"
+    },
+    "uncertainty": [
+      "除 a plate 外全部为 <UNK> 占位符，所指内容无法确认"
+    ],
+    "visible_but_omitted": [
+      "卤猪耳薄片主体",
+      "三格蘸酱",
+      "盘右侧绿叶装饰",
+      "长排叠放的摆盘"
+    ],
+    "suspected_ingredient_hallucinations": [],
+    "error_categories": [
+      "无法确认:句子绝大部分是 <UNK> 占位符，无法判断描述所指",
+      "明显遗漏:主体食物、蘸酱、摆盘全部缺失"
+    ],
+    "verdict": "输出被占位符破坏、语义不可读，除「盘子」外无法作为描述使用。"
+  },
+  "23D": {
+    "candidate_id": "23D",
+    "visual_consistency": 2,
+    "food_identification": 1,
+    "detail_accuracy": 2,
+    "language_quality": 5,
+    "evidence": {
+      "visual_consistency": "「盘子 + 深棕色」可对应，但图上酱汁分置盘边三格、切片表面并无淋酱，且整体是肉片长条叠放而非蛋糕摆盘。",
+      "food_identification": "torta caprese 是巧克力杏仁蛋糕，而画面主体是卤猪耳薄片，主体类别完全错误。",
+      "detail_accuracy": "\"dark brown\" 颜色符合，但 \"a drizzle of soy sauce on the surface\" 与画面冲突，切片外皮与胶质软骨纹理未写。",
+      "language_quality": "语法正确、表达流畅，无重复。"
+    },
+    "uncertainty": [
+      "深色酱汁是否为酱油无法确认"
+    ],
+    "visible_but_omitted": [
+      "三格蘸酱（尤其红油辣酱）",
+      "盘右侧绿叶装饰",
+      "薄片长排叠放的摆盘",
+      "猪耳切片深色外皮与白色软骨胶质分层"
+    ],
+    "suspected_ingredient_hallucinations": [
+      "torta caprese（巧克力杏仁蛋糕）"
+    ],
+    "error_categories": [
+      "与画面冲突:主体是卤猪耳切片而非蛋糕（torta caprese）",
+      "与画面冲突:酱汁分置盘边三格，并非淋在食物表面",
+      "明显遗漏:三格蘸酱与绿叶装饰",
+      "无法确认:深色酱汁是否为酱油"
+    ],
+    "verdict": "主体判成蛋糕类完全错误，又把盘边蘸酱写成表面淋酱油，仅颜色与语句流畅度可取。"
+  }
+}

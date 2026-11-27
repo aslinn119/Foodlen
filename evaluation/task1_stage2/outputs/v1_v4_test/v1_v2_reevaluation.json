@@ -1,0 +1,69 @@
+{
+  "reference_file": "C:\\Users\\lenovo\\Documents\\ChatGPT\\A3卷积网络\\FoodLens_Task1_李馨瑶\\阶段2_统一评测与可信分析\\inputs\\test_annotations.jsonl",
+  "reference_sha256": "cc9a6c6cd13a6870ef927de0c266896c5d5a6648c182b3daeb8d118e4b729340",
+  "split": "test",
+  "reference_count": 4938,
+  "matching": "all file_name and reference text checked",
+  "tokenization": "lowercase + whitespace split; one reference per image",
+  "bleu_scale": "0–100",
+  "rouge_l_scale": "0–1",
+  "cider_d_scale": "x10",
+  "results": [
+    {
+      "model": "V1重训消融 greedy",
+      "n": 4938,
+      "bleu1_to_4": [
+        31.555720621326984,
+        15.571630014087917,
+        8.54566970051073,
+        4.881230353853792
+      ],
+      "rouge_l": 0.26159007946327056,
+      "cider_d": 0.3374359548356004,
+      "source": "inputs\\v1_ablation_test.json",
+      "source_sha256": "9bfbaec9375b59b3816826062f08fd276e80ac89e19b11f9bd946e89035921f6"
+    },
+    {
+      "model": "V2注意力 greedy",
+      "n": 4938,
+      "bleu1_to_4": [
+        32.32989059509627,
+        16.544419474429276,
+        9.257201417310453,
+        5.291411400446794
+      ],
+      "rouge_l": 0.26949209998946727,
+      "cider_d": 0.3713125103885096,
+      "source": "inputs\\v2_greedy_test.json",
+      "source_sha256": "04cac60a0f560c8537f94c4efa5da7745137ee49df3d3cdaab25ecfee9892c47"
+    },
+    {
+      "model": "V3 layer4",
+      "n": 4938,
+      "bleu1_to_4": [
+        28.86387877670788,
+        13.632179275918288,
+        7.190097381156762,
+        3.7612478903136233
+      ],
+      "rouge_l": 0.24231572762525808,
+      "cider_d": 0.21898742071206467,
+      "source": "inputs\\v3_layer4_test_predictions.jsonl",
+      "source_sha256": "0e156123aec969b93e49c096659998586862fcf5cf70dae89598f0177b13d97d"
+    },
+    {
+      "model": "V4 full",
+      "n": 4938,
+      "bleu1_to_4": [
+        30.59492527958726,
+        15.36413603755321,
+        8.491226536475027,
+        4.752315028532441
+      ],
+      "rouge_l": 0.2556795211464628,
+      "cider_d": 0.32420464272848404,
+      "source": "inputs\\v4_full_test_predictions.jsonl",
+      "source_sha256": "6694c8f22d0d4ab3182ecbee683f721053136e36c06e142414a28602a660e887"
+    }
+  ]
+}
