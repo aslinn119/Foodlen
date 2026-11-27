@@ -1,0 +1,22 @@
+{
+  "ce_continued": {
+    "updates": 768,
+    "unique_training_images": 2048,
+    "visits_per_image": 3
+  },
+  "scst": {
+    "updates": 768,
+    "unique_training_images": 2048,
+    "visits_per_image": 3
+  },
+  "test_alignment": {
+    "models": 3,
+    "images_per_model": 4938,
+    "references_match": true
+  },
+  "cpu_reload_single_image": {
+    "image_id": "val/Rice_and_peas/Rice_and_peas_00036.jpg",
+    "caption": "a red bowl of steamed rice with green peas and white rice on the surface.",
+    "matches_saved_audit_prediction": true
+  }
+}

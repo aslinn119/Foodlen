@@ -1,0 +1,10 @@
+{
+  "steps": 768,
+  "best_epoch": 3,
+  "best_validation_cider_d": 0.33671288545583755,
+  "nonzero_updates": 768,
+  "finite_losses": true,
+  "checkpoint_sha256": "fe1ac65433f21379108a961567a09b360d41e34668fb9347d95800bc26c06103",
+  "checkpoint_reload_tensor_equal": true,
+  "single_seed": true
+}

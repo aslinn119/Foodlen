@@ -1,0 +1,26 @@
+[
+  {
+    "name": "scst_best.pt",
+    "bytes": 189376762,
+    "sha256": "4296bba18de65bb8dd7cf97719a0cb8965d0565b69b055f46d2b80fa9f7748ab",
+    "storage": "external local experiment directory; not included in Git"
+  },
+  {
+    "name": "scst_last.pt",
+    "bytes": 189376762,
+    "sha256": "6988b3df87ec90077ffe8d746f978534f15ff387faa12b59342fd7f635ac89d3",
+    "storage": "external local experiment directory; not included in Git"
+  },
+  {
+    "name": "ce_continued_best.pt",
+    "bytes": 189378794,
+    "sha256": "fe1ac65433f21379108a961567a09b360d41e34668fb9347d95800bc26c06103",
+    "storage": "external local experiment directory; not included in Git"
+  },
+  {
+    "name": "ce_continued_last.pt",
+    "bytes": 189378794,
+    "sha256": "ee9fae8bc5742125225f388310e8e948b2fea1162834c51fb614ef15d71dc544",
+    "storage": "external local experiment directory; not included in Git"
+  }
+]

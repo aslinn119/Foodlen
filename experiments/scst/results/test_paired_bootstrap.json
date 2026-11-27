@@ -1,0 +1,20 @@
+{
+  "scst_minus_ce_original": {
+    "delta": 0.00018207705869311935,
+    "ci95": [
+      -0.0030905396304921184,
+      0.0035189184652016205
+    ],
+    "n": 4938,
+    "note": "paired image bootstrap; DF held fixed; single training seed, not training-seed uncertainty"
+  },
+  "scst_minus_ce_continued": {
+    "delta": -0.010161503048755903,
+    "ci95": [
+      -0.019410769664857802,
+      -0.001092100682276679
+    ],
+    "n": 4938,
+    "note": "paired image bootstrap; DF held fixed; single training seed, not training-seed uncertainty"
+  }
+}

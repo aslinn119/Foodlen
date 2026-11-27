@@ -1,0 +1,7 @@
+{
+  "fixed_df_reward_matches_pycocoevalcap": true,
+  "reward_error": 0.0,
+  "teacher_forced_vs_sequential_max_error": 0.0,
+  "eos_scored_pad_excluded": true,
+  "finite_policy_gradient": true
+}

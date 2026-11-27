@@ -1,0 +1,18 @@
+{
+  "source": "assistant visual spot check after frozen scoring; not independent human review",
+  "labels_changed": false,
+  "cases": [
+    {
+      "image_id": "val/Rice_and_peas/Rice_and_peas_00036.jpg",
+      "note": "可见米饭和圆豌豆；SCST把green beans改成green peas，但仍有重复rice。"
+    },
+    {
+      "image_id": "val/Fried_chicken/Fried_chicken_00038.jpg",
+      "note": "可见炸鸡拼接图，没有明确奶酪证据；SCST新增white cheese。该图是拼图，作为数据局限记录，未修改冻结审计集合或后验剔除。"
+    },
+    {
+      "image_id": "val/Turnip_cake/Turnip_cake_00037.jpg",
+      "note": "可见煎制浅色饼块，没有可见冰淇淋配菜；SCST把UNK改为ice cream，说明减少未知词不等于事实更准确。"
+    }
+  ]
+}

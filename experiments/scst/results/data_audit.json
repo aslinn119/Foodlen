@@ -1,0 +1,7 @@
+{
+  "readable_images": 7342,
+  "train_eval_identical_byte_pairs": [],
+  "selection_audit_overlap": 0,
+  "train_unique": 2048,
+  "note": "byte equality, not perceptual near-duplicate detection"
+}

@@ -1,0 +1,125 @@
+{
+  "eligible_images": 99,
+  "total_images": 100,
+  "annotation_source": "reused assistant-assisted annotations confirmed by user; not independent blind human annotation",
+  "interpretation": "unsupported means no visible evidence under a coarse closed lexicon; not proved factual absence",
+  "methods": {
+    "ce_original": {
+      "tp": 91,
+      "unsupported": 121,
+      "omitted": 174,
+      "precision": 0.42924528301886794,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.5707547169811321,
+      "omission_rate": 0.6566037735849056,
+      "unsupported_image_rate": 0.8080808080808081,
+      "zero_entity_captions": 3
+    },
+    "ce_continued": {
+      "tp": 91,
+      "unsupported": 107,
+      "omitted": 174,
+      "precision": 0.4595959595959596,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.5404040404040404,
+      "omission_rate": 0.6566037735849056,
+      "unsupported_image_rate": 0.696969696969697,
+      "zero_entity_captions": 7
+    },
+    "scst": {
+      "tp": 93,
+      "unsupported": 120,
+      "omitted": 172,
+      "precision": 0.43661971830985913,
+      "recall": 0.35094339622641507,
+      "unsupported_rate": 0.5633802816901409,
+      "omission_rate": 0.6490566037735849,
+      "unsupported_image_rate": 0.8080808080808081,
+      "zero_entity_captions": 4
+    }
+  },
+  "paired_bootstrap": {
+    "scst_minus_ce_original": {
+      "precision": {
+        "delta": 0.007374435290991188,
+        "ci95": [
+          -0.006826385701946179,
+          0.024383811279568877
+        ]
+      },
+      "recall": {
+        "delta": 0.007547169811320753,
+        "ci95": [
+          0.0,
+          0.019686984532071822
+        ]
+      },
+      "unsupported_rate": {
+        "delta": -0.007374435290991244,
+        "ci95": [
+          -0.02438381127956888,
+          0.006826385701946161
+        ]
+      }
+    },
+    "scst_minus_ce_continued": {
+      "precision": {
+        "delta": -0.022976241286100485,
+        "ci95": [
+          -0.08315090975868743,
+          0.03623102015798019
+        ]
+      },
+      "recall": {
+        "delta": 0.007547169811320753,
+        "ci95": [
+          -0.040000000000000036,
+          0.05668361244019137
+        ]
+      },
+      "unsupported_rate": {
+        "delta": 0.02297624128610043,
+        "ci95": [
+          -0.0362310201579802,
+          0.08315090975868741
+        ]
+      }
+    }
+  },
+  "sensitivity_all100": {
+    "ce_original": {
+      "tp": 91,
+      "unsupported": 124,
+      "omitted": 174,
+      "precision": 0.4232558139534884,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.5767441860465117,
+      "omission_rate": 0.6566037735849056,
+      "unsupported_image_rate": 0.81,
+      "zero_entity_captions": 3
+    },
+    "ce_continued": {
+      "tp": 91,
+      "unsupported": 109,
+      "omitted": 174,
+      "precision": 0.455,
+      "recall": 0.3433962264150943,
+      "unsupported_rate": 0.545,
+      "omission_rate": 0.6566037735849056,
+      "unsupported_image_rate": 0.7,
+      "zero_entity_captions": 7
+    },
+    "scst": {
+      "tp": 93,
+      "unsupported": 123,
+      "omitted": 172,
+      "precision": 0.4305555555555556,
+      "recall": 0.35094339622641507,
+      "unsupported_rate": 0.5694444444444444,
+      "omission_rate": 0.6490566037735849,
+      "unsupported_image_rate": 0.81,
+      "zero_entity_captions": 4
+    }
+  },
+  "uncertain_entities": "neutral, excluded from assessable precision denominator"
+}

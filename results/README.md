@@ -9,7 +9,8 @@
 | Task2修订 | [六份保存预测复核汇总](../task2/nutrition/results_repaired_20261123/summary.json)、[成果说明](../task2/成果说明_2026-11-23.txt) |
 | Judge与注意力 | [阶段交付](../evaluation/task1_stage2/最终交付/交接说明.md)、[报告](../evaluation/task1_stage2/最终交付/FoodLens阶段2报告_李馨瑶.docx) |
 | 创新一 | [重排序报告](../experiments/reranking/REPORT.md)、[用户确认实体指标](../experiments/reranking/results/entity_metrics_human.json) |
-| SCST | [33步报告](../experiments/scst_pilot/REPORT.md)、[逐步日志](../experiments/scst_pilot/results/rl_history.jsonl) |
+| SCST正式预算实验 | [报告](../experiments/scst/REPORT.md)、[比较表](../experiments/scst/results/comparison.csv)、[训练曲线](../experiments/scst/results/training_and_results.png) |
+| SCST早期试跑 | [历史33步报告](../experiments/scst_pilot/REPORT.md)，不作正式实验结果 |
 | 创新二 | [尚待完成](../experiments/calibration/README.md) |
 
-引用时带上模型版本、样本集合、指标尺度和评价实现。历史测试集此前已被查看；新一轮整理不改变该事实。创新一标注是助手辅助、用户确认，不能称独立人工盲标；SCST不能据33步结果推断RL方法无效。
+引用时带上模型版本、样本集合、指标尺度和评价实现。历史测试集此前已被查看；新一轮整理不改变该事实。创新一标注是助手辅助、用户确认，不能称独立人工盲标；SCST已完成单种子固定预算实验；本次结果不能推出RL普遍无效。
