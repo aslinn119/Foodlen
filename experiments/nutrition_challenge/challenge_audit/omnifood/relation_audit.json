@@ -1,0 +1,121 @@
+{
+  "corrected_component_catalog_size": 166,
+  "base_scene_count": 141,
+  "unknown_references": [
+    [
+      "5174",
+      "177"
+    ],
+    [
+      "5175",
+      "177"
+    ],
+    [
+      "5176",
+      "177"
+    ],
+    [
+      "5177",
+      "177"
+    ],
+    [
+      "5178",
+      "177"
+    ],
+    [
+      "5179",
+      "177"
+    ],
+    [
+      "5180",
+      "177"
+    ],
+    [
+      "5181",
+      "177"
+    ],
+    [
+      "5182",
+      "177"
+    ],
+    [
+      "5183",
+      "177"
+    ],
+    [
+      "5184",
+      "177"
+    ],
+    [
+      "5185",
+      "177"
+    ],
+    [
+      "5186",
+      "177"
+    ],
+    [
+      "5187",
+      "177"
+    ],
+    [
+      "5188",
+      "177"
+    ],
+    [
+      "5189",
+      "177"
+    ],
+    [
+      "5190",
+      "177"
+    ],
+    [
+      "5191",
+      "177"
+    ],
+    [
+      "5192",
+      "177"
+    ]
+  ],
+  "component_scaled_nutrition_mismatches": [
+    [
+      "1119",
+      "81"
+    ],
+    [
+      "1352",
+      "64"
+    ],
+    [
+      "2000",
+      "17"
+    ],
+    [
+      "2001",
+      "17"
+    ],
+    [
+      "2002",
+      "17"
+    ],
+    [
+      "2002",
+      "0"
+    ],
+    [
+      "6799",
+      "f8"
+    ]
+  ],
+  "shared_component_reference_count": 156,
+  "note": "Component metadata includes fruit string IDs. References identify reusable recipes/nutrition profiles, not documented cooking batch IDs.",
+  "fingerprinted_single_view_omni": 8036,
+  "fingerprinted_old": 3258,
+  "decoded_pixel_duplicate_pairs": [],
+  "similarity_candidate_pairs": 25139,
+  "cross_source_candidates": 0,
+  "cross_official_split_candidates": 7047,
+  "similarity_limits": "pHash<=6 and dHash<=8 are screening thresholds, not proof of identity or absence. Only preselected camera_4 examined for Omni. No embedding or batch provenance check."
+}

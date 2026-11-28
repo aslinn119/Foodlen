@@ -1,0 +1,126 @@
+{
+  "scene_id": "omnifood8k:80",
+  "selection": "first evaluation record, not selected by prediction quality",
+  "outputs": {
+    "mean": {
+      "model_id": "mean",
+      "model_version": "a96fc71a4d1e1305",
+      "calibration_version": "omnifood-abs90-v1-94b7b58711b3",
+      "target_coverage": 0.9,
+      "coverage_scope": "per_field_marginal",
+      "fields": {
+        "total_weight_g": {
+          "point": 213.5962360992301,
+          "lower": 55.5,
+          "upper": 371.6924721984602,
+          "unit": "g"
+        },
+        "total_calories_kcal": {
+          "point": 247.67159965782724,
+          "lower": 0.34576318033424513,
+          "upper": 494.99743613532024,
+          "unit": "kcal"
+        },
+        "protein_g": {
+          "point": 17.202437981180513,
+          "lower": 1.4979999999999993,
+          "upper": 32.90687596236103,
+          "unit": "g"
+        },
+        "fat_g": {
+          "point": 12.316167664670665,
+          "lower": 0.0,
+          "upper": 36.5675002919537,
+          "unit": "g"
+        },
+        "carbohydrate_g": {
+          "point": 19.44341317365265,
+          "lower": 0.0,
+          "upper": 46.681992347499,
+          "unit": "g"
+        }
+      },
+      "limitations": "Calibrated on OmniFood8K official train; batch independence and coverage on other domains are not established."
+    },
+    "resnet18": {
+      "model_id": "resnet18",
+      "model_version": "b81e3e0701615fee",
+      "calibration_version": "omnifood-abs90-v1-94b7b58711b3",
+      "target_coverage": 0.9,
+      "coverage_scope": "per_field_marginal",
+      "fields": {
+        "total_weight_g": {
+          "point": 126.2286333207015,
+          "lower": 0.0,
+          "upper": 387.0756895856165,
+          "unit": "g"
+        },
+        "total_calories_kcal": {
+          "point": 157.44447876906966,
+          "lower": 0.0,
+          "upper": 610.7736062843757,
+          "unit": "kcal"
+        },
+        "protein_g": {
+          "point": 8.07380338390088,
+          "lower": 0.0,
+          "upper": 25.37392282432538,
+          "unit": "g"
+        },
+        "fat_g": {
+          "point": 5.2033536299707395,
+          "lower": 0.0,
+          "upper": 39.960727144718945,
+          "unit": "g"
+        },
+        "carbohydrate_g": {
+          "point": 19.622038600097138,
+          "lower": 0.0,
+          "upper": 64.35488143769294,
+          "unit": "g"
+        }
+      },
+      "limitations": "Calibrated on OmniFood8K official train; batch independence and coverage on other domains are not established."
+    },
+    "clip": {
+      "model_id": "clip",
+      "model_version": "d9b2dff994213e3f",
+      "calibration_version": "omnifood-abs90-v1-94b7b58711b3",
+      "target_coverage": 0.9,
+      "coverage_scope": "per_field_marginal",
+      "fields": {
+        "total_weight_g": {
+          "point": 159.6,
+          "lower": 0.0,
+          "upper": 335.8,
+          "unit": "g"
+        },
+        "total_calories_kcal": {
+          "point": 199.4,
+          "lower": 0.0,
+          "upper": 571.2413001912046,
+          "unit": "kcal"
+        },
+        "protein_g": {
+          "point": 9.2,
+          "lower": 0.0,
+          "upper": 23.662802515353,
+          "unit": "g"
+        },
+        "fat_g": {
+          "point": 9.1,
+          "lower": 0.0,
+          "upper": 39.681343857518,
+          "unit": "g"
+        },
+        "carbohydrate_g": {
+          "point": 19.4,
+          "lower": 0.0,
+          "upper": 46.489376258727404,
+          "unit": "g"
+        }
+      },
+      "limitations": "Calibrated on OmniFood8K official train; batch independence and coverage on other domains are not established."
+    }
+  }
+}

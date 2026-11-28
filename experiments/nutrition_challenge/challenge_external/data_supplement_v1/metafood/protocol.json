@@ -1,0 +1,40 @@
+{
+  "version": "foodlens-newdata-20261118-v1",
+  "registered_utc": "2026-11-18T12:37:17.709298+00:00",
+  "counts": {
+    "validation": 50,
+    "train": 201,
+    "calibration_reserved": 150,
+    "test_reserved": 95
+  },
+  "source_files": {
+    "train.h5": "61bbff80b5816f0da5ca6289c52a73b7a20993a81a4b1bfa01f29b5998b2628e",
+    "test.h5": "746d01e2020e922a54a2d638e0a8a48c01e33b7dfec747c4b6e7f6c0552a14a4"
+  },
+  "split_rule": "Preserve source test; SHA256(seed:object_id) order source train: first150 calibration, next50 validation, remaining train.",
+  "group_unit": "Source physical object directory; no verified purchase/cooking batch IDs available.",
+  "input_rule": "Single provided 224x224 RGB per object. Ignore point cloud, depth, volume, filenames and labels as model inputs.",
+  "nutrient_units": {
+    "total_weight_g": "g",
+    "total_calories_kcal": "kcal",
+    "protein_g": "g",
+    "fat_g": "g",
+    "carbohydrate_g": "g"
+  },
+  "label_origin": "Published measured mass times FNDDS nutrient density; not lab assays or model-generated pseudo labels.",
+  "quality_policy": "Reject invalid/nonfinite/negative required values and invalid RGB. Flag plausibility without rewriting labels. No model-error-based filtering.",
+  "release_gate": "Import audit and visual duplicate review must pass before use. Exact old/new duplicates block release.",
+  "usage": "Only train/validation available for development. Reserve cal for frozen model threshold and test for one final evaluation. Metadata integrity audits are not performance evaluation.",
+  "license": "MetaFood3D CC BY-NC 4.0; cite original dataset and MFP3D preprocessing.",
+  "sources": [
+    "https://github.com/jingema99/MFP3D",
+    "https://lorenz.ecn.purdue.edu/~food3d/",
+    "https://arxiv.org/html/2409.01966v2"
+  ],
+  "not_run": [
+    "training",
+    "model inference",
+    "calibration thresholds",
+    "test metrics"
+  ]
+}

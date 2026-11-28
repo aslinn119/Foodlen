@@ -1,0 +1,30 @@
+{
+  "version": "foodlens-nv-20261119-v1",
+  "role_counts": {
+    "validation": 30,
+    "calibration_reserved": 60,
+    "train": 68,
+    "test_reserved": 67
+  },
+  "selection": "Lexically first image per dish. All other views inherit dish role, never independent samples.",
+  "split": "Source Val67 dishes -> reserved test. SHA256(foodlens-nv-20261119:dish_id) sorted source Train: first60 reserved cal, next30 validation, remaining68 train.",
+  "units": {
+    "total_weight_g": "g",
+    "total_calories_kcal": "kcal",
+    "protein_g": "g",
+    "fat_g": "g",
+    "carbohydrate_g": "g"
+  },
+  "source": "https://www.kaggle.com/datasets/nutritionverse/nutritionverse-real",
+  "license": "CC BY-NC-SA 4.0",
+  "input": "One RGB only. Labels, filename, ingredients, weights not inference inputs.",
+  "reserved_usage": "No train/selection on calibration or test. Freeze full pipeline before calibration; final test once. Do not pool sources without a target-population protocol.",
+  "limitations": "Dish disjointness does not prove cooking-batch independence or foundation-model pretraining absence.",
+  "manifest_sha256": "de75e353d976797fa19e4f7c7e75ea7aae0b4fc6a653661d4ea1bda7b84dc01b",
+  "source_sha256": {
+    "image_manifest.csv": "0df2f18849fdbe95c633af1cec069d029a54624452e003adc8581b60397bff6a",
+    "nutritionverse_dish_metadata3.csv": "29363beac7d948a41a3f3355b71ac06713ccef77b974cdf5cbcb43e5253ace9b",
+    "updated-manual-dataset-splits.csv": "7326cf2fa98af992ba4f371354bfbb9e5c226fa7eb14065993759a9a69e3a3d4"
+  },
+  "model_runs": 0
+}

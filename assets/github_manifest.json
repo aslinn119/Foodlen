@@ -1,5 +1,5 @@
 {
-  "prepared": "2026-11-27",
+  "prepared": "2026-11-28",
   "scope": "Git tracked files except this self-referential manifest",
   "files": [
     {
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3580,
-      "sha256": "52edb4e2f7639f92ee2d05ad503d1b455677c84c429b298f26ad0c815daf9e33"
+      "bytes": 4160,
+      "sha256": "4b55deb99c9bd59c629a142c36824ebdab14bcd22e64975b6c33f7a545d4b455"
     },
     {
       "path": "assets/Git忽略文件.json",
@@ -54,8 +54,8 @@
     },
     {
       "path": "demo/README.md",
-      "bytes": 764,
-      "sha256": "8c700b78d6b049a840b150eddede9b430a2c44b93f787dfed22b84773f6a6651"
+      "bytes": 954,
+      "sha256": "1fbe6900556ac5ea282ad8392fe98438d02db4d1a2f021e66dbcbc1ec5831a56"
     },
     {
       "path": "docs/GitHub上传说明.md",
@@ -79,8 +79,8 @@
     },
     {
       "path": "docs/当前进度与剩余任务.md",
-      "bytes": 1968,
-      "sha256": "82e16986a69c37693a880d2029bb3550d6293128f2b52daf96609896d322d64e"
+      "bytes": 2231,
+      "sha256": "3a0283d350b283dfa837954ada0aef3657c27c6674c67c1d8b1f5e278e604928"
     },
     {
       "path": "docs/整理与维护规则.md",
@@ -89,8 +89,8 @@
     },
     {
       "path": "docs/模型版本清单.md",
-      "bytes": 1537,
-      "sha256": "41901a5fe8acf3c42c0c2ee321df81a38ab41b62b5094d3448a5037c1eeeb1b9"
+      "bytes": 1928,
+      "sha256": "64c0ee1dd2e76cfe61c7f31987faebb25477d51e0565439a663736b8f76debcc"
     },
     {
       "path": "evaluation/README.md",
@@ -2414,13 +2414,683 @@
     },
     {
       "path": "experiments/README.md",
-      "bytes": 861,
-      "sha256": "1f24bf4391739db14feac18fdd955fa7d6ad4ad26ec627efb4a3a7ae66faca28"
+      "bytes": 937,
+      "sha256": "6d95e3c1d5bbd6bf10197a45a99ae642d4cca1df24dfa64b8be3974e7c73f0cd"
     },
     {
       "path": "experiments/calibration/README.md",
-      "bytes": 444,
-      "sha256": "9f25b97c1c6a4ff081042bd7a4f84815c267027082d0f57c56f862f31337357a"
+      "bytes": 2036,
+      "sha256": "fac9be0bb2bec1f3f9cf84ecb98b4f1c953d00cf2662a5fc1296e32939d505a6"
+    },
+    {
+      "path": "experiments/nutrition_challenge/.gitignore",
+      "bytes": 182,
+      "sha256": "c475844ff03c2aa90fc4628240e012b7d314b5bd6d75a69ca9c437aadec95485"
+    },
+    {
+      "path": "experiments/nutrition_challenge/00_提交说明.md",
+      "bytes": 4446,
+      "sha256": "6cabda597e0216c2ebe15bd603815c5e4165b7d5321d1b6197bb05ae344d48e4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/README.md",
+      "bytes": 4199,
+      "sha256": "99a020c69421f55b55e99d264392b58f10b4491240f1cbb3e481ddb1a5f4d9c0"
+    },
+    {
+      "path": "experiments/nutrition_challenge/annotations/test.jsonl",
+      "bytes": 396204,
+      "sha256": "8e7f3ad1666c344b600fcd8799dc3f61a6cfb466affe9a82ea0e994b25f63b34"
+    },
+    {
+      "path": "experiments/nutrition_challenge/annotations/train.jsonl",
+      "bytes": 1851892,
+      "sha256": "29a3742405361c00f8f8908bec7c5944a762b3e5529e5fd9e84d6bc95265c856"
+    },
+    {
+      "path": "experiments/nutrition_challenge/annotations/val.jsonl",
+      "bytes": 350716,
+      "sha256": "d0ea314b21c6d97dd3a592f444ac9143024cc91a131facc9343bf42bea086ccc"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/fresh_data/nutritionverse/image_manifest.csv",
+      "bytes": 292394,
+      "sha256": "0df2f18849fdbe95c633af1cec069d029a54624452e003adc8581b60397bff6a"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/fresh_data/nutritionverse/nutritionverse_dish_metadata3.csv",
+      "bytes": 204751,
+      "sha256": "29363beac7d948a41a3f3355b71ac06713ccef77b974cdf5cbcb43e5253ace9b"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/fresh_data/nutritionverse/official_kaggle_metadata.json",
+      "bytes": 4129,
+      "sha256": "339d55af49c405c7024fc628da60a81c3c310e374f46e75f7b25fe486a0a700e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/fresh_data/nutritionverse/updated-manual-dataset-splits.csv",
+      "bytes": 61424,
+      "sha256": "7326cf2fa98af992ba4f371354bfbb9e5c226fa7eb14065993759a9a69e3a3d4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/archive_audit.json",
+      "bytes": 2916,
+      "sha256": "f6a6b37a3ac071932587046445477cda1088ca50e5c54b386454c28aeb057435"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/baseline_identity.json",
+      "bytes": 1523,
+      "sha256": "039231572c72a940befb381b99c8f46cd7cd3be5c71b065b238f42b1bdfdecab"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/calibration_manifest.jsonl",
+      "bytes": 2827179,
+      "sha256": "301354674a4af0dbf62da3ad166c45f1815e1cae93db3d05fcf86bf45f6c1952"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/component_catalog.json",
+      "bytes": 29536,
+      "sha256": "0b5f23fdc17f2765fb37546b46f12201e1b7633dde2cc893b539a0579584d748"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/evaluation_manifest.jsonl",
+      "bytes": 1207342,
+      "sha256": "c70bb86614734af46e4b4eadb92b0ea3a60b2451b84ec20e7a4a1ddb8511a1ad"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/experiment_protocol.json",
+      "bytes": 2104,
+      "sha256": "8d92c57e588b4cff374ff68817916cc75d7e04b98f8c5956ed617cc75c4753d8"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/label_reconciliation.json",
+      "bytes": 725,
+      "sha256": "1f506f9abdd9a8e4f544e3bd6ad53aa29d2f47a7be26fe461e773d3d07f38b04"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/manifest_verification.json",
+      "bytes": 249,
+      "sha256": "3037e278841a7860631333ec40a0e7b2aa0970d46efa6f2a28f702933fed6ab9"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/relation_audit.json",
+      "bytes": 1887,
+      "sha256": "04165caa5cc6d89255701bbb0df8c855323d06fb2d7215d6a5358dc19a7833bd"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/scene_components_corrected.json",
+      "bytes": 451714,
+      "sha256": "d88b16a67080893a89f88c331926d8d2b41076e5181a16bd00f9adb2fe29c395"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/similarity_candidates.json",
+      "bytes": 4315223,
+      "sha256": "294d8cbcbbf7c31590453c401d7644d368b23a05827daab54fa78d79f39201c0"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/similarity_review.jpg",
+      "bytes": 97324,
+      "sha256": "994f79f438f469e1edaa94c9d010d896d4c14cfa64c361a5fe7f1511b8720323"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/visual_fingerprints.json",
+      "bytes": 2792502,
+      "sha256": "530dda99a471374a76de80036eeb4a99cdeb691a6a3aa9f0d76ed5d00b500d0e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_audit/omnifood/任务要求核对与实验协议.md",
+      "bytes": 6020,
+      "sha256": "9330b823209574502b562bcb80ff43a152179d0724867651dbc7bc4702456aec"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/conformal.py",
+      "bytes": 1078,
+      "sha256": "ec8f5674a2b6714ba92b86feca4ad18ad60fc6c6d638c3c2a77857ddb92d3f9f"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/audit.json",
+      "bytes": 2124,
+      "sha256": "878f9571c8db18d145e9d3912a68fead3f4b7dc2e10846c43b2751b4e0f68787"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/calibration_reserved.jsonl",
+      "bytes": 90500,
+      "sha256": "a7476a3b63b197dcbc79f06917746109a38888122a57f653f1e0e4bed06af898"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/fingerprints.json",
+      "bytes": 94999,
+      "sha256": "ebe73834a20f691be8c67df8dfaf0411bb99b2b73bdf62884c54b80df543dabc"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/protocol.json",
+      "bytes": 1936,
+      "sha256": "dc477127e78a245cad0e9eea58c42e24d8e86af0167eb3454a95c299a61fcc01"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/release_review.json",
+      "bytes": 970,
+      "sha256": "955c18a682a8686b6fb774125ae0e7b24322927fe063a6e7d1d9c990d4429367"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/similarity_review.jpg",
+      "bytes": 168287,
+      "sha256": "76afb24c0ae15c095f46506384937853feb8afb298a4a6396e58de717b22ce67"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/test_reserved.jsonl",
+      "bytes": 56695,
+      "sha256": "bc3dc94acb12d94df51e7d46e9c8383373b21b82334c63b1660b2dbf3b110aef"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/train.jsonl",
+      "bytes": 118024,
+      "sha256": "c203bbb6185b05a5c5badc28beb450a8c9907f5960e81e4fd2dd925a09ef409d"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/validation.jsonl",
+      "bytes": 29755,
+      "sha256": "f1dee8f34b36d833a109ec2cd38113bf5e254d12de85b75c8ae60f1cd5013d60"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/metafood/verification.json",
+      "bytes": 431,
+      "sha256": "0457037336fb66b31ce3037a53f9143e68cec485d5904f22b29e9bfdfdb5c173"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/audit.json",
+      "bytes": 900,
+      "sha256": "e2f3e2d3687f6c18fcb79bc31018cc249941a1922e90ae9230f2a30a003eb263"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/calibration_reserved.jsonl",
+      "bytes": 49188,
+      "sha256": "0f45dbded5465096d4ead066dd97b3b2ccd2271c2252b3c72e568e47f982571c"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/download_manifest.jsonl",
+      "bytes": 163567,
+      "sha256": "de75e353d976797fa19e4f7c7e75ea7aae0b4fc6a653661d4ea1bda7b84dc01b"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/download_status.json",
+      "bytes": 305,
+      "sha256": "747b0a9e273ebd145625daa6e713a364958ba9f3c0c804c68a10725ed2237763"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/fingerprints.json",
+      "bytes": 36124,
+      "sha256": "5da1e43a0e4eefb47dc2d7a8f342e9b16b868d55dc7ce852580a748dddac368a"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/protocol.json",
+      "bytes": 1569,
+      "sha256": "dd55156014aeae0b212d2a37d0796ff944d9d83aec6c6a30411c02cccc4c4802"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/release_review.json",
+      "bytes": 1704,
+      "sha256": "588380b9e130392edc7af0b2ab5061819c749300771da71c840ac55816719079"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/test_reserved.jsonl",
+      "bytes": 54370,
+      "sha256": "18b51c0bd2c740e0cff12f1e3e5d3a579fbe23b697be7ceeac101d461bec09fb"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/train.jsonl",
+      "bytes": 54664,
+      "sha256": "bb02b5c13c0d70c9b933472f1b3c2da9865f14b9c7429d5ba55b7a92458cdc3f"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/nutritionverse/validation.jsonl",
+      "bytes": 24245,
+      "sha256": "4426dba0548d489516d218f2cfb1e28cd8e1ca8d962dd52ff3a41bd4a87d5c01"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/data_supplement_v1/补充数据验收与使用说明.md",
+      "bytes": 2655,
+      "sha256": "ab17374baede3282c78ee044b909814af1b9cb23a5f74e5b6e2b5b06ef9b4172"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/demo_intervals.py",
+      "bytes": 480,
+      "sha256": "53156969ebc09c61621bc9fb07d25aa9e447ccd51d6c5b7bbe20df526af0743e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/desktop_demo.py",
+      "bytes": 8315,
+      "sha256": "66a6c01ee4ba19ed138f9af6c66675caf472ad0792788153fd6d9d787cb067ba"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/display_benchmark.json",
+      "bytes": 358,
+      "sha256": "c940070c348172907625aec0f002b5f838211ed46bf186b08a0dd1fbe0a46a2e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/display_session.py",
+      "bytes": 2216,
+      "sha256": "3d6ba9280e8335e17acae3d24a20494b14112b4cc67aa442a08ecde688c068c2"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/final_development_review.py",
+      "bytes": 3100,
+      "sha256": "baff68341565dab9d05dbc8e9eec6ac1f14f8cb91ea6cd10fa4ca2e8e6e73a58"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/final_development_review/blend_predictions.json",
+      "bytes": 55316,
+      "sha256": "697ae9035c3bfc7bf66a125918bb08279f8c3a51103f9d8c8264b9e0d4bb94f4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/final_development_review/metrics.json",
+      "bytes": 2319,
+      "sha256": "3cf320cbb301fddada2eeb6451d007cd7811d2df8e7e875ee21558f8eddf28ce"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/final_development_review/protocol.json",
+      "bytes": 662,
+      "sha256": "4bb6fb2b6a99feda26dcbfd48c68ddb069fd525b138b203db805a7f787450dad"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/final_development_review/最终对照报告.md",
+      "bytes": 1197,
+      "sha256": "f5a01e08d9e30735b43b60515bc25f3454c8d94c92ca17ca72359259547737a8"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/frozen_1125/nutritionverse_model.py",
+      "bytes": 6400,
+      "sha256": "24ae053f0255f82e54fb4af069b1a893ae9eb2409b327f1d028e89c2fc78d862"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/high_value_development.py",
+      "bytes": 4138,
+      "sha256": "9025f5c94362eb5d26e22f7bc0bb9c01c058f4fae052cac7e68e743ff9ce3dd5"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/high_value_development/head.npz",
+      "bytes": 10355,
+      "sha256": "6e916c4a8d0d8e852b7651f8f4feaed611d010235585e1485f3ed9197951bfd4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/high_value_development/heldout.json",
+      "bytes": 108103,
+      "sha256": "750bb5325925b266b085c9c700addf56ff067aa9bcbdd5463b0caff94b7ade6b"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/high_value_development/version.json",
+      "bytes": 1623,
+      "sha256": "bf284eaa84e06aecd8980e105bf251f9c60408b735b310121bbc4cb4591d31a9"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/high_value_development/高值优化报告.md",
+      "bytes": 1394,
+      "sha256": "2d56d868d3ee8495e8670ff8cb7a1d075359966ebd64e497b23578df47f5e762"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_experiment.py",
+      "bytes": 6217,
+      "sha256": "703bffadc70b620ccd4a58914d927fe02f23192461099891be7949702b40b6f4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/calibration.json",
+      "bytes": 1746,
+      "sha256": "ecf6a8612724441a001b24530724f6a78c2082cd7d284c79e13c1ff82358914e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/calibration_predictions.json",
+      "bytes": 62369,
+      "sha256": "ab1758097de2cfd6f66aabf9b3f53cd5c656e8048f8712b3015a0b320e4ca6a4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/evaluation_predictions.json",
+      "bytes": 39357,
+      "sha256": "fe2801f19014b2206a595ed677a6d3419bc3389f517e29b771c12ad5f98b6616"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/freeze.json",
+      "bytes": 1430,
+      "sha256": "81c1529e7b30b96def76666f1b989a5f1b85b481af3d20716d660e3ebf101829"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/head.npz",
+      "bytes": 37660,
+      "sha256": "dc35bbd789098d8ea30ce23565757d2f269218139600658a1167a3a87219e0e7"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/interface_example.json",
+      "bytes": 980,
+      "sha256": "4fb4b733767f1515f95cb151273f71b325eeecd31493789768fbb700e531c928"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/metrics.json",
+      "bytes": 2323,
+      "sha256": "ffc798060289888a304534f398df5d78ec3b74dbde18006a484e8d1bc0168f97"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/protocol.json",
+      "bytes": 1994,
+      "sha256": "c2683e6ad785e725eb7b8013492ee8c9b69ad3b09292746faaf20f3a3b02c57c"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/metafood_extension/undercoverage.json",
+      "bytes": 22063,
+      "sha256": "7223c4c40e109eb459d97d091ccdf4dcf805c8171c374a60a8d31d3a1329001b"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_experiment.py",
+      "bytes": 10549,
+      "sha256": "2f691c1cf748fb2fe09961d1d2537b69040b799354144aa5c48c83c9ef8a7af2"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/calibration.json",
+      "bytes": 869,
+      "sha256": "33b634441c5290c41c5e0844948ef116e083eaf5fd0cf48edf9c923b5dc3b67d"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/calibration_predictions.json",
+      "bytes": 42781,
+      "sha256": "3d9797551010ffce0445b079c04d330b95d2bf82f3b6219a0e9f80bc00f4fbf1"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/display_performance.json",
+      "bytes": 1383,
+      "sha256": "9e9a7b9f1a692bec0066bb673b4ae3ffe901a2983ffa0ffbd3e75b2056791309"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/evaluation_predictions.json",
+      "bytes": 47960,
+      "sha256": "19538d6fcf833ade32a99cce0c31c2dd4dcff642e4ebcd5e8f9ee56de184d5ce"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/freeze.json",
+      "bytes": 6730,
+      "sha256": "ea68cabc62ec1d128e0a6143ff2bf2e7901b38724e6edd15bc4e85b234362ace"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/head.npz",
+      "bytes": 75148,
+      "sha256": "268aa64af6f99805c87d02a27e7e7fe864b079708ce3246ed0a6306ab3b3bd20"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/inference_release.json",
+      "bytes": 321,
+      "sha256": "98521d94ffefef78b9742c0d5eefb874d218ee9640e244682f715a508e361d28"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/metrics.json",
+      "bytes": 7164,
+      "sha256": "86f6fde8dcd754902f30980733e923754f6ad91fa8799314e62ff36c1a86831e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/paired_mae.json",
+      "bytes": 1207,
+      "sha256": "9f30b6fbe990f4ebd9ea4f75f2e873beb252e3b0eebb8e89638e89ee9cb6e9ee"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/protocol.json",
+      "bytes": 4630,
+      "sha256": "fa6967e79dc22fbf0ba198b8dde32bd0f3096e23319daf98bcdee1ec54b96db7"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/undercoverage.json",
+      "bytes": 25398,
+      "sha256": "bb4f51019e410c5cc9e42987bcab4347bc0e39d53f0a3cd1c2a9be4ebf8c384c"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/餐盘优化实验报告.md",
+      "bytes": 6444,
+      "sha256": "a4905d636746e1538d25ac735feefdc3df51dc8769f9df9deb3b4a1aea7e2e4f"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_extension/餐盘模型留出测试.png",
+      "bytes": 93360,
+      "sha256": "753bc7d69170ff08b5cb90cf0adade2c062d6071a7baf91dc79385591454c452"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/nutritionverse_model.py",
+      "bytes": 4723,
+      "sha256": "f13671be9c07dbbfdaf4fa13f316f637c0dc15f0c2bb46aeb0193394977e86c0"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_candidate.py",
+      "bytes": 2211,
+      "sha256": "91c05f3f47b95a7af710847500c7991f10c9cc840dd2ed81403854d96bc6ba02"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development.py",
+      "bytes": 3525,
+      "sha256": "82432f6cffc01a3193b5765b4a173a6a718ecd64df62261855b08ea464d9802b"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development/candidate.npz",
+      "bytes": 846423,
+      "sha256": "2d7531b7b17a192282586de90de8a67c3488d08aa61beadb50b55fbf72d03e88"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development/candidate_version.json",
+      "bytes": 1379,
+      "sha256": "b6935316947e86834c6c5be3640081bd3ae427a2b7a0d0d77748edd0a5a0faaf"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development/metrics.json",
+      "bytes": 1589,
+      "sha256": "f73da63a1f1e0ebe855254fb2c001f110345f1ab762c9480413d7a05543c12a3"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development/predictions.json",
+      "bytes": 157278,
+      "sha256": "b49e64a0d500668629f72af5506158e3314953e3c56486c7b59fc3ddf393de7a"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/point_head_development/点预测优化报告.md",
+      "bytes": 1365,
+      "sha256": "17e5e6ea27ad83449cfa7f84021953b890f39dad7c28a7fe25345620627f4de0"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/portion_interval_development.py",
+      "bytes": 3351,
+      "sha256": "bdf870b8f15c87522e5dca94ad736bc8b6d2829de6d960859a9b32b82ce99d1e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/portion_interval_development/heldout.json",
+      "bytes": 217790,
+      "sha256": "b3cc2c24987b7529950ba728df2a223d89663c6cd3492a2f567334c543362cfb"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/portion_interval_development/metrics.json",
+      "bytes": 1989,
+      "sha256": "7460cf9da609e2dee18506237ab1e9b6eda5cfa9ac80cade095bb301720b52b4"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/portion_interval_development/区间优化报告.md",
+      "bytes": 1727,
+      "sha256": "c2e7b799c22e7f48b045fc6bc628623f428884e5805e14b65078afa8123acf34"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/portion_interval_development/类别稳定性.json",
+      "bytes": 1069,
+      "sha256": "67248dfe7d5435b8a0412d9578a43848706623d0628f4e37754afdbbc60fa4e2"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/calibration.json",
+      "bytes": 2186,
+      "sha256": "0369d66f3087a60e78aff1697cd32e0032814ce5a17df4a003d6c6f79d324dd0"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/calibration_predictions.jsonl",
+      "bytes": 2943422,
+      "sha256": "94b7b58711b3107d1d7b60aa523b3e00e7a2131b4e1a091d9901509354633449"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/completion.json",
+      "bytes": 277,
+      "sha256": "9ecb438fb5b6f6325735f77330d0ad2cc03b9d70522453607fe9a22d20257380"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/coverage_summary.json",
+      "bytes": 335,
+      "sha256": "ccdb935e7bd15cbb1054acb849aeb8cb019f16b931cf52faac14d9ebab623ac7"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/distribution_description.json",
+      "bytes": 1032,
+      "sha256": "fd11cc784586a0f97e5721521e60374240db50239661229a99aef7012ec959b6"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/evaluation_predictions.jsonl",
+      "bytes": 1253203,
+      "sha256": "02929085be568d221fb21661792ccca7a691252fb2bdc8eaf41c3030f426a691"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/frozen_stats.json",
+      "bytes": 373,
+      "sha256": "a96fc71a4d1e13056b409fbd88d790e3a3cc0a6582e4106f16a8fdd7e3804b03"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/interface_example.json",
+      "bytes": 3783,
+      "sha256": "b4714095cf8679714c2a86efdf4f2a1e5e6b3725a3bc51c7cd6500a09badbf08"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/interface_sample.jpg",
+      "bytes": 49986,
+      "sha256": "772f9ec98d9fe18095052ac12dddbc7cb1a9855eb959705af8f7f3d9a0134323"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/legacy_interface_parity.json",
+      "bytes": 644,
+      "sha256": "2d3685b13c89ace44ce49a505d1345fabd199c2b3386e80befe609a39c14d325"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/metrics.csv",
+      "bytes": 2631,
+      "sha256": "3e76e1b0357a02a046f242b9c0334fbf6a6cd34888dc698afbe430cac32d58ce"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/metrics.json",
+      "bytes": 6257,
+      "sha256": "d5e040b850363d3d2d8b046ec958c752b2477e0c2163877f4eefb5950456ad15"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/run_freeze.json",
+      "bytes": 3465,
+      "sha256": "3e507da9aef3d1ab8ec56ee388b0f3e54fa94825de062cd9802e3595f26d39a1"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/undercoverage_cases.jsonl",
+      "bytes": 1489156,
+      "sha256": "7ad641aa94bfa1df9e68984ee47074982a99975b89cec60c7ea5b3fb141dd2d6"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/results/verification.json",
+      "bytes": 391,
+      "sha256": "3fec35bf20033bb30595488b727fa38af9dd7ad0dd2421a1a4bea2277b63f4c3"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/run_experiment.py",
+      "bytes": 6925,
+      "sha256": "f3e9aa0b3a7a3f1603185abc358358e9e8055c50cc55a60fa0d2ba6325b261c3"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/runtime.py",
+      "bytes": 3826,
+      "sha256": "8c8ce28aa60859eb49b01021f7345a5fe8b57f6f46aca4b1f70a61bd8bb7e208"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/verify_delivery.py",
+      "bytes": 3004,
+      "sha256": "244db594e7e45281efc129a76c5fd39f157a1e7b6ccdb26dc2333442160fbb7e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/verify_metafood.py",
+      "bytes": 4775,
+      "sha256": "63fa14e5d2b64b3b9e951d55bfc6cce8ef296d38f83258bab53edad17e9a9c2e"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/verify_nutritionverse.py",
+      "bytes": 6232,
+      "sha256": "14c4a2a1bea6e97d3e47660f214c6987945d4d6eea00ceca81126c3401b7c334"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/verify_results.py",
+      "bytes": 3584,
+      "sha256": "3681d1781d72ea456f458b44c19809fdb32deb6889ec8fbdbd21e0fb7d13d68f"
+    },
+    {
+      "path": "experiments/nutrition_challenge/challenge_external/实验报告.md",
+      "bytes": 8008,
+      "sha256": "0fb1f5670e05b71cec49e98dfb1c6879ab87461d2a6755ee121d8e22daf1c72a"
+    },
+    {
+      "path": "experiments/nutrition_challenge/clip_model/config.json",
+      "bytes": 4186,
+      "sha256": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770"
+    },
+    {
+      "path": "experiments/nutrition_challenge/clip_model/preprocessor_config.json",
+      "bytes": 316,
+      "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+    },
+    {
+      "path": "experiments/nutrition_challenge/delivery_manifest.json",
+      "bytes": 184052,
+      "sha256": "33f03b4de866f81bd388474acda4715665c05a5a27e775922334423cd7879615"
+    },
+    {
+      "path": "experiments/nutrition_challenge/external_images.json",
+      "bytes": 159410,
+      "sha256": "c8340381ac85b45c98b0f599adba35057b9377157dc761ac07317ab400d4057d"
+    },
+    {
+      "path": "experiments/nutrition_challenge/external_weights.json",
+      "bytes": 774,
+      "sha256": "5d0db9d822d66e6c6786e52fa992659ae7c473c28ee8ffe2eb08ea93b130bc38"
+    },
+    {
+      "path": "experiments/nutrition_challenge/integration_checks.json",
+      "bytes": 1122,
+      "sha256": "3c87a31fbc0b7526113c8d2561d5935b97aabe06260a9f467c3a85ffee8e7c26"
+    },
+    {
+      "path": "experiments/nutrition_challenge/json_parse.py",
+      "bytes": 4227,
+      "sha256": "0aff891cdd60593527449be22ee53d7fcdfdb289c1cafb7cdc7503c500217e73"
+    },
+    {
+      "path": "experiments/nutrition_challenge/model.py",
+      "bytes": 829,
+      "sha256": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7"
+    },
+    {
+      "path": "experiments/nutrition_challenge/model_lora.py",
+      "bytes": 5805,
+      "sha256": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6"
+    },
+    {
+      "path": "experiments/nutrition_challenge/predict.py",
+      "bytes": 14976,
+      "sha256": "8f32fe477f0c5c336acbfe99ffddcc99ac1c62826b932f86501ebf73e8bb1aad"
+    },
+    {
+      "path": "experiments/nutrition_challenge/requirements_final.txt",
+      "bytes": 178,
+      "sha256": "a4e3fa81104043dfb1f448dd8dcd8ceeb11fa605e590455c5b688a467f0b92f7"
+    },
+    {
+      "path": "experiments/nutrition_challenge/打开营养展示.cmd",
+      "bytes": 221,
+      "sha256": "b936a18f768ddb88cbe73db3c40b8eba49fb725d54bc7defd7ea43b02081c447"
+    },
+    {
+      "path": "experiments/nutrition_challenge/打开餐盘优化展示.cmd",
+      "bytes": 255,
+      "sha256": "e9474acb6fceb28d4781f5ccbdb593fe1ddb7bc09ec6188f207dad760dfb033a"
+    },
+    {
+      "path": "experiments/nutrition_challenge/本次检查结论.md",
+      "bytes": 4314,
+      "sha256": "2847ad7813f064389a4b4c7dd99559ca411094fe103c64db07e6b95e9a953232"
     },
     {
       "path": "experiments/reranking/.gitignore",
@@ -3179,8 +3849,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 1734,
-      "sha256": "0577830a3281a2c8c2b7295c8dbc63980cbdd9bededc6efc9940bed41058a19b"
+      "bytes": 1999,
+      "sha256": "31c60f49b1a41232097b68aa2b26186ceb38884fd6394ed3cd6050c81f93ada7"
     },
     {
       "path": "task1/README.md",
@@ -3909,8 +4579,8 @@
     },
     {
       "path": "task2/README.md",
-      "bytes": 876,
-      "sha256": "cc3c6a3726323ee607ebb2af20ea0f369247290c78bb7232c2fe7751b6f27eb0"
+      "bytes": 1129,
+      "sha256": "2d7bd80322da69ab358c26e45222c31e2046e38bedf26add1d8c476d1b0ca61f"
     },
     {
       "path": "task2/nutrition/INGREDIENTS.md",

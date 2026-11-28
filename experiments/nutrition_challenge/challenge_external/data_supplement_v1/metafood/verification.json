@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "samples": 495,
+  "counts": {
+    "train": 200,
+    "validation": 50,
+    "calibration_reserved": 150,
+    "test_reserved": 95
+  },
+  "checks": [
+    "all five labels exactly match source H5",
+    "all decoded RGB pixels match source float tensor reconstruction",
+    "file SHA256 match",
+    "object IDs disjoint across roles",
+    "no duplicate extracted PNG bytes"
+  ],
+  "model_runs": 0
+}

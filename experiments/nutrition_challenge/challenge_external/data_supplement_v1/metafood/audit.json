@@ -1,0 +1,76 @@
+{
+  "samples": 496,
+  "role_counts": {
+    "validation": 50,
+    "train": 201,
+    "calibration_reserved": 150,
+    "test_reserved": 95
+  },
+  "categories": 96,
+  "rejected_ids": [
+    "metafood_e4a94c38525df84b"
+  ],
+  "quality_flags": [],
+  "duplicate_pairs": [],
+  "similarity_candidates": [
+    {
+      "a": "metafood_95b04c0f6edacdb3",
+      "b": "metafood_341b355c3b16801c",
+      "ph": 6,
+      "dh": 5
+    },
+    {
+      "a": "metafood_9d4d7d4c7bafe744",
+      "b": "metafood_7c24063be5ac8893",
+      "ph": 4,
+      "dh": 6
+    },
+    {
+      "a": "metafood_335fce610fc83a71",
+      "b": "metafood_075023ce9f5852c8",
+      "ph": 4,
+      "dh": 6
+    },
+    {
+      "a": "metafood_7b372c0484af0d64",
+      "b": "metafood_46fb6041b9006291",
+      "ph": 4,
+      "dh": 6
+    },
+    {
+      "a": "metafood_42cf5732e0f54344",
+      "b": "metafood_c6bd26a83364ea90",
+      "ph": 6,
+      "dh": 3
+    },
+    {
+      "a": "metafood_457dd57016c19fe2",
+      "b": "metafood_620d4493ee796477",
+      "ph": 4,
+      "dh": 8
+    },
+    {
+      "a": "metafood_33295e89ef734323",
+      "b": "metafood_f41778ec72cc95b4",
+      "ph": 6,
+      "dh": 7
+    },
+    {
+      "a": "metafood_24f2032bf192eccc",
+      "b": "metafood_cf4a8f4a9471b544",
+      "ph": 6,
+      "dh": 8
+    }
+  ],
+  "old_images_screened": 11366,
+  "max_rgb_reconstruction_error_0_to_1": 2.9685450542160652e-08,
+  "manifest_hashes": {
+    "train": "c203bbb6185b05a5c5badc28beb450a8c9907f5960e81e4fd2dd925a09ef409d",
+    "validation": "f1dee8f34b36d833a109ec2cd38113bf5e254d12de85b75c8ae60f1cd5013d60",
+    "calibration_reserved": "a7476a3b63b197dcbc79f06917746109a38888122a57f653f1e0e4bed06af898",
+    "test_reserved": "bc3dc94acb12d94df51e7d46e9c8383373b21b82334c63b1660b2dbf3b110aef"
+  },
+  "protocol_sha256": "dc477127e78a245cad0e9eea58c42e24d8e86af0167eb3454a95c299a61fcc01",
+  "status": "needs_visual_review",
+  "limitations": "pHash<=6+dHash<=8 is a screen, not proof against all near duplicates. Object IDs do not establish batch independence or pretrained contamination absence."
+}

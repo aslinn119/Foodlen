@@ -1,0 +1,4248 @@
+{
+  "integrated": "2026-11-28",
+  "source_archive": "FoodLens_刘杰_极限挑战_正式提交.zip",
+  "source_note_date": "2026-11-26",
+  "files": [
+    {
+      "path": "00_提交说明.md",
+      "bytes": 4446,
+      "sha256": "6cabda597e0216c2ebe15bd603815c5e4165b7d5321d1b6197bb05ae344d48e4"
+    },
+    {
+      "path": "json_parse.py",
+      "bytes": 4227,
+      "sha256": "0aff891cdd60593527449be22ee53d7fcdfdb289c1cafb7cdc7503c500217e73"
+    },
+    {
+      "path": "model.py",
+      "bytes": 829,
+      "sha256": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7"
+    },
+    {
+      "path": "model_lora.py",
+      "bytes": 5805,
+      "sha256": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 14976,
+      "sha256": "8f32fe477f0c5c336acbfe99ffddcc99ac1c62826b932f86501ebf73e8bb1aad"
+    },
+    {
+      "path": "requirements_final.txt",
+      "bytes": 178,
+      "sha256": "a4e3fa81104043dfb1f448dd8dcd8ceeb11fa605e590455c5b688a467f0b92f7"
+    },
+    {
+      "path": "打开营养展示.cmd",
+      "bytes": 221,
+      "sha256": "b936a18f768ddb88cbe73db3c40b8eba49fb725d54bc7defd7ea43b02081c447"
+    },
+    {
+      "path": "打开餐盘优化展示.cmd",
+      "bytes": 255,
+      "sha256": "e9474acb6fceb28d4781f5ccbdb593fe1ddb7bc09ec6188f207dad760dfb033a"
+    },
+    {
+      "path": "本次检查结论.md",
+      "bytes": 4314,
+      "sha256": "2847ad7813f064389a4b4c7dd99559ca411094fe103c64db07e6b95e9a953232"
+    },
+    {
+      "path": "annotations/test.jsonl",
+      "bytes": 396204,
+      "sha256": "8e7f3ad1666c344b600fcd8799dc3f61a6cfb466affe9a82ea0e994b25f63b34"
+    },
+    {
+      "path": "annotations/train.jsonl",
+      "bytes": 1851892,
+      "sha256": "29a3742405361c00f8f8908bec7c5944a762b3e5529e5fd9e84d6bc95265c856"
+    },
+    {
+      "path": "annotations/val.jsonl",
+      "bytes": 350716,
+      "sha256": "d0ea314b21c6d97dd3a592f444ac9143024cc91a131facc9343bf42bea086ccc"
+    },
+    {
+      "path": "challenge_audit/fresh_data/nutritionverse/image_manifest.csv",
+      "bytes": 292394,
+      "sha256": "0df2f18849fdbe95c633af1cec069d029a54624452e003adc8581b60397bff6a"
+    },
+    {
+      "path": "challenge_audit/fresh_data/nutritionverse/nutritionverse_dish_metadata3.csv",
+      "bytes": 204751,
+      "sha256": "29363beac7d948a41a3f3355b71ac06713ccef77b974cdf5cbcb43e5253ace9b"
+    },
+    {
+      "path": "challenge_audit/fresh_data/nutritionverse/official_kaggle_metadata.json",
+      "bytes": 4129,
+      "sha256": "339d55af49c405c7024fc628da60a81c3c310e374f46e75f7b25fe486a0a700e"
+    },
+    {
+      "path": "challenge_audit/fresh_data/nutritionverse/updated-manual-dataset-splits.csv",
+      "bytes": 61424,
+      "sha256": "7326cf2fa98af992ba4f371354bfbb9e5c226fa7eb14065993759a9a69e3a3d4"
+    },
+    {
+      "path": "challenge_audit/omnifood/archive_audit.json",
+      "bytes": 2916,
+      "sha256": "f6a6b37a3ac071932587046445477cda1088ca50e5c54b386454c28aeb057435"
+    },
+    {
+      "path": "challenge_audit/omnifood/baseline_identity.json",
+      "bytes": 1523,
+      "sha256": "039231572c72a940befb381b99c8f46cd7cd3be5c71b065b238f42b1bdfdecab"
+    },
+    {
+      "path": "challenge_audit/omnifood/calibration_manifest.jsonl",
+      "bytes": 2827179,
+      "sha256": "301354674a4af0dbf62da3ad166c45f1815e1cae93db3d05fcf86bf45f6c1952"
+    },
+    {
+      "path": "challenge_audit/omnifood/component_catalog.json",
+      "bytes": 29536,
+      "sha256": "0b5f23fdc17f2765fb37546b46f12201e1b7633dde2cc893b539a0579584d748"
+    },
+    {
+      "path": "challenge_audit/omnifood/evaluation_manifest.jsonl",
+      "bytes": 1207342,
+      "sha256": "c70bb86614734af46e4b4eadb92b0ea3a60b2451b84ec20e7a4a1ddb8511a1ad"
+    },
+    {
+      "path": "challenge_audit/omnifood/experiment_protocol.json",
+      "bytes": 2104,
+      "sha256": "8d92c57e588b4cff374ff68817916cc75d7e04b98f8c5956ed617cc75c4753d8"
+    },
+    {
+      "path": "challenge_audit/omnifood/label_reconciliation.json",
+      "bytes": 725,
+      "sha256": "1f506f9abdd9a8e4f544e3bd6ad53aa29d2f47a7be26fe461e773d3d07f38b04"
+    },
+    {
+      "path": "challenge_audit/omnifood/manifest_verification.json",
+      "bytes": 249,
+      "sha256": "3037e278841a7860631333ec40a0e7b2aa0970d46efa6f2a28f702933fed6ab9"
+    },
+    {
+      "path": "challenge_audit/omnifood/relation_audit.json",
+      "bytes": 1887,
+      "sha256": "04165caa5cc6d89255701bbb0df8c855323d06fb2d7215d6a5358dc19a7833bd"
+    },
+    {
+      "path": "challenge_audit/omnifood/scene_components_corrected.json",
+      "bytes": 451714,
+      "sha256": "d88b16a67080893a89f88c331926d8d2b41076e5181a16bd00f9adb2fe29c395"
+    },
+    {
+      "path": "challenge_audit/omnifood/similarity_candidates.json",
+      "bytes": 4315223,
+      "sha256": "294d8cbcbbf7c31590453c401d7644d368b23a05827daab54fa78d79f39201c0"
+    },
+    {
+      "path": "challenge_audit/omnifood/similarity_review.jpg",
+      "bytes": 97324,
+      "sha256": "994f79f438f469e1edaa94c9d010d896d4c14cfa64c361a5fe7f1511b8720323"
+    },
+    {
+      "path": "challenge_audit/omnifood/visual_fingerprints.json",
+      "bytes": 2792502,
+      "sha256": "530dda99a471374a76de80036eeb4a99cdeb691a6a3aa9f0d76ed5d00b500d0e"
+    },
+    {
+      "path": "challenge_audit/omnifood/任务要求核对与实验协议.md",
+      "bytes": 6020,
+      "sha256": "9330b823209574502b562bcb80ff43a152179d0724867651dbc7bc4702456aec"
+    },
+    {
+      "path": "challenge_external/conformal.py",
+      "bytes": 1078,
+      "sha256": "ec8f5674a2b6714ba92b86feca4ad18ad60fc6c6d638c3c2a77857ddb92d3f9f"
+    },
+    {
+      "path": "challenge_external/demo_intervals.py",
+      "bytes": 480,
+      "sha256": "53156969ebc09c61621bc9fb07d25aa9e447ccd51d6c5b7bbe20df526af0743e"
+    },
+    {
+      "path": "challenge_external/desktop_demo.py",
+      "bytes": 8315,
+      "sha256": "66a6c01ee4ba19ed138f9af6c66675caf472ad0792788153fd6d9d787cb067ba"
+    },
+    {
+      "path": "challenge_external/display_benchmark.json",
+      "bytes": 358,
+      "sha256": "c940070c348172907625aec0f002b5f838211ed46bf186b08a0dd1fbe0a46a2e"
+    },
+    {
+      "path": "challenge_external/display_session.py",
+      "bytes": 2216,
+      "sha256": "3d6ba9280e8335e17acae3d24a20494b14112b4cc67aa442a08ecde688c068c2"
+    },
+    {
+      "path": "challenge_external/final_development_review.py",
+      "bytes": 3100,
+      "sha256": "baff68341565dab9d05dbc8e9eec6ac1f14f8cb91ea6cd10fa4ca2e8e6e73a58"
+    },
+    {
+      "path": "challenge_external/high_value_development.py",
+      "bytes": 4138,
+      "sha256": "9025f5c94362eb5d26e22f7bc0bb9c01c058f4fae052cac7e68e743ff9ce3dd5"
+    },
+    {
+      "path": "challenge_external/metafood_experiment.py",
+      "bytes": 6217,
+      "sha256": "703bffadc70b620ccd4a58914d927fe02f23192461099891be7949702b40b6f4"
+    },
+    {
+      "path": "challenge_external/nutritionverse_experiment.py",
+      "bytes": 10549,
+      "sha256": "2f691c1cf748fb2fe09961d1d2537b69040b799354144aa5c48c83c9ef8a7af2"
+    },
+    {
+      "path": "challenge_external/nutritionverse_model.py",
+      "bytes": 4723,
+      "sha256": "f13671be9c07dbbfdaf4fa13f316f637c0dc15f0c2bb46aeb0193394977e86c0"
+    },
+    {
+      "path": "challenge_external/point_candidate.py",
+      "bytes": 2211,
+      "sha256": "91c05f3f47b95a7af710847500c7991f10c9cc840dd2ed81403854d96bc6ba02"
+    },
+    {
+      "path": "challenge_external/point_head_development.py",
+      "bytes": 3525,
+      "sha256": "82432f6cffc01a3193b5765b4a173a6a718ecd64df62261855b08ea464d9802b"
+    },
+    {
+      "path": "challenge_external/portion_interval_development.py",
+      "bytes": 3351,
+      "sha256": "bdf870b8f15c87522e5dca94ad736bc8b6d2829de6d960859a9b32b82ce99d1e"
+    },
+    {
+      "path": "challenge_external/runtime.py",
+      "bytes": 3826,
+      "sha256": "8c8ce28aa60859eb49b01021f7345a5fe8b57f6f46aca4b1f70a61bd8bb7e208"
+    },
+    {
+      "path": "challenge_external/run_experiment.py",
+      "bytes": 6925,
+      "sha256": "f3e9aa0b3a7a3f1603185abc358358e9e8055c50cc55a60fa0d2ba6325b261c3"
+    },
+    {
+      "path": "challenge_external/verify_delivery.py",
+      "bytes": 3004,
+      "sha256": "244db594e7e45281efc129a76c5fd39f157a1e7b6ccdb26dc2333442160fbb7e"
+    },
+    {
+      "path": "challenge_external/verify_metafood.py",
+      "bytes": 4775,
+      "sha256": "63fa14e5d2b64b3b9e951d55bfc6cce8ef296d38f83258bab53edad17e9a9c2e"
+    },
+    {
+      "path": "challenge_external/verify_nutritionverse.py",
+      "bytes": 6232,
+      "sha256": "14c4a2a1bea6e97d3e47660f214c6987945d4d6eea00ceca81126c3401b7c334"
+    },
+    {
+      "path": "challenge_external/verify_results.py",
+      "bytes": 3584,
+      "sha256": "3681d1781d72ea456f458b44c19809fdb32deb6889ec8fbdbd21e0fb7d13d68f"
+    },
+    {
+      "path": "challenge_external/实验报告.md",
+      "bytes": 8008,
+      "sha256": "0fb1f5670e05b71cec49e98dfb1c6879ab87461d2a6755ee121d8e22daf1c72a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/补充数据验收与使用说明.md",
+      "bytes": 2655,
+      "sha256": "ab17374baede3282c78ee044b909814af1b9cb23a5f74e5b6e2b5b06ef9b4172"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/audit.json",
+      "bytes": 2124,
+      "sha256": "878f9571c8db18d145e9d3912a68fead3f4b7dc2e10846c43b2751b4e0f68787"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/calibration_reserved.jsonl",
+      "bytes": 90500,
+      "sha256": "a7476a3b63b197dcbc79f06917746109a38888122a57f653f1e0e4bed06af898"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/fingerprints.json",
+      "bytes": 94999,
+      "sha256": "ebe73834a20f691be8c67df8dfaf0411bb99b2b73bdf62884c54b80df543dabc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/protocol.json",
+      "bytes": 1936,
+      "sha256": "dc477127e78a245cad0e9eea58c42e24d8e86af0167eb3454a95c299a61fcc01"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/release_review.json",
+      "bytes": 970,
+      "sha256": "955c18a682a8686b6fb774125ae0e7b24322927fe063a6e7d1d9c990d4429367"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/similarity_review.jpg",
+      "bytes": 168287,
+      "sha256": "76afb24c0ae15c095f46506384937853feb8afb298a4a6396e58de717b22ce67"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/test_reserved.jsonl",
+      "bytes": 56695,
+      "sha256": "bc3dc94acb12d94df51e7d46e9c8383373b21b82334c63b1660b2dbf3b110aef"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/train.jsonl",
+      "bytes": 118024,
+      "sha256": "c203bbb6185b05a5c5badc28beb450a8c9907f5960e81e4fd2dd925a09ef409d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/validation.jsonl",
+      "bytes": 29755,
+      "sha256": "f1dee8f34b36d833a109ec2cd38113bf5e254d12de85b75c8ae60f1cd5013d60"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/verification.json",
+      "bytes": 431,
+      "sha256": "0457037336fb66b31ce3037a53f9143e68cec485d5904f22b29e9bfdfdb5c173"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_004f15ceead8f58d.png",
+      "bytes": 88135,
+      "sha256": "552162f35cfba36b503c7549575f2ef005b8fa130f880c51f1bf5673cd891f4d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0061db225fca34ab.png",
+      "bytes": 76281,
+      "sha256": "e5b9dbc1e4195d643219021c84d7d87965bbe41c404c9b14766f5e0a52b68b95"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0174c9134b4eb382.png",
+      "bytes": 64860,
+      "sha256": "11deb8ab1cb32faffe1d5f0d22bdb7876de604051881a696ecc2f82ffb63374e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_01992534af0cd02f.png",
+      "bytes": 82752,
+      "sha256": "26b25c51d33a6412181f0542bfae241952a21eec8aa699c0bea24563079b37e7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_01b8f5234da03b35.png",
+      "bytes": 70789,
+      "sha256": "fe9f53d758fadb13f877441112a22424464cc771db351a0b5669d8ebd8871d19"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_01fa4d2f75ead2a9.png",
+      "bytes": 66118,
+      "sha256": "8566aa233155d2105f66605c25d1e508ab7079e11de0c5d18e6b7164c6480423"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_02c98263b2998645.png",
+      "bytes": 69424,
+      "sha256": "d413a8de84f08fdce5c65a9c6c9b36d037d6119929ed0d904b17695fdec75d07"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_02ca7c91eb233ff8.png",
+      "bytes": 73893,
+      "sha256": "72be472081f458ef5c127eacc9bfdd38c55bd892a53d207cf11da1223e974793"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_02f9fc41e2f50a25.png",
+      "bytes": 71945,
+      "sha256": "8d3c0eedc4679a2bd21f527bb3c5628e1b7b560b41eebb6621e8b33a7fa62ea9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_02ffd5469addaf20.png",
+      "bytes": 74810,
+      "sha256": "25c7d20928dcbaea152e59363c2680df9d25e06ebeab9d7eab3a5e5ec2fa3fa7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_03e2630f9ea5c7cf.png",
+      "bytes": 66899,
+      "sha256": "7defa61d9c7241b13403d45053602d5ae696db45ddb168a7f16f1ec58ea6b500"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_04b1eb1baa6f2b5b.png",
+      "bytes": 66286,
+      "sha256": "a7196486b237d7bbf862257beeafd8c070152676fbc179fdd33b02f86fe753f9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_057ff051f4b70388.png",
+      "bytes": 70888,
+      "sha256": "5c6b2632c946f18bfa658dd5f9e0ebce7c5116a8c3357186fbc2712c63b67001"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_05b61da9661d120f.png",
+      "bytes": 75085,
+      "sha256": "43a7b0f8c5bc910ab9e18a26acb345fac1942c9d03922fd9f5b4de93681cb7a9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_06e8b72e8e1c52c8.png",
+      "bytes": 63635,
+      "sha256": "f010be3fc8b668871f894a94d988e17f26a11c250448154c069d7b166a50bef3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_070f04c165d1df23.png",
+      "bytes": 77297,
+      "sha256": "f941cd660dafc8fc61f69670567c80b0f8e9e960adb73b5d72ea01923b967ec7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_075023ce9f5852c8.png",
+      "bytes": 73642,
+      "sha256": "81c36980ea7f855a0c0bd34ef479d48055838be8d73029d72eeb74b65428e620"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_07f8e055b5096a3b.png",
+      "bytes": 72801,
+      "sha256": "7aeaf9210d23600b5ae6bbb01afafea8e493ae74885501abf90504f71a74f37e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_08a4ced9178bb101.png",
+      "bytes": 68743,
+      "sha256": "26b751b7fff947e776d81581c14c3541a2c38344474eb216feabd01884f58f0b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_095734d2a7cd6bf3.png",
+      "bytes": 72989,
+      "sha256": "e4fe3a091f37aa8a38ba00a83e03231755b6b5714aa4094a44e7a5e41bbb4c4c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_09ba27c91201cc14.png",
+      "bytes": 66362,
+      "sha256": "a0768f90e6f7220b06f42c7f770a80a75507e118dfc892c4b06da8d51674e47c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_09c983882bb40a98.png",
+      "bytes": 66656,
+      "sha256": "93c281f61dd6900c10233ac4cbf51af7bb15089bc369792c3c2aeb583b3530af"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0a6d40db35a0c6ff.png",
+      "bytes": 79659,
+      "sha256": "a9bef41073037c3775dc969b4d705f0d53a0954fbce4f21b6c0a456cf5efb304"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0abbf15bfc6a9ef5.png",
+      "bytes": 71769,
+      "sha256": "7a547d8cc962f815a1a653982db7c98ce267e8606a06d3d7ecef088536ce2595"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0add687a174ce375.png",
+      "bytes": 70497,
+      "sha256": "84188de7f6c9eb3d9c58edf807d3e01f11e43715b1184e4aa42bc70838ea7d77"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0b04b8a1afbb749e.png",
+      "bytes": 67071,
+      "sha256": "825329bf81af1ef840e1289c81ef79aa3b491748e2e144fb03a166761160488c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0b0a0681e86d5c22.png",
+      "bytes": 70169,
+      "sha256": "0a858b26e4d31be74fbf5b7bbbda55807e812f00395f91e4563c0f81819019cb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0b27f1921eb0e830.png",
+      "bytes": 64811,
+      "sha256": "172e61353352347ab1e73c19dc589c096b6c671865a15822d3ad194ad0443548"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0b5511bc06c5cb15.png",
+      "bytes": 67913,
+      "sha256": "7b8ff439225ee01fdf5ee74507abf7f5aeedeaa03348c52f590f966ec8b47d94"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0ce9e9f338c8fd10.png",
+      "bytes": 69979,
+      "sha256": "a517a0288fd343ce0f43fed211546da7e13fb7b4cfaad45dab970da81bd1ca12"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0e7054fc1a685dc3.png",
+      "bytes": 71871,
+      "sha256": "00689b78f86d446080cdcefbadb9c5b74907eeb1d3e9698858a78e3570df8f46"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0ecde7e6373509a1.png",
+      "bytes": 73059,
+      "sha256": "1eb2de2da2ee7e010d0fcd6e6eb1fd43ec69b039a6b6c63b1a4c4f264d5c7138"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0ef62ce914c33ff3.png",
+      "bytes": 71999,
+      "sha256": "28c4e2c11013ba03ed1e7244564d7cc7834ba74acc667cf001762711dff02dcd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_0fe197f52559d1bd.png",
+      "bytes": 70119,
+      "sha256": "9dafe0016946554a768d655e018fa1e0be7edd7c2cb5d675df5c18be1f8db800"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1032ad6b5c63ce03.png",
+      "bytes": 100144,
+      "sha256": "d7b114184b6994c7cb536ad621737cb6a53064131f6a469e5d6ba7104ad93fc4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_105ae70ae9ea32a3.png",
+      "bytes": 66742,
+      "sha256": "322d0862cb717a62ea3fbc00be9be33f5af6efd2aae6976278c038e0015e43e3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_106c4fc99b6cc4bb.png",
+      "bytes": 78500,
+      "sha256": "815337275b51dff514c72fec29bd28144186e0f9e17f96982e69a37a167cfd98"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_109a6fba2e3e8ace.png",
+      "bytes": 73601,
+      "sha256": "50b964374df48982e1217cd925e875ea91b3b46b6c6b2c3992417ed62ffa47d4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_10d848fcfb443990.png",
+      "bytes": 70422,
+      "sha256": "e1f370a6ff17347c0d6377e37658fb0433d58ac187e2f6741c0c3532714379cc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_114e173a3c0f3f5f.png",
+      "bytes": 66148,
+      "sha256": "77f882537779d9188ba2c95507d65c05848639d9a8290c38966883ace23f039c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_12ae5afc9006e04c.png",
+      "bytes": 69814,
+      "sha256": "a47c75caf86eb04a4ba89a87fc5b4ec2a6171f3ae56085ab179b5b21d975f6be"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_13631ee7b660f3f0.png",
+      "bytes": 74031,
+      "sha256": "3b9638b50267777a205796a4dc0a666d8740384a1f8b80660a2d36f43c03d9d6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_13935bf06353d3d9.png",
+      "bytes": 73819,
+      "sha256": "ed2c93c09e7d5707deabb2b50a35954af8a9d6edfe71d5d3c62ce5481a58f6fc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_13f87f89c58bc3e8.png",
+      "bytes": 75894,
+      "sha256": "1f996caa61ffcdd009e7eb0f90262cb05f956936c2f59ef00c89cef4f0cbde0e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_140967ae5b65a1f8.png",
+      "bytes": 75880,
+      "sha256": "90b60925e94aa5e894053424b443a014acdf0f9b9b262b20e903f22b58364336"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_147bd8d7f7ed2b53.png",
+      "bytes": 75326,
+      "sha256": "4eab82e67562b2a3734cbc26b4914c56238ec8ddd51857d371dc21cd22e24ff0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1489acc99a06d2dd.png",
+      "bytes": 69606,
+      "sha256": "b5c489962514ed9a59eab896077c02dc3220a115549687a4f68fd8c7d9e893db"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_148ce953de3af91a.png",
+      "bytes": 74792,
+      "sha256": "84924b413de33965fe8dc3c2efc395e4276358b36bcbacd15094cd1b7d43c381"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_14932b1c4cd03bc8.png",
+      "bytes": 66924,
+      "sha256": "b0b7542ba262422633cbe0c1234c3ce20d82cbf6ff39fd795c684845b40b68b7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_154fd308870d5c93.png",
+      "bytes": 74538,
+      "sha256": "98636e8fbec6feeedb449bf8cbc677907adebe1111e6ecb71207116fc3e2a523"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_164e9e43328ba700.png",
+      "bytes": 99892,
+      "sha256": "1d8f0d1194a16f937330ea33768b3191b89dcd6fc64c27964c5ca56fcbc3f842"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_16fbf820f329d375.png",
+      "bytes": 87878,
+      "sha256": "0dd2cd3fd4d231b236fb0f5d11014c9dc6dc5c0828314077e2c0fe81a44e5c9f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_173fdb15ff05d45e.png",
+      "bytes": 73151,
+      "sha256": "d8a6e212cc46fde47e2f864ab47a5bcabdadbb44228b24d93c1c34af21c48077"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_173fdd4df854db52.png",
+      "bytes": 71088,
+      "sha256": "362dc7d35274b5fe42e2636ac4b564653e54374c944280499346992d30ffe27c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1756c79eec0bd0f8.png",
+      "bytes": 78501,
+      "sha256": "abc2392b4800f48920f781f0ac1382b997a302726060bcf078c1cab675ef5332"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_185d3e7959148447.png",
+      "bytes": 64639,
+      "sha256": "465b93a9f293275e52520ce43b41ce01b985dd3cb51ffffa0af170610bcdb06e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_186725dbbfb35f88.png",
+      "bytes": 80764,
+      "sha256": "5e73c40b84ccaecb1654959d79128e65ad39e9393bfc91db8a66a8d29b714ff9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_188f8007790df247.png",
+      "bytes": 70960,
+      "sha256": "30cdd8d3dd6acb70a685dae624b31ec307a7edd5c361a3b46bc2d69366a75642"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_18c35bb4fbd9db04.png",
+      "bytes": 64848,
+      "sha256": "b2c4ffc494e1f854de98322e86ebf9b0c1667faa4bab90016d6df50415e19798"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_18df451368b764a7.png",
+      "bytes": 67243,
+      "sha256": "0c297c23bd1941796065f0f98c7d99b776e542d22c9bdd196f121a2b594a5874"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_18f39b6df17bb77e.png",
+      "bytes": 72656,
+      "sha256": "3616ba5f8fb2dfd1f883ff571cb35f6387b85fb7c66deb14ec80c15a30697b57"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_18f689d3d2d2026e.png",
+      "bytes": 87420,
+      "sha256": "359f45cb925863a696c9bb173a496f3cd1b3c574ae3be6bd57cda46fd3a5e064"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_190c9d3ea312a772.png",
+      "bytes": 73803,
+      "sha256": "f5106a3360c15864df94a200f584d10152b7347b2dc102c9077e571f1fbc8b19"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_191c8c59b74ba577.png",
+      "bytes": 74747,
+      "sha256": "ec7970ad5c267ae3c048ad916d828c1e15166fa707ba1a99dc2778ed98a77912"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_19a34e59fc7d70ed.png",
+      "bytes": 74094,
+      "sha256": "6d2262283e8f867c57e5661c5bcd54cbec51291947dc4a19d8da15d56e724b0f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1a18f1128e172b40.png",
+      "bytes": 76683,
+      "sha256": "1888940cb830cb1b6feb09885e71ddc9bc35ea2e25e618b086ace7bd99445f67"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1a75dc50fcd9abf2.png",
+      "bytes": 62864,
+      "sha256": "56a673600fefb69e57fbb56a8e2d877f05002ba79525919f052720003e5343a0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1ad9858fecc79a5c.png",
+      "bytes": 91292,
+      "sha256": "8279a808d9d5ec8612d37064032c3b519e401c970885212b0ebf8a78aee5daa8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1af11c84850ebdb3.png",
+      "bytes": 75927,
+      "sha256": "269914a1174e24e93c0993d24ee9ca8e303ab255271b61f4ff6eb5ac3adced37"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1b3a266f41ef28f6.png",
+      "bytes": 73349,
+      "sha256": "77619915e5f6a1b25ea27a0401d0aea7b405db11e88bfeff88d2a4695dca8b0d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1c540766d2664c83.png",
+      "bytes": 72587,
+      "sha256": "8cff625bef1a176a03ffb94eebba26285448c0153c12075d3b9269118cc8dcf1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1cabb43f89735c65.png",
+      "bytes": 61617,
+      "sha256": "f820093a239c945e988a3a9556bb7bd4ab5d75a2faf20e58707f3a00e6ff4f80"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1cf0c5ea4e85835a.png",
+      "bytes": 75402,
+      "sha256": "9a7963bcd399a8048081ab62010aba09930743058056dd3cc16f5c1ef5020452"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1d01ecad72142c77.png",
+      "bytes": 84538,
+      "sha256": "1a6622e5a341e1324bdbf0dfca961d967d29676d241b8d642ec9a8c326ee9df3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1d3948071d8a4373.png",
+      "bytes": 77086,
+      "sha256": "d48b9bb59b0b5094dff79e1d0ffae000aa0e82fc307057ed80b022b664ebb61a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1e376b379ab2af58.png",
+      "bytes": 70093,
+      "sha256": "e6ed28cef1eea2d08fca15f6e53de4e4e3984d32cfeefa5ef95ef7ca0a97c0f1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1e568801d914a5b8.png",
+      "bytes": 65252,
+      "sha256": "2e7526744074095e70204cab4c3d77fcdeeffa95c56870ae0451121c0317dab9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1e7ca0fc6154313f.png",
+      "bytes": 67813,
+      "sha256": "d8232aa772e069c14babe8c5862327b8ccc8c21ad9730c6433dfaa7419af1557"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1e877a0a4b315aa7.png",
+      "bytes": 74743,
+      "sha256": "01dd4137897daf6ea85889a0b42aaa60ea6904b848b9f1f8d103c96161a40434"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1f075e6d1d411af9.png",
+      "bytes": 71336,
+      "sha256": "316111bd7777843da913f6d4c1aa7f8320b143862c64b8c5bfa97c3670e536e3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_1fd6266e024f872a.png",
+      "bytes": 76869,
+      "sha256": "8a24f014f449c50e57a39786fbcf2a96eb0438f1b2576618ee907c616ad30524"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2000339173a3941c.png",
+      "bytes": 69192,
+      "sha256": "69cabc22365bd6ff37a06184d8fb5629b20d9c909ecdd11e16d210156ba3c382"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_206e5037ec8d8f3f.png",
+      "bytes": 71204,
+      "sha256": "95ae0860440de3ecd40f39cf431093acebe47f907e1eaabbfb697d3d262b4ce0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_215d01f7ce125616.png",
+      "bytes": 80620,
+      "sha256": "3702f036daa1e33d19748df84334eb295872ce4a9833021f56c0c637c4365e65"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_21ce77f1815ff605.png",
+      "bytes": 79465,
+      "sha256": "04b70c999c4a245c00d57e5ce8a1b099fb793f7b3f2c6ac4872e078278eb1b88"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2218be367a6273f5.png",
+      "bytes": 83534,
+      "sha256": "aa0581ca60eca32c10cd69244321d41b19924fe4ec9bb60e20cc9dc80517048f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_22276d7272c3b1f7.png",
+      "bytes": 73471,
+      "sha256": "85ff9fe70b58c34592c016a85d503175bca1b907a0c986e9dae23da6a0f8f37f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_22636fd83e78e5e0.png",
+      "bytes": 72183,
+      "sha256": "98f4b323ff3b1f9146c5052bdb366a83d7ef6402fcf3ef6f7d3d962b98edbebd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2281abc3d8d174ef.png",
+      "bytes": 72889,
+      "sha256": "9b7b4cad8b5b82d31039224192492d2d255e51dd3f5e722325bb16466e2a211b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_231f66f1c16f2312.png",
+      "bytes": 76738,
+      "sha256": "9e9eb847f7edcaa143e7c974a47fe15de905b6da461c069390a787986ea27aa3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_23b9302c8bf9df48.png",
+      "bytes": 74590,
+      "sha256": "45234be48d6a275056bcaf0153d92cae32466c7c16082f5c6b8621f2474f58b8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_24d7087157166c88.png",
+      "bytes": 70721,
+      "sha256": "a88b7490a28da220e882ab6bf99541a5eeb7a0d98fdc3f9db55cce20be374834"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_24f2032bf192eccc.png",
+      "bytes": 70276,
+      "sha256": "7a50c29bd46b3b595bbeb285277a1f249ecec369b47cb28bf449befaace603f3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2511dd47b4426be8.png",
+      "bytes": 62594,
+      "sha256": "88e8fb2d6d863177da7df67127ee26c39c66c158469616676410331b2c767c13"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_25619329145e59ae.png",
+      "bytes": 71138,
+      "sha256": "304c8bdc3b32af4684f2ab363ef977b8b86caff005bc8400200c5017211f9bc1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_25a0e7543de98925.png",
+      "bytes": 94054,
+      "sha256": "fa5dc5d3e08d4eef5b16e64fe9eeca8419c082d8f84fae36836da7e9a3296390"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_271e979600120067.png",
+      "bytes": 68365,
+      "sha256": "1f98d54e7b83ad62a3eabcb937c4e2f609c78ab29566be73a9b6ea30dabb76d8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_27a9872814ae2745.png",
+      "bytes": 70791,
+      "sha256": "19ead46e19e5473a2dbbcda45967ea736febdfe81ffc4f3f3aca401cf9aa6477"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_27d286731b87040c.png",
+      "bytes": 88581,
+      "sha256": "a33565ec35e44a6c724c4d4e0bc3425dfa1d3022755af98ff43daa233111c2b6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_280266976259af95.png",
+      "bytes": 62450,
+      "sha256": "15074c2cca48a9dd62dcb4e6252396ad08a18d2a2fc74d6c3dd3104963b8fcd2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_28170aea3f518fab.png",
+      "bytes": 70582,
+      "sha256": "67fdd0374d2dc72b81652b056a6576db6f500216e65a5fb8b8616b8b40a2673d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_28857225d7004be4.png",
+      "bytes": 71327,
+      "sha256": "34f0e9e19d332d16dc642d6071c36460a4ab8076b9254c422d550569a7fe33b7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_28a09797fbddf3dc.png",
+      "bytes": 74933,
+      "sha256": "6682d292aac25656fd1fd1c1cd55ca2d66ca10d5e4fa476f1fcc1be206d5d8ff"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2963c93f5f7530dc.png",
+      "bytes": 70460,
+      "sha256": "58651959a85f9db7696b418aa73356c5ef08ed10529b1d5f732da7863e70c24b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2a352e1acfae9853.png",
+      "bytes": 75615,
+      "sha256": "f3771af01c1a730663cffbcf064c8245323ebe798fc9de485555ce9c6ab1f61c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2ab01c74a9ebb669.png",
+      "bytes": 67647,
+      "sha256": "0e7524f446a58226fde467ff0ac141ddbdab7eaec0573638f4f2d1454a83aa18"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2acdc2ff11ca7648.png",
+      "bytes": 76409,
+      "sha256": "6f909f694623c738860ec4440ebe083ae48c783978619c73574a5954cc10424e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2ad6cc2a8d6429ce.png",
+      "bytes": 81274,
+      "sha256": "a62de1f9bf183206fa1728364b2d3a87ab7266a21506e1d54c7c70034ee25b33"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2afc9967d25a19e8.png",
+      "bytes": 64396,
+      "sha256": "3cbb424ae5ceff01d0b3db3674231d21b72a6b86e87d8381f9ec184084036e91"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2b32b8a6e900abdc.png",
+      "bytes": 91015,
+      "sha256": "b09f18a529d326c1b7ee6a588c9e962fb7ab681618078ec68b02df79ba667dcd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2c05b2e15d51a3e0.png",
+      "bytes": 71496,
+      "sha256": "da4c96add8a1b830e176c0f0b20808353df8cfe113024df2a4fd36dededfb13d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2c6279e756a9f671.png",
+      "bytes": 68346,
+      "sha256": "4a65c15159ebf0f6e0e49aa7614e1725dff0d3b4eccfa8cdd55c62808deac14e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2c6f38f45caffe32.png",
+      "bytes": 73209,
+      "sha256": "2998f1db910f1e551a76da066263f0f7995897430e3c7f6138a4269bc2604bc3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2c80f3848fdb9e26.png",
+      "bytes": 71543,
+      "sha256": "be007273fe21df6946ec83830e134e6d7025af1269a7c79958040e7f556fba62"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2cdd7835f9d52be6.png",
+      "bytes": 69834,
+      "sha256": "fd91c8bbe3cb347a233b99e8962742817ac6983395e35a4bfbe6efbdc2666a33"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2d5a9b5e3c1defcf.png",
+      "bytes": 76826,
+      "sha256": "a070b26c69a1f9c42521eddf25bd75d22ebb26ad806595061ae62f7a3e8d6568"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2e1ecd91656ec5e9.png",
+      "bytes": 75354,
+      "sha256": "4cd68d42d505b8195e2047bcb804adfa17499525e2b28919d07658812599cece"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2e53a869ba61f22e.png",
+      "bytes": 67334,
+      "sha256": "979748ad23c46c3490da19e2a378a3e0eef218ee4cc934931f5cc9acec947426"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2eb981fed96faffe.png",
+      "bytes": 72245,
+      "sha256": "0d051aa2193ba907ad69b0af2d604a73efdefddced47b0310309458f716a4ec3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2f29c700dc250fc4.png",
+      "bytes": 67067,
+      "sha256": "673cbeb19bc366182c561ba5409c1c4c8d05b0694d0b4fbfa5910011825aa463"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_2ff4b51cbb687740.png",
+      "bytes": 72822,
+      "sha256": "f361a88bfaff68c2a24b01e38ac1f28df695676ad1b6d5295db96d56602dded0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_30477268faf063c5.png",
+      "bytes": 77555,
+      "sha256": "ccbef24bab75d84f7029d2aeb4680148e666cddc2a24cc426920878b7a3a275a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_309ee9a8b8bc1fbd.png",
+      "bytes": 73305,
+      "sha256": "239437b50e869d3d290cc389469b6a1e5fdf7ea469c4f19002d9db114ad005c3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_30bcfa2d006bf78c.png",
+      "bytes": 63983,
+      "sha256": "aa981388b4f0c6f1138a9e75b44bfc276a861b253cec326c41ea3fd305d2ee86"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_318ab03a258d6ca1.png",
+      "bytes": 68807,
+      "sha256": "abb8aee6aa44c1bdcf2503ffbb885759ea4de6fc32a1a18504c32793b0160d34"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_32c3a73ff6d5668c.png",
+      "bytes": 102997,
+      "sha256": "d1095c9886abffba2a1206c615d38f4bbcbd9755aa468ac2b772150e5ca64675"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_33295e89ef734323.png",
+      "bytes": 74914,
+      "sha256": "ad74561d4429da9cf63e123ae21175e45ed10424e511b73423b31fd226b3375a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_335fce610fc83a71.png",
+      "bytes": 71630,
+      "sha256": "3aa2cf48d0de73aad0bbea7e39b07a90c77fa392e16008fa5559ec761631faf9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_33ec9cbae26bf62b.png",
+      "bytes": 80255,
+      "sha256": "d1e349a536ab8d048fd0eb74f9830b09a5145bf2418cce34e1a2783385a4dba5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_341b355c3b16801c.png",
+      "bytes": 69404,
+      "sha256": "8de12432f0f1332b0a4a6f54d49d3ef29cfb8057b6f1f331343c54cd6dfa6cfb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3484003a12b4224a.png",
+      "bytes": 76757,
+      "sha256": "8e597490fb39c9476fe9a517d1d1ccef4e62481451f899cbefb97d4aace77eed"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_34b53d3c4f961dce.png",
+      "bytes": 69195,
+      "sha256": "68a3667493e5328ce33c5572f733ce0e174ee5d753793d709365b1faa5c11c70"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_34c85c0ec7bdd34b.png",
+      "bytes": 76565,
+      "sha256": "31dbc8c7c9b90b3fd7d08f59e75fcbf472c45b9d53edbf55e5974836bd021187"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_36571d29480b0eac.png",
+      "bytes": 73721,
+      "sha256": "c3b8ded9d68571bcede2c3e47bab620b419fee5f4e6c1858dc54773d6fd6ead3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_368e80b4b987ceac.png",
+      "bytes": 68360,
+      "sha256": "12f52bf878b7d196d41b316bd0457543021aa658cf077701ee0bd7bdc4ee0e56"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_36e1bde498a6c87b.png",
+      "bytes": 69528,
+      "sha256": "e6febbf9387c4b1d35a2967b8691ca8dceb891c445524683545e9c2805ec5f7e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_36e5598c82de9200.png",
+      "bytes": 73297,
+      "sha256": "0580c10e61cd890c53121d4708aa2437a839aeff802958a6a1ddda1336d80fe8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_36f4d1ec6aedcd98.png",
+      "bytes": 68986,
+      "sha256": "b4bfe39ba78aeeaeee2430554ebb21e0a04e2cf270462c3d1fb2b11b62e92ab2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3729f07f32dfc23d.png",
+      "bytes": 82032,
+      "sha256": "230f34c5007e8724ae8551443ee554b8f418bb4c785c50390c2a09bddbe79857"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3780cd10a9c9eb4d.png",
+      "bytes": 78580,
+      "sha256": "00a32f90ba96b6db698a02c902f83aaca4897a9ddab93db94c68d7dea1ab31d5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3782f3b4a64ddd9d.png",
+      "bytes": 68631,
+      "sha256": "3b334204ea9fa54e773034a5dfcec4f833d6a16730897c977b9c36546b0b71cf"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_37b91b6d79bec0f6.png",
+      "bytes": 72945,
+      "sha256": "f0220cb5ce65740a926d97cfd26ce34eaebe511c5dd1fa6dd13067e16409fbfd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_38396b7a7dca5ab0.png",
+      "bytes": 66678,
+      "sha256": "fcbad5f42e572b61f536ae4474e503689fcffa3a39114dd7d54a832db080999f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_389967fe13dc7501.png",
+      "bytes": 66079,
+      "sha256": "2dec34147be8bbef764c2fc9366feaf11e079300f1835a949f4a438b9e31a8c6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3a697bb1ec771c75.png",
+      "bytes": 72240,
+      "sha256": "35dd9ca357c9b85146cf3bb26a29902f25c16563e8b92f5a9c94b793866d5638"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3afea1eb72836823.png",
+      "bytes": 79189,
+      "sha256": "63dd8d134ecf4e1cbfb9014d052c7d85709c8bdff2954422c13809d6ad171073"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3b0fc9dc0a59d90e.png",
+      "bytes": 71847,
+      "sha256": "8199d965e7e8f81db92f8b15a3dcdb087458808b01e6177d6dccc78499edeb30"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3b1a904a650464b9.png",
+      "bytes": 74692,
+      "sha256": "6320ddbb86408e1ee423f404735a68127b1c43de25018ca094c3241218955aa7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3b7b88edc496d689.png",
+      "bytes": 79644,
+      "sha256": "7be357147e381bda048a849a182b277795fdf2fe0ce7c6fe95535fdb1488d704"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3d2061e2a0f76249.png",
+      "bytes": 73609,
+      "sha256": "8110c21eeb84e3e8c40255ff1fc2336ec5ac4cde10aeed9a2761680f0c7ff062"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3d56b86b91ad4b80.png",
+      "bytes": 68971,
+      "sha256": "90f3be0ec709dbfe71d701a336d1fc5e3f6c6e499f076bcd380450afaac268f7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3d6a2559b7e9b4bf.png",
+      "bytes": 96257,
+      "sha256": "11896a5a0cf2525eb9d13407f88b09342c06b7c10c0744c39b3d229e76f6fe71"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3defefd39a8138e3.png",
+      "bytes": 69722,
+      "sha256": "88837b8522933a2d34caccbf39895fd29f436829e6f8ab3e15d8929efde592d6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3e84715478d744af.png",
+      "bytes": 68995,
+      "sha256": "54a0da452d1337ac367db5efc25137dd84309577db3553c50d361a2a2387fac3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3f94340fc073ff2f.png",
+      "bytes": 74064,
+      "sha256": "d28d05fedde5d36e00ecf941c98f72b485f443102530e37c054710342de80cf9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_3fcf571a5da4fecb.png",
+      "bytes": 74854,
+      "sha256": "0ed5dc8a7d3d2d65a68a5c4861ebc5b4420ec2a6b804ab92d130688503d19be3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4075390ce3fb6ac5.png",
+      "bytes": 100400,
+      "sha256": "38b87f69f3de66e8e48ac550185b61ef721c515cd36047cc1fec2c49daee5689"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_40775af739d5c871.png",
+      "bytes": 72428,
+      "sha256": "df6321d33b43f82ea97768ed99152a0bf9a4907e8a8621a91c0dfcd11158b56f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4267e8065294ff4f.png",
+      "bytes": 71013,
+      "sha256": "b31aaaaf14a6e599775ff46d8c0f02d96fd9ee241c77dff264929ee13ce1c30f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_426b2e8e36fbb918.png",
+      "bytes": 77132,
+      "sha256": "4205f2e83d3fcaa4aea1ad6a3a7bc58aca813443467bb9ba13f9ef1941f227d0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4289555bd9fdbf7f.png",
+      "bytes": 72560,
+      "sha256": "1f5564fe318fa9774785d4fbbf8c6d9e3ac20ad5b20726f98a2902b782fb6aca"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_428b9ce1ef61c05a.png",
+      "bytes": 65087,
+      "sha256": "9461356fab75c000b6e488ecd86a0301d8680b57bb316a13c8e15a8b612b7639"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_42cf5732e0f54344.png",
+      "bytes": 64580,
+      "sha256": "b86a21f6dceb82984c706ec25b53fde3cf8cf8a374e675fec79af7599e80152c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_43442e47c292c3bd.png",
+      "bytes": 70211,
+      "sha256": "1b1ef2eb21e075c43a6a96cd8377d800faacaacf5489fd1ac30d8e25caab9a09"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_448afdca8220959e.png",
+      "bytes": 67785,
+      "sha256": "8f156360f0561664daf063278807be6eb06a3f008a75e5c7c00e24e95d3cd417"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_44cbc9e06f8cb1b3.png",
+      "bytes": 68526,
+      "sha256": "594108ebec24ff923bf2bd62cbb8442f53bdc527f68145d3d634b48892da8ab8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_45093911797b7739.png",
+      "bytes": 86153,
+      "sha256": "cabcc42328ff24b59416dceb3d064e029513ed1e8c0b7766baec8bc08b6314b0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_457dd57016c19fe2.png",
+      "bytes": 68098,
+      "sha256": "22bfdd1de1a2895cfaee64f88c41aa0c940014dc1ba8221ee46c8ca1fa36209d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_46351e742c38006c.png",
+      "bytes": 73389,
+      "sha256": "4fa528fb49484b8c9457a08a0335d7af1fc6d4a327a08a0678c202f2f011964c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4695c86577cf50ec.png",
+      "bytes": 60353,
+      "sha256": "de5d8d75231afb64a435e9fbcd9312f7306bdfe7d390c8c52270d38b712c251b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_46fb6041b9006291.png",
+      "bytes": 72099,
+      "sha256": "694b03b9b8ff18e6efef7b7c98c9f362b87b3748ad82a7cf486ee247d284755d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_472b808cf023ee25.png",
+      "bytes": 68795,
+      "sha256": "5d76c8029c96a706edaeef55f213f3d47fd4bad0e5d567c2a3a2996250e9c114"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4766695e40695fb9.png",
+      "bytes": 72000,
+      "sha256": "9eeff4b49877b36c88bcca6c78e1f6b7f307de188bbcf8fa96bf6bb334defb42"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_477a63a6b6d3540e.png",
+      "bytes": 85141,
+      "sha256": "5829fff2b29e016d1150c0a073119797fa1b5f58db0a4b8d8c614df09d50ea5c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_47840143c9c1867c.png",
+      "bytes": 69227,
+      "sha256": "863a42bd6be22b35ad33098cf9715acd0bb8ec47d9c93af3df38e7a96d403a50"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4817c7201463b34b.png",
+      "bytes": 68835,
+      "sha256": "a51a08d282da58319b02dc2034fc71f9ac5da4f7499247d975149d7b0b9e733c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4961a8e78252f076.png",
+      "bytes": 74187,
+      "sha256": "51544db965d502d5c810b816c5a1445590556c3e97d49e7c3d2a526a24239936"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_49ef843bc781319e.png",
+      "bytes": 66809,
+      "sha256": "944fe5c6b19b68fea80b2bb1b2b04616e1befeb1eacd1d787a5b3114500580ac"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4ac2153a50c9bf14.png",
+      "bytes": 68715,
+      "sha256": "b9a9ddbe8dca82dd9bcfbcbc698cfd2fc2a26925d8e5122ed0fcd7246bd6e680"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4b22819cd2079f59.png",
+      "bytes": 90426,
+      "sha256": "a1de10e00fe9a3bf5cfc9ce54631bcf351763a22335b81d019cf5600926bca80"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4b2ef3dc4c1cb448.png",
+      "bytes": 68832,
+      "sha256": "bcc09c949407faf911c3e1916455bdd19a00fab4d022ebd7fecf57436955e958"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4c35cd5d6e1b62c1.png",
+      "bytes": 74946,
+      "sha256": "80516314557047be4575ca98cc2b1f5448049a8fe13770a229f1b6a459ee6ef3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4c76ac6e96e2b33d.png",
+      "bytes": 73672,
+      "sha256": "be2115f00ffc85573bc0eca9ba716a332aeea29eb605e379eb40777c95131267"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4d16b520ef24128f.png",
+      "bytes": 67737,
+      "sha256": "6d878797e5d0d4a64a482fce1f765a481b6fcb827b97aba7b7c18177075bc6bf"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4d297d81cb51e90d.png",
+      "bytes": 75340,
+      "sha256": "d2630e7579f1ec01ec4abbd1259f97a4d99f60de5a2cd5500d35a4eb01c06f6c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4d5207b66e506f4a.png",
+      "bytes": 74607,
+      "sha256": "3cb4439cf6fcdcd604b71ef2003aa54229897c1807a655f1c109827afee796a0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4dc0bddee41b81c7.png",
+      "bytes": 70737,
+      "sha256": "11ef8dd26fa014f2ab6a435dcbd2dc1e4ae0bf1b870ccdaef72b5e88f4322b2b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4e3a48f64260feb7.png",
+      "bytes": 74092,
+      "sha256": "93430b96d385a0dc414b795fe5a756f7494103594b9f566baa575aa73510f353"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4f43048249f47158.png",
+      "bytes": 70280,
+      "sha256": "9de1a8bbab2f750361571b34c948a616109258ef21a0127e0cecee07bf889fc1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_4f4c55b3a4a9ed03.png",
+      "bytes": 79186,
+      "sha256": "16957298d869f34512834cd70e8c16c72414032276af20476520103a251a4292"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5023505f9e150b76.png",
+      "bytes": 75265,
+      "sha256": "e9f16377e519397b89c2310a7739990a1763e4270300695404f61b083a2d0911"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_50285cb94999a214.png",
+      "bytes": 57391,
+      "sha256": "2dd09c2a3babea5c824ab04d268bac09f6f26172f244b3113d4e327ff57e5415"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5056888570e03a4f.png",
+      "bytes": 73337,
+      "sha256": "7436671253db5e78a8ec9636ddfb9cb16d3a1369c5b617e97e4a36eb43891c7c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_506fcd31a87be049.png",
+      "bytes": 71740,
+      "sha256": "251c3f03191d4d2a286710ce22b7d35987cccd30737a1db96ef1fd0e0d8db766"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_521e6fc6a5496995.png",
+      "bytes": 72034,
+      "sha256": "403419fad060761e9fb8ec01bc1d276eff448cd70d89548555c021e3d7513e7a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_52265d3220141cc7.png",
+      "bytes": 68394,
+      "sha256": "cef781fe8ccea664d48e9e1a01c1c0ca8636b2df44ab8cecea1f63699bd12aa8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5271c121ee550989.png",
+      "bytes": 74582,
+      "sha256": "9a1907a936926e08cac2cbd190e5bbe2a8cb3d15423629777cd624f6d9758da2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_53bdab7180cb5d83.png",
+      "bytes": 72919,
+      "sha256": "94f552c3903e4cc60f4d54666f11ef7f425a874893fce7abfc7de9f0c1d942de"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_54bb36b4b8d97763.png",
+      "bytes": 74451,
+      "sha256": "9f4361bd7940652d75164c5d06537246cea6ddb9b22eff4c2d66527e98dea1c9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5501aa2607f8e204.png",
+      "bytes": 69720,
+      "sha256": "01c3c39598e47bf3b0c4381082309abf199b8e82ec40f77c2a3eef5eccc5d05c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5589bbbe16827f72.png",
+      "bytes": 73095,
+      "sha256": "e9bdd0bc0bb0a06377a8b23ff8db2b09f95324f5f146115d80995bc777138530"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_55dc53208504e17e.png",
+      "bytes": 79950,
+      "sha256": "69321fe520e54fbaabf2d033b2d816f6b79f1cdef5da87f6c8fc230501c7dfc9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_56cebca25593a4eb.png",
+      "bytes": 69033,
+      "sha256": "548622c9d5fa3586bf90831857c738a1e62a0991d757b71109ac496203029d42"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5754e6a72cc932d7.png",
+      "bytes": 71601,
+      "sha256": "956ec109c7c1e7b1c12d96f5b0a966ccc17c043dcaed68c0e76c66ee213ee8b0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5859efd9ce25754e.png",
+      "bytes": 69760,
+      "sha256": "9788529f8248ffaf16e4a12cc44327933e4da6553139dc070eb555f5d7e42a3c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_593faece25ebd417.png",
+      "bytes": 74644,
+      "sha256": "0c8b5eb7ef114a0f1a19d976c6373043df4d959133f84c98ce3c06b5acec017c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_59537b9a2e03ffd6.png",
+      "bytes": 71362,
+      "sha256": "b2e4572b0e11848a74f041f25e7612661702f2cb5de413c1c46e5c1d1b01bdc1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5a0fef61b951531f.png",
+      "bytes": 68912,
+      "sha256": "36938699d665867af0e502524f74fb6e2e4e9b75ca561bd2fc3a2568a646115c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5a5a9f6a1228e9df.png",
+      "bytes": 73650,
+      "sha256": "0ea41ae1d1df742247e9977569e25ad0918663a71958c0e9f6cc8c6c7dbe7174"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5b5b1a1855274489.png",
+      "bytes": 77182,
+      "sha256": "e3a4b6b0e174712b5af689ec62b2147fc27269b9c4db0c4814758e22e8358008"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5bef51fcfe7d4cb5.png",
+      "bytes": 68582,
+      "sha256": "494f9631a59e013ffb3002e1c02a77962b10f3d7b6923b41867fbb182d3b3e5b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5d1ced855caeb835.png",
+      "bytes": 90801,
+      "sha256": "f9a83eb54a9f63403720045915236c26adda02142155b59551277e2cb6a91e5b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5d683def7708995a.png",
+      "bytes": 69661,
+      "sha256": "4ccd5fb86d687f617f59bde51c8eef1767a672a1d87faa3e9c30aa9793005303"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5d69d464269268b5.png",
+      "bytes": 66330,
+      "sha256": "d9d2a27c3cfbdbd920f2b8ff922cb6403e0a9c4dc510ee70f56e29c2ec00eb27"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5d743719374c0a62.png",
+      "bytes": 68931,
+      "sha256": "7454666542c2089eebcd4563406e3e4dc6f8d300ab31529fd4ca8a596156f09a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_5dfecbe30ec8f65a.png",
+      "bytes": 67938,
+      "sha256": "4db5bc2d49a33293f3a61b3160577f87a6a5f56f0d70b290156130b6dda5b30d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6077879db3371592.png",
+      "bytes": 73292,
+      "sha256": "c9753a6469ce1d6f33b4d08e5a961669e0cc73b74ab38c45753271efad8a4a5b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6091a66643919dcb.png",
+      "bytes": 70191,
+      "sha256": "ba0b0c6e8db7d3b2f263ac08b5ae474311261707e42cbeb2470416c0b2a2c706"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_609f0e4e4a13567c.png",
+      "bytes": 68466,
+      "sha256": "65bcd65b49f78c18137c739622ba191c82eb4f2795a75fe5a0540a967397ee1e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_60b7cd7f828563f2.png",
+      "bytes": 70341,
+      "sha256": "1cc57d70cc76dd8ac34935a0a3ecabf7d7dd48b88e8b7660ebdfaad91f85b332"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_60ebf27b017a230c.png",
+      "bytes": 73175,
+      "sha256": "42d2a35d266fe4c774f62514adad6e20790ecb7b538e6c2bc3df031a997c1028"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_612b6b41f6b99e8d.png",
+      "bytes": 72495,
+      "sha256": "62cf663d3c396adffc138a20d30ff7e466139f10fb595e5000fdb954b0d98335"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_61597461c13775eb.png",
+      "bytes": 87907,
+      "sha256": "8789f233de1393c3b7e22c43b290c71b020cc967b4fd24d41ec80c3ce60745f8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6173ee977c6d8a01.png",
+      "bytes": 72892,
+      "sha256": "0ac6493824186a4a9e7c29ce3227f608919fa28ac43c3ca4d34e68b2f4dc671d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_61740905915313f6.png",
+      "bytes": 70111,
+      "sha256": "6caf858e51a1b13396b3a2c247e62c0033f0cae3b865127e8d35be381e0ecca6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_620d4493ee796477.png",
+      "bytes": 68587,
+      "sha256": "b291b0c490c86ff16cc57bc969ecfdd92e6050e4d23c0c29f05d5c202819512a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_631b0dc457b6e08a.png",
+      "bytes": 74972,
+      "sha256": "3bb6f1e64877c82178e7412454b2a1dde86c2a561cdfc629648ab5b25db8b010"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6370f10ba2ffb33a.png",
+      "bytes": 67410,
+      "sha256": "3745a2359c35b0cc4c35ed8384997d2f7f9b6e94d15a82f5cd87c9fe1a471bd2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6426164fcbec70bc.png",
+      "bytes": 67768,
+      "sha256": "41daa7eb04ce7ebcd2a04ba9f2bc166dabc2ebdd71abccad522e35bfeaab9bc1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6456d99e0795b0f5.png",
+      "bytes": 72618,
+      "sha256": "183836c21a1c7a3aacd438910dc958d8882cb284ade2c1158279e8b706330f5f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_647c2126ac998e5c.png",
+      "bytes": 65914,
+      "sha256": "5f6c39f24de477d40739d00928bfcfcc90cacefe3f173a6e801823b4f75b8313"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_65fec1dcd877508f.png",
+      "bytes": 84038,
+      "sha256": "fe847c7ebc9356df9d589490afa83370e36c9aac32e5e3c0b645d2b9a26261d1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6682a182b4a05d6e.png",
+      "bytes": 72544,
+      "sha256": "191582246d033f8177d726e876afea31478f9bf517d932b604800909a7ef8017"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_689d183de018196c.png",
+      "bytes": 73593,
+      "sha256": "1a40286330111d5bd41ee54e76d7f54e250bc68c2668513c5aa16fed0621e1a4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_68b3a0e117743207.png",
+      "bytes": 68425,
+      "sha256": "e17053943ee71a614e5c37bfe8b57b56e43158e0cbce9e192e01f8172124ca9c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_691322062bffd1a5.png",
+      "bytes": 72220,
+      "sha256": "2a7aeb203ca5e93945f08b3ff59f5869dc881f870092dc5305aada4150299da5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_69898ecab7978719.png",
+      "bytes": 83067,
+      "sha256": "50a0b98db07d7d767aa4fa43efb8c5be64d6293eeffb7c89527b292d5c4540b4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_69a1ea228c3b3cc9.png",
+      "bytes": 76504,
+      "sha256": "a44a62772d868cec78d17f89fd9279e4affa573dd6d53d6e505e6ab4cf1be7ef"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_69c7a8896211e53c.png",
+      "bytes": 72276,
+      "sha256": "859fb5ef69ef189d3ea41f4b290067d1b0ef4370a82112027104302570ff85c9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6a611137ec31b6e7.png",
+      "bytes": 71617,
+      "sha256": "66a29092a97ee2a7051a47acaf7193ffab32d82c162acd1987701daebe5d6161"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6a7b08c29436cd98.png",
+      "bytes": 78671,
+      "sha256": "904408643cfbbbd465f601473d19469437cfba7bc3a917043bcbbcb9214c527e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6ab8453203c99978.png",
+      "bytes": 90521,
+      "sha256": "f3f7a7a041ebc7bae57eb3342f4abd58350d98e09da280e5a7bf94578b682567"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6ab9dd3d563a9a7e.png",
+      "bytes": 82975,
+      "sha256": "47bb564de42304e6d2870ec2d8dd165f3359eb29aff17af80004846357ff2342"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6b2390df7972b78b.png",
+      "bytes": 74137,
+      "sha256": "ee7c6aa5e1e57628d5ef974920fa3823971357f28dac491c40b03e5209b2988e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6b3250014682ed6b.png",
+      "bytes": 61871,
+      "sha256": "15b5a812ab2db120c918619d48faf310bf975f686f6c47886c738ee0502b0e97"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6b846998d63a79ad.png",
+      "bytes": 66554,
+      "sha256": "348aad398aefa2a0de5ba668a6cbcb2d08998e7683ecab55b379a25e6cff467a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6bb276c036f912d1.png",
+      "bytes": 72722,
+      "sha256": "ae0c022e8665a63d89c62e38f6660371bb2b4cacd8725865351269c9c2d7900a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6c5567d8df03805f.png",
+      "bytes": 73030,
+      "sha256": "99e936bd97dc4f9c408252b2f5acba9f0555e9ca8cd800c85ef89b03f19b3f7d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6c99ee9aa0ffa07d.png",
+      "bytes": 81307,
+      "sha256": "385b745eb8e7d4a32a49ff3fb581c457ec576e1eaef60f0b483540a45a31ad38"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6cc9f989369858e4.png",
+      "bytes": 69042,
+      "sha256": "c2cbabe8266adc45a11ea7017590ceda8a32ad9a6fee928166df409d467aec46"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6d7c898cd1b79bc9.png",
+      "bytes": 66100,
+      "sha256": "1e24e9e714eb2ff46530d1d1d1bb57fdcdd0832f47a9726d2fbbc6d10fe86e1b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_6def7f2159f6f478.png",
+      "bytes": 71085,
+      "sha256": "e1a1d4d1399604409d00fff3b154961c0feefc0c626cb95b924017ecaeb62f1e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_710c20c4603b729e.png",
+      "bytes": 72187,
+      "sha256": "b2d6ab95b77a304781b3ead7b2a548575707eaa3bb3ae73c2f70a8a43476e176"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_71dc0a6b5a65c1a1.png",
+      "bytes": 79126,
+      "sha256": "4bd6877cf25532e96cbd7cfd47f37aa90b0009f89bf9521804e387d5a3b3e018"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_72392e15b5f7284a.png",
+      "bytes": 63380,
+      "sha256": "3655d26bd7d7bc95b614e2b9fa72c3a22ea7efcfb4deb7143aedb7964fbec5f3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_72f4dac97ad5c0a2.png",
+      "bytes": 71607,
+      "sha256": "af6e0f8550070746e7f1044dad459448460ec6d3f72ad03f258c4a2186614bff"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_73090eddfc4261db.png",
+      "bytes": 79437,
+      "sha256": "ad8d72a99b630f3305cbd17220e856793f92e8f4be24a1ea902cb796caec5641"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_74b5aad4fc0f40d9.png",
+      "bytes": 70532,
+      "sha256": "74fe31e74946fe902c385743eeec51de4356a75033efbe6ee187d7d85341aeb3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_757a55b1787d0b7d.png",
+      "bytes": 98369,
+      "sha256": "e335b3b08e98afab8ffe424b8b0fe26a831a9a49ae0be3efa3bc5b8302e6e572"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_759caa7e831b0274.png",
+      "bytes": 76232,
+      "sha256": "57fc70a3022105f4280d78b030a8662cf6daa57bef9350b1a9ae8c75cc2f89c1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_75ffa015aa919ee3.png",
+      "bytes": 74183,
+      "sha256": "d646e8d05fc553233cd3aa67fc582438edb8b0721d62be2d4218ec8b63cccb2f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7692b6edb42b17fb.png",
+      "bytes": 65654,
+      "sha256": "6914c8d79e22af227b605eed2932a9320faf039f32cbdf1ec1ce8bc65902df32"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_76a76dd08e676391.png",
+      "bytes": 68253,
+      "sha256": "17438d5dd0cc343d50071a666aab93f1991ce6ac34bc339633e4d808c765482a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_76ad3a52441ac3f3.png",
+      "bytes": 68357,
+      "sha256": "5cae1dbb50bd62983ce3b34a165617be51d5c0cef15bcba9ab6cb1fd86d0d3fc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_76c4013e0b3b41ed.png",
+      "bytes": 65829,
+      "sha256": "32c930f9bf6602e83834397a438be0a33ee15e42a403e0b31e35b410b9b774b9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_771a6bea21b3e737.png",
+      "bytes": 74404,
+      "sha256": "2fd0c822f48ce76079d9181da73f1c5026b83a32206fe9c14cdc59ff4d406722"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_77e98a5d51d1a377.png",
+      "bytes": 72107,
+      "sha256": "77299623088c38b48e143a051426aafc6899a6e5aaa21bc4985bd7b3e822aaee"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_77fded3c8b52b04a.png",
+      "bytes": 73255,
+      "sha256": "139ff6384fc8f637262d5494578a46edc380dd3f1a98c6aa0db97050bb5aa804"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_786777e36c7ef46f.png",
+      "bytes": 71585,
+      "sha256": "aef7f050f6a50aa013e3b44e574ca3a1221615caa5c6e4ce3d4bb6cdf6d1d8b1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7869fb3e52b2bf66.png",
+      "bytes": 67626,
+      "sha256": "5958ed3705b6e1d70c3b9aa280eb6c68e62c4d626dd2f94b89ba0da11e684695"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_795799e5b8d3294c.png",
+      "bytes": 72335,
+      "sha256": "4350da02f1bacdc249dd7d394cbd59d75b485a92ab229bfbeeef586d9ef7c0b4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_799833d0a5405550.png",
+      "bytes": 72702,
+      "sha256": "5f072cad94721998681b0247d062396aafe9c1da9613a4119e6390c22b29edfb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7a8618f01c93af35.png",
+      "bytes": 64942,
+      "sha256": "338d45d2dbdcbc87003e54bc5c0b93d9a54aeff144ac6264a6ce28047e3827b4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7b372c0484af0d64.png",
+      "bytes": 68643,
+      "sha256": "eb06067b63bba6aa83badd289f7055733d024cdf2a94a366a5fc1672c09ddca5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7b593fd494522a76.png",
+      "bytes": 67689,
+      "sha256": "e42079af8e7f5902dd1ca5d058994ef245537275e795262a73e2ba3eafd898f2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7ba0926dd4e5cb0c.png",
+      "bytes": 74000,
+      "sha256": "ab5ee5644ec27e9b4d2cf3bf5789c175c3bc9c8f932a479f03d3779315f1b319"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7c24063be5ac8893.png",
+      "bytes": 68668,
+      "sha256": "032e5ec6e774fde06d308e54109db1ddc852bb83cd4168898ae8ca31c9fe8490"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7d2c77615ad2dfae.png",
+      "bytes": 76900,
+      "sha256": "550ff2999e014f2dcb5a020044b1c34ac2919d0b7fede0dbdc1d84a15361b010"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7e5de9d62ec1ab5a.png",
+      "bytes": 75147,
+      "sha256": "3d08a0dccb8fd4963290296c5a7cd43a15e9baa350821e82a8a91b36108fa1cc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7eab0fcf7ae2b504.png",
+      "bytes": 76995,
+      "sha256": "3fe6a1dbb2db11e30549e6dfe173e7c851fc8a55a7c69ec6b557bcb77a1a285b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7ef7d469d2f3f0a9.png",
+      "bytes": 81369,
+      "sha256": "40b7dccab8e636e4c11a7c1dae4acee8c6b7725bb70dca3e4944fc64b1da6b58"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7efac2f9d7801e03.png",
+      "bytes": 64596,
+      "sha256": "65e3f6e98c80c059fd1f17e010b443de62ff4b998a7a2fec493e5506f226f9f2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7f38b090994dfbd4.png",
+      "bytes": 79420,
+      "sha256": "be08712b787d5fad1e4d4a5baa88311107f967d9536b5a75fd98e85a5e47dc26"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_7f6ccc6750598d94.png",
+      "bytes": 103712,
+      "sha256": "4647e8f3feeb11a98aceabb134368120a4d4ec5813f0949c33bae725c75ef414"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_81899548b3ad9e34.png",
+      "bytes": 71158,
+      "sha256": "ac037bc78c0ae6ab9b617d5ba75cc3c93a24a08c1d1801eb2a0f3a34d18f0c94"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8189b478411b89fd.png",
+      "bytes": 73762,
+      "sha256": "904d04ceca78b05c0b3cc2d778d5db9f0af63b888af2c81d7765136b3e12d4d7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_81d57141f7eecbb0.png",
+      "bytes": 81527,
+      "sha256": "6dd51de53a12fbc79a3234ed12febf5393cd1db39e4f724c85bdd42425fea455"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_81d63a91085cf7ff.png",
+      "bytes": 74418,
+      "sha256": "867d2d8875f8df6bea78ea01cf49973ff859ea4c0d0a3acbce117697bc2124ec"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_839edc4024de1bd6.png",
+      "bytes": 57909,
+      "sha256": "73bd27914192b45dc6561c3cee6771b187ac64b55b3768159ff6d8f08050e4ab"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_83d6340e6f8f4996.png",
+      "bytes": 75081,
+      "sha256": "7d8c82f9c97f018bf5f61b06051b14a2f5a9f2e56c1c4524affb897a5be21ea1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_85669c54301a1871.png",
+      "bytes": 78438,
+      "sha256": "867820614ce6bcb5d8fd8d7ecd7865c3262df9315203005ec8c2ad052cfa6ea9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_85d6c374ecaab026.png",
+      "bytes": 106157,
+      "sha256": "dba36cb1ec68a6c32225981ec8bb1a6ccd96486d74926b8d905d0f64136bcd7b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_85f58e87b1059f46.png",
+      "bytes": 77379,
+      "sha256": "4ba4dd996b6c4da0b0c07da3649e85284fb4a8d9eb0ae4f7c8eef2fb0c08fed4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_861874e06b0069c3.png",
+      "bytes": 78476,
+      "sha256": "061a8129ca5afab7f683586b90ede52954194b0138b2c4f8ac60566de2cf55e7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_864fe7942508b21c.png",
+      "bytes": 69506,
+      "sha256": "751b07e31cc748b8f08d9445b624cd29f83059e3d46028abd818f847e4111cc3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_866510b6891e087d.png",
+      "bytes": 65843,
+      "sha256": "1ff47c0f5076ee035de4d4bfcecdb0b5ecd9ad476014d2db0f79b642edcdc039"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_86700e48c863a355.png",
+      "bytes": 68226,
+      "sha256": "d10655230696c59c28e749e1454cbb639073db44dacb92154723d6a830a34585"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_86918ca8251b0c3f.png",
+      "bytes": 83021,
+      "sha256": "0263d0a8e82e30d9c995c1129573c1dad001a6dfabaf841df9976169b5a0df13"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_86a0c651d32997d5.png",
+      "bytes": 71729,
+      "sha256": "39f6f449cc804ee0b3912ed267621c71e2abff32e2b91e0e74283cbc1f52881f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_881beaf86c5c403d.png",
+      "bytes": 72861,
+      "sha256": "b52a295257e5f01519cf675039a194c2c5c41e7730b580248292c51eefda1092"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8822a50c91319497.png",
+      "bytes": 77809,
+      "sha256": "2d5eb205b284eac87151274c422e8b88994d231586e92384f3c8a75a54a3d6dc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_88575368bf693e1b.png",
+      "bytes": 70257,
+      "sha256": "f7a35c4d1cff154f0e426b5e6ef7032fe2428822f743f8f0df217de61f4e40ec"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_88b037178465d1dd.png",
+      "bytes": 77979,
+      "sha256": "2d944bcd9185f3321f2beacf7cbd8f20ae43885984954a8b49409a752b523250"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_88f669bc6b76384d.png",
+      "bytes": 99824,
+      "sha256": "71e95739a17b6dea4c849aa262bb3cb373a1e835925b3715e72682e221cbc16a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8923f95aa2a34af0.png",
+      "bytes": 70678,
+      "sha256": "a1608d5b41e8d9ad32ccfc4b416b1c234a12b1cc93a0499ab392870e6c1cb9b6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_89bbd094b052345e.png",
+      "bytes": 71627,
+      "sha256": "0c4d9b068bd8b77f1232fe99bfd9b99100f3cf5c0e40a1fa94546eaa78f01d98"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8abb61e022f7cf46.png",
+      "bytes": 68580,
+      "sha256": "bd5dcba832d05a4f738f3fc90230a40a211c403401aed9d88574384f087b4828"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8c3bbc10f08031ad.png",
+      "bytes": 68613,
+      "sha256": "9fff539f938ed3c1e41b6ef3fda484ac4f58661705cf0cc1131ab1eeec22e3a5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8cbd44752554ad45.png",
+      "bytes": 69366,
+      "sha256": "25523215fde174921a86a3fd5081b3ed0ddf8148b5af13f4d22c991ec0849c91"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8d1dd71ac60323c9.png",
+      "bytes": 68474,
+      "sha256": "404819c78c938df22ce4202e6400a098438daf2e28eee01f42b9591927fc3c09"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8d41810400762ced.png",
+      "bytes": 68653,
+      "sha256": "51ef621359a373232fc1191083c9a5bad4fa5323c034eeba6961317519da1c5b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8d54078397c987c3.png",
+      "bytes": 65707,
+      "sha256": "fcbf204ae6e96e65e62459232b31545b2f3715b9a25d3ca49b7cc414844c385f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8e2e31cda3265826.png",
+      "bytes": 65792,
+      "sha256": "b493f7d4508ec3f72b9ad7b21ff7ab52d54b413b16f03e83f3519bd07480e929"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8ee85be4d7a5fa8e.png",
+      "bytes": 79414,
+      "sha256": "0176d278134468b0e4fc6d6b2968cebbb31355bedfa486a80bcb8192c6e002fe"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8f114ddce909b9a5.png",
+      "bytes": 64700,
+      "sha256": "a90b0f75ed109d2b7760f9188c0692627e1a6fb30a01ff0c28d15ba23d36074c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8f3357974dfc4c80.png",
+      "bytes": 75362,
+      "sha256": "33209d63e571e2c8a67e291faed8923b83b23c3f1405ee322851e99f7ece3bea"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_8fb7830a52675129.png",
+      "bytes": 69255,
+      "sha256": "77efdc9ae0d1e77dca60370df67c20d0aed3ac35c6275dfffd1652e11c96e4a7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_90ec79df0d3ba927.png",
+      "bytes": 67207,
+      "sha256": "20d4031ff7c61cc649276f4be4b17f1b28181ef4b56619cb36d5cbf617dd29cd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_91bce2bd3b31545e.png",
+      "bytes": 75371,
+      "sha256": "9569722ae0dd92d88fbfac95f793a816830b2bb8cebc32eb5a6176dfe2709965"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_91ec69c1ac553031.png",
+      "bytes": 68508,
+      "sha256": "eac092ecddb35639723a1ab41605e090ad413069ad6553c7f9acd639d90bb3be"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_920dc5177e9a73b3.png",
+      "bytes": 75101,
+      "sha256": "0dcda06b443520cbc97bf86bd8f49c516f7fd537fe1a82dca0b6de5354fb166b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_923fe21293fca86e.png",
+      "bytes": 69700,
+      "sha256": "627defa84fac30fff7392b5f5fb60323a13beda10516f8689ff0025894061af0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_928121a7d23910c2.png",
+      "bytes": 65884,
+      "sha256": "e0b698bba7a330534260749eed312b6c58daa498b1890168113671535388064a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_934d40d68f9ec5ab.png",
+      "bytes": 79149,
+      "sha256": "75055b9a4cb39f0ecb7fa709410e559ff5a929fc3424e9479ff8ef8918b42001"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_93deb593ee66fe23.png",
+      "bytes": 102565,
+      "sha256": "88ee70c46706d591944c9f1547cebfd009fad8b288429ad8a6a12dd2379b35b2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_942bd4ed23e440a0.png",
+      "bytes": 94047,
+      "sha256": "f9ea321c7484b6508b77af3c411c778b35561b5cebad56956ec7a6456799a730"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_952f2a13f5e70214.png",
+      "bytes": 74135,
+      "sha256": "af731ce2bb0ab6b8e14b323f1ac40a0d7c103697e31011e1fc420be4fc56abc8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_95b04c0f6edacdb3.png",
+      "bytes": 68740,
+      "sha256": "41370b576fc0c0f320f81e7f4340891d8d5523fa87aba094e07e2dff6243750c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_96a37d53e142fdff.png",
+      "bytes": 66740,
+      "sha256": "5e03565d8f70c1b434e30265032d0bbe10bb18e0b785abc884c0818ca5f0138f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_96b6ac18aea533ce.png",
+      "bytes": 108669,
+      "sha256": "46bce04ec00849d3ef0129e43e6a229d47d5c41f485205080ee5a8ea50840994"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_97b83d15cb0b182c.png",
+      "bytes": 79022,
+      "sha256": "dfd821b8d6a7bf99db865dea5f5bafac9f38c0a0002d67d0a250c1ee51d71706"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9802fcba76447d0a.png",
+      "bytes": 72400,
+      "sha256": "aa6138f7fc31fe689e6c5125511c9a3efa66e8804574eb6a587c1f6bc31430ab"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_980b55cf8f874aa2.png",
+      "bytes": 75579,
+      "sha256": "b594cbfbffff16ab79a1fb4f7ecd18e440dac752f2363b51e8abfaac1f555e88"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_98c4e8a9f9d5115d.png",
+      "bytes": 72595,
+      "sha256": "ef1ad35b41fe6728afd82d7d09297f164a2661a45113cc4716a2b450735acd6b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_99d32f61a835089e.png",
+      "bytes": 78920,
+      "sha256": "d549afd17223416ba52827af434380139533dbde4e5911412446cd86fe891fbf"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9a02b78146e61fb9.png",
+      "bytes": 81404,
+      "sha256": "84d3f610ad206ac54c3948b518b9894459d722369be6c8a9eba7c790f8b0ce85"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9b7eb1f1d8ea373b.png",
+      "bytes": 72282,
+      "sha256": "9a00884cdce5097b03babcc60c3bc9aeb4a421fb4e281527776ac126edd75e41"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9bcfb27deba397f8.png",
+      "bytes": 71006,
+      "sha256": "b96fd7707cc84f419f7b65d2a42e0e42eb4716316dcb9a773ffecfe05f5409f1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9d4d7d4c7bafe744.png",
+      "bytes": 68915,
+      "sha256": "c5d8e5b31f4ee8b276e9702ba160ac6375115e3708f86368b7af54f7cff94835"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9d770afeb96c4360.png",
+      "bytes": 74805,
+      "sha256": "7eebe73c8e2a4855c98d1a1feafec2ccb2b5e4e0bb3f0a95cf88e044f4bf142b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9eb68b9e906db764.png",
+      "bytes": 62554,
+      "sha256": "59cfbaf7aa1f15adfcd97b909a00352314d004466363c89362fcee43fbb9bf5d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_9f0372c0036e5306.png",
+      "bytes": 86955,
+      "sha256": "5d7aebbc1749e7b0aa14c34a1ad007ac71819125da3cf2908781db603139481a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a014cecf969f1f5f.png",
+      "bytes": 92072,
+      "sha256": "42a4285d35496b3de9f1d0c7176357fa414a541677c44cceb231d8e4d7267ca9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a0fe6e8892ddfabe.png",
+      "bytes": 65412,
+      "sha256": "a8fa3403d9563c80f40f46f216a53dfd2272a0c907c71bb4ad926f3b3f60054e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a17761f705a8b21b.png",
+      "bytes": 75092,
+      "sha256": "78702d9038be9f44d74b849456fcc2ae81968df6f4199dbfa5e834b51df58ffc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a198157a48c77285.png",
+      "bytes": 76250,
+      "sha256": "f8dc1c06261e18aead1ae68373262012a776b33c7f67c52c78e0b05d979872b2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a1ae1502f63fcd98.png",
+      "bytes": 68990,
+      "sha256": "ba04573fec9a81c08137badee80a4ff85ef7ba4ebd9ceac277a7553323e4f2c4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a1bb14c206345ba7.png",
+      "bytes": 71443,
+      "sha256": "faf58131ddc1e176266db32b8dccdc205255da635e0a2e56c491c3e95bdfc57d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a2368468d0f47b3c.png",
+      "bytes": 103497,
+      "sha256": "05643ce2cb8575a46d152650fda7a17b2ca90c3ccd262961bece03eb6a80ba33"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a24a76836cbc5518.png",
+      "bytes": 69518,
+      "sha256": "d98c04d95da01809f9f6819dff28c652339bcad5fc69cff00b6af42ed899f600"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a31baecf6350d545.png",
+      "bytes": 94483,
+      "sha256": "b667b3164fc4114bb4dbb9d58819505f5664326a2d4b079127776f7f5270335d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a553ae981f486e31.png",
+      "bytes": 67748,
+      "sha256": "b8d54f68867be99030e29c092a94e2d40916685e831dc5a52d87999af4627d2f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a59bb37c9f7645b1.png",
+      "bytes": 73251,
+      "sha256": "c1e84b11bd8f57197dc25891453899e0fa382987a3c73c12c64bcfff26055c03"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a5c6e6bb27bd0823.png",
+      "bytes": 87723,
+      "sha256": "df0d3155ea53c5882cc85173e3665255555c1dcd601247f2c4175b44e9250bf2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a624e9a3ea1f95c5.png",
+      "bytes": 102428,
+      "sha256": "d022291bda9d8d9341fb2301e28a8859c16cc30d2dde8818dd7fc31287e033be"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a69f76d5a07327c3.png",
+      "bytes": 71419,
+      "sha256": "e33c0b50ccd730fa2d3e914c0b6d4425e972b4e6796aef99642d71444f011463"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a7b58a6d5fafcc72.png",
+      "bytes": 101613,
+      "sha256": "2ccb1a738b5d02025f708fddd0388d62005682b52f0658799db7a3cb43509232"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_a882c777f550b110.png",
+      "bytes": 98415,
+      "sha256": "7a5d79fec64a0fd394dad10c565db1ebf192bcf7d05fbbc2cd4773f53d30abee"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_aa4013652d5af1f0.png",
+      "bytes": 78657,
+      "sha256": "5c60333f6b89569ce15ee29e4acf167979d28159c384d20e1493c2f4de29ec83"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_aabbf9f857a9e567.png",
+      "bytes": 65717,
+      "sha256": "0a32ee7d803af4f5284b037195ac5235b764ba0bdba09bead42c8fe6f5696884"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ab75c6be3880b8b2.png",
+      "bytes": 83719,
+      "sha256": "d3ecb3304d7a7ebe2b5c9c9310721f83510a7f85ae77f58898c4ed6aed7d6922"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ab79a37b1c699341.png",
+      "bytes": 69118,
+      "sha256": "e794b2b53f0fb2eeadb5f1b8ddd073a7330c066a773cf4ccdf123f029ab7ef34"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_acfed9201010bc33.png",
+      "bytes": 64960,
+      "sha256": "fd1d5f1fb2dc84a3d69fd37fd9aba7ed557ce48c9d15a85778470683db9850d2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_af338ef1f08161f4.png",
+      "bytes": 74012,
+      "sha256": "6df6b07c6c41f25744b30bdcb884c559719a52578f1e6337ed6ab9aa9037699b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_af3681abf6578b50.png",
+      "bytes": 77980,
+      "sha256": "bdddab167d4cbe118e144e077750d93cb16bcea1432b095dc47a04e8e6a20eaa"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_af44dfc6dfea0f85.png",
+      "bytes": 89475,
+      "sha256": "322380b4a41456de405d2c6c15ae550773708e66ae52747344e68906ff12909f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b210968897bdf629.png",
+      "bytes": 69429,
+      "sha256": "d6f42c41e3c237bb1520b634137b3c417a72c41945740e293308eb384b7a7175"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b376249cb2fe3c4c.png",
+      "bytes": 74324,
+      "sha256": "c4b9bb56a1b04d01f10a47a34bc4a66e753a42ad847f1c430d628951a40ae89e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b45db200f35e7522.png",
+      "bytes": 70909,
+      "sha256": "77336994ac5cc2b9ecf807ce7fbff94c3bf8aa126d2c191ae90f2c9b9f5281a4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b50d9682837d0f4f.png",
+      "bytes": 71794,
+      "sha256": "f9959821a8a5d5a71c8e36fbd046878f411259b9272582c57906cbb8fc62403f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b53121be34e9603b.png",
+      "bytes": 83406,
+      "sha256": "b31a3c433af5da198059d2d1aba521986de9fc473292657a57811341180286be"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b5fd250052847cb8.png",
+      "bytes": 76136,
+      "sha256": "882410f617c3365b7cced209f65965a0cc514182ea63d37da09b889e1e6a4d78"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b8069ba92c13aa97.png",
+      "bytes": 71310,
+      "sha256": "d8165affeb06c3da0f446a6fc98c4116ffe8a1ba58f9420120cd61052e9dfc12"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b88009692d406c3e.png",
+      "bytes": 72692,
+      "sha256": "850177c35eae6604b243015777aec6671215152909cd88ab6d684ac82ab38c5c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b8b8bd89eaa3ae97.png",
+      "bytes": 75785,
+      "sha256": "df3b12d8157e6e31717b15172c4eba1fb9f80a6abe143087a6cbbc01f65588db"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b9d0b1374a8c3e36.png",
+      "bytes": 77217,
+      "sha256": "4b89d1eed1e9afe8fc0e50cbb87e1936a8d8d1b78d683029698aada90088eeb6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_b9da5075768306aa.png",
+      "bytes": 67626,
+      "sha256": "3632d5ae59ab461f8d2a376415a4dceeff9683656a04e02e44f6b42983460c07"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ba609f13ac58195a.png",
+      "bytes": 71471,
+      "sha256": "c1c5be8579033b339cf9214c8f03180f6f56fd10770ab5be1ef1d97af116ac78"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ba61cf009432f2b1.png",
+      "bytes": 71456,
+      "sha256": "686baa75b584f37801aa74513be0329a8b22edd85e6b8c11991d02ffe2248b5e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bb9b9e5fd7fa91ee.png",
+      "bytes": 62215,
+      "sha256": "feebaed114ff93b4f9bf067e545e75f6a790b3f4159160dd182c4d4e444c5add"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bba9448c3dc2e35c.png",
+      "bytes": 77826,
+      "sha256": "a37d361a9713f3cbb401e40d6f6e57fd5654c2b9b97b380632ef97f05f73f0a6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bc3d9da8f7cf0ca7.png",
+      "bytes": 67516,
+      "sha256": "61e324230cfb71d17ca49bab209a55ef69869c9aa5fd921327012aa76f7a2f1f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bc7d0ccb551a7d91.png",
+      "bytes": 81060,
+      "sha256": "1cfe68662a76397c391435f4c3ec630e48f679764d98543c519de1173961b942"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bd3d2abc13713c3e.png",
+      "bytes": 92672,
+      "sha256": "2ae6e038fbd44e351b9bf3560e775a8122220d23c7aa0fd4fc7d0279cdd01d14"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bd680ee8d8f5f1f0.png",
+      "bytes": 71745,
+      "sha256": "686e3119e2da568a6dc4b23eea815df19842f74372cc21b8c8a414741c968817"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bd9bb46579d46157.png",
+      "bytes": 71391,
+      "sha256": "5e6d187e2aa756db84eeaf860b4d4d691cb7969e67af612830f9c9e8831c61a5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_bf9c8b5c050e58d6.png",
+      "bytes": 74035,
+      "sha256": "ea615d44130466c356b665580a094b2432a57d154317a2b476d6462efdad9da1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c017feaa76f6fca8.png",
+      "bytes": 70649,
+      "sha256": "0f34e4ed1b2f1236f4e1acc306de5a7e6c3fc477e8199e8af2e152645797ba71"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c10682caef8b8491.png",
+      "bytes": 66928,
+      "sha256": "23c15d7554c49771b3d0761ea6f158fd993f982953ac326d5204dec850908870"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c38fbd6e4d673d78.png",
+      "bytes": 74798,
+      "sha256": "d9699d277dfef64e9422ab66cf5348f5dd3b2360c5169e50c710fbbec4d56b77"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c3cd6e94eceff03d.png",
+      "bytes": 72016,
+      "sha256": "a2579efba8ae1c8fd7b3b8ac8ed14c08a1aa84e23460436cdadf51b3aeec9478"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c67f5379ae005c00.png",
+      "bytes": 63114,
+      "sha256": "72e62f73bee074d7dbcd1f8865a44a43aa9059a00ed8de6f5a101a8956626419"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c6bd26a83364ea90.png",
+      "bytes": 63521,
+      "sha256": "e10106bf9a17c39497a845e20fd1abde485e5be45cd77c39a6ea7ca75d61c794"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c80a065236fe384e.png",
+      "bytes": 78994,
+      "sha256": "c970e6321ebbf7ef5e13668e6a1618c6591544cbd0cd274f7418b7f7c47d0bd6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c87b7c4252b0439c.png",
+      "bytes": 73940,
+      "sha256": "d795de31ac1be80973eed52db1bdcbafc6a4f70d02971c964d84c76155a678c4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c89703945e051782.png",
+      "bytes": 69942,
+      "sha256": "ad42bcea0c04b1543d1001c2298d7fb0d3d642bc603b4cd8cc8bb08a1fa42023"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c91f1a734b4e1718.png",
+      "bytes": 77603,
+      "sha256": "5a5b356afb5c454d40a01a33a0d031704096f6ec73f60537f18c069e6102c4ec"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c920b8545765925c.png",
+      "bytes": 73321,
+      "sha256": "e04ced979b84d3dfc3864629f9a74711b710d91104637b116d6fb1b78b0646bb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c948c2356293d6cb.png",
+      "bytes": 74049,
+      "sha256": "055dbffa1c61aab33be76ccecc85404f90fe4e6211a87bf7e3f598d057ee2d22"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_c961450a59e7af7c.png",
+      "bytes": 68207,
+      "sha256": "5f3e872776a5b7573e4bd2ff21ce22aaca1b3057b46196ce1c522182bfec7169"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_caa52dbda3bef82f.png",
+      "bytes": 67096,
+      "sha256": "ea448ba9340645cd2a8bfccc11537c5f2bc54c19a161941a2773bebd40d4781b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cb34052cf87cdf77.png",
+      "bytes": 68001,
+      "sha256": "d568cf8bcfd8ce51bc8d9f186217da2caddf2f011967ef71e00355e91b6f1663"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cb89af47a66b4da6.png",
+      "bytes": 84533,
+      "sha256": "2919a1224973d46b64c3700f509b682175fc6ca7a4428d1bf2c87984d53b1025"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cb9fee68bc91da97.png",
+      "bytes": 79393,
+      "sha256": "41caefc11aaf65187738f2edae0ce29f0177c67337ba46980b115e4ada869c5b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cbccc6f32f5e2706.png",
+      "bytes": 67090,
+      "sha256": "c4dcba5ae928de29017c5725f61f769760251d6eb2a924ab5a0e0554edf73aaa"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cbdc6acbf9a9d399.png",
+      "bytes": 71102,
+      "sha256": "199f84d6bf276571167e0b5c04badd42a36c00dde7b347722bf2df490671c074"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cc3fa67e0c24f589.png",
+      "bytes": 67530,
+      "sha256": "39fe40769a8998bc5b4cbc4ac4de27a6bb6451c4b27bb55af25994fc4ce4a236"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cc49466a9591230d.png",
+      "bytes": 76659,
+      "sha256": "98e6947ed3e0bc9d90ba6aa7060942aeb0d1ee879a1095ac5fa90de7d0b7f4c6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cd6da7adabba9ca9.png",
+      "bytes": 61677,
+      "sha256": "c74b62e5da85deccc25fdc1c8d8c2c9a7da1a0e8796e65759e90a2dada9e9be0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cded3b91fc468f3f.png",
+      "bytes": 95931,
+      "sha256": "148c7dd47af4fa35ddd8399e4a8a0cf4eb9d4af885babf522f965ab4c1ab154a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ce0129140844e640.png",
+      "bytes": 68774,
+      "sha256": "2766388d6bdaaaeac6fb375bb368c148ec9bfe065e3e443efb715576cd997081"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ce23b74f253b6061.png",
+      "bytes": 92987,
+      "sha256": "185674ff8245a383632b640bf0fb8c6cd3ce4490c8928b834c8907fd43c56eab"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ce9e205d422c8eca.png",
+      "bytes": 69307,
+      "sha256": "77bf7446e085d91a4cc4f4221043173abe48b3f825e0a6ca9d0c8712501f3d80"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cf4a8f4a9471b544.png",
+      "bytes": 66627,
+      "sha256": "675782768ec8548b1490a0cd84eb27c666b286809be7d5648367383899e84a05"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cf8dbc567567d03e.png",
+      "bytes": 65131,
+      "sha256": "9ef91ef5347b84e68b1013f19e111cf97fcfb459b04afc9f4610fb806fe09157"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_cfeb87a8ca7c517f.png",
+      "bytes": 65951,
+      "sha256": "72c3dbfc5805e3c1e2479d70964afbca76d58e3b3946824a1f7b1fbb54678e13"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d1562aba93e97c7c.png",
+      "bytes": 83052,
+      "sha256": "b7a9d326004cbb625eac6dad6c636b88570bcee2493d7918d6824e1849cd4bff"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d1f3dfe9f3542159.png",
+      "bytes": 90775,
+      "sha256": "e2190df38613034e266a7cbbb7a07194ec2615c3e4c1764ba6e23cdb6bf66839"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d27a485e41b30542.png",
+      "bytes": 70031,
+      "sha256": "c706e4c691a6bef192d19a42bff8cf570e055cf5d3d3de23d338b6a6f5fba2e5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d2ec7b51224f344d.png",
+      "bytes": 61731,
+      "sha256": "c65cbf8d51eeed8e2f94c419c2cac86904d43d29487eb6f2134a01af91a521c1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d5b0dfcce4b21745.png",
+      "bytes": 88514,
+      "sha256": "5ae9f19e06bb72c1fcf75775da17f5be0991845ca7bd87ece3b06f2953000a19"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d688fe99a9d906c1.png",
+      "bytes": 82953,
+      "sha256": "13f564c5f122e40723923bd71be90bfe4eb6a609f5386cdc2d5856d7bec44f76"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d764858797ebdfa9.png",
+      "bytes": 80558,
+      "sha256": "292ad305499799d9200e427fc229dbbd9f8f724ae569d4879ae594e168938603"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d7d7645132588e83.png",
+      "bytes": 75153,
+      "sha256": "62a9c5fc14b4daba893aaa331ca296f1d1185f4696572e6f6a67b83c7dc81e9b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d7f8a7fea02583ab.png",
+      "bytes": 85907,
+      "sha256": "329fc0a808b5e7cebd5cd4c04f866ff5a75cbcc335a4d4400e16a4bc02a362d9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d8000124e556806d.png",
+      "bytes": 78226,
+      "sha256": "815acdcb2667ca965493eedb9c1e2e14cba8f2486fde2b7f59f3d7875a84d0a3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d82b6ab9151b25e5.png",
+      "bytes": 72093,
+      "sha256": "ae94dac6a9bd1a8fa627181638f0fa6cc6afb28b4dee0accffedbfef916f673d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d8dfdfa707a5328e.png",
+      "bytes": 104943,
+      "sha256": "6d033a2638ac51b0f1fd515a4b27f26bc26f39a0b166cbecfda388f55541774c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d9604f9e19a4d82f.png",
+      "bytes": 74872,
+      "sha256": "5687fa50a9a8c32f256d033eb6d2714d0ce47aba465acb275dc70d4fabaa4030"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d9f4a0836f98c7e2.png",
+      "bytes": 78495,
+      "sha256": "d4547cd2a5d5236fea3a57b34f16bf47b1b65193274a78a2d072c59cccc86e97"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_d9f6f33d7bd4a84f.png",
+      "bytes": 66044,
+      "sha256": "243f36fc406b6c0382f14bdec855e53101df7555b7e083bfa4b354e4112fb357"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dae83ccfc282d67c.png",
+      "bytes": 72863,
+      "sha256": "0cbf6654a56b2af43744ec9fe7598a0d0ba5da40d1a256822c192321571f9048"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dce7f8a15dffad98.png",
+      "bytes": 72546,
+      "sha256": "127259111751e9b046e4232c20cad1e7024afd6c7a25f968656fcc31b608b076"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dcff4e8401240d12.png",
+      "bytes": 60642,
+      "sha256": "aca475fd9d275bcbf53896c3d3c6b767928c40eca4c75de83283cc48c2bd2028"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dd18e3215a43d6cc.png",
+      "bytes": 74125,
+      "sha256": "3a772eda6365f5cb2acc353ad7ad221aa167bde696f3b4a7d8d06bc3d1d70aa2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ddd1a0abff90e773.png",
+      "bytes": 67676,
+      "sha256": "a378285980b3ca1357f7f017cf847819c9eba4658c35be3525500b9b7248a886"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ddff0d99c3f638a8.png",
+      "bytes": 67224,
+      "sha256": "d040d34a5b28dd3fe833e43f6f4c5ed20a24d6f46467d08d34437879d46a4601"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dea6f01891f97b74.png",
+      "bytes": 70943,
+      "sha256": "d74a374f418a1d0a2a85a3e18bf1c7e83bffe3772a537e85e73f6ae736102e3b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_dfa5ad35243d50d3.png",
+      "bytes": 88696,
+      "sha256": "5230a352df85c79facba7333a5b60f42396174204d78689de0cec8e0250dbbcd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e1122351f645e9cf.png",
+      "bytes": 63919,
+      "sha256": "3f1c0ba6bef52585c42362befb41d0d389d692794ed73064e993c0f09d8fdebe"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e1cbf74a39e71e0c.png",
+      "bytes": 71262,
+      "sha256": "5a51933e4afc9bd5a8ccae84804b8d02e4d426120127a3460a2cbe49818009be"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e29370138c74a760.png",
+      "bytes": 72607,
+      "sha256": "a14671d46c8cbfda934cb681e530b4710339334811fc699e4b345905b8122a4d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e32480a05b6b3ccb.png",
+      "bytes": 78602,
+      "sha256": "fab1cb07bc50d8ac46f2c82ba02c3a95bbe7e0d8ec8ce29dd4a79923f5ad58e7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e3d83cd2822e79fe.png",
+      "bytes": 74178,
+      "sha256": "7ecc2c2363a80440d393a30f5abbbbfd8c7a0fa5dd5754df38caa39ff5cadce6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e3dca6fb4b58fc2c.png",
+      "bytes": 72897,
+      "sha256": "764e61b7021d01919c3eb1e8b3345e6dae4568ff76ba95ac541f1246b9eadd94"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e45011af2fd2053e.png",
+      "bytes": 76278,
+      "sha256": "c0e3e76b24fd97373eb2b57b07b240ff4dee8050f8ce1ccca5c34c1b4dfac375"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e4dca30687d4728a.png",
+      "bytes": 71297,
+      "sha256": "6f650f063e6174e2d0a21ca12863feffe0ea614e76c8730e02b5a92ee99ff721"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e640ffd98c1750e5.png",
+      "bytes": 72364,
+      "sha256": "ed5a9df27c6fb88e250e8eb33416fe90c9b5ce555cf41fc47bab274970efd1b4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e6f02529dce0c462.png",
+      "bytes": 67308,
+      "sha256": "f525a751198fa6ee79d3f569c64ab891118f5e11f348d5206b6b925e2a0a7a3c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e7f847c3df5c160c.png",
+      "bytes": 71861,
+      "sha256": "b282c537f191290348cfcd14ad4cf952e7f6d406ebdc2d922a3ad27cea807114"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_e8647410fd891639.png",
+      "bytes": 75674,
+      "sha256": "3f7ff9f3c8e8ab407d82307206e2352747456d223542a395d8b0f8d5824dcee7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ea221ebf960fcfc7.png",
+      "bytes": 69698,
+      "sha256": "a7935db25b94c93a2b6cedee2109dcbe2c2f15aa96f3929764e92b35d06405ee"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ea4ef3d385dee343.png",
+      "bytes": 72603,
+      "sha256": "41bb5101460c49a8009cee1fec661d0c80c029b13cf70176a3cc932dbc74558a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_eb1f4623523fb4d4.png",
+      "bytes": 66439,
+      "sha256": "06db0e1b8b6b9154a935dd6288e2d8bab2e48c8e1782944c4fc46a38cc8e6640"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_eb62e8c3e9635d1f.png",
+      "bytes": 62206,
+      "sha256": "8201d22e1baf79850082ffd10f1eb44b885032c329cc93d5962bb578c02fcc0f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ebd09f73f4dfa561.png",
+      "bytes": 68168,
+      "sha256": "6b609891f06c5e2addf1c67e8f782c0d3a940e0ef0f3144f83ef8be98ae1e188"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ec3e1475401ae5cb.png",
+      "bytes": 69631,
+      "sha256": "3126e8b91d421ef1e5a65f4a1a462213b58f9c00d8a8db8f4f1a882001a6c296"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ec6dcc66dd939da0.png",
+      "bytes": 71507,
+      "sha256": "bf524f6a26740847abd172558d686b3432fb7370208c5de3af38b642b208b9f6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ec78c3d8844b5a85.png",
+      "bytes": 65540,
+      "sha256": "6ccdedca433685fc44273fb2f631f92a227d7dc9bbdaabdf10b76006fb6162db"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ecb1f3d038b5638a.png",
+      "bytes": 70450,
+      "sha256": "2238e6587ab2b3b01e8cce11216e9b96b323e3cf3b12eb38833a39828812f30d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ed447637a16bf039.png",
+      "bytes": 78767,
+      "sha256": "c179f38a159c405fceff738902a8af43960b3ef7aa8dfb5f35c504fa7123641f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ed45f068016dcfaa.png",
+      "bytes": 67200,
+      "sha256": "f5f1921a00fd676d3218768fe5f0c8cffe63e76ed5dae664ee9c6e6269744701"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_ed7918102c467536.png",
+      "bytes": 67874,
+      "sha256": "6f7f65f0d108db2d8f5c9d1641e95d0d80bf1b413efa833816b6f81401799358"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_edb3a61bb9db75b2.png",
+      "bytes": 71816,
+      "sha256": "82dc6df77eaa9800bf1a3cbd20d63f10ab658ea6c64738394dac992f79f01270"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_efcdbbef23039984.png",
+      "bytes": 76801,
+      "sha256": "b915cfb69c9e9ddd9c48a4e1d4174623bbe26e8c4f4525dfc7e24e5814b7692e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_efe688ec55535f34.png",
+      "bytes": 72916,
+      "sha256": "e8ee54f892666bfd32b31d1cc55135b2fd799712223f16174e063d408075b1c3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f03e9d9868698eec.png",
+      "bytes": 71461,
+      "sha256": "d5c30fcd4e0507c60354456c4cf041102ed02299bd6427d2c291907bbbced6a9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f11b8cbb200cc7cc.png",
+      "bytes": 77029,
+      "sha256": "4c1f2bd4ac52308fee81cdf161dc0ba03260192defccb9fcafa47ed8dd00532b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f1dc6d1cdd542b5e.png",
+      "bytes": 68114,
+      "sha256": "6cce75b7cbafd72a3e791d6e736ee3ba5c43a3295d74c8bcdc31a8ee80c7d428"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f319711d60b70e6f.png",
+      "bytes": 66843,
+      "sha256": "0329605835c7e751b0ab87ceef81b1c37de51c05b2450fa6422bef0f6fd54398"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f3f78fb91c060380.png",
+      "bytes": 70421,
+      "sha256": "bc06f2030a8b0dd5d4d8f674c55d4af3e2eea821288beff3d0ff722b42a19167"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f41778ec72cc95b4.png",
+      "bytes": 73559,
+      "sha256": "fad4194fc10d4a1a2a073e2014524f0443672b5294964ad3521b41263dc2f099"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f432ed222913317e.png",
+      "bytes": 64478,
+      "sha256": "48ed7bf86f78553d218675145b3a5ed2bc4206d6c65ce39ce68df7ef0608a51e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f4d7d0ce3f5f5f74.png",
+      "bytes": 75936,
+      "sha256": "85b3adc7a854476f9a53772ea6413092979d561dda3899ae3d0ca840166c0a41"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f511daff8d85c165.png",
+      "bytes": 64462,
+      "sha256": "45df9c4cfc42f7d60dd02ec1ba8da2706a66281b7553898158515ad3b9a06588"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f546d89923ea99e0.png",
+      "bytes": 69317,
+      "sha256": "f2babbe285ea46c12536007edc83b1f6d6a2d7c72c05a005021b21104f1dce26"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f5b95e20a46d34be.png",
+      "bytes": 71012,
+      "sha256": "cd05c4241375cb8c3e8ef66fdd6a281fd224b798866d716d4fc1f9887984f87d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f6260b42b7a37152.png",
+      "bytes": 70011,
+      "sha256": "fe1a7d57f7ca2da4c15675c647645ea15ef6389eb760cc16b56ebe226b7c99c3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f67225995afb442e.png",
+      "bytes": 81366,
+      "sha256": "f9fadd8c20e13e053d7c76a3af118b0dfdbbfd46a3c3fad609c1c0c4c7e46764"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f7bf9f43294657fb.png",
+      "bytes": 68298,
+      "sha256": "907f59f72b8620a72e3d70a100cff7169c4ec4c5b9022726fd350c24b94db19c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f81bcbf70e4ba1bd.png",
+      "bytes": 66188,
+      "sha256": "93fd08bdf5c486cc81ff79a4488492a468e2d3156da9d9614981389493308b0b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f83dfe4919d7e300.png",
+      "bytes": 87935,
+      "sha256": "b1eede622cc9e5b3eeabe84c222b37f88b210cf1f6cca57f4ad0f18800ba6297"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f8724295d4d9408f.png",
+      "bytes": 70471,
+      "sha256": "cfacf6f707dec9391ffdb02e014a2dbff1488e7618cf2559a91535e2cd262428"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f8aa392821725d80.png",
+      "bytes": 68850,
+      "sha256": "44e4e7138386b4eaa3bda06638df595edda6850d92a1ed17dfaeef0332d6b69d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_f9f40d772b37e427.png",
+      "bytes": 68171,
+      "sha256": "f88fc33d753af51e688aa0b9e6bdf6a80001201e1b1b9f75439cd3f0d48fa199"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fa0b75dc1cd0e6db.png",
+      "bytes": 90850,
+      "sha256": "97eb8615c20275a9f036b5f6183658d9a6c7f16907f715fe14437912c0ec2d5c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fadd97c7e7a27cce.png",
+      "bytes": 69299,
+      "sha256": "d92371b5a04a4b4020e2aa4387643c1401da4ffbbea25538d0b3e67d72cf245d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fae5e10723408097.png",
+      "bytes": 67834,
+      "sha256": "694c293cfb48341c1a880772e0281938a18b197274cd85a0eaacccdd7ebe45d6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fb2d3409b02cb396.png",
+      "bytes": 90173,
+      "sha256": "b30130c434e273d4212081c3c4a40f1a0c227da55a8163c60bb54cc4041c0234"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fc8dc679616344d6.png",
+      "bytes": 72071,
+      "sha256": "d952a4406e5e7c83575bec085d38ce380780dddb80e02d175b89ffc345fa07df"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fcd128d1c50c7286.png",
+      "bytes": 78229,
+      "sha256": "5b832a2a929ab3cfcf2220ab84bac9a4dcfb08c614d2391c4a906fd57e7587dd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fcd24d9bd4f4d5fb.png",
+      "bytes": 85202,
+      "sha256": "34ba91cd291ef5f22af5ac74a5f313f05621776147dcd9a13f1fd6c35d331f81"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fd647a9fb6c92cbf.png",
+      "bytes": 74256,
+      "sha256": "fd857be4768241bee700fc6495852a7c09f89cbd243a83ac6fcd7ddc06664513"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fe125cb75e57e988.png",
+      "bytes": 67500,
+      "sha256": "5188c6f29aee5732425b775a96065d24b679bf5872bbe00871dbe28835639834"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/metafood/images/metafood_fe56d67242eec5cc.png",
+      "bytes": 74198,
+      "sha256": "51f939a10dd9f2f7c752618d922271614cc929397aa6a8f68458c3f26bfd2074"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/audit.json",
+      "bytes": 900,
+      "sha256": "e2f3e2d3687f6c18fcb79bc31018cc249941a1922e90ae9230f2a30a003eb263"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/calibration_reserved.jsonl",
+      "bytes": 49188,
+      "sha256": "0f45dbded5465096d4ead066dd97b3b2ccd2271c2252b3c72e568e47f982571c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/download_manifest.jsonl",
+      "bytes": 163567,
+      "sha256": "de75e353d976797fa19e4f7c7e75ea7aae0b4fc6a653661d4ea1bda7b84dc01b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/download_status.json",
+      "bytes": 305,
+      "sha256": "747b0a9e273ebd145625daa6e713a364958ba9f3c0c804c68a10725ed2237763"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/fingerprints.json",
+      "bytes": 36124,
+      "sha256": "5da1e43a0e4eefb47dc2d7a8f342e9b16b868d55dc7ce852580a748dddac368a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/protocol.json",
+      "bytes": 1569,
+      "sha256": "dd55156014aeae0b212d2a37d0796ff944d9d83aec6c6a30411c02cccc4c4802"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/release_review.json",
+      "bytes": 1704,
+      "sha256": "588380b9e130392edc7af0b2ab5061819c749300771da71c840ac55816719079"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/test_reserved.jsonl",
+      "bytes": 54370,
+      "sha256": "18b51c0bd2c740e0cff12f1e3e5d3a579fbe23b697be7ceeac101d461bec09fb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/train.jsonl",
+      "bytes": 54664,
+      "sha256": "bb02b5c13c0d70c9b933472f1b3c2da9865f14b9c7429d5ba55b7a92458cdc3f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/validation.jsonl",
+      "bytes": 24245,
+      "sha256": "4426dba0548d489516d218f2cfb1e28cd8e1ca8d962dd52ff3a41bd4a87d5c01"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_100.jpg",
+      "bytes": 1195642,
+      "sha256": "bf00a5779c976c624d4782e720ec34e95e5370f4659ab9cfaff2018c9c3d7ac9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_101.jpg",
+      "bytes": 1286428,
+      "sha256": "a23e420b65414dac363b7246056fb0b0e1b5e209fe502b524654929f490db9c2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_102.jpg",
+      "bytes": 933214,
+      "sha256": "d5c3b6c92ae95369073752bd01c739d7e2969273c6526d3e8332bc9db125d6b2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_103.jpg",
+      "bytes": 1233920,
+      "sha256": "210bfb3bcc5ef97656edf26f84157bded62156d9099b263066bd73ed1bbc4e05"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_104.jpg",
+      "bytes": 1090280,
+      "sha256": "5595a832379f29b555511023bef973fdd574b7cccbc5ded97f22972fa010af81"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_105.jpg",
+      "bytes": 1169527,
+      "sha256": "728f4162b572c73b459263c42ca60a67b15cb2e9f08b0e850b45102ed339bcb4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_106.jpg",
+      "bytes": 1144366,
+      "sha256": "f41a168969a59284b48195d9a2a4d598f6ebeaa295b2a9eaf1aa06d0185841db"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_107.jpg",
+      "bytes": 989189,
+      "sha256": "1cdd41de0446109844b5429fc852637df1e5d09008a0ef3f87aa1118c1b5d316"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_108.jpg",
+      "bytes": 1203022,
+      "sha256": "7bb5d3cc98a450ec61aafd6d64243caf5b0e8a8557a35e8dc5f9b885c385a445"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_109.jpg",
+      "bytes": 1325330,
+      "sha256": "6cbf06adbe4d47e4d29af584e3446ce4f4f250a79012ca46b1207208d14369e3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_110.jpg",
+      "bytes": 1152939,
+      "sha256": "945d0e3d9ba89fdaa8dda0bbbfcd70ed8071b1c5900a527de3ce06517f260f22"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_111.jpg",
+      "bytes": 953557,
+      "sha256": "f1c1baf845b49535a99283fe20a8a1be7865c71229622384e6f47fc3a48b8751"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_112.jpg",
+      "bytes": 1016975,
+      "sha256": "f0d193a2725efa6bbcf318b69e9b5bf2a799b255ac262bd48179ad991062c8d2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_113.jpg",
+      "bytes": 1397789,
+      "sha256": "7b1ce55e9726d5fa495ff149df658e8bf1c2462fb4a51330755c064c4914deda"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_114.jpg",
+      "bytes": 967409,
+      "sha256": "0fc3424102b353bbd91fa35277ca6907664d5326f688b66ac8faff6bce927cd3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_115.jpg",
+      "bytes": 1148804,
+      "sha256": "6ea8c1724212b1cbd4cba3e243ce8f5eef7054d6db06e5790d2efdf3cee45bb5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_116.jpg",
+      "bytes": 980431,
+      "sha256": "0aa2591c041b3dd4470d310a52de8e7ef85735c0fcd68a73241373f06ad805cd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_117.jpg",
+      "bytes": 991036,
+      "sha256": "ab2a6d96257d5439136cdc7424af43ddea911d45a81fe90150e50522e38ddf1c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_118.jpg",
+      "bytes": 982061,
+      "sha256": "92f9faacde438bbb2af4834e010e5ebd9c70f71505077723ddfd9ffa66533184"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_119.jpg",
+      "bytes": 1248598,
+      "sha256": "4b1abe813a73a0e84392b061a9c778d73f409d6ffb1320bed34875e79a93e0d5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_120.jpg",
+      "bytes": 1206428,
+      "sha256": "37757a2c8c3b26d301959275ca3d4c5e226df9ce5932ab3abe3d4e04ad48f3c7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_121.jpg",
+      "bytes": 1113974,
+      "sha256": "d76905078030d1eac49fe051e6e7c5f49539668a2a975c6576b2ac388acfc825"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_122.jpg",
+      "bytes": 1042696,
+      "sha256": "1acb7bd7a7e54824babaaff05036f7290f4e5e47fd4a22af37227842dfaf360f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_123.jpg",
+      "bytes": 1195873,
+      "sha256": "c42d7a283eb7c827f1102863ff6c161a13b84adf20d6711403b5b504521bbe70"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_124.jpg",
+      "bytes": 1222787,
+      "sha256": "f404b350bb843cc7470b434b86b29d1f92de407b669694c5d4f17a828c5e4638"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_125.jpg",
+      "bytes": 1256129,
+      "sha256": "a5505db5ab55d4031393e7933dd51aa14c138ba93359578b27e9a6374ea1457e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_126.jpg",
+      "bytes": 1392531,
+      "sha256": "3616794d8a25c0134b8615d82e81952bda426782d39d7f6455737c8095cbc971"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_127.jpg",
+      "bytes": 1383341,
+      "sha256": "467c4b43eaade8fde8642f9aaf42ae0a84d9fcffffac492b88ca0bf6dcc9b939"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_128.jpg",
+      "bytes": 1081465,
+      "sha256": "da2c7b2c2722ace352b2a0a2d9751caa3bfca98fbc5df2a6e3f271a5b0db0728"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_129.jpg",
+      "bytes": 1103321,
+      "sha256": "8f51f9aff8e467f18c925e14d8f99185362e76e6b45d09a46ebf5efcf4482984"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_130.jpg",
+      "bytes": 1081445,
+      "sha256": "8f784d21982f6cb2e36537d4b7c62cd5ff189bdd9b2104d8aca59489c75e66ba"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_131.jpg",
+      "bytes": 1315058,
+      "sha256": "430e19785c34bf7c0edc897c1d58dec2bbc38e8ace1f690d22df4bdcf98cc222"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_132.jpg",
+      "bytes": 1040516,
+      "sha256": "4092d9f519d51c0f5fa33c2252932c3b695369b3552fb63978ed276c29950c72"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_133.jpg",
+      "bytes": 1096288,
+      "sha256": "e2f8cc483b826ee553d0911138cf90594d8ac18bcacc80d1fdba217db9855f77"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_134.jpg",
+      "bytes": 1264286,
+      "sha256": "f2e6fa624f559a42357485087ee65402142bb1288a5ca12893596f87dc518d4b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_135.jpg",
+      "bytes": 1343964,
+      "sha256": "355c624fc91d1ae582434032b9a976acf26900c6fd277716f4a2e3f6b95f60e0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_136.jpg",
+      "bytes": 1416119,
+      "sha256": "dd0ac07677901f502d3dedd9622c079dd785d9b81419b7f14905b8c12d3ece12"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_137.jpg",
+      "bytes": 1248022,
+      "sha256": "d709009c070406f557aa9928135ae7edfc31927b06cc052a35e7f23b97119bbd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_138.jpg",
+      "bytes": 1397218,
+      "sha256": "2c8e5a699f08d1917bca415a194a3f47cf65fc13817db08d7d8f4aefa74623ea"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_139.jpg",
+      "bytes": 1127338,
+      "sha256": "f7002fd5ad33d3e55644081d8dcdc585de7571bedced319a4eea668484c3f3fc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_140.jpg",
+      "bytes": 1354663,
+      "sha256": "5ceb6ad2f1f138ffa419b9a380f8426850f35712762cdff563e299f0922803d9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_141.jpg",
+      "bytes": 1485568,
+      "sha256": "f84dead83ae77ed5a3f848ff13d81a29a9ad96305f858252f1e18ba87fedf38e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_142.jpg",
+      "bytes": 1218015,
+      "sha256": "c48b71ed6c30baf670f0c3a9c5a83d69d240db4d44f5cc7e4d38ae9e8dbb8e51"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_143.jpg",
+      "bytes": 1312067,
+      "sha256": "10b3d42ceb90a897286b9babe9943b961446453acdfbdffcb205827e4f7ac7b5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_144.jpg",
+      "bytes": 1283013,
+      "sha256": "9b32ee0a8d003ba8b82eb41fd82b01514dc3624d652b9f6d7ea8ff4cd7b00927"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_145.jpg",
+      "bytes": 1730492,
+      "sha256": "8c8c68eec1bf7b18af24d43738565332d274937d5fa57dbce3b58492a1cc5621"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_146.jpg",
+      "bytes": 1325895,
+      "sha256": "01595b0b383b708702bfb6f405c5124996a75af1f72467f53f980b0db3e2a5b3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_147.jpg",
+      "bytes": 1332466,
+      "sha256": "397606ba5b3da2c51f7abd106cf36a3e33501cbc76983ce8a758feaa99e0f1bb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_148.jpg",
+      "bytes": 1613574,
+      "sha256": "506b4771d586c42045835afd1f89a663a551ede870cd09a11b229eead3d94fd8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_149.jpg",
+      "bytes": 919582,
+      "sha256": "357c58a9d6775695cfac70cf2f01d288f476da44900babd166281a53a526362c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_150.jpg",
+      "bytes": 1571055,
+      "sha256": "36aa18022effb89ce8c5a6e0811e828976061abdcf19c23a702911250171a6a6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_153.jpg",
+      "bytes": 1467021,
+      "sha256": "fd81bf53bc859f6377f196851f296ac9677e1f120a622e143ee0462d39df679e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_154.jpg",
+      "bytes": 1353749,
+      "sha256": "93747217e0a503ced3ec6dfb252c9ae8ae9f3c6823b32a5adbcbcb872a32133d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_155.jpg",
+      "bytes": 851273,
+      "sha256": "aea62f46bdbe0ce9086ff89f3a2988804280b9f6ca7bb57b7a946fee7a27b2e9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_156.jpg",
+      "bytes": 1337858,
+      "sha256": "c23fc311553da5f0f7af1aec3ad679e01900eac4f297dcbaed2b0ef0478dac42"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_157.jpg",
+      "bytes": 902235,
+      "sha256": "887cc8128cd08ba8c71d527da87e6ca8107ae27c48ce0ccbd06d052e3ec10be9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_158.jpg",
+      "bytes": 1553152,
+      "sha256": "6f4f730d70cbe396a4913a1653449ecf8d22c47a58ccc014211cb23c7eb4ddfa"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_159.jpg",
+      "bytes": 1503995,
+      "sha256": "e996ae9cb0f8b185eb1ee24035c3bfc9198306bdf687444f5d4561f12df331fd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_160.jpg",
+      "bytes": 1425907,
+      "sha256": "c281b1ad8a0abd9575c7587a69f6daf1dfe63b3e789faa416e5bc9175f8a3013"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_161.jpg",
+      "bytes": 1425217,
+      "sha256": "2d1936792e6bb8b7c27fce7ba83a772f26a67e907d8e00590267b79fa5671e9b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_162.jpg",
+      "bytes": 1605907,
+      "sha256": "41ea77ec679087423e3981afd4699f97d09caed4ca2c285aede07ed013b1f14d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_163.jpg",
+      "bytes": 1587225,
+      "sha256": "4a3f8f034faaaa5a6308220df134b95f86b76b333e36634c192e218a6acef45a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_164.jpg",
+      "bytes": 1037343,
+      "sha256": "8df679db042b824d86ec4b90213baaeb8fc93d12a39233c981a71808bdaba04a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_165.jpg",
+      "bytes": 1279193,
+      "sha256": "c927729bc4eb946a19a6d5ea89135d9e018abb90f980140dfe09b4b2ec1655f5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_166.jpg",
+      "bytes": 1348932,
+      "sha256": "2d6ca080a26f7acb938c510eb0c5f01c97ac576aab5e57c7a551642d06023c3e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_167.jpg",
+      "bytes": 1507004,
+      "sha256": "b7d01c17c38ddefa2def5f0cb1a6406f0f52625c87e87eea53ce5b84ac0f3521"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_168.jpg",
+      "bytes": 1203324,
+      "sha256": "94ad833d83329e0c1b9e8a8dc530b671b8d2171c925d75fc83f44f6dddc5febd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_169.jpg",
+      "bytes": 1050536,
+      "sha256": "e328af4453e2340f78d80a93ded1bc338ddfd9b378aea7d4718a485d625b8417"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_170.jpg",
+      "bytes": 1154231,
+      "sha256": "702ec3652b83ebedcd78c835c14ce7a507a6cf493395117e2d74e8076d1e4bc7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_172.jpg",
+      "bytes": 1100886,
+      "sha256": "92800b2f674ea0db28974fa1a38a4124366a3fb894d1ca925431510c8528d140"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_173.jpg",
+      "bytes": 1068377,
+      "sha256": "d962cd7a683a29af4d24c3220e5b1143ad6b8a4c143e0448e18d701e8d8a1043"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_174.jpg",
+      "bytes": 1128551,
+      "sha256": "073003367167ab2a780baa9422fd39a47607118a548850e270dd556cf31dfa22"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_175.jpg",
+      "bytes": 1392899,
+      "sha256": "4b5a664e2330195a5d4755ebfe191b5e1ac4d252ee62b11875a283d06ec4e985"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_176.jpg",
+      "bytes": 815406,
+      "sha256": "7b274c1d0a858491b566b674925ae9215ce248fca17bd17224fa5ef548975f37"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_177.jpg",
+      "bytes": 1048971,
+      "sha256": "c7e84b9d378480ce9967cdf75f8fa8a82c6e4a37804c2a3b81fbe768502b7aff"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_178.jpg",
+      "bytes": 1094198,
+      "sha256": "4e9f7b510861bf6108f1b136abce50a3fe097a1d3a5cd66db221a89db01e6223"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_179.jpg",
+      "bytes": 1242669,
+      "sha256": "e10b02a96b5737ef2002b669238bbc852824f750429da2608f29e18eb20bae23"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_180.jpg",
+      "bytes": 1581385,
+      "sha256": "3d92bf89f25e981063fd9643cfd20b1b4d5b6a3b6473f82079daded7c92bd3d8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_181.jpg",
+      "bytes": 1032126,
+      "sha256": "b79efd2c40dfa8f73220a3ffd03a53c3d33be14bac683eee5520eb68763dd1d4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_182.jpg",
+      "bytes": 1271555,
+      "sha256": "aa9dc181ff61f3f17d50a6cb7e175ae9d590e03a53276c0adb5e649d87cda5ca"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_183.jpg",
+      "bytes": 1559805,
+      "sha256": "f0faaab75080a5bf8e2c51a6e4109b091c3f79072e4071339c12f965274c1997"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_184.jpg",
+      "bytes": 1769319,
+      "sha256": "2c79e9b10c6338658c24b081bfb105137bf8214c415b34224f86011647f55b85"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_185.jpg",
+      "bytes": 1475062,
+      "sha256": "98ff1d63b5b24ba78521e3c591ac550e3c06344c8e977796a6e81bb2348d3de5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_186.jpg",
+      "bytes": 1711667,
+      "sha256": "8e265adaf97cc2dc49935c35cc0ca8d87ace59f00f0690fc748e5e3fd7fcf877"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_187.jpg",
+      "bytes": 1600249,
+      "sha256": "2a21a7f0d2e45dab951914b102fd1b9973f2e65bc401205b2446d45f4bb7df08"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_188.jpg",
+      "bytes": 1348849,
+      "sha256": "805759b1cebd4fe1020ef4578c50d9f1f804897a5c3f48df5aaf59b7d6860003"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_189.jpg",
+      "bytes": 1360756,
+      "sha256": "d04bb85febf3f9e405d62b14c2060c5b9bca8141b731b598604cd60d3bd42f01"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_190.jpg",
+      "bytes": 1464798,
+      "sha256": "7283979398382085d9735593d171f191698006c066b567bcd00f77310bef171b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_191.jpg",
+      "bytes": 1563291,
+      "sha256": "4f323f2222be364048b52398bd05f6b6819bd1f044712d67e905a24c0d362613"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_192.jpg",
+      "bytes": 1643409,
+      "sha256": "a3dc466832a28da52bd8e41d281e3f05f43377d6fbb9f6345af4fc96a8e43c21"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_193.jpg",
+      "bytes": 1124010,
+      "sha256": "b6f077ae1d750d88b31e17a35dfa356ef737874082b577f4461bcd956179170a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_194.jpg",
+      "bytes": 1283833,
+      "sha256": "e70d0d78d80f69c618b7efb2ba83f0f6cef85d61bb5cf05b9af93971da6e2671"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_195.jpg",
+      "bytes": 1889824,
+      "sha256": "370ee723f158e2cabd1c211e7d0d73245b55b976091c513305934a0632455854"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_196.jpg",
+      "bytes": 1449877,
+      "sha256": "1f43a1ad7c9776466937c813626fe54cca3b15e2007208cbbac52d30f36fbef9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_197.jpg",
+      "bytes": 1713881,
+      "sha256": "ba49e75bdd64ababaa07d46f2ddc9c1390563b8f24b0e4923c3c821f98c2cdf4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_198.jpg",
+      "bytes": 1505179,
+      "sha256": "4139115adf369922e388d9f84dfe60e5120784ac2f709729e91da8ff9e785d6b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_199.jpg",
+      "bytes": 1597927,
+      "sha256": "af4b68bbd3ecb404ba3a778622371fa368a192a0b44756a8931a68e572022ad1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_2.jpg",
+      "bytes": 1809112,
+      "sha256": "97b5d1de8305105021483fda551e095b7a8eded7cb08a394e3034f6c50e120ab"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_200.jpg",
+      "bytes": 1522240,
+      "sha256": "978b0d1968d3621fe4fa2526c26985fb7904d79dadc6bac1035d6a88cc1b41e0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_201.jpg",
+      "bytes": 1520279,
+      "sha256": "8668bde00eed8e8370ef5f74d0ace750d1ab1c8c421d4237e4460b473f7d3c54"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_202.jpg",
+      "bytes": 1319604,
+      "sha256": "476af11765b0de03497345035645988a87bdc2ee9e497a9c52706b3e6c40b704"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_203.jpg",
+      "bytes": 1532659,
+      "sha256": "fac5288edc8a5955e0f0b47549b95622869c9d9b0a1bbdad29a139802c39fb41"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_204.jpg",
+      "bytes": 1126361,
+      "sha256": "cae566db241f7c2511618f9fbee295a4f31dc32b0aef9139b46f757df43e64fa"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_205.jpg",
+      "bytes": 1424732,
+      "sha256": "2c1d9fc4b86be50ff098bd5d5a2e46d4ac1236c6f337700a9abf0b1b1fc08a09"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_206.jpg",
+      "bytes": 1716208,
+      "sha256": "5b678da0f949c5a51fadf8467b7a5369e6e2e8ff4f57bcdec97a93500460ef0f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_207.jpg",
+      "bytes": 1071897,
+      "sha256": "51c89d338460be33c223bd1a081fdaea032ed8a21d73d1542d3bc917c08c7859"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_208.jpg",
+      "bytes": 1794943,
+      "sha256": "d22f60dc32549469a85d49524b87dbc256238dbd2168a3ae72f3313e0b53242f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_209.jpg",
+      "bytes": 1294066,
+      "sha256": "f60cc00d34b073dcdf667b3b606f6714cc1dcad865008753c22d60d35d901cd8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_21.jpg",
+      "bytes": 1783974,
+      "sha256": "45b9c62ef257b19db1e83ce2c83b140f153c64e6446597640483f3872a4b0b4b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_210.jpg",
+      "bytes": 965965,
+      "sha256": "546783714ddf19c371574e09f9b4b7cf77a5331a0987c37077011ef975593246"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_211.jpg",
+      "bytes": 1472778,
+      "sha256": "4ea1c5ae2737665d98207ac5f67844d0b9e327bc7a6d06eef6abe2e4a56cf764"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_212.jpg",
+      "bytes": 1335408,
+      "sha256": "f7cc6721d5ddde0bc08c806f83c4ebc020b2fc864725198277f2cb459baa9a08"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_213.jpg",
+      "bytes": 1296303,
+      "sha256": "8257ea4903ad88ca7cce8700026f4568723136043b5e9bba8654eecaf451fedb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_214.jpg",
+      "bytes": 1433634,
+      "sha256": "d12b2e5f385aeb86ddcedb57bccdf960de4d155fd3ef065eb2f4e4b5dd8cd3d6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_215.jpg",
+      "bytes": 1393359,
+      "sha256": "a1957d63d5cfb488f28d92124fe03ee937b819e86c05e29ee119b13cce7e9c45"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_216.jpg",
+      "bytes": 1324883,
+      "sha256": "650c433563a3e66e52a1e988c410307b06762202b39690f0d25cf3b01b2eca0a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_217.jpg",
+      "bytes": 1572080,
+      "sha256": "ed03966428b3475b5a25dac51a0f9d5304d2c57a2881d6e8dfb5b2a38397477d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_218.jpg",
+      "bytes": 1515408,
+      "sha256": "a7d92e66726aed6a95f92375208bd2f50322990010e34d13a47d621a2922b722"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_219.jpg",
+      "bytes": 1415664,
+      "sha256": "fe8846e06b123a958b2d77ec6dd45fb3bd212c773bee056abc44b66ddd3ff3bd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_220.jpg",
+      "bytes": 1856041,
+      "sha256": "f52870af69c87b12b56032764a7e03fc352592721b174f1bf6ea0e2a217bc3f2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_221.jpg",
+      "bytes": 1548947,
+      "sha256": "c3f0fed35630447b16f7307789cb77af2bd3130fa6d5557e215ef219fd6841e4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_222.jpg",
+      "bytes": 1626523,
+      "sha256": "b324d95fbbbfee9a330cdbb1111e53951a08ff13dd9fba5d3910fbff209bc619"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_223.jpg",
+      "bytes": 1154340,
+      "sha256": "9821cbafee37ae72db154b0b1ba0830187eb7a4dc97b953e5e9f75b673a670c1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_224.jpg",
+      "bytes": 1182244,
+      "sha256": "3be2f6de51d14dc8b2f8f2ce7e0125c76d4c6ed6da385e4d81299201f5282a2c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_225.jpg",
+      "bytes": 1299375,
+      "sha256": "b3cbffff19e1e2967ec571f213d0e0b8980213cbc72837330aa5743c1efcfa2c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_226.jpg",
+      "bytes": 1485664,
+      "sha256": "e46b478bbd11d1d7f226cf69eb558ef996fc7e707efdbe40d32b28a7c075ccc1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_227.jpg",
+      "bytes": 1392802,
+      "sha256": "9860c7d563c189e6dfb9151eab006c1780e2563f40f0fb5374c0c92c45c31626"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_228.jpg",
+      "bytes": 1410274,
+      "sha256": "431661deecc14904e152a6ca4d747d9a80445e5daddff4337c6a75cf69325290"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_229.jpg",
+      "bytes": 1266270,
+      "sha256": "d59f84cd438e1b1007e9d073ab8a755e57456dcd004a72038b664000a09c6f63"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_23.jpg",
+      "bytes": 1134893,
+      "sha256": "f2fb05aee741fddb96eee17f0629ea54ace0873d9a22bf09325ae658985fa207"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_230.jpg",
+      "bytes": 1380146,
+      "sha256": "18f3197d40ab12ea07317682675f5cb8c7dbd269bd5a6bfbce3d2efaef46e027"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_231.jpg",
+      "bytes": 1763935,
+      "sha256": "646788d3083d0f9656164868408ab4296df280e998ee683bbeaa562ae93835a2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_232.jpg",
+      "bytes": 1350485,
+      "sha256": "dae6d0dd4bcd621f0e6fc168b3f677f6b1aea986096610817a34af62b51076f4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_233.jpg",
+      "bytes": 1398248,
+      "sha256": "365a8500582ea86004e46c3b63d7f501ae06eb65a8f34100dd6f60f0e9b8c505"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_234.jpg",
+      "bytes": 1444861,
+      "sha256": "2224f3bcbe35628efb16eb74daad36039b29cc3184e108b5d4a39c7eb3919235"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_235.jpg",
+      "bytes": 1349928,
+      "sha256": "1230def25b0ea1375ec3edee4b73a56a329aeac045910a42ed6c23bb9d74e34a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_236.jpg",
+      "bytes": 1529430,
+      "sha256": "b95b4f6cf584399e13ad05661c76a0f46090d503ad06b8ea79b9ba4497041772"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_237.jpg",
+      "bytes": 1752179,
+      "sha256": "05d30a5ea2fda11f70af0a37225017fa8c9d1f890fac1c7c2613a3da36521eb9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_238.jpg",
+      "bytes": 1421358,
+      "sha256": "0b4815a85451701eac4a70d18b68e8d919ef3c6621f14dc7a954cacf89cdffe6"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_239.jpg",
+      "bytes": 1153181,
+      "sha256": "896552e2cae68fa49a1126e6cf4e74d710f177136851c5f7fb02066496e181c3"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_24.jpg",
+      "bytes": 975451,
+      "sha256": "a771c40c4e752d91d7c73e3a517903c6e659bd42d2c996efc517a1119216c123"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_240.jpg",
+      "bytes": 959151,
+      "sha256": "d17392fc37882b6d2ecb30c04a6232bddade398ac14bcffb8fa418b8c0216307"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_241.jpg",
+      "bytes": 1743964,
+      "sha256": "2447eec5ec2df1e93238d3a21805ff5a77cffd2e4432a48b62446044348fd572"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_242.jpg",
+      "bytes": 1542537,
+      "sha256": "a2b2e9d7e35f1d14d6570933065cc2f460afb6d0cab0f445e94d963f7656cb22"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_243.jpg",
+      "bytes": 1113612,
+      "sha256": "1e236aea6fdb37e02128bd090aa101c262a127ed634739f8933470ffe14d187d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_244.jpg",
+      "bytes": 1365644,
+      "sha256": "adb6b2961364e932f525d8e5d131403d4e20c52a958b2f1b63aac31ba5ea40b2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_245.jpg",
+      "bytes": 1365932,
+      "sha256": "f21c095179b6f2bc67a85c03c7d198077f675b31f0a36920607729d0d14a80ff"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_246.jpg",
+      "bytes": 1433826,
+      "sha256": "bb24340c2b4b1a8a3f3e2bf2c7a5fac71191bbb28a8352bc034d99fb96290321"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_247.jpg",
+      "bytes": 1360130,
+      "sha256": "35a752e7028258f6c1de11ba8479d6df134c7e631dcd11319b92722d0fa1cf26"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_248.jpg",
+      "bytes": 1175570,
+      "sha256": "40e8332f9426f3d36360a3334abb1719d4eae1b9b49fad42860693f029a5d6ea"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_249.jpg",
+      "bytes": 1514074,
+      "sha256": "0f5fc9ff12936b4b6923eb4764a3f6e5ce2845b52228d86910bdbec3f80b81ef"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_25.jpg",
+      "bytes": 1069141,
+      "sha256": "0a1f5e90b0f5efc9c9a397aaa3adb016ba3d648bdb01f6509154c0f12ad70c29"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_250.jpg",
+      "bytes": 1396188,
+      "sha256": "02f6b0da7b50bbcc80604bae8b69d03e88d2dcf7b2b7a4c381040ce4e5dd4cd0"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_251.jpg",
+      "bytes": 1309399,
+      "sha256": "bd8bd1e9971918940f94d516fea11cccdfdeba69798a3f6421bef7ffa90b28c5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_26.jpg",
+      "bytes": 1528763,
+      "sha256": "627853532a793474656be223b5da0c46b35bb0575679b181656310a59dcb7597"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_27.jpg",
+      "bytes": 749347,
+      "sha256": "61a13ff66e9609f1f31f7b7366286a29740d1e6111250d6ce91d50efdf821f7d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_28.jpg",
+      "bytes": 1067434,
+      "sha256": "296a46b0349828a128ac8caf9ab2d18ac88edf0de150f36346779921b60dca83"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_29.jpg",
+      "bytes": 1511165,
+      "sha256": "70d038cf13aa393f66311ffeaf562ab8b33f8e1dbedb4c016d6d57b91ec2109f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_30.jpg",
+      "bytes": 931714,
+      "sha256": "2aa36af431b6088d8b7713384a52bf1578df9b1f05a3dd596c50ce416a0dad64"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_31.jpg",
+      "bytes": 1135840,
+      "sha256": "bec9c4ed49d9def13c8514e447891bd6da0a48145fe3eb60e9af2001826684ce"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_32.jpg",
+      "bytes": 1094675,
+      "sha256": "caaf0153fb2b9c704e8edd5bc6b631e316200db245d1c9f7847687d586430a9e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_33.jpg",
+      "bytes": 915826,
+      "sha256": "3ae2467b8730b5f2745ac196b2778c05c40f4a0c3f2512b9458833f293b57de8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_34.jpg",
+      "bytes": 934080,
+      "sha256": "ca237a6636c054dfcc69f0f89bb25ff920ede6529699ace8634d69297921b7ec"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_35.jpg",
+      "bytes": 1404409,
+      "sha256": "9d9b8297496c9648f05a35645998745429b9b36b26d8c1d565a4c68e00ca2834"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_36.jpg",
+      "bytes": 1120416,
+      "sha256": "b8b0bca9195e89eccd5619ab9aa88c4aba00050de8bfce45b9ea2289b792e4a8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_37.jpg",
+      "bytes": 1401519,
+      "sha256": "bb8fdbe30468f23d5a7fa2be84122c3fc6f7c87141502218ce5aac512f257ac1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_38.jpg",
+      "bytes": 1224627,
+      "sha256": "1b89902475a7cebad3ccffbe1c7d5d737313b8b4f6045d692c6dac78fcca4823"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_39.jpg",
+      "bytes": 1096454,
+      "sha256": "86afdb0e6a7946a97d481b6926f711e3caf55bddc82936299da65e9740d8415b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_40.jpg",
+      "bytes": 887187,
+      "sha256": "cdc9a5c086a225fe23f9e7f5cd4e2a154ee8ce0a14ddde460d02a75220065200"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_41.jpg",
+      "bytes": 1001190,
+      "sha256": "c082f14d1c7bea3ceef043e43684d2421d2c1d4e17d96097433311dfae9f1abd"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_42.jpg",
+      "bytes": 1093865,
+      "sha256": "0b94e65768bdc2f24db819048a7fff93dfa655d4845a94543ddab3e29e45c04d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_43.jpg",
+      "bytes": 1089877,
+      "sha256": "2c8edd835ab736a8ee567e2f9af898f382b490e01a75b5d7934e1504b7bb6d29"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_44.jpg",
+      "bytes": 1254808,
+      "sha256": "b47daffc3bb7c8f5d1b6cca7cbb563955a28fec9f993026af217a2248007ba8c"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_45.jpg",
+      "bytes": 1517157,
+      "sha256": "9c311342a666c48b7be5e39e05571cbd7b14aef3c7e2968149b5d578c2aa80eb"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_46.jpg",
+      "bytes": 1327187,
+      "sha256": "7f4e9b074d9749ecf27cd7f2f5929055acdd223105f4aaa5e0dd4b44aa74014a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_47.jpg",
+      "bytes": 1173005,
+      "sha256": "b68cf082eb686a34042caad20045e32ed4668f446a4f2ac3ce191c5fb70b8fbe"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_48.jpg",
+      "bytes": 1368692,
+      "sha256": "562a1360313b2688d638f6e77a602419cff1d5b4726cc8fecd7ee6b0e71d7bd4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_49.jpg",
+      "bytes": 1341782,
+      "sha256": "d91daa983946c20aef6243ed4371dadc0dc9f7402fe87eae2adaefbc0392358f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_50.jpg",
+      "bytes": 1128117,
+      "sha256": "15e03c8882e689e1e08c14509a3f9b76582f5f8878539c0217cc89bafe1d2ec1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_51.jpg",
+      "bytes": 993081,
+      "sha256": "725c93787a22a4a6bee1f969ccf8e9083b2ff1c8a63ebed9ba0daaa099ff7eec"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_52.jpg",
+      "bytes": 1125261,
+      "sha256": "aebdf7d527a4047a2730b3de41ac683017ac306d1b0b5f03d9ae7fc3aa1435b9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_55.jpg",
+      "bytes": 1418360,
+      "sha256": "4232243968d77c6b51ee5610739cabb29b888e4fd1f2298298ead4204d301fb4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_56.jpg",
+      "bytes": 1586465,
+      "sha256": "34dd5b417449941fc9f60a0ce52b5ce645cd356b2aef491849362e6706f74c10"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_57.jpg",
+      "bytes": 1215085,
+      "sha256": "7073785dbec2f253a56cee134e35b4d78764fc3e3f970f003a8651e81235a62f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_58.jpg",
+      "bytes": 1294198,
+      "sha256": "f8330f98ae211453e216347d4e4a54764e87fd98ab41aa0d549e299cb73e9dc7"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_59.jpg",
+      "bytes": 1476578,
+      "sha256": "2e4d34bee8686234be89a5610075a7be709dd139912aa47279d593e3475a7951"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_60.jpg",
+      "bytes": 1512774,
+      "sha256": "1e31452eb945b2758ed402e2e6af5a03aeecf280200da301bb4e337f922f3e94"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_61.jpg",
+      "bytes": 1309059,
+      "sha256": "60305c4f9975185737b9b2b1bb66e281a07ff8695f14eeeaa45c6b51047aaf8b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_62.jpg",
+      "bytes": 1397265,
+      "sha256": "0e8c9794e8f74800e367f542726ba934a220cf6a704681fe5fc474350206ca23"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_63.jpg",
+      "bytes": 1399028,
+      "sha256": "dc7687ec05b2c5274d561198d16171847edefbe28f7a858867c7c0f7fa1d54c2"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_64.jpg",
+      "bytes": 1005461,
+      "sha256": "f5e536f33007a01b8d8682482ceb2dcf0971e73fda173b63ea14776b14ba12bc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_65.jpg",
+      "bytes": 1125723,
+      "sha256": "39ca44fea7c239ca4d704273823a064029e4a249d94f7e4606e6c708426fb805"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_67.jpg",
+      "bytes": 1495049,
+      "sha256": "7956a56c3464a2d8108c1d23e8d9b402257c19f49c4e846ae08c9aa4e6931739"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_68.jpg",
+      "bytes": 1020937,
+      "sha256": "0ec5303498d20440b96cf22fb5dacd63291f4ce3ea600f8c241b1532f3e873c4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_69.jpg",
+      "bytes": 1003265,
+      "sha256": "057296b11b01bd1eef3a431ca41d5dc44772df318280d5e5d16382f33d37be57"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_70.jpg",
+      "bytes": 977140,
+      "sha256": "f6f040654f10873c44d003f36561c1e6d0de3b15c6daaabbb3f8e5e97b081cb9"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_71.jpg",
+      "bytes": 1191578,
+      "sha256": "c728fc9450738e09d99a1ae0905e228bbd283989dee9af721836c4ce0e4a8db8"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_72.jpg",
+      "bytes": 1230766,
+      "sha256": "8157e50ab7eafd46d1a41049ee3c78c5edb1de8e3fd8907e1901c279e4bbc679"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_73.jpg",
+      "bytes": 1446798,
+      "sha256": "817e0d502fd2bafaed48c47b1855bab448facfaf3f0b651392660938d5040879"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_74.jpg",
+      "bytes": 1336225,
+      "sha256": "a3da64ce68a12c3d6323d74c2755253d9c61e94d6fd2377ecb195b1ff95e987b"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_75.jpg",
+      "bytes": 1144880,
+      "sha256": "11367fcfce56b6a5c5a823a714ddad862252ae548c133c1466d9175728c22ba5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_76.jpg",
+      "bytes": 1487401,
+      "sha256": "c22d5acdb1739f070854c2a71188da53af5f173d1c04ba2ff7b7a5ed01ef1455"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_77.jpg",
+      "bytes": 916776,
+      "sha256": "61184c1a01622f474498033dca227c8d2646c1ab5fccf15cea77b4a404d256c4"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_78.jpg",
+      "bytes": 1036637,
+      "sha256": "cdef07af510719d7f8042442e776a6ad52f53f255f01ecf341ce8168558c031a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_79.jpg",
+      "bytes": 902111,
+      "sha256": "bdd61cb85b782a52aa79300ee4c659bdb2c9ce8cece304e02ca1a76c3ebbdf7d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_80.jpg",
+      "bytes": 847581,
+      "sha256": "a696e37807e31f46035f983550fff755d9a3ab100aaa9598c203a4886881ffa1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_81.jpg",
+      "bytes": 1175808,
+      "sha256": "05bad0677e39308eccf216c361d82bf57624d09531f9705926a1714c30da8a91"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_82.jpg",
+      "bytes": 1036866,
+      "sha256": "b9dbf5cdd70b6ec0b6939211593ee07ba12051917dec9849e027232bdbb7567f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_83.jpg",
+      "bytes": 1239383,
+      "sha256": "048cc38b0dd2f83dc8ed0d5d3ba6ed6438ab38476fe52291924c3faec7d692fa"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_84.jpg",
+      "bytes": 1178048,
+      "sha256": "1e8e7e6f437db482bb1e2e32e4896d450d9f50f49f0f10de35639668eec08fad"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_85.jpg",
+      "bytes": 1216662,
+      "sha256": "8aafd44615cae777fb7642119e46176d12cf99f1c40e9e60c43b415e0e9385f5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_86.jpg",
+      "bytes": 1240098,
+      "sha256": "0b94c8826ab18a60c028a4087d0c81f806e29cc27ac176770e3a4e967a0b2b5e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_87.jpg",
+      "bytes": 979172,
+      "sha256": "f68541a139517ff5f751b0f44fa6a39e6db0c0531c5d2c92eec778d25f3a609f"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_88.jpg",
+      "bytes": 936946,
+      "sha256": "99760c7a056c077711f332f0ec49356e51f247710d0d6f0e70da1b57ef5d594e"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_89.jpg",
+      "bytes": 1303607,
+      "sha256": "045e32bd90e2cf91cd46fdc19f90de3a454ebd1b646bf643950625bd110d9f19"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_90.jpg",
+      "bytes": 828260,
+      "sha256": "f87e6042f493e767f82f69f873f57e0bca9aeb63291161b8284a8bba0b7ed02d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_91.jpg",
+      "bytes": 947638,
+      "sha256": "da872d6e758e1c7748e4e917563202c834dd7e0474d1d282f3e27fe5991dd92a"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_92.jpg",
+      "bytes": 1196197,
+      "sha256": "39e58a879afbf9c4ce2b806a8d222d79210868212461f62aea95b68ff7472d92"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_93.jpg",
+      "bytes": 1107006,
+      "sha256": "97f2e5bd281ae8c760358a7054b29cacd7cecabae2ca7673f9ae08299573bd96"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_94.jpg",
+      "bytes": 1513987,
+      "sha256": "43a501c307526f734f410d150c22b4f0294476362d26776a1c7d9d8c1620f88d"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_95.jpg",
+      "bytes": 1387552,
+      "sha256": "38eb46eacf4ecf49d616f01a1d5b9ff10efebab9c13ac1571ff1c79dd5825fb1"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_96.jpg",
+      "bytes": 1278623,
+      "sha256": "d67086443af3f6027a043531b255cc16ee02364768a0e6dc0fbc0363193b33cc"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_97.jpg",
+      "bytes": 1318689,
+      "sha256": "f672612403b01aac031d2142c7c1bda2ed00679cd8803835c63d2e8445e344f5"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_98.jpg",
+      "bytes": 1274891,
+      "sha256": "1877d0d7f9032ca35d014260061af9eddba019f0fdcd7a31809b42d14dfe42fe"
+    },
+    {
+      "path": "challenge_external/data_supplement_v1/nutritionverse/images/dish_99.jpg",
+      "bytes": 1029003,
+      "sha256": "699e549ba8c2b060a718ef184c02f7b04e5a5e2f7ebf0614bdbd3448f5b92254"
+    },
+    {
+      "path": "challenge_external/final_development_review/blend_predictions.json",
+      "bytes": 55316,
+      "sha256": "697ae9035c3bfc7bf66a125918bb08279f8c3a51103f9d8c8264b9e0d4bb94f4"
+    },
+    {
+      "path": "challenge_external/final_development_review/metrics.json",
+      "bytes": 2319,
+      "sha256": "3cf320cbb301fddada2eeb6451d007cd7811d2df8e7e875ee21558f8eddf28ce"
+    },
+    {
+      "path": "challenge_external/final_development_review/protocol.json",
+      "bytes": 662,
+      "sha256": "4bb6fb2b6a99feda26dcbfd48c68ddb069fd525b138b203db805a7f787450dad"
+    },
+    {
+      "path": "challenge_external/final_development_review/最终对照报告.md",
+      "bytes": 1197,
+      "sha256": "f5a01e08d9e30735b43b60515bc25f3454c8d94c92ca17ca72359259547737a8"
+    },
+    {
+      "path": "challenge_external/frozen_1125/nutritionverse_model.py",
+      "bytes": 6400,
+      "sha256": "24ae053f0255f82e54fb4af069b1a893ae9eb2409b327f1d028e89c2fc78d862"
+    },
+    {
+      "path": "challenge_external/high_value_development/head.npz",
+      "bytes": 10355,
+      "sha256": "6e916c4a8d0d8e852b7651f8f4feaed611d010235585e1485f3ed9197951bfd4"
+    },
+    {
+      "path": "challenge_external/high_value_development/heldout.json",
+      "bytes": 108103,
+      "sha256": "750bb5325925b266b085c9c700addf56ff067aa9bcbdd5463b0caff94b7ade6b"
+    },
+    {
+      "path": "challenge_external/high_value_development/version.json",
+      "bytes": 1623,
+      "sha256": "bf284eaa84e06aecd8980e105bf251f9c60408b735b310121bbc4cb4591d31a9"
+    },
+    {
+      "path": "challenge_external/high_value_development/高值优化报告.md",
+      "bytes": 1394,
+      "sha256": "2d56d868d3ee8495e8670ff8cb7a1d075359966ebd64e497b23578df47f5e762"
+    },
+    {
+      "path": "challenge_external/metafood_extension/calibration.json",
+      "bytes": 1746,
+      "sha256": "ecf6a8612724441a001b24530724f6a78c2082cd7d284c79e13c1ff82358914e"
+    },
+    {
+      "path": "challenge_external/metafood_extension/calibration_predictions.json",
+      "bytes": 62369,
+      "sha256": "ab1758097de2cfd6f66aabf9b3f53cd5c656e8048f8712b3015a0b320e4ca6a4"
+    },
+    {
+      "path": "challenge_external/metafood_extension/evaluation_predictions.json",
+      "bytes": 39357,
+      "sha256": "fe2801f19014b2206a595ed677a6d3419bc3389f517e29b771c12ad5f98b6616"
+    },
+    {
+      "path": "challenge_external/metafood_extension/freeze.json",
+      "bytes": 1430,
+      "sha256": "81c1529e7b30b96def76666f1b989a5f1b85b481af3d20716d660e3ebf101829"
+    },
+    {
+      "path": "challenge_external/metafood_extension/head.npz",
+      "bytes": 37660,
+      "sha256": "dc35bbd789098d8ea30ce23565757d2f269218139600658a1167a3a87219e0e7"
+    },
+    {
+      "path": "challenge_external/metafood_extension/interface_example.json",
+      "bytes": 980,
+      "sha256": "4fb4b733767f1515f95cb151273f71b325eeecd31493789768fbb700e531c928"
+    },
+    {
+      "path": "challenge_external/metafood_extension/metrics.json",
+      "bytes": 2323,
+      "sha256": "ffc798060289888a304534f398df5d78ec3b74dbde18006a484e8d1bc0168f97"
+    },
+    {
+      "path": "challenge_external/metafood_extension/protocol.json",
+      "bytes": 1994,
+      "sha256": "c2683e6ad785e725eb7b8013492ee8c9b69ad3b09292746faaf20f3a3b02c57c"
+    },
+    {
+      "path": "challenge_external/metafood_extension/undercoverage.json",
+      "bytes": 22063,
+      "sha256": "7223c4c40e109eb459d97d091ccdf4dcf805c8171c374a60a8d31d3a1329001b"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/calibration.json",
+      "bytes": 869,
+      "sha256": "33b634441c5290c41c5e0844948ef116e083eaf5fd0cf48edf9c923b5dc3b67d"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/calibration_predictions.json",
+      "bytes": 42781,
+      "sha256": "3d9797551010ffce0445b079c04d330b95d2bf82f3b6219a0e9f80bc00f4fbf1"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/display_performance.json",
+      "bytes": 1383,
+      "sha256": "9e9a7b9f1a692bec0066bb673b4ae3ffe901a2983ffa0ffbd3e75b2056791309"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/evaluation_predictions.json",
+      "bytes": 47960,
+      "sha256": "19538d6fcf833ade32a99cce0c31c2dd4dcff642e4ebcd5e8f9ee56de184d5ce"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/freeze.json",
+      "bytes": 6730,
+      "sha256": "ea68cabc62ec1d128e0a6143ff2bf2e7901b38724e6edd15bc4e85b234362ace"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/head.npz",
+      "bytes": 75148,
+      "sha256": "268aa64af6f99805c87d02a27e7e7fe864b079708ce3246ed0a6306ab3b3bd20"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/inference_release.json",
+      "bytes": 321,
+      "sha256": "98521d94ffefef78b9742c0d5eefb874d218ee9640e244682f715a508e361d28"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/metrics.json",
+      "bytes": 7164,
+      "sha256": "86f6fde8dcd754902f30980733e923754f6ad91fa8799314e62ff36c1a86831e"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/paired_mae.json",
+      "bytes": 1207,
+      "sha256": "9f30b6fbe990f4ebd9ea4f75f2e873beb252e3b0eebb8e89638e89ee9cb6e9ee"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/protocol.json",
+      "bytes": 4630,
+      "sha256": "fa6967e79dc22fbf0ba198b8dde32bd0f3096e23319daf98bcdee1ec54b96db7"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/undercoverage.json",
+      "bytes": 25398,
+      "sha256": "bb4f51019e410c5cc9e42987bcab4347bc0e39d53f0a3cd1c2a9be4ebf8c384c"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/餐盘优化实验报告.md",
+      "bytes": 6444,
+      "sha256": "a4905d636746e1538d25ac735feefdc3df51dc8769f9df9deb3b4a1aea7e2e4f"
+    },
+    {
+      "path": "challenge_external/nutritionverse_extension/餐盘模型留出测试.png",
+      "bytes": 93360,
+      "sha256": "753bc7d69170ff08b5cb90cf0adade2c062d6071a7baf91dc79385591454c452"
+    },
+    {
+      "path": "challenge_external/point_head_development/candidate.npz",
+      "bytes": 846423,
+      "sha256": "2d7531b7b17a192282586de90de8a67c3488d08aa61beadb50b55fbf72d03e88"
+    },
+    {
+      "path": "challenge_external/point_head_development/candidate_version.json",
+      "bytes": 1379,
+      "sha256": "b6935316947e86834c6c5be3640081bd3ae427a2b7a0d0d77748edd0a5a0faaf"
+    },
+    {
+      "path": "challenge_external/point_head_development/metrics.json",
+      "bytes": 1589,
+      "sha256": "f73da63a1f1e0ebe855254fb2c001f110345f1ab762c9480413d7a05543c12a3"
+    },
+    {
+      "path": "challenge_external/point_head_development/predictions.json",
+      "bytes": 157278,
+      "sha256": "b49e64a0d500668629f72af5506158e3314953e3c56486c7b59fc3ddf393de7a"
+    },
+    {
+      "path": "challenge_external/point_head_development/点预测优化报告.md",
+      "bytes": 1365,
+      "sha256": "17e5e6ea27ad83449cfa7f84021953b890f39dad7c28a7fe25345620627f4de0"
+    },
+    {
+      "path": "challenge_external/portion_interval_development/heldout.json",
+      "bytes": 217790,
+      "sha256": "b3cc2c24987b7529950ba728df2a223d89663c6cd3492a2f567334c543362cfb"
+    },
+    {
+      "path": "challenge_external/portion_interval_development/metrics.json",
+      "bytes": 1989,
+      "sha256": "7460cf9da609e2dee18506237ab1e9b6eda5cfa9ac80cade095bb301720b52b4"
+    },
+    {
+      "path": "challenge_external/portion_interval_development/区间优化报告.md",
+      "bytes": 1727,
+      "sha256": "c2e7b799c22e7f48b045fc6bc628623f428884e5805e14b65078afa8123acf34"
+    },
+    {
+      "path": "challenge_external/portion_interval_development/类别稳定性.json",
+      "bytes": 1069,
+      "sha256": "67248dfe7d5435b8a0412d9578a43848706623d0628f4e37754afdbbc60fa4e2"
+    },
+    {
+      "path": "challenge_external/results/calibration.json",
+      "bytes": 2186,
+      "sha256": "0369d66f3087a60e78aff1697cd32e0032814ce5a17df4a003d6c6f79d324dd0"
+    },
+    {
+      "path": "challenge_external/results/calibration_predictions.jsonl",
+      "bytes": 2943422,
+      "sha256": "94b7b58711b3107d1d7b60aa523b3e00e7a2131b4e1a091d9901509354633449"
+    },
+    {
+      "path": "challenge_external/results/completion.json",
+      "bytes": 277,
+      "sha256": "9ecb438fb5b6f6325735f77330d0ad2cc03b9d70522453607fe9a22d20257380"
+    },
+    {
+      "path": "challenge_external/results/coverage_summary.json",
+      "bytes": 335,
+      "sha256": "ccdb935e7bd15cbb1054acb849aeb8cb019f16b931cf52faac14d9ebab623ac7"
+    },
+    {
+      "path": "challenge_external/results/distribution_description.json",
+      "bytes": 1032,
+      "sha256": "fd11cc784586a0f97e5721521e60374240db50239661229a99aef7012ec959b6"
+    },
+    {
+      "path": "challenge_external/results/evaluation_predictions.jsonl",
+      "bytes": 1253203,
+      "sha256": "02929085be568d221fb21661792ccca7a691252fb2bdc8eaf41c3030f426a691"
+    },
+    {
+      "path": "challenge_external/results/frozen_stats.json",
+      "bytes": 373,
+      "sha256": "a96fc71a4d1e13056b409fbd88d790e3a3cc0a6582e4106f16a8fdd7e3804b03"
+    },
+    {
+      "path": "challenge_external/results/interface_example.json",
+      "bytes": 3783,
+      "sha256": "b4714095cf8679714c2a86efdf4f2a1e5e6b3725a3bc51c7cd6500a09badbf08"
+    },
+    {
+      "path": "challenge_external/results/interface_sample.jpg",
+      "bytes": 49986,
+      "sha256": "772f9ec98d9fe18095052ac12dddbc7cb1a9855eb959705af8f7f3d9a0134323"
+    },
+    {
+      "path": "challenge_external/results/legacy_interface_parity.json",
+      "bytes": 644,
+      "sha256": "2d3685b13c89ace44ce49a505d1345fabd199c2b3386e80befe609a39c14d325"
+    },
+    {
+      "path": "challenge_external/results/metrics.csv",
+      "bytes": 2631,
+      "sha256": "3e76e1b0357a02a046f242b9c0334fbf6a6cd34888dc698afbe430cac32d58ce"
+    },
+    {
+      "path": "challenge_external/results/metrics.json",
+      "bytes": 6257,
+      "sha256": "d5e040b850363d3d2d8b046ec958c752b2477e0c2163877f4eefb5950456ad15"
+    },
+    {
+      "path": "challenge_external/results/run_freeze.json",
+      "bytes": 3465,
+      "sha256": "3e507da9aef3d1ab8ec56ee388b0f3e54fa94825de062cd9802e3595f26d39a1"
+    },
+    {
+      "path": "challenge_external/results/undercoverage_cases.jsonl",
+      "bytes": 1489156,
+      "sha256": "7ad641aa94bfa1df9e68984ee47074982a99975b89cec60c7ea5b3fb141dd2d6"
+    },
+    {
+      "path": "challenge_external/results/verification.json",
+      "bytes": 391,
+      "sha256": "3fec35bf20033bb30595488b727fa38af9dd7ad0dd2421a1a4bea2277b63f4c3"
+    },
+    {
+      "path": "clip_model/config.json",
+      "bytes": 4186,
+      "sha256": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770"
+    },
+    {
+      "path": "clip_model/preprocessor_config.json",
+      "bytes": 316,
+      "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+    }
+  ],
+  "scope": "Original source-copy inventory; files listed in external_images.json and external_weights.json are outside the Git distribution. Current tracked content is in assets/github_manifest.json."
+}

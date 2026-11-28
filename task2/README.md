@@ -8,3 +8,5 @@
 - 最新模型依赖见[MODELS.json](nutrition/MODELS.json)。新B与历史B的权重及接口不同；照模块说明整体使用。
 - 本轮是保存预测复算，未重跑全量推理；文本指标仍需按说明区分历史成绩与新复核。
 - 完整图片仍缺，食材筛选阈值调整不等于创新二的保形区间校准。
+
+11月28日新增的[单RGB营养极限挑战](../experiments/nutrition_challenge/README.md)与本必做模块并列。其历史CLIP模型及校准阈值不替换这里的normalized B；课程食材F1、生成式A与JSON评价仍以本模块为准。

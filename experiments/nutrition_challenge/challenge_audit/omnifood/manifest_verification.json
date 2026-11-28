@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "counts": {
+    "calibration": 5668,
+    "evaluation": 2368
+  },
+  "checks": [
+    "source_ids",
+    "fixed_camera_exists",
+    "finite_nonnegative",
+    "energy_roundtrip",
+    "other_four_targets_unchanged"
+  ]
+}

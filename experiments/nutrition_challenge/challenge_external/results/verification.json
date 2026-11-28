@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "calibration_n": 5668,
+  "evaluation_n": 2368,
+  "metrics_rows_verified": 15,
+  "undercoverage_model_scene_rows_verified": 3035,
+  "live_interface_models": [
+    "mean",
+    "resnet18",
+    "clip"
+  ],
+  "single_vs_batch_tolerance": {
+    "atol": 0.101,
+    "rtol": 0.0001
+  },
+  "note": "No new model choices or threshold fitting on evaluation data."
+}

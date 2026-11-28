@@ -1,0 +1,46 @@
+{
+  "n_objects": 250,
+  "n_categories": 91,
+  "repetitions": 5000,
+  "seed": 20261122,
+  "field_order": [
+    "total_weight_g",
+    "total_calories_kcal",
+    "protein_g",
+    "fat_g",
+    "carbohydrate_g"
+  ],
+  "width_delta_percentiles_2.5_97.5": [
+    [
+      -30.532295228313405,
+      -93.25594670766922,
+      -3.6811587420039276,
+      -8.872435225763097,
+      -4.023603369508617
+    ],
+    [
+      -0.3352000151090355,
+      -53.9398170631679,
+      -1.6577570932337617,
+      -6.054837494165148,
+      0.44355248999713387
+    ]
+  ],
+  "normalized_score_delta_percentiles_2.5_97.5": [
+    [
+      -0.9554874587184088,
+      -0.4589125497127245,
+      -0.5521018931551729,
+      -0.44672100668002035,
+      -0.34153446636357476
+    ],
+    [
+      -0.10225948608928002,
+      0.021729144928832593,
+      0.010888530836166992,
+      0.2681180098167414,
+      0.12941489788506985
+    ]
+  ],
+  "scope": "Paired resampling of categories with fixed held-out predictions; descriptive only, does not refit training folds."
+}

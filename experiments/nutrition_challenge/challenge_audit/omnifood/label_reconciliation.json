@@ -1,0 +1,29 @@
+{
+  "energy": {
+    "numeric_rows": 8037,
+    "sum_matches": 8037
+  },
+  "protein": {
+    "numeric_rows": 8037,
+    "sum_matches": 8037
+  },
+  "fat": {
+    "numeric_rows": 8036,
+    "sum_matches": 8036
+  },
+  "carbohydrate": {
+    "numeric_rows": 8037,
+    "sum_matches": 8037
+  },
+  "id2740": {
+    "txt": "2740\t124.5\t854.6132683\t8.46042391\t17.36773077\t4.006731981",
+    "xlsx_fat": "l",
+    "sum_component_fat": 17.367730765428004
+  },
+  "kJ_trace": {
+    "source": "ingred-nutrition.xlsx Sheet1 D1:D2: Calories (kJ), 3696; 8k-result.xlsx Sheet1 row7898 Cooking oil mass29.5 energy1090.32",
+    "calculated": 1090.32,
+    "total_energy": 2413.061
+  },
+  "cross_scene_exact_duplicates": []
+}

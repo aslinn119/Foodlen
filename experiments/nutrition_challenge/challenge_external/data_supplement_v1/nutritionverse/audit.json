@@ -1,0 +1,33 @@
+{
+  "count": 225,
+  "counts": {
+    "validation": 30,
+    "calibration_reserved": 60,
+    "train": 68,
+    "test_reserved": 67
+  },
+  "old_images_screened": 11861,
+  "exact_duplicates": [],
+  "similarity_candidates": [
+    {
+      "a": "nutritionverse_219",
+      "b": "nutritionverse_158",
+      "ph": 6,
+      "dh": 7
+    },
+    {
+      "a": "nutritionverse_228",
+      "b": "nutritionverse_158",
+      "ph": 6,
+      "dh": 7
+    }
+  ],
+  "manifest_hashes": {
+    "train": "bb02b5c13c0d70c9b933472f1b3c2da9865f14b9c7429d5ba55b7a92458cdc3f",
+    "validation": "4426dba0548d489516d218f2cfb1e28cd8e1ca8d962dd52ff3a41bd4a87d5c01",
+    "calibration_reserved": "0f45dbded5465096d4ead066dd97b3b2ccd2271c2252b3c72e568e47f982571c",
+    "test_reserved": "18b51c0bd2c740e0cff12f1e3e5d3a579fbe23b697be7ceeac101d461bec09fb"
+  },
+  "download_bytes": 288568921,
+  "model_runs": 0
+}

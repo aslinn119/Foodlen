@@ -1,0 +1,38 @@
+{
+  "model_version": "ridge-dc35bbd78909",
+  "calibration_version": "metafood-abs90-ab1758097de2",
+  "target_coverage": 0.9,
+  "coverage_scope": "per_field_marginal_metafood_objects",
+  "fields": {
+    "total_weight_g": {
+      "point": 206.02418256830708,
+      "lower": 50.612552702825724,
+      "upper": 361.43581243378844,
+      "unit": "g"
+    },
+    "total_calories_kcal": {
+      "point": 409.0142542138079,
+      "lower": 16.24845616038698,
+      "upper": 801.7800522672287,
+      "unit": "kcal"
+    },
+    "protein_g": {
+      "point": 14.868813609730019,
+      "lower": 0.6862243496755269,
+      "upper": 29.05140286978451,
+      "unit": "g"
+    },
+    "fat_g": {
+      "point": 17.18966034054182,
+      "lower": 0.0,
+      "upper": 35.48825415516643,
+      "unit": "g"
+    },
+    "carbohydrate_g": {
+      "point": 51.30189468733974,
+      "lower": 11.328447942244438,
+      "upper": 91.27534143243504,
+      "unit": "g"
+    }
+  }
+}

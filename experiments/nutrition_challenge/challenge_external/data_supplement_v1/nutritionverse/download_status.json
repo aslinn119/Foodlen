@@ -1,0 +1,12 @@
+{
+  "status": "downloaded_reviewed",
+  "images_downloaded": 225,
+  "source_zip_sha256": "22910bc84cb5840cb4a66be20d71ce2b7ba51f1d1a7f62108debf78fe7180780",
+  "role_counts": {
+    "validation": 30,
+    "calibration_reserved": 60,
+    "train": 68,
+    "test_reserved": 67
+  },
+  "model_runs": 0
+}

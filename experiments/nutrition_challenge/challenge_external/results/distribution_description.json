@@ -1,0 +1,36 @@
+{
+  "calibration": {
+    "n": 5668,
+    "target_mean": {
+      "total_weight_g": 195.06788990825697,
+      "total_calories_kcal": 296.61116319929823,
+      "protein_g": 9.331908444180929,
+      "fat_g": 18.16917571344304,
+      "carbohydrate_g": 24.643779510992587
+    },
+    "target_median": {
+      "total_weight_g": 175.4,
+      "total_calories_kcal": 272.83778444622845,
+      "protein_g": 7.060691195238444,
+      "fat_g": 16.70198698613305,
+      "carbohydrate_g": 22.0424160437557
+    }
+  },
+  "evaluation": {
+    "n": 2368,
+    "target_mean": {
+      "total_weight_g": 207.1824746621621,
+      "total_calories_kcal": 381.8638049839989,
+      "protein_g": 12.22993230691438,
+      "fat_g": 27.346438438816847,
+      "carbohydrate_g": 22.942356469397946
+    },
+    "target_median": {
+      "total_weight_g": 180.75,
+      "total_calories_kcal": 340.126100014994,
+      "protein_g": 10.570215058677999,
+      "fat_g": 26.832105898280247,
+      "carbohydrate_g": 13.097689669821499
+    }
+  }
+}

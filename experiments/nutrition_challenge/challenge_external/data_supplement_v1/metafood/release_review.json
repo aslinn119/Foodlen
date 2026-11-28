@@ -1,0 +1,19 @@
+{
+  "valid_samples": 495,
+  "valid_role_counts": {
+    "train": 200,
+    "validation": 50,
+    "calibration_reserved": 150,
+    "test_reserved": 95
+  },
+  "excluded": [
+    {
+      "object_id": "Lasagna/lasagna1",
+      "reason": "Source mass is NaN; no imputation of ground-truth label."
+    }
+  ],
+  "visual_review": "Eight candidate pairs viewed. No confirmed identical photos; some foods differ in portion, cut or flavour. Shared capture setup causes similarity. Same underlying food/batch cannot be ruled out for all related category objects.",
+  "status": "usable RGB+five-target supplement; reserved-role independence is conditional on object-level sampling, not verified batch independence",
+  "strict_calibration_advice": "For strict batch-independent claims, obtain original acquisition lineage or group related objects before any model evaluation. Do not claim these 245 reserved objects are proven independent batches.",
+  "model_runs": 0
+}

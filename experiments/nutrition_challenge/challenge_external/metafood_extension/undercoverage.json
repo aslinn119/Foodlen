@@ -1,0 +1,920 @@
+[
+  {
+    "model": "clip",
+    "id": "metafood_bd680ee8d8f5f1f0",
+    "field": "total_weight_g",
+    "point": 147.6,
+    "lower": 0.0,
+    "upper": 363.9,
+    "target": 373.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dce7f8a15dffad98",
+    "field": "total_weight_g",
+    "point": 147.3,
+    "lower": 0.0,
+    "upper": 363.6,
+    "target": 385.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_389967fe13dc7501",
+    "field": "total_weight_g",
+    "point": 114.9,
+    "lower": 0.0,
+    "upper": 331.20000000000005,
+    "target": 441.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "total_weight_g",
+    "point": 152.0,
+    "lower": 0.0,
+    "upper": 368.3,
+    "target": 461.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_85669c54301a1871",
+    "field": "total_weight_g",
+    "point": 131.0,
+    "lower": 0.0,
+    "upper": 347.3,
+    "target": 931.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "total_weight_g",
+    "point": 166.8,
+    "lower": 0.0,
+    "upper": 383.1,
+    "target": 465.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_bba9448c3dc2e35c",
+    "field": "total_weight_g",
+    "point": 110.9,
+    "lower": 0.0,
+    "upper": 327.20000000000005,
+    "target": 431.0
+  },
+  {
+    "model": "clip",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "total_calories_kcal",
+    "point": 193.1,
+    "lower": 0.0,
+    "upper": 594.3400024414062,
+    "target": 1316.719970703125
+  },
+  {
+    "model": "clip",
+    "id": "metafood_612b6b41f6b99e8d",
+    "field": "total_calories_kcal",
+    "point": 174.1,
+    "lower": 0.0,
+    "upper": 575.3400024414062,
+    "target": 793.280029296875
+  },
+  {
+    "model": "clip",
+    "id": "metafood_389967fe13dc7501",
+    "field": "total_calories_kcal",
+    "point": 144.1,
+    "lower": 0.0,
+    "upper": 545.3400024414062,
+    "target": 1177.469970703125
+  },
+  {
+    "model": "clip",
+    "id": "metafood_b8069ba92c13aa97",
+    "field": "total_calories_kcal",
+    "point": 83.7,
+    "lower": 0.0,
+    "upper": 484.94000244140625,
+    "target": 686.4000244140625
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "total_calories_kcal",
+    "point": 124.1,
+    "lower": 0.0,
+    "upper": 525.3400024414062,
+    "target": 802.1400146484375
+  },
+  {
+    "model": "clip",
+    "id": "metafood_85669c54301a1871",
+    "field": "total_calories_kcal",
+    "point": 194.3,
+    "lower": 0.0,
+    "upper": 595.5400024414063,
+    "target": 903.0700073242188
+  },
+  {
+    "model": "clip",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "total_calories_kcal",
+    "point": 222.9,
+    "lower": 0.0,
+    "upper": 624.1400024414063,
+    "target": 976.5
+  },
+  {
+    "model": "clip",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "total_calories_kcal",
+    "point": 367.6,
+    "lower": 0.0,
+    "upper": 768.8400024414063,
+    "target": 1057.989990234375
+  },
+  {
+    "model": "clip",
+    "id": "metafood_fc8dc679616344d6",
+    "field": "total_calories_kcal",
+    "point": 199.5,
+    "lower": 0.0,
+    "upper": 600.7400024414062,
+    "target": 658.9000244140625
+  },
+  {
+    "model": "clip",
+    "id": "metafood_bba9448c3dc2e35c",
+    "field": "total_calories_kcal",
+    "point": 146.6,
+    "lower": 0.0,
+    "upper": 547.8400024414062,
+    "target": 603.4000244140625
+  },
+  {
+    "model": "clip",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "total_calories_kcal",
+    "point": 199.2,
+    "lower": 0.0,
+    "upper": 600.4400024414062,
+    "target": 668.2000122070312
+  },
+  {
+    "model": "clip",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "protein_g",
+    "point": 9.9,
+    "lower": 0.0,
+    "upper": 25.603200006484986,
+    "target": 44.10139846801758
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dce7f8a15dffad98",
+    "field": "protein_g",
+    "point": 7.2,
+    "lower": 0.0,
+    "upper": 22.903200006484987,
+    "target": 30.645999908447266
+  },
+  {
+    "model": "clip",
+    "id": "metafood_612b6b41f6b99e8d",
+    "field": "protein_g",
+    "point": 7.2,
+    "lower": 0.0,
+    "upper": 22.903200006484987,
+    "target": 40.52239990234375
+  },
+  {
+    "model": "clip",
+    "id": "metafood_389967fe13dc7501",
+    "field": "protein_g",
+    "point": 12.4,
+    "lower": 0.0,
+    "upper": 28.103200006484986,
+    "target": 58.7411994934082
+  },
+  {
+    "model": "clip",
+    "id": "metafood_14932b1c4cd03bc8",
+    "field": "protein_g",
+    "point": 15.9,
+    "lower": 0.19679999351501465,
+    "upper": 31.603200006484986,
+    "target": 35.610801696777344
+  },
+  {
+    "model": "clip",
+    "id": "metafood_004f15ceead8f58d",
+    "field": "protein_g",
+    "point": 13.4,
+    "lower": 0.0,
+    "upper": 29.103200006484986,
+    "target": 40.743099212646484
+  },
+  {
+    "model": "clip",
+    "id": "metafood_22636fd83e78e5e0",
+    "field": "protein_g",
+    "point": 8.2,
+    "lower": 0.0,
+    "upper": 23.903200006484987,
+    "target": 30.76650047302246
+  },
+  {
+    "model": "clip",
+    "id": "metafood_85669c54301a1871",
+    "field": "protein_g",
+    "point": 14.2,
+    "lower": 0.0,
+    "upper": 29.903200006484987,
+    "target": 30.164400100708008
+  },
+  {
+    "model": "clip",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "protein_g",
+    "point": 13.1,
+    "lower": 0.0,
+    "upper": 28.803200006484985,
+    "target": 54.82350158691406
+  },
+  {
+    "model": "clip",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "protein_g",
+    "point": 18.5,
+    "lower": 2.7967999935150143,
+    "upper": 34.203200006484984,
+    "target": 49.47529983520508
+  },
+  {
+    "model": "clip",
+    "id": "metafood_173fdd4df854db52",
+    "field": "protein_g",
+    "point": 8.3,
+    "lower": 0.0,
+    "upper": 24.003200006484988,
+    "target": 27.113500595092773
+  },
+  {
+    "model": "clip",
+    "id": "metafood_173fdb15ff05d45e",
+    "field": "protein_g",
+    "point": 11.5,
+    "lower": 0.0,
+    "upper": 27.203200006484984,
+    "target": 28.511999130249023
+  },
+  {
+    "model": "clip",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "protein_g",
+    "point": 13.2,
+    "lower": 0.0,
+    "upper": 28.903200006484987,
+    "target": 64.25
+  },
+  {
+    "model": "clip",
+    "id": "metafood_477a63a6b6d3540e",
+    "field": "protein_g",
+    "point": 14.0,
+    "lower": 0.0,
+    "upper": 29.703200006484984,
+    "target": 32.47560119628906
+  },
+  {
+    "model": "clip",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "fat_g",
+    "point": 13.9,
+    "lower": 0.0,
+    "upper": 33.783999633789065,
+    "target": 117.06600189208984
+  },
+  {
+    "model": "clip",
+    "id": "metafood_612b6b41f6b99e8d",
+    "field": "fat_g",
+    "point": 5.6,
+    "lower": 0.0,
+    "upper": 25.48399963378906,
+    "target": 46.768001556396484
+  },
+  {
+    "model": "clip",
+    "id": "metafood_389967fe13dc7501",
+    "field": "fat_g",
+    "point": 6.5,
+    "lower": 0.0,
+    "upper": 26.383999633789063,
+    "target": 47.23109817504883
+  },
+  {
+    "model": "clip",
+    "id": "metafood_b8069ba92c13aa97",
+    "field": "fat_g",
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 19.883999633789063,
+    "target": 28.80150032043457
+  },
+  {
+    "model": "clip",
+    "id": "metafood_004f15ceead8f58d",
+    "field": "fat_g",
+    "point": 6.0,
+    "lower": 0.0,
+    "upper": 25.883999633789063,
+    "target": 27.2947998046875
+  },
+  {
+    "model": "clip",
+    "id": "metafood_22636fd83e78e5e0",
+    "field": "fat_g",
+    "point": 5.3,
+    "lower": 0.0,
+    "upper": 25.183999633789064,
+    "target": 38.79600143432617
+  },
+  {
+    "model": "clip",
+    "id": "metafood_85669c54301a1871",
+    "field": "fat_g",
+    "point": 8.3,
+    "lower": 0.0,
+    "upper": 28.183999633789064,
+    "target": 31.747100830078125
+  },
+  {
+    "model": "clip",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "fat_g",
+    "point": 11.2,
+    "lower": 0.0,
+    "upper": 31.083999633789062,
+    "target": 51.89400100708008
+  },
+  {
+    "model": "clip",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "fat_g",
+    "point": 17.9,
+    "lower": 0.0,
+    "upper": 37.783999633789065,
+    "target": 58.123600006103516
+  },
+  {
+    "model": "clip",
+    "id": "metafood_173fdd4df854db52",
+    "field": "fat_g",
+    "point": 7.4,
+    "lower": 0.0,
+    "upper": 27.283999633789065,
+    "target": 33.94969940185547
+  },
+  {
+    "model": "clip",
+    "id": "metafood_fc8dc679616344d6",
+    "field": "fat_g",
+    "point": 11.2,
+    "lower": 0.0,
+    "upper": 31.083999633789062,
+    "target": 57.75
+  },
+  {
+    "model": "clip",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "fat_g",
+    "point": 10.5,
+    "lower": 0.0,
+    "upper": 30.383999633789063,
+    "target": 45.555320739746094
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dce7f8a15dffad98",
+    "field": "carbohydrate_g",
+    "point": 29.0,
+    "lower": 0.0,
+    "upper": 68.81079940795898,
+    "target": 96.40399932861328
+  },
+  {
+    "model": "clip",
+    "id": "metafood_389967fe13dc7501",
+    "field": "carbohydrate_g",
+    "point": 12.3,
+    "lower": 0.0,
+    "upper": 52.11079940795898,
+    "target": 124.89119720458984
+  },
+  {
+    "model": "clip",
+    "id": "metafood_b8069ba92c13aa97",
+    "field": "carbohydrate_g",
+    "point": 27.4,
+    "lower": 0.0,
+    "upper": 67.21079940795897,
+    "target": 104.5199966430664
+  },
+  {
+    "model": "clip",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "carbohydrate_g",
+    "point": 16.1,
+    "lower": 0.0,
+    "upper": 55.91079940795898,
+    "target": 149.8249969482422
+  },
+  {
+    "model": "clip",
+    "id": "metafood_85669c54301a1871",
+    "field": "carbohydrate_g",
+    "point": 24.5,
+    "lower": 0.0,
+    "upper": 64.31079940795898,
+    "target": 123.45059967041016
+  },
+  {
+    "model": "clip",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "carbohydrate_g",
+    "point": 15.1,
+    "lower": 0.0,
+    "upper": 54.91079940795898,
+    "target": 70.4010009765625
+  },
+  {
+    "model": "clip",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "carbohydrate_g",
+    "point": 36.0,
+    "lower": 0.0,
+    "upper": 75.81079940795898,
+    "target": 87.00980377197266
+  },
+  {
+    "model": "clip",
+    "id": "metafood_6c99ee9aa0ffa07d",
+    "field": "carbohydrate_g",
+    "point": 6.2,
+    "lower": 0.0,
+    "upper": 46.010799407958984,
+    "target": 86.21080017089844
+  },
+  {
+    "model": "clip",
+    "id": "metafood_bba9448c3dc2e35c",
+    "field": "carbohydrate_g",
+    "point": 22.5,
+    "lower": 0.0,
+    "upper": 62.31079940795898,
+    "target": 107.14659881591797
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_60ebf27b017a230c",
+    "field": "total_weight_g",
+    "point": 323.5147384929657,
+    "lower": 168.10310862748435,
+    "upper": 478.92636835844706,
+    "target": 137.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_13631ee7b660f3f0",
+    "field": "total_weight_g",
+    "point": 432.7227676788957,
+    "lower": 277.31113781341435,
+    "upper": 588.1343975443771,
+    "target": 178.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_b5fd250052847cb8",
+    "field": "total_weight_g",
+    "point": 229.1827477169232,
+    "lower": 73.77111785144183,
+    "upper": 384.59437758240455,
+    "target": 39.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_389967fe13dc7501",
+    "field": "total_weight_g",
+    "point": 262.9709620926095,
+    "lower": 107.55933222712815,
+    "upper": 418.38259195809087,
+    "target": 441.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_28170aea3f518fab",
+    "field": "total_weight_g",
+    "point": 204.01000925389573,
+    "lower": 48.59837938841437,
+    "upper": 359.4216391193771,
+    "target": 16.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_22636fd83e78e5e0",
+    "field": "total_weight_g",
+    "point": 12.383667236167398,
+    "lower": 0.0,
+    "upper": 167.79529710164877,
+    "target": 265.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "total_weight_g",
+    "point": 214.2464873248567,
+    "lower": 58.83485745937534,
+    "upper": 369.6581171903381,
+    "target": 461.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_881beaf86c5c403d",
+    "field": "total_weight_g",
+    "point": 265.26062649390195,
+    "lower": 109.8489966284206,
+    "upper": 420.6722563593833,
+    "target": 109.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_85669c54301a1871",
+    "field": "total_weight_g",
+    "point": 142.30107203819318,
+    "lower": 0.0,
+    "upper": 297.71270190367454,
+    "target": 931.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "total_weight_g",
+    "point": 176.38072330764538,
+    "lower": 20.969093442164024,
+    "upper": 331.79235317312674,
+    "target": 465.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_318ab03a258d6ca1",
+    "field": "total_weight_g",
+    "point": 286.4597520295365,
+    "lower": 131.04812216405514,
+    "upper": 441.87138189501786,
+    "target": 114.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_bba9448c3dc2e35c",
+    "field": "total_weight_g",
+    "point": 191.20985967621414,
+    "lower": 35.79822981073278,
+    "upper": 346.6214895416955,
+    "target": 431.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "total_calories_kcal",
+    "point": 409.01440741360733,
+    "lower": 16.248609360186435,
+    "upper": 801.7802054670283,
+    "target": 1316.719970703125
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_389967fe13dc7501",
+    "field": "total_calories_kcal",
+    "point": 340.39591341132393,
+    "lower": 0.0,
+    "upper": 733.1617114647448,
+    "target": 1177.469970703125
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_b8069ba92c13aa97",
+    "field": "total_calories_kcal",
+    "point": 285.31609204054234,
+    "lower": 0.0,
+    "upper": 678.0818900939632,
+    "target": 686.4000244140625
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "total_calories_kcal",
+    "point": 312.8659572442031,
+    "lower": 0.0,
+    "upper": 705.6317552976241,
+    "target": 802.1400146484375
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_85669c54301a1871",
+    "field": "total_calories_kcal",
+    "point": 471.4493585662656,
+    "lower": 78.68356051284468,
+    "upper": 864.2151566196865,
+    "target": 903.0700073242188
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "total_calories_kcal",
+    "point": 481.0454920948023,
+    "lower": 88.27969404138139,
+    "upper": 873.8112901482232,
+    "target": 976.5
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "total_calories_kcal",
+    "point": 597.9286493019026,
+    "lower": 205.16285124848173,
+    "upper": 990.6944473553235,
+    "target": 1057.989990234375
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "protein_g",
+    "point": 14.868832436715797,
+    "lower": 0.6862431766613053,
+    "upper": 29.05142169677029,
+    "target": 44.10139846801758
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_612b6b41f6b99e8d",
+    "field": "protein_g",
+    "point": 19.478796886063808,
+    "lower": 5.296207626009316,
+    "upper": 33.6613861461183,
+    "target": 40.52239990234375
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_389967fe13dc7501",
+    "field": "protein_g",
+    "point": 17.59166426996403,
+    "lower": 3.4090750099095395,
+    "upper": 31.774253530018523,
+    "target": 58.7411994934082
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_004f15ceead8f58d",
+    "field": "protein_g",
+    "point": 16.48514680816117,
+    "lower": 2.3025575481066767,
+    "upper": 30.66773606821566,
+    "target": 40.743099212646484
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_215d01f7ce125616",
+    "field": "protein_g",
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 14.182589260054492,
+    "target": 18.809999465942383
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_22636fd83e78e5e0",
+    "field": "protein_g",
+    "point": 9.705064670900681,
+    "lower": 0.0,
+    "upper": 23.887653930955175,
+    "target": 30.76650047302246
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "protein_g",
+    "point": 19.004227281013225,
+    "lower": 4.8216380209587335,
+    "upper": 33.186816541067714,
+    "target": 54.82350158691406
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "protein_g",
+    "point": 29.31193849262822,
+    "lower": 15.129349232573727,
+    "upper": 43.494527752682714,
+    "target": 49.47529983520508
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_173fdd4df854db52",
+    "field": "protein_g",
+    "point": 10.245289385000515,
+    "lower": 0.0,
+    "upper": 24.427878645055007,
+    "target": 27.113500595092773
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_fc8dc679616344d6",
+    "field": "protein_g",
+    "point": 12.691023287274202,
+    "lower": 0.0,
+    "upper": 26.873612547328694,
+    "target": 30.83300018310547
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "protein_g",
+    "point": 18.84433838191443,
+    "lower": 4.661749121859938,
+    "upper": 33.026927641968925,
+    "target": 64.25
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_477a63a6b6d3540e",
+    "field": "protein_g",
+    "point": 17.75752199175542,
+    "lower": 3.5749327317009296,
+    "upper": 31.940111251809913,
+    "target": 32.47560119628906
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_01b8f5234da03b35",
+    "field": "fat_g",
+    "point": 17.189685642883184,
+    "lower": 0.0,
+    "upper": 35.4882794575078,
+    "target": 117.06600189208984
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_612b6b41f6b99e8d",
+    "field": "fat_g",
+    "point": 21.446561386379535,
+    "lower": 3.147967571754922,
+    "upper": 39.74515520100415,
+    "target": 46.768001556396484
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_389967fe13dc7501",
+    "field": "fat_g",
+    "point": 17.251462091205962,
+    "lower": 0.0,
+    "upper": 35.550055905830575,
+    "target": 47.23109817504883
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_22636fd83e78e5e0",
+    "field": "fat_g",
+    "point": 9.50131865635154,
+    "lower": 0.0,
+    "upper": 27.799912470976153,
+    "target": 38.79600143432617
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_e32480a05b6b3ccb",
+    "field": "fat_g",
+    "point": 19.512581146246585,
+    "lower": 1.213987331621972,
+    "upper": 37.8111749608712,
+    "target": 0.8834999799728394
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_c948c2356293d6cb",
+    "field": "fat_g",
+    "point": 22.83969491905275,
+    "lower": 4.541101104428137,
+    "upper": 41.13828873367736,
+    "target": 51.89400100708008
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_ab75c6be3880b8b2",
+    "field": "fat_g",
+    "point": 30.89193449742056,
+    "lower": 12.593340682795947,
+    "upper": 49.190528312045174,
+    "target": 58.123600006103516
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_fc8dc679616344d6",
+    "field": "fat_g",
+    "point": 17.473434926273562,
+    "lower": 0.0,
+    "upper": 35.77202874089818,
+    "target": 57.75
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "fat_g",
+    "point": 20.194205718779752,
+    "lower": 1.895611904155139,
+    "upper": 38.492799533404366,
+    "target": 45.555320739746094
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_389967fe13dc7501",
+    "field": "carbohydrate_g",
+    "point": 35.41307078081379,
+    "lower": 0.0,
+    "upper": 75.38651752590908,
+    "target": 124.89119720458984
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_b8069ba92c13aa97",
+    "field": "carbohydrate_g",
+    "point": 42.11608759800957,
+    "lower": 2.142640852914269,
+    "upper": 82.08953434310487,
+    "target": 104.5199966430664
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_dea6f01891f97b74",
+    "field": "carbohydrate_g",
+    "point": 37.08079759308862,
+    "lower": 0.0,
+    "upper": 77.05424433818392,
+    "target": 149.8249969482422
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_85669c54301a1871",
+    "field": "carbohydrate_g",
+    "point": 33.141875054403336,
+    "lower": 0.0,
+    "upper": 73.11532179949864,
+    "target": 123.45059967041016
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_6c99ee9aa0ffa07d",
+    "field": "carbohydrate_g",
+    "point": 25.821917865284544,
+    "lower": 0.0,
+    "upper": 65.79536461037985,
+    "target": 86.21080017089844
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_bba9448c3dc2e35c",
+    "field": "carbohydrate_g",
+    "point": 42.28012279810328,
+    "lower": 2.306676053007976,
+    "upper": 82.25356954319858,
+    "target": 107.14659881591797
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_173fdb15ff05d45e",
+    "field": "carbohydrate_g",
+    "point": 41.90854035527103,
+    "lower": 1.935093610175727,
+    "upper": 81.88198710036633,
+    "target": 0.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_7ba0926dd4e5cb0c",
+    "field": "carbohydrate_g",
+    "point": 64.65987902755732,
+    "lower": 24.68643228246202,
+    "upper": 104.63332577265263,
+    "target": 0.0
+  },
+  {
+    "model": "ridge",
+    "id": "metafood_33295e89ef734323",
+    "field": "carbohydrate_g",
+    "point": 57.13868478871743,
+    "lower": 17.165238043622125,
+    "upper": 97.11213153381273,
+    "target": 14.492500305175781
+  }
+]

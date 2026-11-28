@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "max_abs_differences": {
+    "mean": {
+      "total_weight_g": 0.0,
+      "total_calories_kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbohydrate_g": 0.0
+    },
+    "resnet18": {
+      "total_weight_g": 0.0,
+      "total_calories_kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbohydrate_g": 0.0
+    },
+    "clip": {
+      "total_weight_g": 0.0,
+      "total_calories_kcal": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbohydrate_g": 0.0
+    }
+  },
+  "rule": "same image, original point interface, nonnegative clip defined before calibration"
+}

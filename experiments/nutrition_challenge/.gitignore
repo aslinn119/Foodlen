@@ -1,0 +1,9 @@
+__pycache__/
+.hf_cache/
+.venv/
+*.pt
+*.pth
+*.bin
+0-OminiFood8k.zip
+challenge_external/data_supplement_v1/metafood/images/
+challenge_external/data_supplement_v1/nutritionverse/images/

@@ -1,0 +1,1828 @@
+{
+  "1": {
+    "scene_id": "1",
+    "name": "Mapo tofu",
+    "values": [
+      301.6,
+      2413.061,
+      30.4367,
+      43.1955,
+      17.496
+    ]
+  },
+  "2": {
+    "scene_id": "4",
+    "name": "Green pepper with tofu",
+    "values": [
+      342.1,
+      2338.964,
+      26.831,
+      40.7657,
+      22.0529
+    ]
+  },
+  "3": {
+    "scene_id": "11",
+    "name": "Stir-fried green pepper with potato slices",
+    "values": [
+      380.5,
+      2044.709,
+      7.6253,
+      27.2312,
+      53.3827
+    ]
+  },
+  "4": {
+    "scene_id": "17",
+    "name": "Tofu with scallion",
+    "values": [
+      341.7,
+      813.081,
+      1.2116,
+      19.407,
+      4.3874
+    ]
+  },
+  "5": {
+    "scene_id": "25",
+    "name": "Scrambled eggs with tomato",
+    "values": [
+      360.8,
+      1865.544,
+      21.2216,
+      35.7355,
+      10.7454
+    ]
+  },
+  "6": {
+    "scene_id": "37",
+    "name": "Stir-fried green pepper with sausage",
+    "values": [
+      360.8,
+      3618.895,
+      39.3212,
+      56.522,
+      50.5711
+    ]
+  },
+  "7": {
+    "scene_id": "53",
+    "name": "Stir-fried green pepper with shredded potato",
+    "values": [
+      289.5,
+      1676.325,
+      6.3279,
+      23.0343,
+      42.1617
+    ]
+  },
+  "8": {
+    "scene_id": "61",
+    "name": "Cucumber with egg",
+    "values": [
+      319.5,
+      1939.305,
+      15.0704,
+      41.5939,
+      8.5524
+    ]
+  },
+  "9": {
+    "scene_id": "70",
+    "name": "Cucumber with sausage",
+    "values": [
+      312,
+      2281.349,
+      19.4097,
+      40.6982,
+      26.1276
+    ]
+  },
+  "10": {
+    "scene_id": "73",
+    "name": "Hot and sour shredded potato",
+    "values": [
+      223.1,
+      1469.085,
+      6.2765,
+      18.7034,
+      39.3174
+    ]
+  },
+  "11": {
+    "scene_id": "84",
+    "name": "Stir-fried green pepper with meat",
+    "values": [
+      276,
+      4123.408,
+      25.2731,
+      91.6507,
+      17.7601
+    ]
+  },
+  "12": {
+    "scene_id": "96",
+    "name": "Minced meat with eggplant",
+    "values": [
+      278.1,
+      2694.602,
+      13.7016,
+      59.3654,
+      15.4536
+    ]
+  },
+  "13": {
+    "scene_id": "106",
+    "name": "Shredded pork with potato",
+    "values": [
+      239.8,
+      3660.89,
+      23.4467,
+      70.4926,
+      38.476
+    ]
+  },
+  "14": {
+    "scene_id": "123",
+    "name": "Stir-fried green pepper with eggplant",
+    "values": [
+      260.6,
+      1094.726,
+      3.3598,
+      20.0761,
+      17.2248
+    ]
+  },
+  "15": {
+    "scene_id": "124",
+    "name": "Pan-fried egg with green pepper",
+    "values": [
+      126.6,
+      1454.824,
+      12.3697,
+      31.9725,
+      3.6585
+    ]
+  },
+  "16": {
+    "scene_id": "127",
+    "name": "Stir-fried water spinach",
+    "values": [
+      158.1,
+      1096.686,
+      5.5007,
+      20.8497,
+      13.4632
+    ]
+  },
+  "17": {
+    "scene_id": "136",
+    "name": "Fried egg",
+    "values": [
+      81.1,
+      1348.144,
+      13.3096,
+      29.6118,
+      1.572
+    ]
+  },
+  "18": {
+    "scene_id": "149",
+    "name": "Egg fried rice",
+    "values": [
+      529.6,
+      3708.816,
+      29.5992,
+      40.2062,
+      101.0108
+    ]
+  },
+  "19": {
+    "scene_id": "157",
+    "name": "Cold cucumber salad",
+    "values": [
+      194.3,
+      156.293,
+      2.1718,
+      0.3964,
+      6.1936
+    ]
+  },
+  "20": {
+    "scene_id": "160",
+    "name": "Laver and egg drop soup",
+    "values": [
+      711.5,
+      353.698,
+      7.7804,
+      4.5335,
+      3.171
+    ]
+  },
+  "21": {
+    "scene_id": "198",
+    "name": "Stir-fried peas with corn",
+    "values": [
+      164.6,
+      1576.075,
+      9.2595,
+      17.9217,
+      45.9028
+    ]
+  },
+  "22": {
+    "scene_id": "205",
+    "name": "Stir-fried corn kernels",
+    "values": [
+      117.3,
+      1573.292,
+      3.8831,
+      26.1022,
+      31.8586
+    ]
+  },
+  "23": {
+    "scene_id": "208",
+    "name": "Stir-fried carrot slices",
+    "values": [
+      129.1,
+      1197.682,
+      1.8031,
+      25.4579,
+      13.246
+    ]
+  },
+  "24": {
+    "scene_id": "212",
+    "name": "Stir-fried cauliflower",
+    "values": [
+      209.3,
+      1105.149,
+      0.637799999999999,
+      23.0989,
+      14.1135
+    ]
+  },
+  "25": {
+    "scene_id": "227",
+    "name": "Stir-fried lotus root slices",
+    "values": [
+      260.6,
+      2343.852,
+      5.69,
+      38.6343,
+      48.0232
+    ]
+  },
+  "26": {
+    "scene_id": "241",
+    "name": "Stir-fried long beans",
+    "values": [
+      207.8,
+      1391.062,
+      5.317,
+      27.984,
+      15.586
+    ]
+  },
+  "27": {
+    "scene_id": "247",
+    "name": "Stir-fried bean sprouts",
+    "values": [
+      187.1,
+      1418.845,
+      8.2372,
+      29.9189,
+      10.1356
+    ]
+  },
+  "28": {
+    "scene_id": "260",
+    "name": "Peas with sausage",
+    "values": [
+      136.9,
+      2121.837,
+      15.9874,
+      37.6425,
+      28.2584
+    ]
+  },
+  "29": {
+    "scene_id": "264",
+    "name": "Stir-fried lettuce",
+    "values": [
+      219.8,
+      974.934,
+      3.3132,
+      21.5036,
+      7.2624
+    ]
+  },
+  "30": {
+    "scene_id": "278",
+    "name": "Stir-fried green pepper with egg",
+    "values": [
+      261,
+      1675.884,
+      20.9949,
+      31.0185,
+      10.1541
+    ]
+  },
+  "31": {
+    "scene_id": "305",
+    "name": "Stir-fried shredded carrot with meat",
+    "values": [
+      159.1,
+      3086.872,
+      18.0674,
+      70.4001,
+      10.3088
+    ]
+  },
+  "32": {
+    "scene_id": "3774",
+    "name": "Boiled peanuts",
+    "values": [
+      334.1,
+      3615.885,
+      31.788,
+      67.2846,
+      34.437
+    ]
+  },
+  "33": {
+    "scene_id": "344",
+    "name": "Stir-fried garlic scapes with meat",
+    "values": [
+      206,
+      2729.508,
+      19.0368,
+      55.9308,
+      19.779
+    ]
+  },
+  "34": {
+    "scene_id": "350",
+    "name": "Minced meat with corn kernels",
+    "values": [
+      121.7,
+      1610.176,
+      7.8304,
+      29.4346,
+      22.8296
+    ]
+  },
+  "35": {
+    "scene_id": "358",
+    "name": "Stir-fried celery with meat",
+    "values": [
+      172.6,
+      2498.169,
+      17.3787,
+      56.6406,
+      6.3048
+    ]
+  },
+  "36": {
+    "scene_id": "374",
+    "name": "Stir-fried Chinese yam",
+    "values": [
+      344.6,
+      2003.858,
+      6.733,
+      31.3226,
+      42.8776
+    ]
+  },
+  "37": {
+    "scene_id": "381",
+    "name": "Stir-fried scallion with egg",
+    "values": [
+      92.8,
+      1223.801,
+      7.4742,
+      28.379,
+      2.7719
+    ]
+  },
+  "38": {
+    "scene_id": "391",
+    "name": "Stir-fried bitter melon with egg",
+    "values": [
+      166.7,
+      1356.284,
+      7.3334,
+      30.2334,
+      6.6618
+    ]
+  },
+  "39": {
+    "scene_id": "403",
+    "name": "Stir-fried bok choy",
+    "values": [
+      251.3,
+      1154.328,
+      1.3264,
+      27.4467,
+      6.8452
+    ]
+  },
+  "40": {
+    "scene_id": "406",
+    "name": "Stir-fried Shanghai bok choy",
+    "values": [
+      151.7,
+      1049.536,
+      5.3928,
+      19.6558,
+      13.5206
+    ]
+  },
+  "41": {
+    "scene_id": "416",
+    "name": "Stir-fried pea pods with meat",
+    "values": [
+      202.7,
+      3549.181,
+      20.7717,
+      83.2934,
+      8.1828
+    ]
+  },
+  "42": {
+    "scene_id": "434",
+    "name": "Stir-fried shiitake mushroom with shredded pork",
+    "values": [
+      281.1,
+      3154.349,
+      23.2309,
+      62.7922,
+      25.6915
+    ]
+  },
+  "43": {
+    "scene_id": "451",
+    "name": "Chinese chives with egg",
+    "values": [
+      145.4,
+      1602,
+      10.2266,
+      34.3884,
+      9.1714
+    ]
+  },
+  "44": {
+    "scene_id": "461",
+    "name": "Stir-fried endive",
+    "values": [
+      204.1,
+      971.77,
+      2.8752,
+      21.5009,
+      7.4842
+    ]
+  },
+  "45": {
+    "scene_id": "481",
+    "name": "Stir-fried diced lotus root",
+    "values": [
+      231,
+      786.128,
+      2.5242,
+      17.5381,
+      5.5408
+    ]
+  },
+  "46": {
+    "scene_id": "501",
+    "name": "Stir-fried garlic sprouts with meat",
+    "values": [
+      210.3,
+      3896.554,
+      28.3574,
+      86.7197,
+      14.1986
+    ]
+  },
+  "47": {
+    "scene_id": "514",
+    "name": "Sponge gourd with egg",
+    "values": [
+      199.1,
+      1790.341,
+      10.5316,
+      26.1499,
+      37.8169
+    ]
+  },
+  "48": {
+    "scene_id": "533",
+    "name": "Stir-fried zucchini",
+    "values": [
+      239.1,
+      719.544,
+      1.7598,
+      15.1651,
+      7.5824
+    ]
+  },
+  "49": {
+    "scene_id": "535",
+    "name": "Stir-fried shelled edamame",
+    "values": [
+      129.3,
+      2462.4,
+      19.798,
+      19.1444,
+      83.1516
+    ]
+  },
+  "50": {
+    "scene_id": "551",
+    "name": "Tomato and egg soup",
+    "values": [
+      487.5,
+      510.916,
+      8.4403,
+      5.0284,
+      10.6201
+    ]
+  },
+  "51": {
+    "scene_id": "602",
+    "name": "Stir-fried bitter melon",
+    "values": [
+      111.1,
+      1489.04,
+      19.0736,
+      25.9613,
+      15.288
+    ]
+  },
+  "52": {
+    "scene_id": "619",
+    "name": "Stir-fried small pumpkin slices",
+    "values": [
+      196.6,
+      940.058,
+      0.963,
+      22.9912,
+      4.28
+    ]
+  },
+  "53": {
+    "scene_id": "632",
+    "name": "Stir-fried shredded pumpkin with meat",
+    "values": [
+      207.8,
+      2301.503,
+      13.9165,
+      51.8203,
+      8.6962
+    ]
+  },
+  "54": {
+    "scene_id": "639",
+    "name": "Stir-fried firm tofu",
+    "values": [
+      177.3,
+      980.296,
+      1.181,
+      23.2949,
+      5.7869
+    ]
+  },
+  "55": {
+    "scene_id": "656",
+    "name": "Stir-fried bamboo shoots",
+    "values": [
+      117.6,
+      828.432,
+      2.3364,
+      19.9341,
+      3.894
+    ]
+  },
+  "56": {
+    "scene_id": "668",
+    "name": "Stir-fried bamboo shoots with meat",
+    "values": [
+      146.7,
+      1736.866,
+      10.4914,
+      37.9233,
+      9.1266
+    ]
+  },
+  "57": {
+    "scene_id": "677",
+    "name": "Stir-fried tofu sheets with red pepper",
+    "values": [
+      120.8,
+      2607.828,
+      46.3534,
+      43.5006,
+      13.2138
+    ]
+  },
+  "58": {
+    "scene_id": "687",
+    "name": "Stir-fried tomato",
+    "values": [
+      223.5,
+      907,
+      3.2656,
+      20.9305,
+      4.5216
+    ]
+  },
+  "59": {
+    "scene_id": "696",
+    "name": "Stir-fried Chinese chives",
+    "values": [
+      79.5,
+      984.625,
+      2.4154,
+      23.962,
+      3.3444
+    ]
+  },
+  "60": {
+    "scene_id": "709",
+    "name": "Stir-fried long beans with meat",
+    "values": [
+      136.2,
+      1681.839,
+      7.8407,
+      40.2495,
+      4.304
+    ]
+  },
+  "61": {
+    "scene_id": "721",
+    "name": "Kung Pao chicken",
+    "values": [
+      207.3,
+      2282.831,
+      37.3964,
+      34.0179,
+      25.2656
+    ]
+  },
+  "62": {
+    "scene_id": "738",
+    "name": "Stir-fried cauliflower with meat",
+    "values": [
+      140.4,
+      1505.839,
+      7.9115,
+      34.4612,
+      5.6629
+    ]
+  },
+  "63": {
+    "scene_id": "748",
+    "name": "Sponge gourd with minced meat",
+    "values": [
+      103.9,
+      1470.706,
+      6.0132,
+      34.8143,
+      4.724
+    ]
+  },
+  "64": {
+    "scene_id": "760",
+    "name": "Stir-fried shredded carrot with tofu sheets",
+    "values": [
+      158.1,
+      1482.686,
+      12.004,
+      30.4697,
+      8.8888
+    ]
+  },
+  "65": {
+    "scene_id": "778",
+    "name": "Stir-fried red sausage",
+    "values": [
+      109.7,
+      597.09,
+      0.479,
+      13.9819,
+      4.2152
+    ]
+  },
+  "66": {
+    "scene_id": "801",
+    "name": "Stir-fried water bamboo",
+    "values": [
+      167.1,
+      966.572,
+      0,
+      23.4765,
+      5.7708
+    ]
+  },
+  "67": {
+    "scene_id": "824",
+    "name": "Stir-fried water bamboo with meat",
+    "values": [
+      250.6,
+      2412.653,
+      12.6647,
+      56.4643,
+      6.3677
+    ]
+  },
+  "68": {
+    "scene_id": "836",
+    "name": "Stir-fried king oyster mushroom",
+    "values": [
+      129.1,
+      1096.008,
+      1.116,
+      24.5988,
+      9.8208
+    ]
+  },
+  "69": {
+    "scene_id": "845",
+    "name": "Stir-fried king oyster mushroom with meat",
+    "values": [
+      241,
+      2850.661,
+      18.6232,
+      63.1833,
+      10.7602
+    ]
+  },
+  "70": {
+    "scene_id": "854",
+    "name": "Stir-fried squash",
+    "values": [
+      145.2,
+      889.488,
+      1.998,
+      18.6147,
+      9.8235
+    ]
+  },
+  "71": {
+    "scene_id": "869",
+    "name": "Stir-fried squash with meat",
+    "values": [
+      142,
+      1788.258,
+      9.9468,
+      38.0997,
+      12.3426
+    ]
+  },
+  "72": {
+    "scene_id": "887",
+    "name": "Stir-fried okra",
+    "values": [
+      140.1,
+      675.588,
+      1.95,
+      11.5746,
+      12.594
+    ]
+  },
+  "73": {
+    "scene_id": "895",
+    "name": "Green pepper with red sausage",
+    "values": [
+      141.7,
+      1104.662,
+      2.788,
+      21.2001,
+      16.0616
+    ]
+  },
+  "74": {
+    "scene_id": "912",
+    "name": "Stir-fried green pepper with egg",
+    "values": [
+      90.8,
+      1409.048,
+      7.3629,
+      31.2181,
+      8.4191
+    ]
+  },
+  "75": {
+    "scene_id": "921",
+    "name": "Stir-fried onion with egg",
+    "values": [
+      170.7,
+      1316.288,
+      6.9886,
+      29.5799,
+      6.721
+    ]
+  },
+  "76": {
+    "scene_id": "1001",
+    "name": "Fennel with egg",
+    "values": [
+      145,
+      1637.916,
+      9.0218,
+      37.21,
+      9.6994
+    ]
+  },
+  "77": {
+    "scene_id": "1028",
+    "name": "Stir-fried purple cabbage",
+    "values": [
+      221.2,
+      2319.824,
+      10.6672,
+      55.0387,
+      5.424
+    ]
+  },
+  "78": {
+    "scene_id": "1038",
+    "name": "Stir-fried cabbage",
+    "values": [
+      210.3,
+      1362.369,
+      0.6477,
+      34.6179,
+      4.1529
+    ]
+  },
+  "79": {
+    "scene_id": "1077",
+    "name": "Stir-fried celtuce",
+    "values": [
+      135.3,
+      1020.485,
+      1.4333,
+      21.5393,
+      11.727
+    ]
+  },
+  "80": {
+    "scene_id": "1078",
+    "name": "Stir-fried celtuce with meat",
+    "values": [
+      166.8,
+      1860.362,
+      10.3564,
+      42.7664,
+      5.988
+    ]
+  },
+  "81": {
+    "scene_id": "1079",
+    "name": "Minced meat with wax gourd",
+    "values": [
+      226,
+      1794.0132,
+      10.308,
+      38.2676,
+      15.8836
+    ]
+  },
+  "82": {
+    "scene_id": "1389",
+    "name": "Stir-fried broccoli",
+    "values": [
+      143.7,
+      1445.782,
+      3.5691,
+      33.2744,
+      9.0758
+    ]
+  },
+  "83": {
+    "scene_id": "1490",
+    "name": "Stir-fried daylily",
+    "values": [
+      93.3,
+      918.989,
+      1.771,
+      22.0381,
+      4.354
+    ]
+  },
+  "84": {
+    "scene_id": "1601",
+    "name": "Stir-fried old pumpkin slices",
+    "values": [
+      186.1,
+      1523.192,
+      1.7154,
+      38.6072,
+      3.8892
+    ]
+  },
+  "85": {
+    "scene_id": "1655",
+    "name": "Stir-fried clams",
+    "values": [
+      173,
+      1452.516,
+      1.7053,
+      34.9104,
+      7.7178
+    ]
+  },
+  "86": {
+    "scene_id": "1657",
+    "name": "Steamed prawns",
+    "values": [
+      123.6,
+      234.63,
+      5.8302,
+      0.8532,
+      6.1146
+    ]
+  },
+  "87": {
+    "scene_id": "2168",
+    "name": "Stir-fried spinach",
+    "values": [
+      59,
+      1132.758,
+      5.8302,
+      25.1289,
+      6.1146
+    ]
+  },
+  "88": {
+    "scene_id": "2169",
+    "name": "Stir-fried fish mint with meat",
+    "values": [
+      178.1,
+      3845.631,
+      32.7338,
+      72.0554,
+      36.6655
+    ]
+  },
+  "89": {
+    "scene_id": "2173",
+    "name": "Stir-fried red pepper with chicken breast",
+    "values": [
+      300,
+      1652.484,
+      48.9092,
+      17.2516,
+      11.2516
+    ]
+  },
+  "90": {
+    "scene_id": "2702",
+    "name": "Century egg",
+    "values": [
+      153.2,
+      463.58,
+      18.0083,
+      1.9613,
+      4.9924
+    ]
+  },
+  "91": {
+    "scene_id": "2722",
+    "name": "Stir-fried oyster mushroom",
+    "values": [
+      219,
+      1474.403,
+      23.4598,
+      26.7796,
+      5.0271
+    ]
+  },
+  "92": {
+    "scene_id": "2729",
+    "name": "Stir-fried white radish",
+    "values": [
+      391,
+      994.488,
+      1.7524,
+      24.6777,
+      3.033
+    ]
+  },
+  "93": {
+    "scene_id": "2809",
+    "name": "Stir-fried broccoli with sausage",
+    "values": [
+      224.8,
+      2014.08,
+      15.5008,
+      32.7199,
+      40.0608
+    ]
+  },
+  "94": {
+    "scene_id": "2866",
+    "name": "Stir-fried enoki mushroom",
+    "values": [
+      106.3,
+      1010.537,
+      1.4729,
+      24.2026,
+      7.2512
+    ]
+  },
+  "95": {
+    "scene_id": "3060",
+    "name": "Stir-fried lily bulb with meat",
+    "values": [
+      222.3,
+      2806.622,
+      29.1244,
+      58.6473,
+      8.3184
+    ]
+  },
+  "96": {
+    "scene_id": "3063",
+    "name": "Stir-fried shepherd’s purse",
+    "values": [
+      258.1,
+      1524.91,
+      4.5809,
+      33.99,
+      11.0906
+    ]
+  },
+  "97": {
+    "scene_id": "3066",
+    "name": "Stir-fried pea shoots",
+    "values": [
+      283.6,
+      1650.016,
+      3.4362,
+      34.2479,
+      19.09
+    ]
+  },
+  "98": {
+    "scene_id": "3181",
+    "name": "Stir-fried quail eggs",
+    "values": [
+      106.9,
+      1093.026,
+      5.4858,
+      24.3792,
+      5.7534
+    ]
+  },
+  "99": {
+    "scene_id": "3184",
+    "name": "Dry-fried green beans",
+    "values": [
+      129.2,
+      1237.17,
+      5.4858,
+      28.2753,
+      5.7534
+    ]
+  },
+  "100": {
+    "scene_id": "3187",
+    "name": "Stir-fried pumpkin shoots",
+    "values": [
+      173.1,
+      1231.24,
+      2.8704,
+      28.6502,
+      7.176
+    ]
+  },
+  "101": {
+    "scene_id": "3271",
+    "name": "Stir-fried taro",
+    "values": [
+      88.2,
+      2192.952,
+      5.952,
+      23.3628,
+      72.168
+    ]
+  },
+  "102": {
+    "scene_id": "3296",
+    "name": "Vermicelli with minced meat",
+    "values": [
+      569.5,
+      3818.162,
+      19.622,
+      87.9623,
+      13.5488
+    ]
+  },
+  "103": {
+    "scene_id": "3293",
+    "name": "Pan-fried chicken wings",
+    "values": [
+      188.7,
+      2104.784,
+      11.884,
+      45.134,
+      13.6666
+    ]
+  },
+  "104": {
+    "scene_id": "3385",
+    "name": "Cold kelp knot salad",
+    "values": [
+      131.3,
+      1208.507,
+      23.4704,
+      20.1298,
+      3.8073
+    ]
+  },
+  "105": {
+    "scene_id": "3388",
+    "name": "Stir-fried seafood mushroom",
+    "values": [
+      284.8,
+      1170.308,
+      2.564,
+      27.0862,
+      7.3074
+    ]
+  },
+  "106": {
+    "scene_id": "4160",
+    "name": "Dried bean curd sticks with red chili pepper",
+    "values": [
+      213.6,
+      1031.337,
+      3.6633,
+      25.3989,
+      9.3504
+    ]
+  },
+  "107": {
+    "scene_id": "3477",
+    "name": "Stir-fried dried bean curd sticks with meat",
+    "values": [
+      191.2,
+      2568.937,
+      12.0934,
+      54.651,
+      20.0581
+    ]
+  },
+  "108": {
+    "scene_id": "3502",
+    "name": "Celery with beef",
+    "values": [
+      230.5,
+      3530.968,
+      31.2176,
+      36.1469,
+      97.8039
+    ]
+  },
+  "109": {
+    "scene_id": "3524",
+    "name": "Pan-fried pork ribs",
+    "values": [
+      329.5,
+      4237.258,
+      48.4068,
+      86.374,
+      12.7972
+    ]
+  },
+  "110": {
+    "scene_id": "3669",
+    "name": "Red pepper with tofu skin",
+    "values": [
+      241,
+      2464.854,
+      40.729,
+      39.1254,
+      19.0765
+    ]
+  },
+  "111": {
+    "scene_id": "3666",
+    "name": "Deep-fried peanuts",
+    "values": [
+      195.8,
+      1489.998,
+      11.034,
+      22.97154,
+      27.2172
+    ]
+  },
+  "112": {
+    "scene_id": "3770",
+    "name": "Boiled corn",
+    "values": [
+      702.1,
+      1664.52,
+      38.2668,
+      18.6186,
+      19.1334
+    ]
+  },
+  "113": {
+    "scene_id": "3850",
+    "name": "Stir-fried yellow chives with egg",
+    "values": [
+      244.7,
+      3184.33,
+      46.1533,
+      56.3281,
+      18.6001
+    ]
+  },
+  "114": {
+    "scene_id": "3853",
+    "name": "Pan-fried chicken feet",
+    "values": [
+      154.6,
+      1192.232,
+      1.3832,
+      30.767,
+      1.7784
+    ]
+  },
+  "115": {
+    "scene_id": "3884",
+    "name": "Pan-fried chicken leg",
+    "values": [
+      279.6,
+      6885.018,
+      81.2154,
+      145.2804,
+      7.5446
+    ]
+  },
+  "116": {
+    "scene_id": "3910",
+    "name": "Pan-fried white fish",
+    "values": [
+      338.2,
+      1657.841,
+      0.8177,
+      43.0828,
+      4.0256
+    ]
+  },
+  "117": {
+    "scene_id": "4157",
+    "name": "Stir-fried white beans",
+    "values": [
+      288.3,
+      6708.234,
+      56.6184,
+      132.5055,
+      49.5411
+    ]
+  },
+  "118": {
+    "scene_id": "4167",
+    "name": "Stir-fried pumpkin flower",
+    "values": [
+      206.1,
+      4703.188,
+      27.188,
+      43.4211,
+      154.9716
+    ]
+  },
+  "119": {
+    "scene_id": "4163",
+    "name": "Stir-fried fried tofu puff",
+    "values": [
+      187,
+      1559.926,
+      3.841,
+      37.3969,
+      6.513
+    ]
+  },
+  "120": {
+    "scene_id": "4171",
+    "name": "Stir-fried tofu in fermented sauce",
+    "values": [
+      319.3,
+      3206.757,
+      43.7609,
+      64.2941,
+      4.9437
+    ]
+  },
+  "121": {
+    "scene_id": "4174",
+    "name": "Stir-fried rapeseed sprouts",
+    "values": [
+      286,
+      5776.761,
+      95.888,
+      112.0748,
+      0
+    ]
+  },
+  "122": {
+    "scene_id": "4573",
+    "name": "Stir-fried bracken with meat",
+    "values": [
+      294,
+      5170.52,
+      91.1364,
+      93.1948,
+      10.0608
+    ]
+  },
+  "123": {
+    "scene_id": "4561",
+    "name": "Noodles",
+    "values": [
+      293.2,
+      496.755,
+      6.391,
+      0.581,
+      21.497
+    ]
+  },
+  "124": {
+    "scene_id": "4577",
+    "name": "Stir-fried fried pork rind",
+    "values": [
+      174.1,
+      1739.514,
+      2.15,
+      43.5716,
+      7.095
+    ]
+  },
+  "125": {
+    "scene_id": "4608",
+    "name": "Steamed egg",
+    "values": [
+      174.7,
+      1628.16,
+      27.03,
+      27.984,
+      7.791
+    ]
+  },
+  "126": {
+    "scene_id": "4848",
+    "name": "Stir-fried mushroom",
+    "values": [
+      241.1,
+      2985.36,
+      35.0364,
+      63.2922,
+      2.8896
+    ]
+  },
+  "127": {
+    "scene_id": "4852",
+    "name": "Stir-fried green pepper with vegetarian chicken",
+    "values": [
+      264.8,
+      3521,
+      48.949,
+      64.24,
+      18.732
+    ]
+  },
+  "128": {
+    "scene_id": "4861",
+    "name": "Stir-fried pig blood curd",
+    "values": [
+      460.5,
+      1880.13,
+      4.0544,
+      38.4761,
+      22.806
+    ]
+  },
+  "129": {
+    "scene_id": "4856",
+    "name": "Celery with shrimp",
+    "values": [
+      122.2,
+      2287.58,
+      33.5198,
+      18.8774,
+      59.9811
+    ]
+  },
+  "130": {
+    "scene_id": "4865",
+    "name": "Stir-fried baby napa cabbage",
+    "values": [
+      425.5,
+      2864.904,
+      53.8678,
+      52.4558,
+      0.6867
+    ]
+  },
+  "131": {
+    "scene_id": "4870",
+    "name": "Cold shredded kelp salad",
+    "values": [
+      202.2,
+      602.7,
+      13.335,
+      9.45,
+      1.575
+    ]
+  },
+  "132": {
+    "scene_id": "4876",
+    "name": "Stir-fried kale",
+    "values": [
+      121.8,
+      2234.992,
+      10.534,
+      34.6238,
+      45.571
+    ]
+  },
+  "133": {
+    "scene_id": "5193",
+    "name": "Green pepper with dried tofu",
+    "values": [
+      381.3,
+      3174.422,
+      54.489,
+      42.2748,
+      40.2665
+    ]
+  },
+  "134": {
+    "scene_id": "5197",
+    "name": "Stir-fried black fungus",
+    "values": [
+      179.6,
+      2019.396,
+      56.3396,
+      26.76,
+      4.1562
+    ]
+  },
+  "135": {
+    "scene_id": "5200",
+    "name": "Cold sea lettuce salad",
+    "values": [
+      208.7,
+      44.764,
+      1.0108,
+      0.1444,
+      1.2996
+    ]
+  },
+  "136": {
+    "scene_id": "5202",
+    "name": "Konjac with green pepper",
+    "values": [
+      292.5,
+      2756.562,
+      9.0155,
+      31.4685,
+      91.3112
+    ]
+  },
+  "137": {
+    "scene_id": "5204",
+    "name": "Pan-fried thousand-layer tofu",
+    "values": [
+      213.7,
+      1054.32,
+      2.6064,
+      25.1922,
+      4.5612
+    ]
+  },
+  "138": {
+    "scene_id": "5207",
+    "name": "Shrimp with egg",
+    "values": [
+      126.5,
+      1759.464,
+      11.95,
+      39.8131,
+      7.134
+    ]
+  },
+  "139": {
+    "scene_id": "5213",
+    "name": "Stir-fried crispy pork",
+    "values": [
+      296.2,
+      1234.282,
+      0.854,
+      31.3518,
+      3.538
+    ]
+  },
+  "140": {
+    "scene_id": "5217",
+    "name": "Pan-fried chicken wing tips",
+    "values": [
+      206.2,
+      2277.183,
+      2.7975,
+      55.1182,
+      11.19
+    ]
+  },
+  "141": {
+    "scene_id": "5221",
+    "name": "Braised fish",
+    "values": [
+      293.5,
+      2117.077,
+      6.2193,
+      51.1995,
+      13.0932
+    ]
+  },
+  "f1": {
+    "scene_id": null,
+    "name": "Plum",
+    "values": [
+      100,
+      167,
+      0.7,
+      0.2,
+      8.7
+    ]
+  },
+  "f2": {
+    "scene_id": null,
+    "name": "Peach",
+    "values": [
+      100,
+      226,
+      0.9,
+      0.1,
+      12.2
+    ]
+  },
+  "f3": {
+    "scene_id": null,
+    "name": "Red plum",
+    "values": [
+      100,
+      165,
+      0.6,
+      0.3,
+      9.6
+    ]
+  },
+  "f4": {
+    "scene_id": null,
+    "name": "Apple",
+    "values": [
+      100,
+      240,
+      0.2,
+      0.2,
+      13.5
+    ]
+  },
+  "f5": {
+    "scene_id": null,
+    "name": "Pear",
+    "values": [
+      100,
+      240,
+      0.4,
+      0.2,
+      13.3
+    ]
+  },
+  "f6": {
+    "scene_id": null,
+    "name": "Banana",
+    "values": [
+      100,
+      405,
+      1.4,
+      0.2,
+      22
+    ]
+  },
+  "f7": {
+    "scene_id": null,
+    "name": "Dragon fruit",
+    "values": [
+      100,
+      234,
+      1.1,
+      0.2,
+      13.3
+    ]
+  },
+  "f8": {
+    "scene_id": null,
+    "name": "Mango",
+    "values": [
+      100,
+      280,
+      0.5,
+      0.9,
+      13.3
+    ]
+  },
+  "f9": {
+    "scene_id": null,
+    "name": "Fig",
+    "values": [
+      100,
+      301,
+      1.5,
+      0.1,
+      16
+    ]
+  },
+  "f10": {
+    "scene_id": null,
+    "name": "Watermelon",
+    "values": [
+      100,
+      113,
+      0.6,
+      0.1,
+      5.8
+    ]
+  },
+  "f11": {
+    "scene_id": null,
+    "name": "Kiwifruit",
+    "values": [
+      100,
+      282,
+      0.8,
+      0.6,
+      14.5
+    ]
+  },
+  "f12": {
+    "scene_id": null,
+    "name": "Passion fruit",
+    "values": [
+      100,
+      97,
+      2.2,
+      0.7,
+      23.4
+    ]
+  },
+  "f13": {
+    "scene_id": null,
+    "name": "Jujube",
+    "values": [
+      100,
+      548,
+      1.1,
+      0.3,
+      30.5
+    ]
+  },
+  "f14": {
+    "scene_id": null,
+    "name": "Small mango",
+    "values": [
+      100,
+      159,
+      0.6,
+      0.2,
+      8.3
+    ]
+  },
+  "f15": {
+    "scene_id": null,
+    "name": "Nectarine",
+    "values": [
+      100,
+      184,
+      1.1,
+      0.3,
+      10.6
+    ]
+  },
+  "f16": {
+    "scene_id": null,
+    "name": "Grape",
+    "values": [
+      100,
+      191,
+      0.5,
+      0.2,
+      10.3
+    ]
+  },
+  "f17": {
+    "scene_id": null,
+    "name": "Mandarin",
+    "values": [
+      100,
+      184,
+      0.8,
+      0.1,
+      10.2
+    ]
+  },
+  "f18": {
+    "scene_id": null,
+    "name": "Orange",
+    "values": [
+      100,
+      210,
+      0.8,
+      0.2,
+      11.1
+    ]
+  },
+  "f19": {
+    "scene_id": null,
+    "name": "Blueberry",
+    "values": [
+      100,
+      238,
+      0.7,
+      0.3,
+      14.5
+    ]
+  },
+  "f20": {
+    "scene_id": null,
+    "name": "Cherry tomato",
+    "values": [
+      100,
+      105,
+      1,
+      0.2,
+      5.8
+    ]
+  },
+  "f21": {
+    "scene_id": null,
+    "name": "Mangosteen",
+    "values": [
+      100,
+      301,
+      0.4,
+      0.2,
+      18
+    ]
+  },
+  "f22": {
+    "scene_id": null,
+    "name": "Longan",
+    "values": [
+      100,
+      306,
+      1.2,
+      0.1,
+      16.6
+    ]
+  },
+  "f23": {
+    "scene_id": null,
+    "name": "Purple grape",
+    "values": [
+      100,
+      251,
+      0.4,
+      0.1,
+      15.4
+    ]
+  },
+  "f24": {
+    "scene_id": null,
+    "name": "Lychee",
+    "values": [
+      100,
+      305,
+      0.9,
+      0.2,
+      16.6
+    ]
+  },
+  "0": {
+    "scene_id": null,
+    "name": "Cooked rice",
+    "values": [
+      100,
+      496,
+      2.6,
+      0.3,
+      25.9
+    ]
+  }
+}

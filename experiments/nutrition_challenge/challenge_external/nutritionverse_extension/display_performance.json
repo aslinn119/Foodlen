@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-26",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "role": "train",
+  "dish_ids": [
+    "nutritionverse_55",
+    "nutritionverse_41",
+    "nutritionverse_239",
+    "nutritionverse_227",
+    "nutritionverse_135",
+    "nutritionverse_128",
+    "nutritionverse_207",
+    "nutritionverse_31",
+    "nutritionverse_116",
+    "nutritionverse_115",
+    "nutritionverse_100",
+    "nutritionverse_25"
+  ],
+  "method": "Same machine, old then new in separate processes. First 12 train dish IDs by SHA256 of nv1126-demo: + sample_id. Both runs warm up twice and then time 4 rounds of all 12, alternating forward and reverse, synchronizing CUDA before and after each call. Timed desktop Predictor.run includes file decoding, inference and preview creation. Excludes window painting and model initialization.",
+  "old": {
+    "calls": 48,
+    "median_ms": 222.94309999779216,
+    "p90_ms": 270.31994000062696
+  },
+  "new": {
+    "calls": 48,
+    "median_ms": 167.7812999987509,
+    "p90_ms": 181.18360999942524
+  },
+  "median_latency_reduction_percent": 24.742546416367016,
+  "fields_checked": [
+    "point",
+    "lower",
+    "upper",
+    "unit"
+  ],
+  "same_complete_output_for_all_images": true,
+  "within_run_repeats_identical": true,
+  "model_version": "nv-ridge-ea68cabc62ec",
+  "calibration_version": "nv90-33b634441c52"
+}

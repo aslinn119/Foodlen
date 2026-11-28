@@ -1,0 +1,50 @@
+{
+  "version": "omnifood-frozen-baselines-v1",
+  "status": "roles_reserved_no_calibration_or_evaluation_run",
+  "date": "2026-11-17",
+  "models": [
+    "mean",
+    "resnet18",
+    "clip"
+  ],
+  "model_identity_file": "baseline_identity.json",
+  "camera": "camera_4.jpg",
+  "target_coverage": 0.9,
+  "coverage_scope": "per_field_marginal_not_simultaneous",
+  "score": "absolute_error_in_original_units",
+  "quantile": "k=ceil((n+1)*0.9), kth smallest score; +infinity if k>n",
+  "interval": "[max(0,point-q), point+q] with point=max(0,raw_point); same nonnegative point rule for all three models before calibration",
+  "fit_or_selection_on_new_data": false,
+  "quality_policy": "Official TXT totals remain authoritative; retain flags, no manual target correction or error-driven exclusions; exclude unlisted IDs uniformly.",
+  "manifests": {
+    "calibration": {
+      "path": "D:\\DeepStudy\\task2_nutrition\\challenge_audit\\omnifood\\calibration_manifest.jsonl",
+      "rows": 5668,
+      "sha256": "301354674a4af0dbf62da3ad166c45f1815e1cae93db3d05fcf86bf45f6c1952",
+      "flagged_rows": 6
+    },
+    "evaluation": {
+      "path": "D:\\DeepStudy\\task2_nutrition\\challenge_audit\\omnifood\\evaluation_manifest.jsonl",
+      "rows": 2368,
+      "sha256": "c70bb86614734af46e4b4eadb92b0ea3a60b2451b84ec20e7a4a1ddb8511a1ad",
+      "flagged_rows": 20
+    }
+  },
+  "independence_scope": "External to recorded Task2 training and model selection. This does not certify pretraining provenance, cooking-batch independence or exchangeability of the official splits.",
+  "forbidden": [
+    "fit_on_calibration",
+    "tune_on_evaluation",
+    "select_camera_using_errors",
+    "retrieve_labels_at_inference",
+    "manually_correct_predictions",
+    "sample_specific_prediction_rules"
+  ],
+  "report_required": [
+    "per_field_MAE_MSE_RMSE",
+    "per_field_coverage_mean_and_median_width",
+    "all_undercoverage_records",
+    "point_interval_model_calibration_versions",
+    "source_units_and_conversion",
+    "exchangeability_and_source_label_limitations"
+  ]
+}

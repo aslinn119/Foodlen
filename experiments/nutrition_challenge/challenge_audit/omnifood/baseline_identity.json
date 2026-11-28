@@ -1,0 +1,47 @@
+{
+  "purpose": "Pre-experiment baseline identity record; not proof of unseen pretraining data",
+  "recorded_date": "2026-11-17",
+  "models": [
+    "mean",
+    "resnet18",
+    "clip"
+  ],
+  "files": {
+    "predict.py": {
+      "bytes": 14976,
+      "sha256": "8f32fe477f0c5c336acbfe99ffddcc99ac1c62826b932f86501ebf73e8bb1aad"
+    },
+    "model.py": {
+      "bytes": 829,
+      "sha256": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7"
+    },
+    "model_lora.py": {
+      "bytes": 5805,
+      "sha256": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6"
+    },
+    "json_parse.py": {
+      "bytes": 4227,
+      "sha256": "0aff891cdd60593527449be22ee53d7fcdfdb289c1cafb7cdc7503c500217e73"
+    },
+    "checkpoints/best_model.pt": {
+      "bytes": 44797240,
+      "sha256": "b81e3e0701615feea4033b98591856e2a758f0234e653f823456105ee846326c"
+    },
+    "checkpoints_lora_mt/best_model.pt": {
+      "bytes": 353212525,
+      "sha256": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79"
+    },
+    "annotations/train.jsonl": {
+      "bytes": 1851892,
+      "sha256": "29a3742405361c00f8f8908bec7c5944a762b3e5529e5fd9e84d6bc95265c856"
+    },
+    "annotations/val.jsonl": {
+      "bytes": 350716,
+      "sha256": "d0ea314b21c6d97dd3a592f444ac9143024cc91a131facc9343bf42bea086ccc"
+    },
+    "annotations/test.jsonl": {
+      "bytes": 396204,
+      "sha256": "8e7f3ad1666c344b600fcd8799dc3f61a6cfb466affe9a82ea0e994b25f63b34"
+    }
+  }
+}

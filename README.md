@@ -23,7 +23,7 @@
 | [task1](task1/README.md) | V1、原V2及消融、词表修复V2、V3、V4 |
 | [task2](task2/README.md) | 11月23日营养修订包，A/B主线与B-gen历史对照 |
 | [evaluation](evaluation/README.md) | 四模型统一评价、Judge、注意力、同图分析与阶段报告 |
-| [experiments](experiments/README.md) | 创新一重排序、SCST首轮实验、待做区间校准 |
+| [experiments](experiments/README.md) | 创新一重排序、SCST正式实验、单RGB营养挑战与区间校准 |
 | [demo](demo/README.md) | 系统接口与Web待办、现有字段草案 |
 | [results](results/README.md) | 全项目结果索引，结果本体保留模块原路径 |
 | [docs](docs/README.md) | 开题、进度、模型清单、整理规则和历史周计划 |
@@ -42,3 +42,7 @@
 ## 强化学习实验更新 2026年11月27日
 
 已完成2048张训练图×3轮的SCST实验，以及同预算继续CE对照，两臂各768次更新。三模型统一评价4938张测试图，并对100张既有视觉标注图进行实体审计。测试CIDEr-D：原CE 0.3242、继续CE 0.3345、SCST 0.3244；本次未观察到可靠SCST收益，不替换正式默认模型。见[完整报告](experiments/scst/REPORT.md)及[运行说明](experiments/scst/README.md)。
+
+## 营养挑战与创新二更新 2026年11月28日
+
+保留Task2的生成式A、normalized B及食材JSON评价，另纳入[营养极限挑战正式模块](experiments/nutrition_challenge/README.md)。新增OmniFood8K三基线同划分评价、[创新二保形区间校准](experiments/calibration/README.md)、NutritionVerse餐盘和MetaFood单对象补充实验，以及两套Tk桌面展示。挑战使用历史CLIP基线，成绩及区间参数与Task2正式B分开。目标90%覆盖未在全部字段达标；完整复核和CPU/GPU差异见模块说明。

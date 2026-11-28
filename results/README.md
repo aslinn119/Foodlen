@@ -11,6 +11,7 @@
 | 创新一 | [重排序报告](../experiments/reranking/REPORT.md)、[用户确认实体指标](../experiments/reranking/results/entity_metrics_human.json) |
 | SCST正式预算实验 | [报告](../experiments/scst/REPORT.md)、[比较表](../experiments/scst/results/comparison.csv)、[训练曲线](../experiments/scst/results/training_and_results.png) |
 | SCST早期试跑 | [历史33步报告](../experiments/scst_pilot/REPORT.md)，不作正式实验结果 |
-| 创新二 | [尚待完成](../experiments/calibration/README.md) |
+| 单RGB营养挑战 | [Omni三基线报告](../experiments/nutrition_challenge/challenge_external/实验报告.md)、[餐盘适配报告](../experiments/nutrition_challenge/challenge_external/nutritionverse_extension/餐盘优化实验报告.md) |
+| 创新二 | [校准、覆盖率与宽度](../experiments/calibration/README.md) |
 
 引用时带上模型版本、样本集合、指标尺度和评价实现。历史测试集此前已被查看；新一轮整理不改变该事实。创新一标注是助手辅助、用户确认，不能称独立人工盲标；SCST已完成单种子固定预算实验；本次结果不能推出RL普遍无效。

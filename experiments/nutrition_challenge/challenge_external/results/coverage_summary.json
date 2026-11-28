@@ -1,0 +1,14 @@
+{
+  "mean": {
+    "all_five_covered_fraction": 0.6085304054054054,
+    "any_field_missed_scenes": 927
+  },
+  "resnet18": {
+    "all_five_covered_fraction": 0.5599662162162162,
+    "any_field_missed_scenes": 1042
+  },
+  "clip": {
+    "all_five_covered_fraction": 0.549831081081081,
+    "any_field_missed_scenes": 1066
+  }
+}

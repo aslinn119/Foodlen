@@ -1,0 +1,82 @@
+[
+  {
+    "method": "absolute",
+    "field": "total_weight_g",
+    "hits": 227,
+    "coverage": 0.908,
+    "width": 327.8440803840709,
+    "normalized_interval_score": 6.670600267785984
+  },
+  {
+    "method": "absolute",
+    "field": "total_calories_kcal",
+    "hits": 228,
+    "coverage": 0.912,
+    "width": 551.2852060629258,
+    "normalized_interval_score": 4.696294475462506
+  },
+  {
+    "method": "absolute",
+    "field": "protein_g",
+    "hits": 220,
+    "coverage": 0.88,
+    "width": 20.75885450628116,
+    "normalized_interval_score": 4.739387497309383
+  },
+  {
+    "method": "absolute",
+    "field": "fat_g",
+    "hits": 238,
+    "coverage": 0.952,
+    "width": 35.211641111050476,
+    "normalized_interval_score": 5.376464166870779
+  },
+  {
+    "method": "absolute",
+    "field": "carbohydrate_g",
+    "hits": 227,
+    "coverage": 0.908,
+    "width": 54.941031944333126,
+    "normalized_interval_score": 3.626185321165742
+  },
+  {
+    "method": "portion_scaled",
+    "field": "total_weight_g",
+    "hits": 227,
+    "coverage": 0.908,
+    "width": 311.95408852666765,
+    "normalized_interval_score": 6.1812226586114845
+  },
+  {
+    "method": "portion_scaled",
+    "field": "total_calories_kcal",
+    "hits": 227,
+    "coverage": 0.908,
+    "width": 477.9522549984911,
+    "normalized_interval_score": 4.453094379639941
+  },
+  {
+    "method": "portion_scaled",
+    "field": "protein_g",
+    "hits": 222,
+    "coverage": 0.888,
+    "width": 18.146114257365788,
+    "normalized_interval_score": 4.451428828031603
+  },
+  {
+    "method": "portion_scaled",
+    "field": "fat_g",
+    "hits": 231,
+    "coverage": 0.924,
+    "width": 27.70791543319243,
+    "normalized_interval_score": 5.2485020232036215
+  },
+  {
+    "method": "portion_scaled",
+    "field": "carbohydrate_g",
+    "hits": 225,
+    "coverage": 0.9,
+    "width": 53.11816633282804,
+    "normalized_interval_score": 3.5156812169263763
+  }
+]

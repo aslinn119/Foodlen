@@ -1,0 +1,25 @@
+{
+  "domain": "MetaFood3D single object; batch independence unknown",
+  "roles": {
+    "train": "c203bbb6185b05a5c5badc28beb450a8c9907f5960e81e4fd2dd925a09ef409d",
+    "validation": "f1dee8f34b36d833a109ec2cd38113bf5e254d12de85b75c8ae60f1cd5013d60",
+    "calibration_reserved": "a7476a3b63b197dcbc79f06917746109a38888122a57f653f1e0e4bed06af898",
+    "test_reserved": "bc3dc94acb12d94df51e7d46e9c8383373b21b82334c63b1660b2dbf3b110aef"
+  },
+  "models": "Frozen historical CLIP vs centered ridge on pooled RGB features; lambda=mean diagonal of training Gram matrix; no tuning grid",
+  "selection": "lower mean validation MAE / training target SD, ties prefer CLIP; freeze before calibration; evaluate both for paired comparison",
+  "coverage": "90% per field; absolute residuals; nonnegative intervals",
+  "dependencies": {
+    "model.py": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7",
+    "model_lora.py": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6",
+    "checkpoints/best_model.pt": "b81e3e0701615feea4033b98591856e2a758f0234e653f823456105ee846326c",
+    "checkpoints_lora_mt/best_model.pt": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79",
+    "challenge_external/runtime.py": "8c8ce28aa60859eb49b01021f7345a5fe8b57f6f46aca4b1f70a61bd8bb7e208",
+    "challenge_external/conformal.py": "ec8f5674a2b6714ba92b86feca4ad18ad60fc6c6d638c3c2a77857ddb92d3f9f",
+    "challenge_external/results/frozen_stats.json": "a96fc71a4d1e13056b409fbd88d790e3a3cc0a6582e4106f16a8fdd7e3804b03",
+    "clip_model/config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "clip_model/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "clip_model/pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+    "challenge_external/metafood_experiment.py": "703bffadc70b620ccd4a58914d927fe02f23192461099891be7949702b40b6f4"
+  }
+}

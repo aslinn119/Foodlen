@@ -1,0 +1,6 @@
+{
+  "inputs": "Prior five-fold category-held-out linear and square-root kernel predictions on 250 development objects",
+  "gate": "For each field: use kernel below fitting-fold target median, linear above fitting-fold 80th percentile, interpolate linearly between, gated by the linear RGB prediction.",
+  "criteria": "For each field require overall MAE <= unweighted kernel overall MAE AND high-group MAE <= linear high-group MAE. All five must pass to justify pursuing the blend.",
+  "stopping": "One fixed rule, no retries on these folds, no final test or calibration access. Development success would still need independent calibration and evaluation."
+}

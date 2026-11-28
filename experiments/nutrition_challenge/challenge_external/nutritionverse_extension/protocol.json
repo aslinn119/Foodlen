@@ -1,0 +1,119 @@
+{
+  "version": "foodlens-nv-dish-rgb-v1",
+  "domain": "NutritionVerse-Real v2; one registered RGB per dish",
+  "roles": {
+    "train": {
+      "n": 68,
+      "sha256": "bb02b5c13c0d70c9b933472f1b3c2da9865f14b9c7429d5ba55b7a92458cdc3f"
+    },
+    "validation": {
+      "n": 30,
+      "sha256": "4426dba0548d489516d218f2cfb1e28cd8e1ca8d962dd52ff3a41bd4a87d5c01"
+    },
+    "calibration_reserved": {
+      "n": 60,
+      "sha256": "0f45dbded5465096d4ead066dd97b3b2ccd2271c2252b3c72e568e47f982571c"
+    },
+    "test_reserved": {
+      "n": 67,
+      "sha256": "18b51c0bd2c740e0cff12f1e3e5d3a579fbe23b697be7ceeac101d461bec09fb"
+    }
+  },
+  "dependencies": {
+    "model.py": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7",
+    "model_lora.py": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6",
+    "checkpoints/best_model.pt": "b81e3e0701615feea4033b98591856e2a758f0234e653f823456105ee846326c",
+    "checkpoints_lora_mt/best_model.pt": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79",
+    "challenge_external/runtime.py": "8c8ce28aa60859eb49b01021f7345a5fe8b57f6f46aca4b1f70a61bd8bb7e208",
+    "challenge_external/conformal.py": "ec8f5674a2b6714ba92b86feca4ad18ad60fc6c6d638c3c2a77857ddb92d3f9f",
+    "challenge_external/results/frozen_stats.json": "a96fc71a4d1e13056b409fbd88d790e3a3cc0a6582e4106f16a8fdd7e3804b03",
+    "clip_model/config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "clip_model/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "clip_model/pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+    "challenge_external/nutritionverse_model.py": "24ae053f0255f82e54fb4af069b1a893ae9eb2409b327f1d028e89c2fc78d862",
+    "challenge_external/nutritionverse_experiment.py": "2f691c1cf748fb2fe09961d1d2537b69040b799354144aa5c48c83c9ef8a7af2"
+  },
+  "point_candidates": [
+    {
+      "view": "full",
+      "ridge": 0.1,
+      "transform": "sqrt"
+    },
+    {
+      "view": "full",
+      "ridge": 0.1,
+      "transform": "identity"
+    },
+    {
+      "view": "full",
+      "ridge": 1.0,
+      "transform": "sqrt"
+    },
+    {
+      "view": "full",
+      "ridge": 1.0,
+      "transform": "identity"
+    },
+    {
+      "view": "plate",
+      "ridge": 0.1,
+      "transform": "sqrt"
+    },
+    {
+      "view": "plate",
+      "ridge": 0.1,
+      "transform": "identity"
+    },
+    {
+      "view": "plate",
+      "ridge": 1.0,
+      "transform": "sqrt"
+    },
+    {
+      "view": "plate",
+      "ridge": 1.0,
+      "transform": "identity"
+    },
+    {
+      "view": "plate_size",
+      "ridge": 0.1,
+      "transform": "sqrt"
+    },
+    {
+      "view": "plate_size",
+      "ridge": 0.1,
+      "transform": "identity"
+    },
+    {
+      "view": "plate_size",
+      "ridge": 1.0,
+      "transform": "sqrt"
+    },
+    {
+      "view": "plate_size",
+      "ridge": 1.0,
+      "transform": "identity"
+    }
+  ],
+  "model_order": [
+    "mean_train",
+    "resnet18",
+    "clip_lora",
+    "adapted"
+  ],
+  "field_order": [
+    "total_weight_g",
+    "total_calories_kcal",
+    "protein_g",
+    "fat_g",
+    "carbohydrate_g"
+  ],
+  "baseline": "training mean of 68 dishes; original frozen Task2 ResNet18 and CLIP+LoRA",
+  "selection": "Lowest validation weighted mean MAE normalized by training SD. Heat gets weight 2, other fields 1; ties use grid order. Head is trained on 68 only.",
+  "interval_selection": "Compare absolute and portion-scaled radii on validation, using provisional quantiles from five-fold out-of-fold training residuals and train mean as typical. Minimize normalized 90% interval score with same field weights; ties prefer absolute.",
+  "calibration": "After freeze, recompute exact split-conformal q on 60 reserved dishes only, order 55 of 60. Baselines use absolute scores. Clip lower bounds to 0.",
+  "evaluation": "One evaluation on 67 reserved dishes. All four methods and all fields. MAE, MSE, empirical coverage, width, interval score and all misses. Paired dish bootstrap (5000, seed 20261125) for adapted minus mean and CLIP MAE. Descriptive Wilson 95% coverage intervals.",
+  "independence": "Dish IDs disjoint. Cooking batches unknown. Do not generalize to OmniFood8K. Test never used for any decision.",
+  "roles_source_sha256": "dd55156014aeae0b212d2a37d0796ff944d9d83aec6c6a30411c02cccc4c4802",
+  "image_input": "RGB pixels only; full frame, automatic plate crop and optionally simple color/portion descriptors."
+}

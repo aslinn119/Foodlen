@@ -1,0 +1,20 @@
+[
+  {
+    "path": "checkpoints/best_model.pt",
+    "bytes": 44797240,
+    "sha256": "b81e3e0701615feea4033b98591856e2a758f0234e653f823456105ee846326c",
+    "restore": "Restore this exact relative path from the original official delivery ZIP."
+  },
+  {
+    "path": "checkpoints_lora_mt/best_model.pt",
+    "bytes": 353212525,
+    "sha256": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79",
+    "restore": "Restore this exact relative path from the original official delivery ZIP."
+  },
+  {
+    "path": "clip_model/pytorch_model.bin",
+    "bytes": 605247071,
+    "sha256": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+    "restore": "Restore this exact relative path from the original official delivery ZIP."
+  }
+]

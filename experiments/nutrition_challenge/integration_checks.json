@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-28",
+  "source_files_copied_byte_identically": true,
+  "verify_delivery": {
+    "passed": true,
+    "threshold_metric_rows": 15,
+    "undercoverage_model_scene_rows": 3035,
+    "live_models": 3,
+    "torch": "2.2.2+cpu",
+    "transformers": "4.46.3"
+  },
+  "verify_metafood": {
+    "passed": true,
+    "objects": 495,
+    "threshold_metric_rows": 10,
+    "missed_fields": 102,
+    "live_inference": true,
+    "torch": "2.2.2+cpu"
+  },
+  "verify_nutritionverse": {
+    "passed_on_gpu": true,
+    "dishes": 225,
+    "threshold_metric_rows": 20,
+    "missed_fields": 119,
+    "live_inference_and_calibration_snapshot": true,
+    "torch": "2.5.1+cu124",
+    "transformers": "4.46.3",
+    "cpu_check_passed": false,
+    "cpu_failure": "Actual live point/interval output differed from recorded output beyond original atol=0.12, rtol=0.0001; max reported difference about0.204. No tolerance modification."
+  },
+  "full_omnifood_reinference": false,
+  "gui_interaction_tested": false,
+  "exact_original_pinned_environment_rebuilt": false,
+  "frozen_files_modified": false
+}

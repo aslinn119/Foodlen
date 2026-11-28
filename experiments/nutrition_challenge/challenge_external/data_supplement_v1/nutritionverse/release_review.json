@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-25",
+  "status": "import_verified",
+  "archive_sha256": "22910bc84cb5840cb4a66be20d71ce2b7ba51f1d1a7f62108debf78fe7180780",
+  "audit_sha256": "e2f3e2d3687f6c18fcb79bc31018cc249941a1922e90ae9230f2a30a003eb263",
+  "manifest_sha256": "de75e353d976797fa19e4f7c7e75ea7aae0b4fc6a653661d4ea1bda7b84dc01b",
+  "archive_crc_verified": true,
+  "archive_jpegs": 889,
+  "official_label_dishes": 251,
+  "registered_dishes": 225,
+  "images_exactly_equal_to_archive_members": 225,
+  "matched_label_values": 1125,
+  "excluded_label_only_dishes": 26,
+  "required_label_and_split_csv_hashes_match": true,
+  "role_counts": {
+    "validation": 30,
+    "calibration_reserved": 60,
+    "train": 68,
+    "test_reserved": 67
+  },
+  "dish_overlap_between_roles": 0,
+  "old_images_screened": 11861,
+  "pixel_identical_pairs": 0,
+  "similarity_review": [
+    {
+      "a": "nutritionverse_219",
+      "b": "nutritionverse_158",
+      "ph": 6,
+      "dh": 7,
+      "roles": [
+        "calibration_reserved",
+        "validation"
+      ],
+      "same_photo": false,
+      "observation": "Distinct food portions and arrangement on similarly framed white plates."
+    },
+    {
+      "a": "nutritionverse_228",
+      "b": "nutritionverse_158",
+      "ph": 6,
+      "dh": 7,
+      "roles": [
+        "validation",
+        "validation"
+      ],
+      "same_photo": false,
+      "observation": "Different plated foods, shapes and arrangement against a similar dark background."
+    }
+  ],
+  "conclusion": "The two flagged pairs show different plated contents. No confirmed duplicate in the screened images. Cooking-batch independence is unknown.",
+  "model_runs": 0
+}

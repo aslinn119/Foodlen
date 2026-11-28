@@ -1,0 +1,1073 @@
+[
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_99",
+    "field": "total_weight_g",
+    "point": 446.70588235294116,
+    "truth": 1444.0000000000002,
+    "lower": 28.0,
+    "upper": 865.4117647058823
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_124",
+    "field": "total_weight_g",
+    "point": 446.70588235294116,
+    "truth": 1132.0,
+    "lower": 28.0,
+    "upper": 865.4117647058823
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_140",
+    "field": "total_weight_g",
+    "point": 446.70588235294116,
+    "truth": 933.0,
+    "lower": 28.0,
+    "upper": 865.4117647058823
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_181",
+    "field": "total_weight_g",
+    "point": 446.70588235294116,
+    "truth": 970.0,
+    "lower": 28.0,
+    "upper": 865.4117647058823
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_99",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 3333.8600000000006,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_140",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 3118.91,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_143",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 2791.93,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_180",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 2817.51,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_181",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 3513.03,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_182",
+    "field": "total_calories_kcal",
+    "point": 940.5943610547059,
+    "truth": 2955.76,
+    "lower": 0.0,
+    "upper": 2769.36
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_99",
+    "field": "protein_g",
+    "point": 66.45269428438267,
+    "truth": 365.53360000000004,
+    "lower": 0.6132000000000062,
+    "upper": 132.29218856876534
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_124",
+    "field": "protein_g",
+    "point": 66.45269428438267,
+    "truth": 225.52910000000003,
+    "lower": 0.6132000000000062,
+    "upper": 132.29218856876534
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_189",
+    "field": "protein_g",
+    "point": 66.45269428438267,
+    "truth": 154.9475,
+    "lower": 0.6132000000000062,
+    "upper": 132.29218856876534
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_190",
+    "field": "protein_g",
+    "point": 66.45269428438267,
+    "truth": 154.9475,
+    "lower": 0.6132000000000062,
+    "upper": 132.29218856876534
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_191",
+    "field": "protein_g",
+    "point": 66.45269428438267,
+    "truth": 147.629,
+    "lower": 0.6132000000000062,
+    "upper": 132.29218856876534
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_99",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 201.52460000000002,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_124",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 125.72149999999999,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_140",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 132.273,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_143",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 123.58910000000002,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_181",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 157.0079,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_182",
+    "field": "fat_g",
+    "point": 43.41412294894148,
+    "truth": 127.65970000000002,
+    "lower": 0.0,
+    "upper": 123.02720000000004
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_140",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 401.6966,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_141",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 339.50350000000003,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_142",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 366.199,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_143",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 371.01640000000003,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_180",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 361.168,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_181",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 430.216,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "mean_train",
+    "dish": "nutritionverse_182",
+    "field": "carbohydrate_g",
+    "point": 72.71848637241189,
+    "truth": 385.9033,
+    "lower": 0.0,
+    "upper": 145.43697274482378
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_99",
+    "field": "total_weight_g",
+    "point": 87.1996476989125,
+    "truth": 1444.0000000000002,
+    "lower": 0.0,
+    "upper": 677.1217453656535
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_124",
+    "field": "total_weight_g",
+    "point": 199.0289540777723,
+    "truth": 1132.0,
+    "lower": 0.0,
+    "upper": 788.9510517445133
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_140",
+    "field": "total_weight_g",
+    "point": 170.73656967607894,
+    "truth": 933.0,
+    "lower": 0.0,
+    "upper": 760.65866734282
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_181",
+    "field": "total_weight_g",
+    "point": 181.74549864770418,
+    "truth": 970.0,
+    "lower": 0.0,
+    "upper": 771.6675963144452
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_99",
+    "field": "total_calories_kcal",
+    "point": 133.53649165561345,
+    "truth": 3333.8600000000006,
+    "lower": 0.0,
+    "upper": 2565.322680118447
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_140",
+    "field": "total_calories_kcal",
+    "point": 344.16097255632513,
+    "truth": 3118.91,
+    "lower": 0.0,
+    "upper": 2775.9471610191586
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_141",
+    "field": "total_calories_kcal",
+    "point": 99.42131824698512,
+    "truth": 2543.4,
+    "lower": 0.0,
+    "upper": 2531.2075067098185
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_142",
+    "field": "total_calories_kcal",
+    "point": 173.8386317386575,
+    "truth": 2690.29,
+    "lower": 0.0,
+    "upper": 2605.624820201491
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_143",
+    "field": "total_calories_kcal",
+    "point": 269.02395911532153,
+    "truth": 2791.93,
+    "lower": 0.0,
+    "upper": 2700.810147578155
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_180",
+    "field": "total_calories_kcal",
+    "point": 311.67719194252413,
+    "truth": 2817.51,
+    "lower": 0.0,
+    "upper": 2743.4633804053574
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_181",
+    "field": "total_calories_kcal",
+    "point": 273.8334813873561,
+    "truth": 3513.03,
+    "lower": 0.0,
+    "upper": 2705.6196698501894
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_182",
+    "field": "total_calories_kcal",
+    "point": 453.90688035578717,
+    "truth": 2955.76,
+    "lower": 0.0,
+    "upper": 2885.6930688186203
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_99",
+    "field": "protein_g",
+    "point": 13.160861654624435,
+    "truth": 365.53360000000004,
+    "lower": 0.0,
+    "upper": 121.04015269018673
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_124",
+    "field": "protein_g",
+    "point": 23.13131530024145,
+    "truth": 225.52910000000003,
+    "lower": 0.0,
+    "upper": 131.01060633580374
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_189",
+    "field": "protein_g",
+    "point": 21.7723329673559,
+    "truth": 154.9475,
+    "lower": 0.0,
+    "upper": 129.6516240029182
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_190",
+    "field": "protein_g",
+    "point": 24.303149432714726,
+    "truth": 154.9475,
+    "lower": 0.0,
+    "upper": 132.182440468277
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_191",
+    "field": "protein_g",
+    "point": 17.182849075782148,
+    "truth": 147.629,
+    "lower": 0.0,
+    "upper": 125.06214011134443
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_99",
+    "field": "fat_g",
+    "point": 3.733871947740429,
+    "truth": 201.52460000000002,
+    "lower": 0.0,
+    "upper": 108.1881836860272
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_124",
+    "field": "fat_g",
+    "point": 16.60414943473617,
+    "truth": 125.72149999999999,
+    "lower": 0.0,
+    "upper": 121.05846117302295
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_140",
+    "field": "fat_g",
+    "point": 19.004162107141426,
+    "truth": 132.273,
+    "lower": 0.0,
+    "upper": 123.4584738454282
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_141",
+    "field": "fat_g",
+    "point": 3.327906639605647,
+    "truth": 113.47350000000002,
+    "lower": 0.0,
+    "upper": 107.78221837789242
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_142",
+    "field": "fat_g",
+    "point": 7.931549075265262,
+    "truth": 118.43150000000001,
+    "lower": 0.0,
+    "upper": 112.38586081355204
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_143",
+    "field": "fat_g",
+    "point": 16.428237098412104,
+    "truth": 123.58910000000002,
+    "lower": 0.0,
+    "upper": 120.88254883669887
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_180",
+    "field": "fat_g",
+    "point": 15.796554308487154,
+    "truth": 122.76110000000001,
+    "lower": 0.0,
+    "upper": 120.25086604677394
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_181",
+    "field": "fat_g",
+    "point": 17.939609712519562,
+    "truth": 157.0079,
+    "lower": 0.0,
+    "upper": 122.39392145080635
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_182",
+    "field": "fat_g",
+    "point": 19.704873441680196,
+    "truth": 127.65970000000002,
+    "lower": 0.0,
+    "upper": 124.15918517996697
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_140",
+    "field": "carbohydrate_g",
+    "point": 21.644935332298775,
+    "truth": 401.6966,
+    "lower": 0.0,
+    "upper": 107.20677642780721
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_141",
+    "field": "carbohydrate_g",
+    "point": 3.621104397798474,
+    "truth": 339.50350000000003,
+    "lower": 0.0,
+    "upper": 89.18294549330692
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_142",
+    "field": "carbohydrate_g",
+    "point": 11.672654126372562,
+    "truth": 366.199,
+    "lower": 0.0,
+    "upper": 97.234495221881
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_143",
+    "field": "carbohydrate_g",
+    "point": 0.865349248537072,
+    "truth": 371.01640000000003,
+    "lower": 0.0,
+    "upper": 86.42719034404551
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_180",
+    "field": "carbohydrate_g",
+    "point": 21.03559024653971,
+    "truth": 361.168,
+    "lower": 0.0,
+    "upper": 106.59743134204815
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_181",
+    "field": "carbohydrate_g",
+    "point": 12.681734218937159,
+    "truth": 430.216,
+    "lower": 0.0,
+    "upper": 98.2435753144456
+  },
+  {
+    "model": "resnet18",
+    "dish": "nutritionverse_182",
+    "field": "carbohydrate_g",
+    "point": 26.527987032568078,
+    "truth": 385.9033,
+    "lower": 0.0,
+    "upper": 112.08982812807652
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_99",
+    "field": "total_weight_g",
+    "point": 105.5,
+    "truth": 1444.0000000000002,
+    "lower": 0.0,
+    "upper": 702.0000000000001
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_124",
+    "field": "total_weight_g",
+    "point": 240.9,
+    "truth": 1132.0,
+    "lower": 0.0,
+    "upper": 837.4000000000001
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_140",
+    "field": "total_weight_g",
+    "point": 206.6,
+    "truth": 933.0,
+    "lower": 0.0,
+    "upper": 803.1000000000001
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_181",
+    "field": "total_weight_g",
+    "point": 202.0,
+    "truth": 970.0,
+    "lower": 0.0,
+    "upper": 798.5000000000001
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_99",
+    "field": "total_calories_kcal",
+    "point": 169.3,
+    "truth": 3333.8600000000006,
+    "lower": 0.0,
+    "upper": 2699.26
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_140",
+    "field": "total_calories_kcal",
+    "point": 312.9,
+    "truth": 3118.91,
+    "lower": 0.0,
+    "upper": 2842.86
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_143",
+    "field": "total_calories_kcal",
+    "point": 251.1,
+    "truth": 2791.93,
+    "lower": 0.0,
+    "upper": 2781.06
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_181",
+    "field": "total_calories_kcal",
+    "point": 288.2,
+    "truth": 3513.03,
+    "lower": 0.0,
+    "upper": 2818.16
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_99",
+    "field": "protein_g",
+    "point": 7.4,
+    "truth": 365.53360000000004,
+    "lower": 0.0,
+    "upper": 107.8563
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_124",
+    "field": "protein_g",
+    "point": 20.7,
+    "truth": 225.52910000000003,
+    "lower": 0.0,
+    "upper": 121.1563
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_189",
+    "field": "protein_g",
+    "point": 13.8,
+    "truth": 154.9475,
+    "lower": 0.0,
+    "upper": 114.2563
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_190",
+    "field": "protein_g",
+    "point": 32.0,
+    "truth": 154.9475,
+    "lower": 0.0,
+    "upper": 132.4563
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_191",
+    "field": "protein_g",
+    "point": 15.9,
+    "truth": 147.629,
+    "lower": 0.0,
+    "upper": 116.3563
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_99",
+    "field": "fat_g",
+    "point": 5.2,
+    "truth": 201.52460000000002,
+    "lower": 0.0,
+    "upper": 117.43830000000003
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_140",
+    "field": "fat_g",
+    "point": 12.8,
+    "truth": 132.273,
+    "lower": 0.0,
+    "upper": 125.03830000000002
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_143",
+    "field": "fat_g",
+    "point": 10.6,
+    "truth": 123.58910000000002,
+    "lower": 0.0,
+    "upper": 122.83830000000002
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_181",
+    "field": "fat_g",
+    "point": 11.6,
+    "truth": 157.0079,
+    "lower": 0.0,
+    "upper": 123.83830000000002
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_140",
+    "field": "carbohydrate_g",
+    "point": 31.7,
+    "truth": 401.6966,
+    "lower": 0.0,
+    "upper": 111.6376
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_141",
+    "field": "carbohydrate_g",
+    "point": 8.8,
+    "truth": 339.50350000000003,
+    "lower": 0.0,
+    "upper": 88.7376
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_142",
+    "field": "carbohydrate_g",
+    "point": 18.1,
+    "truth": 366.199,
+    "lower": 0.0,
+    "upper": 98.0376
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_143",
+    "field": "carbohydrate_g",
+    "point": 18.9,
+    "truth": 371.01640000000003,
+    "lower": 0.0,
+    "upper": 98.83760000000001
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_180",
+    "field": "carbohydrate_g",
+    "point": 20.0,
+    "truth": 361.168,
+    "lower": 0.0,
+    "upper": 99.9376
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_181",
+    "field": "carbohydrate_g",
+    "point": 22.1,
+    "truth": 430.216,
+    "lower": 0.0,
+    "upper": 102.0376
+  },
+  {
+    "model": "clip_lora",
+    "dish": "nutritionverse_182",
+    "field": "carbohydrate_g",
+    "point": 43.8,
+    "truth": 385.9033,
+    "lower": 0.0,
+    "upper": 123.7376
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_38",
+    "field": "total_weight_g",
+    "point": 437.10793373063717,
+    "truth": 132.0,
+    "lower": 167.0503919048632,
+    "upper": 707.1654755564111
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_71",
+    "field": "total_weight_g",
+    "point": 467.9590878443188,
+    "truth": 176.0,
+    "lower": 190.41438700677116,
+    "upper": 745.5037886818664
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_99",
+    "field": "total_weight_g",
+    "point": 549.9224077363414,
+    "truth": 1444.0000000000002,
+    "lower": 253.40321444137044,
+    "upper": 846.4416010313123
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_124",
+    "field": "total_weight_g",
+    "point": 616.2387866164074,
+    "truth": 1132.0,
+    "lower": 305.21339830297745,
+    "upper": 927.2641749298374
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_140",
+    "field": "total_weight_g",
+    "point": 614.7095131884943,
+    "truth": 933.0,
+    "lower": 304.0110124754562,
+    "upper": 925.4080139015323
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_141",
+    "field": "total_weight_g",
+    "point": 308.95522348538697,
+    "truth": 577.0,
+    "lower": 72.5231307275647,
+    "upper": 545.3873162432092
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_143",
+    "field": "total_weight_g",
+    "point": 373.0165476897746,
+    "truth": 656.0,
+    "lower": 119.21818747574522,
+    "upper": 626.8149079038039
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_181",
+    "field": "total_weight_g",
+    "point": 583.180384370987,
+    "truth": 970.0,
+    "lower": 279.29969500282675,
+    "upper": 887.0610737391472
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_99",
+    "field": "total_calories_kcal",
+    "point": 1194.3500261786244,
+    "truth": 3333.8600000000006,
+    "lower": 0.0,
+    "upper": 2440.0360817069427
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_141",
+    "field": "total_calories_kcal",
+    "point": 815.1745332041811,
+    "truth": 2543.4,
+    "lower": 0.0,
+    "upper": 1882.9457178900889
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_142",
+    "field": "total_calories_kcal",
+    "point": 1215.5959074645614,
+    "truth": 2690.29,
+    "lower": 0.0,
+    "upper": 2470.50480706542
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_143",
+    "field": "total_calories_kcal",
+    "point": 1188.217761130502,
+    "truth": 2791.93,
+    "lower": 0.0,
+    "upper": 2431.2290722042017
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_181",
+    "field": "total_calories_kcal",
+    "point": 1672.7345763877365,
+    "truth": 3513.03,
+    "lower": 233.6291150230254,
+    "upper": 3111.8400377524476
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_56",
+    "field": "protein_g",
+    "point": 124.919666673218,
+    "truth": 53.39185882760418,
+    "lower": 57.51241531195913,
+    "upper": 192.32691803447688
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_59",
+    "field": "protein_g",
+    "point": 92.1264630438543,
+    "truth": 30.149000000000008,
+    "lower": 33.042183248669566,
+    "upper": 151.21074283903903
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_99",
+    "field": "protein_g",
+    "point": 134.78798056076224,
+    "truth": 365.53360000000004,
+    "lower": 65.07035294440793,
+    "upper": 204.50560817711653
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_124",
+    "field": "protein_g",
+    "point": 62.8973810407781,
+    "truth": 225.52910000000003,
+    "lower": 12.374233501354148,
+    "upper": 113.42052858020205
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_242",
+    "field": "protein_g",
+    "point": 56.91396867671509,
+    "truth": 7.952,
+    "lower": 8.32900853460432,
+    "upper": 105.49892881882587
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_99",
+    "field": "fat_g",
+    "point": 62.54898423590852,
+    "truth": 201.52460000000002,
+    "lower": 0.0,
+    "upper": 134.97347849922005
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_141",
+    "field": "fat_g",
+    "point": 34.0667388338241,
+    "truth": 113.47350000000002,
+    "lower": 0.0,
+    "upper": 90.72342615274488
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_142",
+    "field": "fat_g",
+    "point": 49.71063999249586,
+    "truth": 118.43150000000001,
+    "lower": 0.0,
+    "upper": 115.49730769589834
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_143",
+    "field": "fat_g",
+    "point": 48.468292191282245,
+    "truth": 123.58910000000002,
+    "lower": 0.0,
+    "upper": 113.57672550743246
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_181",
+    "field": "fat_g",
+    "point": 74.18358857401783,
+    "truth": 157.0079,
+    "lower": 0.0,
+    "upper": 152.13684657881748
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_57",
+    "field": "carbohydrate_g",
+    "point": 66.35655298490438,
+    "truth": 5.5364,
+    "lower": 5.621406474253398,
+    "upper": 127.09169949555536
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_123",
+    "field": "carbohydrate_g",
+    "point": 142.18649209976556,
+    "truth": 42.4888,
+    "lower": 58.534730679956695,
+    "upper": 225.83825351957444
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_124",
+    "field": "carbohydrate_g",
+    "point": 175.71681345512127,
+    "truth": 49.696,
+    "lower": 83.73463309139245,
+    "upper": 267.6989938188501
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_140",
+    "field": "carbohydrate_g",
+    "point": 205.7578282682228,
+    "truth": 401.6966,
+    "lower": 106.9065813391173,
+    "upper": 304.6090751973283
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_141",
+    "field": "carbohydrate_g",
+    "point": 74.5594279052007,
+    "truth": 339.50350000000003,
+    "lower": 10.945808232769487,
+    "upper": 138.17304757763193
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_142",
+    "field": "carbohydrate_g",
+    "point": 143.76174380110325,
+    "truth": 366.199,
+    "lower": 59.70013718195263,
+    "upper": 227.82335042025386
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_143",
+    "field": "carbohydrate_g",
+    "point": 142.77776762084926,
+    "truth": 371.01640000000003,
+    "lower": 58.97193458888033,
+    "upper": 226.58360065281818
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_160",
+    "field": "carbohydrate_g",
+    "point": 98.0956180826217,
+    "truth": 22.6163,
+    "lower": 26.86570580131506,
+    "upper": 169.32553036392835
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_180",
+    "field": "carbohydrate_g",
+    "point": 193.4950153589013,
+    "truth": 361.168,
+    "lower": 97.38841839258862,
+    "upper": 289.601612325214
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_181",
+    "field": "carbohydrate_g",
+    "point": 143.26032618564014,
+    "truth": 430.216,
+    "lower": 59.32896006432276,
+    "upper": 227.19169230695752
+  },
+  {
+    "model": "adapted",
+    "dish": "nutritionverse_182",
+    "field": "carbohydrate_g",
+    "point": 195.64986984530782,
+    "truth": 385.9033,
+    "lower": 99.05532746393273,
+    "upper": 292.2444122266829
+  }
+]

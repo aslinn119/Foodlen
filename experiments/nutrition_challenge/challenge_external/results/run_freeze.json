@@ -1,0 +1,69 @@
+{
+  "protocol": {
+    "version": "omnifood-frozen-baselines-v1",
+    "status": "roles_reserved_no_calibration_or_evaluation_run",
+    "date": "2026-11-17",
+    "models": [
+      "mean",
+      "resnet18",
+      "clip"
+    ],
+    "model_identity_file": "baseline_identity.json",
+    "camera": "camera_4.jpg",
+    "target_coverage": 0.9,
+    "coverage_scope": "per_field_marginal_not_simultaneous",
+    "score": "absolute_error_in_original_units",
+    "quantile": "k=ceil((n+1)*0.9), kth smallest score; +infinity if k>n",
+    "interval": "[max(0,point-q), point+q] with point=max(0,raw_point); same nonnegative point rule for all three models before calibration",
+    "fit_or_selection_on_new_data": false,
+    "quality_policy": "Official TXT totals remain authoritative; retain flags, no manual target correction or error-driven exclusions; exclude unlisted IDs uniformly.",
+    "manifests": {
+      "calibration": {
+        "path": "D:\\DeepStudy\\task2_nutrition\\challenge_audit\\omnifood\\calibration_manifest.jsonl",
+        "rows": 5668,
+        "sha256": "301354674a4af0dbf62da3ad166c45f1815e1cae93db3d05fcf86bf45f6c1952",
+        "flagged_rows": 6
+      },
+      "evaluation": {
+        "path": "D:\\DeepStudy\\task2_nutrition\\challenge_audit\\omnifood\\evaluation_manifest.jsonl",
+        "rows": 2368,
+        "sha256": "c70bb86614734af46e4b4eadb92b0ea3a60b2451b84ec20e7a4a1ddb8511a1ad",
+        "flagged_rows": 20
+      }
+    },
+    "independence_scope": "External to recorded Task2 training and model selection. This does not certify pretraining provenance, cooking-batch independence or exchangeability of the official splits.",
+    "forbidden": [
+      "fit_on_calibration",
+      "tune_on_evaluation",
+      "select_camera_using_errors",
+      "retrieve_labels_at_inference",
+      "manually_correct_predictions",
+      "sample_specific_prediction_rules"
+    ],
+    "report_required": [
+      "per_field_MAE_MSE_RMSE",
+      "per_field_coverage_mean_and_median_width",
+      "all_undercoverage_records",
+      "point_interval_model_calibration_versions",
+      "source_units_and_conversion",
+      "exchangeability_and_source_label_limitations"
+    ]
+  },
+  "dependencies": {
+    "model.py": "e67e3fd2ed2fc50cc8012b5d25c02f0f89c8d63125d02dbedb08239ab7835fe7",
+    "model_lora.py": "5e2aef5467c4a74b447afecd9f5a5d49ebbad022d579cf6f54e284aabbe93cc6",
+    "checkpoints/best_model.pt": "b81e3e0701615feea4033b98591856e2a758f0234e653f823456105ee846326c",
+    "checkpoints_lora_mt/best_model.pt": "d9b2dff994213e3f3685ea16f07a7a014e3cbf68600a6e4a7e28de3f10bdcd79",
+    "challenge_external/runtime.py": "8c8ce28aa60859eb49b01021f7345a5fe8b57f6f46aca4b1f70a61bd8bb7e208",
+    "challenge_external/conformal.py": "ec8f5674a2b6714ba92b86feca4ad18ad60fc6c6d638c3c2a77857ddb92d3f9f",
+    "challenge_external/results/frozen_stats.json": "a96fc71a4d1e13056b409fbd88d790e3a3cc0a6582e4106f16a8fdd7e3804b03",
+    "clip_model/config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "clip_model/preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "clip_model/pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f"
+  },
+  "runner_sha256": "f3e9aa0b3a7a3f1603185abc358358e9e8055c50cc55a60fa0d2ba6325b261c3",
+  "device": "cuda",
+  "torch": "2.6.0+cu124",
+  "batch_size": 32,
+  "training": false
+}

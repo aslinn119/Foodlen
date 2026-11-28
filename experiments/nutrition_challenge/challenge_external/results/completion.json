@@ -1,0 +1,7 @@
+{
+  "finished": true,
+  "seconds": 182.49957847595215,
+  "calibration_sha256": "0369d66f3087a60e78aff1697cd32e0032814ce5a17df4a003d6c6f79d324dd0",
+  "evaluation_predictions_sha256": "02929085be568d221fb21661792ccca7a691252fb2bdc8eaf41c3030f426a691",
+  "training": false
+}
